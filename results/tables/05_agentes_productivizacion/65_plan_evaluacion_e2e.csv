@@ -1,0 +1,7 @@
+﻿componente,criterio
+Entrada,Registro completo con 813 variables
+Predicción,Cuatro resultados coincidentes con la referencia
+Explicabilidad,Tres factores SHAP para cada indicador
+Generación,Informe estructurado aceptado por los guardrails
+Trazabilidad,Recorrido completo de los cinco nodos
+Robustez,Rechazo controlado de entradas no válidas

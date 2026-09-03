@@ -1,0 +1,21 @@
+﻿estrategia_pesos,target,descripcion,tn,fp,fn,tp
+bce_adam,IRAMDEYR,Episodio depresivo mayor,6676,56,729,107
+bce_adam,IRSUICTHNK,Ideación suicida,6797,208,433,130
+bce_adam,IRSUIPLANYR,Planificación suicida,7090,304,114,60
+bce_adam,IRSUITRYYR,Intento suicida,7203,281,51,33
+bce_adamw,IRAMDEYR,Episodio depresivo mayor,6403,329,495,341
+bce_adamw,IRSUICTHNK,Ideación suicida,6740,265,415,148
+bce_adamw,IRSUIPLANYR,Planificación suicida,7214,180,133,41
+bce_adamw,IRSUITRYYR,Intento suicida,7410,74,70,14
+bce_tareas,IRAMDEYR,Episodio depresivo mayor,5479,1253,195,641
+bce_tareas,IRSUICTHNK,Ideación suicida,5818,1187,208,355
+bce_tareas,IRSUIPLANYR,Planificación suicida,6387,1007,60,114
+bce_tareas,IRSUITRYYR,Intento suicida,6912,572,34,50
+focal_adam,IRAMDEYR,Episodio depresivo mayor,5343,1389,126,710
+focal_adam,IRSUICTHNK,Ideación suicida,5390,1615,157,406
+focal_adam,IRSUIPLANYR,Planificación suicida,5511,1883,24,150
+focal_adam,IRSUITRYYR,Intento suicida,5734,1750,13,71
+bce_adam_ema,IRAMDEYR,Episodio depresivo mayor,6676,56,729,107
+bce_adam_ema,IRSUICTHNK,Ideación suicida,6797,208,433,130
+bce_adam_ema,IRSUIPLANYR,Planificación suicida,7090,304,114,60
+bce_adam_ema,IRSUITRYYR,Intento suicida,7203,281,51,33

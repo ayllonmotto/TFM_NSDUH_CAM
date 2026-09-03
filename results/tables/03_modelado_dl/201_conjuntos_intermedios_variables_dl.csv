@@ -1,0 +1,5 @@
+﻿clave_conjunto,percentil_minimo,variables_originales,variables_adicionales,variables_estimadas,porcentaje_conjunto_amplio
+umbral_090,0.9,59,0,67,7.2570725707257075
+umbral_085,0.85,109,50,118,13.407134071340712
+umbral_080,0.8,162,103,180,19.92619926199262
+umbral_075,0.75,195,136,216,23.985239852398525

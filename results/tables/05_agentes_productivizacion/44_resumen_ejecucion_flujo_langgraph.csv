@@ -1,0 +1,9 @@
+﻿elemento,valor
+Variables de entrada,813.0
+Predicciones obtenidas,4.0
+Explicaciones SHAP,1.0
+Variables SHAP incorporadas al contexto,3.0
+Consultas documentales,10.0
+Documentos principales,10.0
+Nodos recorridos,5.0
+Tiempo total (s),23.744

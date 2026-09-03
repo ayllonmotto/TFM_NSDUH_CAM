@@ -1,0 +1,13 @@
+﻿grupo,variable,descripcion
+Objetivo,IRAMDEYR,Episodio depresivo mayor
+Objetivo,IRSUICTHNK,Ideación suicida
+Objetivo,IRSUIPLANYR,Planificación suicida
+Objetivo,IRSUITRYYR,Intento suicida
+Indicador de imputación,IIAMDEYR,Indicador de imputación de depresión
+Indicador de imputación,IISUICTHNK,Indicador de imputación de ideación
+Indicador de imputación,IISUIPLANYR,Indicador de imputación de planificación
+Indicador de imputación,IISUITRYYR,Indicador de imputación de intento
+Diseño muestral,ANALWT2_C,Peso muestral final
+Diseño muestral,VESTR_C,Estrato de varianza
+Diseño muestral,VEREP,Unidad primaria de muestreo
+Identificador,QUESTID2,Identificador del participante

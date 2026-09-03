@@ -1,0 +1,13 @@
+﻿comprobacion,resultado
+TEST DL contiene 9.460 registros,True
+TEST DL contiene 59 variables numéricas,True
+TEST DL contiene 813 variables categóricas y de estado,True
+TEST DL contiene 872 variables de entrada,True
+Las variables numéricas utilizan float32,True
+Los tokens categóricos utilizan int32,True
+Los valores numéricos son finitos,True
+Los tokens categóricos son no negativos,True
+Los tokens categóricos pertenecen al vocabulario definitivo,True
+El encoder mantiene exactamente el orden guardado,True
+Las categorías desconocidas utilizan el valor reservado,True
+Las entradas mantienen los nombres esperados por Keras,True

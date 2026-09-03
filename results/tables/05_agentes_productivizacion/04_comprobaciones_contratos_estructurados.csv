@@ -1,0 +1,11 @@
+﻿comprobacion,resultado
+La entrada estructural acepta las 813 variables esperadas,True
+Una entrada incompleta es rechazada,True
+Una variable desconocida es rechazada,True
+Un campo adicional en la entrada es rechazado,True
+Las cuatro salidas predictivas de referencia son válidas,True
+Una probabilidad fuera de rango es rechazada,True
+Un campo adicional en la salida es rechazado,True
+Una clasificación incoherente es rechazada,True
+El informe preventivo cumple el contrato estructurado,True
+Los factores conservan la respuesta observada,True

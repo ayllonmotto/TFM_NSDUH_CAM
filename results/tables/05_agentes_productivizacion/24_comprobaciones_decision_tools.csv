@@ -1,0 +1,6 @@
+﻿comprobacion,resultado
+La comparación previa está completamente validada,True
+Ambos mecanismos producen las mismas predicciones,True
+La tool local dispone de interfaz LangChain,True
+MCP queda validado como mecanismo interoperable,True
+El mecanismo principal pertenece a los mecanismos definidos,True

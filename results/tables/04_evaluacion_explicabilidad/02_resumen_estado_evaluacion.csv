@@ -1,0 +1,12 @@
+﻿elemento,valor
+Registros TRAIN,37839
+Registros TEST,9460
+Variables objetivo,4
+Modelos ML,4
+Variables originales ML,59
+Variables de entrada ML,67
+Modelos del ensemble DL,2
+Variables originales DL,813
+Variables de entrada DL,872
+Vocabulario DL,4625
+Pesos de los modelos DL,"0,50 / 0,50"

@@ -1,0 +1,5 @@
+﻿comprobacion,resultado
+Se obtienen resultados para las cuatro variables objetivo,True
+Cada objetivo contiene todas las métricas previstas,True
+Los intervalos son finitos,True
+El límite inferior no supera al límite superior,True

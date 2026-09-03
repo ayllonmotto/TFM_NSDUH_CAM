@@ -1,0 +1,9 @@
+﻿elemento,valor
+QUESTID2 de referencia,10004548
+Variables enviadas al servicio,813
+Variables objetivo obtenidas,4
+Resultados Pydantic válidos,4
+Diferencia máxima de probabilidad,0.0
+Tolerancia de probabilidad,1e-06
+Clasificaciones coincidentes,4
+Tiempo total del bridge (s),9.015

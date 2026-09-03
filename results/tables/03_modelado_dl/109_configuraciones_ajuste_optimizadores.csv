@@ -1,0 +1,4 @@
+﻿clave_configuracion,descripcion,optimizador,learning_rate,weight_decay,reutilizar
+adam_lr0005,Adam — lr=0.0005,adam,0.0005,0.0,True
+adamw_wd00001,AdamW — wd=0.00001,adamw,0.0005,1e-05,False
+adamw_wd0001,AdamW — wd=0.0001,adamw,0.0005,0.0001,False

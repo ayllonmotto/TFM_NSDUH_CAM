@@ -1,0 +1,5 @@
+﻿target,descripcion,fn_ambos,fn_solo_ml,fn_solo_dl,fp_ambos,fp_solo_ml,fp_solo_dl
+IRAMDEYR,Episodio depresivo mayor,141,5,146,981,747,38
+IRSUICTHNK,Ideación suicida,146,34,50,1425,664,258
+IRSUIPLANYR,Planificación suicida,41,26,13,1341,694,310
+IRSUITRYYR,Intento suicida,20,13,4,1214,548,894

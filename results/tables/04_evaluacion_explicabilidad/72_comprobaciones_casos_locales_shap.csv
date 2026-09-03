@@ -1,0 +1,6 @@
+﻿comprobacion,resultado
+Las cuatro variables objetivo disponen de explicación local,True
+Los identificadores seleccionados pertenecen a las muestras SHAP,True
+Las probabilidades son finitas,True
+Los verdaderos positivos están correctamente clasificados,True
+Los falsos negativos están incorrectamente clasificados como negativos,True

@@ -1,0 +1,8 @@
+﻿elemento,valor
+Predictores candidatos procedentes del EDA,814
+Variables numéricas con rango documentado,59
+Variables categóricas,755
+Variables finales ML de referencia,59
+Variables ML incluidas en el conjunto de entrada DL,59
+Registros disponibles para desarrollo,37839
+Uso de TEST,Congelado: no se crea un conjunto de entrada

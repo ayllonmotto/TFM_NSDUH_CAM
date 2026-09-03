@@ -1,0 +1,25 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,PR-AUC,Embeddings + atención — Ponderación balanceada,0.49797165393829346
+IRAMDEYR,Episodio depresivo mayor,Recall,Embeddings + GRU — Ponderación balanceada,0.48086124658584595
+IRAMDEYR,Episodio depresivo mayor,Precision,Embeddings + atención — Ponderación balanceada,0.5473321676254272
+IRAMDEYR,Episodio depresivo mayor,F2,Embeddings + GRU — Ponderación balanceada,0.4720526337623596
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,Embeddings + GRU — Ponderación balanceada,434.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,Embeddings + atención — Ponderación balanceada,263.0
+IRSUICTHNK,Ideación suicida,PR-AUC,Embeddings + atención — Ponderación balanceada,0.27608978748321533
+IRSUICTHNK,Ideación suicida,Recall,Embeddings + atención — Ponderación balanceada,0.38543516397476196
+IRSUICTHNK,Ideación suicida,Precision,Embeddings + GRU — Ponderación balanceada,0.34951457381248474
+IRSUICTHNK,Ideación suicida,F2,Embeddings + atención — Ponderación balanceada,0.3650739789009094
+IRSUICTHNK,Ideación suicida,Falsos negativos,Embeddings + atención — Ponderación balanceada,346.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,Embeddings + GRU — Ponderación balanceada,201.0
+IRSUIPLANYR,Planificación suicida,PR-AUC,Embeddings + atención — Ponderación balanceada,0.15738551318645477
+IRSUIPLANYR,Planificación suicida,Recall,Embeddings + atención — Ponderación balanceada,0.0517241396009922
+IRSUIPLANYR,Planificación suicida,Precision,Embeddings + atención — Ponderación balanceada,0.40909090638160706
+IRSUIPLANYR,Planificación suicida,F2,Embeddings + atención — Ponderación balanceada,0.06267409026622772
+IRSUIPLANYR,Planificación suicida,Falsos negativos,Embeddings + atención — Ponderación balanceada,165.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,Embeddings + atención — Ponderación balanceada,13.0
+IRSUITRYYR,Intento suicida,PR-AUC,Embeddings + atención — Ponderación balanceada,0.11701639741659164
+IRSUITRYYR,Intento suicida,Recall,Embeddings + atención — Ponderación balanceada,0.0357142873108387
+IRSUITRYYR,Intento suicida,Precision,Embeddings + GRU — Ponderación balanceada,1.0
+IRSUITRYYR,Intento suicida,F2,Embeddings + atención — Ponderación balanceada,0.04285714030265808
+IRSUITRYYR,Intento suicida,Falsos negativos,Embeddings + atención — Ponderación balanceada,81.0
+IRSUITRYYR,Intento suicida,Falsos positivos,Embeddings + GRU — Ponderación balanceada,0.0

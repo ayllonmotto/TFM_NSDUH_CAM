@@ -1,0 +1,57 @@
+﻿arquitectura_base,target,descripcion,metrica,clave_configuracion,optimizador,weight_decay,valor
+embeddings_gru,IRAMDEYR,Episodio depresivo mayor,PR-AUC,adamw_wd0001,adamw,0.0001,0.44260361790657043
+embeddings_gru,IRAMDEYR,Episodio depresivo mayor,ROC-AUC,adamw_wd0001,adamw,0.0001,0.8748159408569336
+embeddings_gru,IRAMDEYR,Episodio depresivo mayor,Recall,adamw_wd0001,adamw,0.0001,0.490430623292923
+embeddings_gru,IRAMDEYR,Episodio depresivo mayor,Precision,adamw_wd0001,adamw,0.0001,0.4471101462841034
+embeddings_gru,IRAMDEYR,Episodio depresivo mayor,F2,adamw_wd0001,adamw,0.0001,0.4811076819896698
+embeddings_gru,IRAMDEYR,Episodio depresivo mayor,Falsos negativos,adamw_wd0001,adamw,0.0001,426.0
+embeddings_gru,IRAMDEYR,Episodio depresivo mayor,Falsos positivos,adamw_wd0001,adamw,0.0001,507.0
+embeddings_gru,IRSUICTHNK,Ideación suicida,PR-AUC,adam_lr0005,adam,0.0,0.24289123713970184
+embeddings_gru,IRSUICTHNK,Ideación suicida,ROC-AUC,adam_lr0005,adam,0.0,0.7796297073364258
+embeddings_gru,IRSUICTHNK,Ideación suicida,Recall,adam_lr0005,adam,0.0,0.19182948768138885
+embeddings_gru,IRSUICTHNK,Ideación suicida,Precision,adamw_wd0001,adamw,0.0001,0.3611111044883728
+embeddings_gru,IRSUICTHNK,Ideación suicida,F2,adam_lr0005,adam,0.0,0.2108551263809204
+embeddings_gru,IRSUICTHNK,Ideación suicida,Falsos negativos,adam_lr0005,adam,0.0,455.0
+embeddings_gru,IRSUICTHNK,Ideación suicida,Falsos positivos,adamw_wd0001,adamw,0.0001,69.0
+embeddings_gru,IRSUIPLANYR,Planificación suicida,PR-AUC,adamw_wd0001,adamw,0.0001,0.12902554869651794
+embeddings_gru,IRSUIPLANYR,Planificación suicida,ROC-AUC,adam_lr0005,adam,0.0,0.8084571957588196
+embeddings_gru,IRSUIPLANYR,Planificación suicida,Recall,adamw_wd0001,adamw,0.0001,0.05747126415371895
+embeddings_gru,IRSUIPLANYR,Planificación suicida,Precision,adam_lr0005,adam,0.0,0.3181818127632141
+embeddings_gru,IRSUIPLANYR,Planificación suicida,F2,adamw_wd0001,adamw,0.0001,0.06675565987825394
+embeddings_gru,IRSUIPLANYR,Planificación suicida,Falsos negativos,adamw_wd0001,adamw,0.0001,164.0
+embeddings_gru,IRSUIPLANYR,Planificación suicida,Falsos positivos,adam_lr0005,adam,0.0,15.0
+embeddings_gru,IRSUITRYYR,Intento suicida,PR-AUC,adam_lr0005,adam,0.0,0.10587134957313538
+embeddings_gru,IRSUITRYYR,Intento suicida,ROC-AUC,adam_lr0005,adam,0.0,0.827387273311615
+embeddings_gru,IRSUITRYYR,Intento suicida,Recall,adam_lr0005,adam,0.0,0.011904762126505375
+embeddings_gru,IRSUITRYYR,Intento suicida,Precision,adam_lr0005,adam,0.0,1.0
+embeddings_gru,IRSUITRYYR,Intento suicida,F2,adam_lr0005,adam,0.0,0.014836795628070831
+embeddings_gru,IRSUITRYYR,Intento suicida,Falsos negativos,adam_lr0005,adam,0.0,83.0
+embeddings_gru,IRSUITRYYR,Intento suicida,Falsos positivos,adam_lr0005,adam,0.0,0.0
+embeddings_mlp,IRAMDEYR,Episodio depresivo mayor,PR-AUC,adamw_wd0001,adamw,0.0001,0.4815261662006378
+embeddings_mlp,IRAMDEYR,Episodio depresivo mayor,ROC-AUC,adamw_wd0001,adamw,0.0001,0.8791331648826599
+embeddings_mlp,IRAMDEYR,Episodio depresivo mayor,Recall,adamw_wd0001,adamw,0.0001,0.6734449863433838
+embeddings_mlp,IRAMDEYR,Episodio depresivo mayor,Precision,adam_lr0005,adam,0.0,0.4112781882286072
+embeddings_mlp,IRAMDEYR,Episodio depresivo mayor,F2,adamw_wd0001,adamw,0.0001,0.5940071940422058
+embeddings_mlp,IRAMDEYR,Episodio depresivo mayor,Falsos negativos,adamw_wd0001,adamw,0.0001,273.0
+embeddings_mlp,IRAMDEYR,Episodio depresivo mayor,Falsos positivos,adam_lr0005,adam,0.0,783.0
+embeddings_mlp,IRSUICTHNK,Ideación suicida,PR-AUC,adam_lr0005,adam,0.0,0.25444722175598145
+embeddings_mlp,IRSUICTHNK,Ideación suicida,ROC-AUC,adam_lr0005,adam,0.0,0.7982822060585022
+embeddings_mlp,IRSUICTHNK,Ideación suicida,Recall,adam_lr0005,adam,0.0,0.4049733579158783
+embeddings_mlp,IRSUICTHNK,Ideación suicida,Precision,adamw_wd0001,adamw,0.0001,0.3241758346557617
+embeddings_mlp,IRSUICTHNK,Ideación suicida,F2,adam_lr0005,adam,0.0,0.3697696626186371
+embeddings_mlp,IRSUICTHNK,Ideación suicida,Falsos negativos,adam_lr0005,adam,0.0,335.0
+embeddings_mlp,IRSUICTHNK,Ideación suicida,Falsos positivos,adamw_wd0001,adamw,0.0001,369.0
+embeddings_mlp,IRSUIPLANYR,Planificación suicida,PR-AUC,adam_lr0005,adam,0.0,0.10593272745609283
+embeddings_mlp,IRSUIPLANYR,Planificación suicida,ROC-AUC,adam_lr0005,adam,0.0,0.759069561958313
+embeddings_mlp,IRSUIPLANYR,Planificación suicida,Recall,adam_lr0005,adam,0.0,0.14942528307437897
+embeddings_mlp,IRSUIPLANYR,Planificación suicida,Precision,adamw_wd0001,adamw,0.0001,0.21176470816135406
+embeddings_mlp,IRSUIPLANYR,Planificación suicida,F2,adam_lr0005,adam,0.0,0.14689263701438904
+embeddings_mlp,IRSUIPLANYR,Planificación suicida,Falsos negativos,adam_lr0005,adam,0.0,148.0
+embeddings_mlp,IRSUIPLANYR,Planificación suicida,Falsos positivos,adamw_wd0001,adamw,0.0001,67.0
+embeddings_mlp,IRSUITRYYR,Intento suicida,PR-AUC,adam_lr0005,adam,0.0,0.07073917239904404
+embeddings_mlp,IRSUITRYYR,Intento suicida,ROC-AUC,adam_lr0005,adam,0.0,0.7754988670349121
+embeddings_mlp,IRSUITRYYR,Intento suicida,Recall,adam_lr0005,adam,0.0,0.130952388048172
+embeddings_mlp,IRSUITRYYR,Intento suicida,Precision,adamw_wd0001,adamw,0.0001,0.3333333432674408
+embeddings_mlp,IRSUITRYYR,Intento suicida,F2,adam_lr0005,adam,0.0,0.12471653521060944
+embeddings_mlp,IRSUITRYYR,Intento suicida,Falsos negativos,adam_lr0005,adam,0.0,73.0
+embeddings_mlp,IRSUITRYYR,Intento suicida,Falsos positivos,adamw_wd0001,adamw,0.0001,4.0

@@ -1,0 +1,27 @@
+﻿elemento,valor
+Nombre del modelo,MLP de dos ramas
+Tipo de arquitectura,API funcional con múltiples entradas
+Entradas,2
+Variables numéricas,59
+Variables categóricas,2991
+Unidades rama numérica,32
+Unidades rama categórica,64
+Dimensión tras Concatenate,96
+Unidades de unión,64 → 32
+Capas Dense ocultas,4
+Capas BatchNormalization,4
+Capas Dropout,3
+Dropout rama numérica,0.1
+Dropout rama categórica,0.15
+Dropout unión,0.15
+Regularización L2,1e-05
+Learning rate,0.0005
+Activación oculta,ReLU
+Unidades de salida,1
+Activación de salida,Sigmoid
+Función de pérdida,Binary Crossentropy
+Optimizador,Adam
+Parámetros totales,202305
+Parámetros entrenables,201921
+Parámetros no entrenables,384
+Ponderación de clases,Balanceada

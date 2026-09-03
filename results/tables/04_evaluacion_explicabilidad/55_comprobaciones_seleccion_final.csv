@@ -1,0 +1,8 @@
+﻿comprobacion,resultado
+Se selecciona una única familia para cada variable objetivo,True
+La selección contiene las cuatro variables objetivo,True
+Todas las familias seleccionadas son ML o DL,True
+Las predicciones finales contienen 37.840 registros,True
+Cada objetivo conserva los 9.460 registros de TEST,True
+No existen duplicados por identificador y objetivo,True
+Los umbrales permanecen sin modificaciones,True

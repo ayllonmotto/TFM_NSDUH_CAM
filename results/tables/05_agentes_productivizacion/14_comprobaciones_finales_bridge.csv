@@ -1,0 +1,15 @@
+﻿comprobacion,resultado
+Se obtiene una explicación Machine Learning,True
+Se obtiene una explicación Deep Learning,True
+Las explicaciones corresponden a los objetivos solicitados,True
+Las explicaciones corresponden a los modelos definitivos,True
+Cada explicación contiene 15 variables principales,True
+Las variables principales mantienen la estructura esperada,True
+Todas las variables explicativas pertenecen al esquema de entrada,True
+Los valores SHAP son finitos,True
+Las explicaciones utilizan 1.627 evaluaciones SHAP,True
+Las probabilidades explicadas coinciden con las predicciones del bridge,True
+Las diferencias de reconstrucción son finitas,True
+La entrada incompleta genera un error controlado,True
+La variable objetivo desconocida genera un error controlado,True
+La operación desconocida genera un error controlado,True

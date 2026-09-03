@@ -1,0 +1,9 @@
+﻿comprobacion,resultado
+La tool utiliza el nombre documental definido,True
+Cada consulta devuelve tres documentos,True
+Todos los resultados incluyen fuente y tipo,True
+La consulta SHAP recupera una limitación sobre causalidad,True
+La variable objetivo se recupera en primera posición,True
+La variable SHAP se recupera en primera posición,True
+Las variables explícitas utilizan coincidencia exacta,True
+La recuperación no utiliza predicciones individuales de TEST,True

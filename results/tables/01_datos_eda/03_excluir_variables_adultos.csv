@@ -1,0 +1,240 @@
+﻿variable,tipo,n_presentes,n_unicos,n_nan,pct_nan,valor_constante,motivo,modulo,notas,decision,motivo_decision
+YGADSCED,float64,0,0,47299,100.0,,Variable sin datos en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+SCHFELT,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+TCHGJOB,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+AVGGRADE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+STNDSCIG,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+STNDSMJ,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+STNDALC,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+STNDDNK,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PARCHKHW,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PARHLPHW,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRCHORE2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRLMTELEC,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PARLMTSN,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRGDJOB2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRPROUD2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+ARGUPAR,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YOFIGHT2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YOGRPFT2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YOHGUN2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YOSELL2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YOSTOLE2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YOATTAK2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRFLCLCIGDL,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRFLCLMJTRY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRFLCLMJMON,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRFLCLALCDL,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YFLCLCIGDL,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YFLCLMJTRY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YFLCLMJMON,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YFLCLALCDL,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+TALKPROB,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRBSOLV2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PREVIOL2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+PRVDRGO2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YTHACT2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+ANYEDUC3,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+RLGIMPT,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+RLGDCSN,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+RLGFRND,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADTOTSC,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADSEVSYMP,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADMODOSEV,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YUSUITHKYR,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YUSUIPLNYR,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YMDELT,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDEYR,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDEAUD5YR,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMIUD5YANY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMSUD5YANY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDERSUD5ANY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDESUD5ANYO,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YTXMDEYR,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YRXMDEYR,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDETXRX,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YDOCMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOMDMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YPSY1MDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YPSY2MDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YSOCMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YCOUNMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOMHMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YNURSMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YRELMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YHBCHMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YHLTMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YALTMDE,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDEHPRX,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDEHPO,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDERXO2,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDEHARX,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YSDSHOME,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YSDSWRK,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YSDSREL,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YSDSSOC,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YSDSOVRL,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+MDEIMPY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMDEIMAD5YR,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMIMI5YANY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMIMR5YANY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YMIMS5YANY,float64,0,0,47299,100.0,,Variable sin datos en población adulta,RECODED ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+FILEDATE,str,47299,1,0,0.0,10/03/2025,Variable constante en población adulta,IDENTIFICATION,,Eliminar,Sin datos o constante en población adulta
+IMOTHER,int64,47299,1,0,0.0,4,Variable constante en población adulta,HOUSEHOLD COMPOSITION (ROSTER),,Eliminar,Sin datos o constante en población adulta
+IFATHER,int64,47299,1,0,0.0,4,Variable constante en población adulta,HOUSEHOLD COMPOSITION (ROSTER),,Eliminar,Sin datos o constante en población adulta
+BKPOSTOB,int64,47299,1,0,0.0,99,Variable constante en población adulta,SPECIAL TOPICS,,Eliminar,Sin datos o constante en población adulta
+FUSEDNM18,int64,47299,1,0,0.0,2,Variable constante en población adulta,RECODED DRUG USE,,Eliminar,Sin datos o constante en población adulta
+YEATNDYR,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEHMSLYR,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESCHFLT,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESCHWRK,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESCHIMP,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESCHINT,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YETCGJOB,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YELSTGRD,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YECIGFRNDOF2,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YECIGNEXTYR2,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESTSCIG,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESTSMJ,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESTSALC,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESTSDNK,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPCHKHW,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPHLPHW,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPCHORE,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPLMTELEC,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPLMTSN,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPGDJOB,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPPROUD,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYARGUP,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYFGTSW,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYFGTGP,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYHGUN,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYSELL,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYSTOLE,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYATTAK,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPFLCIGDL,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPFLMJTRY,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPFLMJMON,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPFLALCDL,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYFLCIGDL,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYFLMJTRY,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYFLMJMON,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEYFLALCDL,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YETLKNON,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YETLKPAR,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YETLKBGF,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YETLKOTA,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YETLKSOP,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEPRBSLV,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEVIOPRV,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEDGPRGP,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YESCHACT,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YECOMACT,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEFAIACT,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEOTHACT,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEDECLAS,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEDERGLR,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YEDESPCL,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YERLGIMP,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YERLDCSN,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YERLFRND,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADNRVANX,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADNTSTOP,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADWRYMCH,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADTRBRLX,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADRSTLSS,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADANNOY,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YGADAWFUL,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YUSUITHK,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YUSUIPLN,int64,47299,1,0,0.0,99,Variable constante en población adulta,YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IRYGADNRVANX,int64,47299,1,0,0.0,99,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IIYGADNRVANX,int64,47299,1,0,0.0,9,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IRYGADNTSTOP,int64,47299,1,0,0.0,99,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IIYGADNTSTOP,int64,47299,1,0,0.0,9,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IRYGADWRYMCH,int64,47299,1,0,0.0,99,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IIYGADWRYMCH,int64,47299,1,0,0.0,9,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IRYGADTRBRLX,int64,47299,1,0,0.0,99,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IIYGADTRBRLX,int64,47299,1,0,0.0,9,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IRYGADRSTLSS,int64,47299,1,0,0.0,99,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IIYGADRSTLSS,int64,47299,1,0,0.0,9,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IRYGADANNOY,int64,47299,1,0,0.0,99,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IIYGADANNOY,int64,47299,1,0,0.0,9,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IRYGADAWFUL,int64,47299,1,0,0.0,99,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+IIYGADAWFUL,int64,47299,1,0,0.0,9,Variable constante en población adulta,IMPUTED YOUTH EXPERIENCES,,Eliminar,Sin datos o constante en población adulta
+YODPREV,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YODSCEV,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOLOSEV,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YODPDISC,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YODPLSIN,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YODSLSIN,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOLSI2WK,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YODPR2WK,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRHRS,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRDST,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRCHR,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRIMP,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YODPPROB,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRPROB,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRAGE,int64,47299,1,0,0.0,999,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRDEPR,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRDISC,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRLSIN,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRPLSR,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRELES,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWREMOR,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRGAIN,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRGROW,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRPREG,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRGNL2,int64,47299,1,0,0.0,999,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRLOSE,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRDIET,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRLSL2,int64,47299,1,0,0.0,999,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRSLEP,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRSMOR,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRENRG,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRSLOW,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRSLNO,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRJITT,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRJINO,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRTHOT,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRCONC,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRDCSN,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRNOGD,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOWRWRTH,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YO_MDEA1,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YO_MDEA2,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YO_MDEA3,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YO_MDEA4,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YO_MDEA5,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YO_MDEA6,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YO_MDEA7,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YO_MDEA8,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YODSMMDE,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPBINTF,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPBDLYA,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPBRMBR,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPBAGE,int64,47299,1,0,0.0,999,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPBNUM,int64,47299,1,0,0.0,9999,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPB2WK,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPSHMGT,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPSWORK,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPSRELS,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPSSOC,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPSDAYS,int64,47299,1,0,0.0,999,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOSEEDOC,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOFAMDOC,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOOTHDOC,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPSYCH,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOPSYMD,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOSOCWRK,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOCOUNS,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOOTHMHP,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YONURSE,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YORELIG,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOHERBAL,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOOTHHLP,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOTMTNOW,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YORX12MO,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YORXNOW,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YORXHLP,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta
+YOTMTHLP,int64,47299,1,0,0.0,99,Variable constante en población adulta,ADOLESCENT DEPRESSION,,Eliminar,Sin datos o constante en población adulta

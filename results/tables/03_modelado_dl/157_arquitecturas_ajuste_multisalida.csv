@@ -1,0 +1,7 @@
+﻿clave_configuracion,descripcion,parametros,neuronas_compartidas_1,neuronas_compartidas_2,neuronas_rama_especifica,bn_ramas_especificas,factor_dropout,reutilizada
+focal_actual,Focal + Adam — Arquitectura actual,51268,64,32,16,True,1.0,True
+focal_drop_menor,Focal + Adam — Dropout menor,51268,64,32,16,True,0.75,False
+focal_drop_mayor,Focal + Adam — Dropout mayor,51268,64,32,16,True,1.25,False
+focal_capas_compartidas,Focal + Adam — Capas compartidas 128 → 64,65988,128,64,16,True,1.0,False
+focal_ramas_32,Focal + Adam — Ramas específicas de 32 neuronas,53636,64,32,32,True,1.0,False
+focal_sin_bn_ramas,Focal + Adam — Sin BatchNormalization en ramas específicas,51076,64,32,16,False,1.0,False

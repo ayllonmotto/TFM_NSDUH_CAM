@@ -1,0 +1,25 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,PR-AUC,Focal + Adam — Sin BatchNormalization en ramas específicas,0.49701303243637085
+IRAMDEYR,Episodio depresivo mayor,Recall,Focal + Adam — Ramas específicas de 32 neuronas,0.9126794338226318
+IRAMDEYR,Episodio depresivo mayor,Precision,Focal + Adam — Sin BatchNormalization en ramas específicas,0.35748031735420227
+IRAMDEYR,Episodio depresivo mayor,F2,Focal + Adam — Arquitectura actual,0.6522139310836792
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,Focal + Adam — Ramas específicas de 32 neuronas,73.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,Focal + Adam — Sin BatchNormalization en ramas específicas,1224.0
+IRSUICTHNK,Ideación suicida,PR-AUC,Focal + Adam — Arquitectura actual,0.2930675148963928
+IRSUICTHNK,Ideación suicida,Recall,Focal + Adam — Sin BatchNormalization en ramas específicas,0.8419182896614075
+IRSUICTHNK,Ideación suicida,Precision,Focal + Adam — Arquitectura actual,0.2008906453847885
+IRSUICTHNK,Ideación suicida,F2,Focal + Adam — Arquitectura actual,0.47507598996162415
+IRSUICTHNK,Ideación suicida,Falsos negativos,Focal + Adam — Sin BatchNormalization en ramas específicas,89.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,Focal + Adam — Arquitectura actual,1615.0
+IRSUIPLANYR,Planificación suicida,PR-AUC,Focal + Adam — Ramas específicas de 32 neuronas,0.1671324074268341
+IRSUIPLANYR,Planificación suicida,Recall,Focal + Adam — Sin BatchNormalization en ramas específicas,0.9195402264595032
+IRSUIPLANYR,Planificación suicida,Precision,Focal + Adam — Arquitectura actual,0.07378258556127548
+IRSUIPLANYR,Planificación suicida,F2,Focal + Adam — Arquitectura actual,0.27482590079307556
+IRSUIPLANYR,Planificación suicida,Falsos negativos,Focal + Adam — Sin BatchNormalization en ramas específicas,14.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,Focal + Adam — Arquitectura actual,1883.0
+IRSUITRYYR,Intento suicida,PR-AUC,Focal + Adam — Sin BatchNormalization en ramas específicas,0.10749087482690811
+IRSUITRYYR,Intento suicida,Recall,Focal + Adam — Sin BatchNormalization en ramas específicas,0.9166666865348816
+IRSUITRYYR,Intento suicida,Precision,Focal + Adam — Ramas específicas de 32 neuronas,0.040654998272657394
+IRSUITRYYR,Intento suicida,F2,Focal + Adam — Ramas específicas de 32 neuronas,0.17085902392864227
+IRSUITRYYR,Intento suicida,Falsos negativos,Focal + Adam — Sin BatchNormalization en ramas específicas,7.0
+IRSUITRYYR,Intento suicida,Falsos positivos,Focal + Adam — Dropout menor,1561.0

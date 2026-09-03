@@ -1,0 +1,5 @@
+﻿solicitud,codigo_http
+GET /,200
+GET /api/v1/health,200
+GET /api/v1/esquema,200
+POST /api/v1/predict sin registro,400

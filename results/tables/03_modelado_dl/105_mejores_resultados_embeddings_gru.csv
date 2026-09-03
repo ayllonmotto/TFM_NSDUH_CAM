@@ -1,0 +1,25 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,PR-AUC,Embeddings + GRU — Ponderación balanceada,0.43559956550598145
+IRAMDEYR,Episodio depresivo mayor,Recall,Embeddings + GRU — Ponderación balanceada,0.48086124658584595
+IRAMDEYR,Episodio depresivo mayor,Precision,Embeddings + LSTM — Ponderación balanceada,0.44366195797920227
+IRAMDEYR,Episodio depresivo mayor,F2,Embeddings + GRU — Ponderación balanceada,0.4720526337623596
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,Embeddings + GRU — Ponderación balanceada,434.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,Embeddings + LSTM — Ponderación balanceada,79.0
+IRSUICTHNK,Ideación suicida,PR-AUC,Embeddings + GRU — Ponderación balanceada,0.24289123713970184
+IRSUICTHNK,Ideación suicida,Recall,Embeddings + GRU — Ponderación balanceada,0.19182948768138885
+IRSUICTHNK,Ideación suicida,Precision,Embeddings + GRU — Ponderación balanceada,0.34951457381248474
+IRSUICTHNK,Ideación suicida,F2,Embeddings + GRU — Ponderación balanceada,0.2108551263809204
+IRSUICTHNK,Ideación suicida,Falsos negativos,Embeddings + GRU — Ponderación balanceada,455.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,Embeddings + LSTM — Ponderación balanceada,66.0
+IRSUIPLANYR,Planificación suicida,PR-AUC,Embeddings + GRU — Ponderación balanceada,0.11593672633171082
+IRSUIPLANYR,Planificación suicida,Recall,Embeddings + LSTM — Ponderación balanceada,0.08045977354049683
+IRSUIPLANYR,Planificación suicida,Precision,Embeddings + GRU — Ponderación balanceada,0.3181818127632141
+IRSUIPLANYR,Planificación suicida,F2,Embeddings + LSTM — Ponderación balanceada,0.09067356586456299
+IRSUIPLANYR,Planificación suicida,Falsos negativos,Embeddings + LSTM — Ponderación balanceada,160.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,Embeddings + GRU — Ponderación balanceada,15.0
+IRSUITRYYR,Intento suicida,PR-AUC,Embeddings + GRU — Ponderación balanceada,0.10587134957313538
+IRSUITRYYR,Intento suicida,Recall,Embeddings + LSTM — Ponderación balanceada,0.0833333358168602
+IRSUITRYYR,Intento suicida,Precision,Embeddings + GRU — Ponderación balanceada,1.0
+IRSUITRYYR,Intento suicida,F2,Embeddings + LSTM — Ponderación balanceada,0.08728177100419998
+IRSUITRYYR,Intento suicida,Falsos negativos,Embeddings + LSTM — Ponderación balanceada,77.0
+IRSUITRYYR,Intento suicida,Falsos positivos,Embeddings + GRU — Ponderación balanceada,0.0

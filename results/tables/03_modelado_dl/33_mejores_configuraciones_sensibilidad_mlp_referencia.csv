@@ -1,0 +1,25 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,PR-AUC,"Batch 128 / lr 0,001",0.23035170137882233
+IRAMDEYR,Episodio depresivo mayor,Recall,"Batch 256 / lr 0,0005",0.15789473056793213
+IRAMDEYR,Episodio depresivo mayor,Precision,"Batch 128 / lr 0,001",0.34375
+IRAMDEYR,Episodio depresivo mayor,F2,"Batch 256 / lr 0,0005",0.17557859420776367
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,"Batch 256 / lr 0,0005",704.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,"Batch 256 / lr 0,001",175.0
+IRSUICTHNK,Ideación suicida,PR-AUC,"Batch 128 / lr 0,001",0.14046652615070343
+IRSUICTHNK,Ideación suicida,Recall,"Batch 512 / lr 0,001",0.05861456319689751
+IRSUICTHNK,Ideación suicida,Precision,"Batch 256 / lr 0,001",0.25974026322364807
+IRSUICTHNK,Ideación suicida,F2,"Batch 256 / lr 0,0005",0.06688283383846283
+IRSUICTHNK,Ideación suicida,Falsos negativos,"Batch 512 / lr 0,001",530.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,"Batch 256 / lr 0,001",57.0
+IRSUIPLANYR,Planificación suicida,PR-AUC,"Batch 128 / lr 0,001",0.04449405521154404
+IRSUIPLANYR,Planificación suicida,Recall,"Batch 512 / lr 0,001",0.04022988677024841
+IRSUIPLANYR,Planificación suicida,Precision,"Batch 128 / lr 0,001",0.095238097012043
+IRSUIPLANYR,Planificación suicida,F2,"Batch 512 / lr 0,001",0.0406503900885582
+IRSUIPLANYR,Planificación suicida,Falsos negativos,"Batch 512 / lr 0,001",167.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,"Batch 128 / lr 0,001",19.0
+IRSUITRYYR,Intento suicida,PR-AUC,"Batch 256 / lr 0,0005",0.028129607439041138
+IRSUITRYYR,Intento suicida,Recall,"Batch 256 / lr 0,001",0.02380952425301075
+IRSUITRYYR,Intento suicida,Precision,"Batch 256 / lr 0,0005",0.125
+IRSUITRYYR,Intento suicida,F2,"Batch 256 / lr 0,001",0.02816900797188282
+IRSUITRYYR,Intento suicida,Falsos negativos,"Batch 256 / lr 0,001",82.0
+IRSUITRYYR,Intento suicida,Falsos positivos,"Batch 256 / lr 0,0005",7.0

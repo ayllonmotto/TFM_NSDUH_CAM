@@ -1,0 +1,13 @@
+﻿variable_objetivo,descripcion_objetivo,tipo_factor,variable_origen,descripcion,respuesta_observada,nota_variable,posicion_factor
+IRAMDEYR,Episodio depresivo mayor,Factor de riesgo para la predicción,CAMHPROB2,Percepción de haber tenido alguna vez un problema de salud mental,Sí,NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.,1
+IRAMDEYR,Episodio depresivo mayor,Factor protector para la predicción,RCVYMHPRB,Percepción de recuperación de un problema de salud mental,Sí,NSDUH obtiene esta variable combinando la respuesta sobre haber tenido un problema de salud mental con la respuesta sobre recuperación; no corresponde a una pregunta independiente.,2
+IRAMDEYR,Episodio depresivo mayor,Factor de riesgo para la predicción,LVLDIFMEM2,Nivel de dificultad para recordar o concentrarse,Alguna dificultad,,3
+IRSUICTHNK,Ideación suicida,Factor de riesgo para la predicción,CAMHPROB,Percepción de haber tenido alguna vez un problema de salud mental,Sí,,1
+IRSUICTHNK,Ideación suicida,Factor de riesgo para la predicción,CAMHPROB2,Percepción de haber tenido alguna vez un problema de salud mental,Sí,NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.,2
+IRSUICTHNK,Ideación suicida,Factor de riesgo para la predicción,LVLDIFCARE2,Nivel de dificultad con el autocuidado,Alguna dificultad,,3
+IRSUIPLANYR,Planificación suicida,Factor de riesgo para la predicción,CAMHPROB,Percepción de haber tenido alguna vez un problema de salud mental,Sí,,1
+IRSUIPLANYR,Planificación suicida,Factor de riesgo para la predicción,COPDAGE,Edad en la que se diagnosticó por primera vez la EPOC,44 años,,2
+IRSUIPLANYR,Planificación suicida,Factor de riesgo para la predicción,LVLDIFCARE2,Nivel de dificultad con el autocuidado,Alguna dificultad,,3
+IRSUITRYYR,Intento suicida,Factor de riesgo para la predicción,CAMHPROB,Percepción de haber tenido alguna vez un problema de salud mental,Sí,,1
+IRSUITRYYR,Intento suicida,Factor de riesgo para la predicción,CAMHPROB2,Percepción de haber tenido alguna vez un problema de salud mental,Sí,NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.,2
+IRSUITRYYR,Intento suicida,Factor de riesgo para la predicción,LVLDIFCARE2,Nivel de dificultad con el autocuidado,Alguna dificultad,,3

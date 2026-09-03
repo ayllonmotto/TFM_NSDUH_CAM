@@ -1,0 +1,10 @@
+﻿origen,destino,condicion
+START,validar_entrada,Inicio
+validar_entrada,predecir_indicadores,Entrada válida
+predecir_indicadores,explicar_resultados,Explicación solicitada
+predecir_indicadores,recuperar_documentacion,Sin explicación y con documentación
+predecir_indicadores,preparar_contexto,Sin explicación ni documentación
+explicar_resultados,recuperar_documentacion,Documentación solicitada
+explicar_resultados,preparar_contexto,Sin documentación
+recuperar_documentacion,preparar_contexto,Documentación recuperada
+preparar_contexto,END,Contexto preparado

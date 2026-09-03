@@ -1,0 +1,8 @@
+﻿comprobacion,resultado
+Se preparan muestras para las cuatro variables objetivo,True
+Cada muestra contiene 100 registros,True
+Cada muestra contiene 50 casos positivos,True
+Cada muestra contiene 50 casos negativos,True
+Todos los identificadores pertenecen a TEST,True
+No existen duplicados dentro de cada muestra,True
+Las muestras de TEST no comparten identificadores con el conjunto de referencia TRAIN,True

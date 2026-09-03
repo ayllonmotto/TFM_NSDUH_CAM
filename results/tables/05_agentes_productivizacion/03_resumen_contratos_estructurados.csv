@@ -1,0 +1,4 @@
+﻿elemento,finalidad,campos,campos_obligatorios,validacion,resultado
+EntradaPredictiva,Validar el registro recibido para inferencia,2,1,813 variables exactas y rechazo de entradas incompletas o desconocidas,True
+ResultadoPredictivo,Estructurar y proteger la salida predictiva,10,8,"Coherencia de probabilidades, umbrales, clasificación, familia y modelo",True
+InformePreventivo,Estructurar el informe preventivo generado,7,7,Estructura cerrada y serialización JSON,True

@@ -1,0 +1,11 @@
+﻿elemento,valor
+Variables objetivo,4
+Variables requeridas por el sistema,813
+Variables utilizadas por Machine Learning,59
+Variables utilizadas por Deep Learning,813
+Predicciones de TEST para trazabilidad,37840
+Variables SHAP principales por objetivo,15
+Campos del esquema de salida,10
+Campos obligatorios de salida,8
+Limitaciones documentadas,10
+Archivos transferidos disponibles,16

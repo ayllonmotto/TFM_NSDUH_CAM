@@ -1,0 +1,25 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,PR-AUC,MLP de dos ramas — Ponderación balanceada,0.4660991132259369
+IRAMDEYR,Episodio depresivo mayor,Recall,MLP de dos ramas — Ponderación balanceada,0.6315789222717285
+IRAMDEYR,Episodio depresivo mayor,Precision,MLP de dos ramas — Ponderación balanceada,0.42409637570381165
+IRAMDEYR,Episodio depresivo mayor,F2,MLP de dos ramas — Ponderación balanceada,0.5752887725830078
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,MLP de dos ramas — Ponderación balanceada,308.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,MLP de dos ramas — Ponderación balanceada,717.0
+IRSUICTHNK,Ideación suicida,PR-AUC,MLP de dos ramas — Ponderación balanceada,0.21577773988246918
+IRSUICTHNK,Ideación suicida,Recall,MLP residual — Ponderación balanceada,0.40319716930389404
+IRSUICTHNK,Ideación suicida,Precision,MLP de dos ramas — Ponderación balanceada,0.28915661573410034
+IRSUICTHNK,Ideación suicida,F2,MLP residual — Ponderación balanceada,0.26934024691581726
+IRSUICTHNK,Ideación suicida,Falsos negativos,MLP residual — Ponderación balanceada,336.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,MLP de dos ramas — Ponderación balanceada,295.0
+IRSUIPLANYR,Planificación suicida,PR-AUC,MLP de dos ramas — Ponderación balanceada,0.09948136657476425
+IRSUIPLANYR,Planificación suicida,Recall,MLP residual — Ponderación balanceada,0.36206895112991333
+IRSUIPLANYR,Planificación suicida,Precision,MLP de dos ramas — Ponderación balanceada,0.15306122601032257
+IRSUIPLANYR,Planificación suicida,F2,MLP de dos ramas — Ponderación balanceada,0.16816140711307526
+IRSUIPLANYR,Planificación suicida,Falsos negativos,MLP residual — Ponderación balanceada,111.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,MLP de dos ramas — Ponderación balanceada,166.0
+IRSUITRYYR,Intento suicida,PR-AUC,MLP de dos ramas — Ponderación balanceada,0.07430796325206757
+IRSUITRYYR,Intento suicida,Recall,MLP residual — Ponderación balanceada,0.369047611951828
+IRSUITRYYR,Intento suicida,Precision,MLP de dos ramas — Ponderación balanceada,0.1538461595773697
+IRSUITRYYR,Intento suicida,F2,MLP residual — Ponderación balanceada,0.10969565808773041
+IRSUITRYYR,Intento suicida,Falsos negativos,MLP residual — Ponderación balanceada,53.0
+IRSUITRYYR,Intento suicida,Falsos positivos,MLP de dos ramas — Ponderación balanceada,44.0

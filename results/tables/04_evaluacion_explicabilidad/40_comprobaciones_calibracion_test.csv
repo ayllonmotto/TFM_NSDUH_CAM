@@ -1,0 +1,5 @@
+﻿comprobacion,resultado
+Se obtienen ocho Brier Score,True
+Cada objetivo dispone de resultados ML y DL,True
+Los Brier Score son finitos,True
+"Los Brier Score pertenecen al intervalo [0, 1]",True

@@ -1,0 +1,4 @@
+﻿criterio,n_variables,n_numericas,n_categoricas,pct_sobre_813
+≥2 de 3 métodos con percentiles globales,123,54,69,15.129151291512915
+≥2 de 3 métodos con percentiles por tipo,130,4,126,15.990159901599016
+f_classif + L1 o RF,71,8,63,8.733087330873309

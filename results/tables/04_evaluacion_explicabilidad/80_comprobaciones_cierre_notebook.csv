@@ -1,0 +1,23 @@
+﻿comprobacion,resultado
+TEST contiene exactamente 9.460 registros,True
+Los identificadores de TEST son únicos,True
+Se conservan las cuatro variables objetivo,True
+Se recuperan los cuatro modelos Machine Learning,True
+Se recuperan los dos modelos Deep Learning,True
+Machine Learning utiliza 59 variables originales,True
+Machine Learning utiliza 67 variables de entrada,True
+Deep Learning utiliza 813 variables originales,True
+Deep Learning utiliza 872 variables de entrada,True
+El vocabulario Deep Learning contiene 4.625 índices,True
+"Los pesos del ensemble Deep Learning son 0,50 / 0,50",True
+"Los umbrales Machine Learning permanecen en 0,50",True
+Los umbrales Deep Learning permanecen sin cambios,True
+Todas las probabilidades de TEST son válidas,True
+Las predicciones finales contienen 37.840 registros,True
+No existen duplicados por identificador y variable objetivo,True
+La selección final coincide con ML / DL / DL / DL,True
+Las variables objetivo no forman parte de las entradas,True
+SHAP explica exclusivamente las soluciones seleccionadas,True
+Cada objetivo dispone de 15 variables SHAP principales,True
+La transferencia a productivización es correcta,True
+Todas las comprobaciones previas del notebook son correctas,True

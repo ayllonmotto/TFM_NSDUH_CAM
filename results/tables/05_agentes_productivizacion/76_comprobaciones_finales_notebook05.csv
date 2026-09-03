@@ -1,0 +1,12 @@
+﻿comprobacion,resultado
+El kernel pertenece a TFM_Agentes,True
+Las versiones fijadas permanecen validadas,True
+Los archivos del entorno están disponibles,True
+La transferencia desde el Notebook 04 está disponible,True
+TFM_Agentes mantiene aisladas las dependencias predictivas,True
+El archivo .env mantiene permisos 600,True
+El archivo .env está ignorado y no versionado,True
+Los módulos predictivo y MCP están disponibles,True
+Los tres CSV independientes de demostración están disponibles,True
+Todos los bloques funcionales permanecen validados,True
+El inventario contiene los archivos generados por el notebook,True

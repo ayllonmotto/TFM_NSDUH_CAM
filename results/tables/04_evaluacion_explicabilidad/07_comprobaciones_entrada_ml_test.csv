@@ -1,0 +1,10 @@
+﻿comprobacion,resultado
+TEST ML contiene 9.460 registros,True
+TEST ML contiene 67 variables de entrada,True
+TEST ML mantiene exactamente el orden guardado,True
+TEST ML contiene 8 variables numéricas,True
+TEST ML contiene 51 variables categóricas originales,True
+TEST ML contiene 8 variables de estado,True
+TEST ML no contiene variables objetivo,True
+TEST ML mantiene el mismo índice que TEST,True
+Los valores numéricos no contienen infinitos,True

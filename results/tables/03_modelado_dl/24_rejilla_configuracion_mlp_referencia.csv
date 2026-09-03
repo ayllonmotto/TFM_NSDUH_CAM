@@ -1,0 +1,5 @@
+﻿clave_configuracion,batch_size,learning_rate,factor_evaluado,estado
+b128_lr001,128,0.001,Batch size,PENDIENTE
+b256_lr001,256,0.001,Referencia,REUTILIZADO
+b512_lr001,512,0.001,Batch size,PENDIENTE
+b256_lr0005,256,0.0005,Learning rate,PENDIENTE

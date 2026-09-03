@@ -1,0 +1,2 @@
+﻿clave_configuracion,modelo,average_precision_media,roc_auc_media,recall_medio,recall_minimo,precision_media,f2_medio,balanced_accuracy_media,especificidad_media,falsos_negativos_total,falsos_positivos_total,parametros,epocas,mejor_epoca
+focal_ramas_32,Focal + Adam — Ramas específicas de 32 neuronas,0.2581166910626884,0.8596258709256493,0.8597806559821772,0.7957371225577264,0.14221133242753078,0.3810068455068708,0.7919723795439786,0.7241641031057799,222,7875,53636,23,13

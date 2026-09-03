@@ -1,0 +1,21 @@
+﻿elemento,valor
+Nombre del modelo,MLP regularizada
+Tipo de arquitectura,Sequential
+Variables de entrada,3050
+Bloques ocultos,4
+Neuronas por bloque,64
+Orden de cada bloque,Dense → BatchNormalization → ReLU → Dropout
+Activación oculta,ReLU
+Regularización L2,1e-05
+Capas BatchNormalization,4
+Capas Dropout,3
+Tasa de Dropout,0.15
+Learning rate,0.0005
+Unidades de salida,1
+Activación de salida,Sigmoid
+Función de pérdida,Binary Crossentropy
+Optimizador,Adam
+Parámetros totales,208577
+Parámetros entrenables,208065
+Parámetros no entrenables,512
+Ponderación de clases,Se compara durante el entrenamiento

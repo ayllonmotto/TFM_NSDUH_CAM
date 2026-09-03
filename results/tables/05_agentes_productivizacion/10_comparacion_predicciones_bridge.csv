@@ -1,0 +1,5 @@
+﻿target,descripcion,familia,modelo,probabilidad_referencia,probabilidad_bridge,diferencia_probabilidad,umbral_referencia,umbral_bridge,clasificacion_referencia,clasificacion_bridge,resultado
+IRAMDEYR,Episodio depresivo mayor,ML,XGBoost,0.8269689679145813,0.8269689679145813,0.0,0.5,0.5,1,1,True
+IRSUICTHNK,Ideación suicida,DL,Ensemble — ramas 32 + sin BatchNormalization (50/50),0.5657280087471008,0.5657280087471008,0.0,0.509,0.509,1,1,True
+IRSUIPLANYR,Planificación suicida,DL,Ensemble — ramas 32 + sin BatchNormalization (50/50),0.5257236659526825,0.5257236659526825,0.0,0.536,0.536,0,0,True
+IRSUITRYYR,Intento suicida,DL,Ensemble — ramas 32 + sin BatchNormalization (50/50),0.5241041928529739,0.5241041928529739,0.0,0.502,0.502,1,1,True

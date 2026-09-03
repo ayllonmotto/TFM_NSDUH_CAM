@@ -1,0 +1,13 @@
+﻿estrategia_pesos,target,descripcion,tn,fp,fn,tp
+adam_lr0005,IRAMDEYR,Episodio depresivo mayor,5949,783,289,547
+adam_lr0005,IRSUICTHNK,Ideación suicida,6402,603,335,228
+adam_lr0005,IRSUIPLANYR,Planificación suicida,7231,163,148,26
+adam_lr0005,IRSUITRYYR,Intento suicida,7390,94,73,11
+adamw_wd00001,IRAMDEYR,Episodio depresivo mayor,5949,783,289,547
+adamw_wd00001,IRSUICTHNK,Ideación suicida,6402,603,335,228
+adamw_wd00001,IRSUIPLANYR,Planificación suicida,7231,163,148,26
+adamw_wd00001,IRSUITRYYR,Intento suicida,7390,94,73,11
+adamw_wd0001,IRAMDEYR,Episodio depresivo mayor,5900,832,273,563
+adamw_wd0001,IRSUICTHNK,Ideación suicida,6636,369,386,177
+adamw_wd0001,IRSUIPLANYR,Planificación suicida,7327,67,156,18
+adamw_wd0001,IRSUITRYYR,Intento suicida,7480,4,82,2

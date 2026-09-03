@@ -1,0 +1,15 @@
+﻿elemento,valor
+Variables de entrada,3050
+Registros de entrenamiento interno,30271
+Registros de validación,7568
+Épocas máximas,100
+Batch size,256
+Optimizador inicial,Adam
+Learning rate inicial,0.001
+Compilación XLA,False
+Métrica de EarlyStopping,val_loss
+Modo de EarlyStopping,min
+Paciencia de EarlyStopping,10
+Forzar reentrenamiento,False
+Umbral de referencia,0.5
+Semilla inicial,12345

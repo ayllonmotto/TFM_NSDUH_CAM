@@ -1,0 +1,5 @@
+﻿target,descripcion,valores,n_nan,negativos,positivos,prevalencia_pct
+IRAMDEYR,Episodio depresivo mayor,"[0.0, 1.0]",0,42094,5205,11.004460982261781
+IRSUICTHNK,Ideación suicida,"[0.0, 1.0]",0,43810,3489,7.3764773039599145
+IRSUIPLANYR,Planificación suicida,"[0.0, 1.0]",0,46129,1170,2.473625235205818
+IRSUITRYYR,Intento suicida,"[0.0, 1.0]",0,46774,525,1.1099600414385082

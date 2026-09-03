@@ -1,0 +1,11 @@
+﻿ruta,metodos
+/,GET
+/acceso,"GET, POST"
+/informes,GET
+/informe/<id_informe>,GET
+/api/v1/health,GET
+/api/v1/esquema,GET
+/api/v1/predict,POST
+/api/v1/report,POST
+/api/v1/access,GET
+/api/v1/report-file,POST

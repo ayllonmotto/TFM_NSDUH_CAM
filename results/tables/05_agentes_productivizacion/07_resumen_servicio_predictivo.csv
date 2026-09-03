@@ -1,0 +1,13 @@
+﻿elemento,valor
+Estado,OK
+Entorno,TFM_ML
+Versión de productivización,v1
+Variables objetivo,4
+Modelos Machine Learning,4
+Modelos Deep Learning,2
+Variables generales de entrada,813
+Variables originales Machine Learning,59
+Variables de entrada Machine Learning,67
+Registros de referencia SHAP,20
+Variables de referencia SHAP,813
+Tiempo de inicialización (s),13.002

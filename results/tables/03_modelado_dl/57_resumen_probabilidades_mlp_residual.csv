@@ -1,0 +1,17 @@
+﻿estrategia_pesos,target,descripcion,clase_real,registros,media,mediana,primer_cuartil,tercer_cuartil
+balanceada,IRAMDEYR,Episodio depresivo mayor,Negativo,6732,0.44374096,0.38045096,0.38011,0.5369827
+balanceada,IRAMDEYR,Episodio depresivo mayor,Positivo,836,0.5139354,0.52524126,0.3803019,0.6223274
+balanceada,IRSUICTHNK,Ideación suicida,Negativo,7005,0.44714466,0.3946932,0.39423573,0.49485344
+balanceada,IRSUICTHNK,Ideación suicida,Positivo,563,0.4934159,0.4414752,0.39442244,0.5879147
+balanceada,IRSUIPLANYR,Planificación suicida,Negativo,7394,0.41652715,0.37520278,0.37500626,0.45651853
+balanceada,IRSUIPLANYR,Planificación suicida,Positivo,174,0.47262934,0.4270469,0.37503293,0.5809369
+balanceada,IRSUITRYYR,Intento suicida,Negativo,7484,0.40169594,0.36859298,0.36856082,0.41314033
+balanceada,IRSUITRYYR,Intento suicida,Positivo,84,0.47855687,0.4022324,0.36859322,0.5882499
+sin_ponderar,IRAMDEYR,Episodio depresivo mayor,Negativo,6732,0.103291035,0.07551776,0.075465016,0.124734
+sin_ponderar,IRAMDEYR,Episodio depresivo mayor,Positivo,836,0.1343224,0.11139791,0.075494766,0.16993119
+sin_ponderar,IRSUICTHNK,Ideación suicida,Negativo,7005,0.06722474,0.049550913,0.049532432,0.07822759
+sin_ponderar,IRSUICTHNK,Ideación suicida,Positivo,563,0.08406813,0.060747307,0.049541682,0.10857048
+sin_ponderar,IRSUIPLANYR,Planificación suicida,Negativo,7394,0.023319032,0.017812463,0.017810743,0.023226948
+sin_ponderar,IRSUIPLANYR,Planificación suicida,Positivo,174,0.03487444,0.020616446,0.017811902,0.044907365
+sin_ponderar,IRSUITRYYR,Intento suicida,Negativo,7484,0.009316055,0.0063131917,0.0063125156,0.008644863
+sin_ponderar,IRSUITRYYR,Intento suicida,Positivo,84,0.017687995,0.009005806,0.006313109,0.026462141

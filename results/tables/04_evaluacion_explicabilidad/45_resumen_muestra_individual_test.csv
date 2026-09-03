@@ -1,0 +1,3 @@
+﻿familia,decisiones,aciertos,aciertos_pct,positivos_reales,positivos_detectados,positivos_detectados_pct,participantes_4_aciertos,probabilidades_extremas,aciertos_extremos,aciertos_extremos_pct
+ML,400,272,68.0,59,49,83.05084745762711,41,227,178,78.41409691629956
+DL,400,277,69.25,59,40,67.79661016949153,44,44,40,90.9090909090909

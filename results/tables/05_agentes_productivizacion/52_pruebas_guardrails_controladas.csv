@@ -1,0 +1,7 @@
+﻿caso,guardrail,rechazado
+Afirmación diagnóstica,No se formulan afirmaciones diagnósticas,True
+Afirmación causal,No se formulan relaciones causales,True
+Cifra predictiva generada,La narración no introduce cifras predictivas,True
+Fuente no autorizada,Las fuentes coinciden con las fuentes documentales permitidas,True
+Factor no autorizado,Los factores proceden exclusivamente de SHAP,True
+Tipo de factor incoherente,El tipo de factor coincide con la dirección SHAP,True

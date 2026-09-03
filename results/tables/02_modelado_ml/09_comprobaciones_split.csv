@@ -1,0 +1,7 @@
+﻿comprobacion,resultado
+TRAIN + TEST cubren todos los registros,True
+TRAIN y TEST no comparten QUESTID2,True
+TRAIN mantiene QUESTID2 únicos,True
+TEST mantiene QUESTID2 únicos,True
+Intento positivo presente en TRAIN,True
+Intento positivo presente en TEST,True

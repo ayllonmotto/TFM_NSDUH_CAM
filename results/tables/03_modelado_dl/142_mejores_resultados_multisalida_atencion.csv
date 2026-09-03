@@ -1,0 +1,25 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,PR-AUC,Embeddings + atención — Ponderación balanceada,0.49797165393829346
+IRAMDEYR,Episodio depresivo mayor,Recall,Embeddings + atención — Ponderación balanceada,0.380382776260376
+IRAMDEYR,Episodio depresivo mayor,Precision,Red multisalida — BCE + Adam,0.6564416885375977
+IRAMDEYR,Episodio depresivo mayor,F2,Embeddings + atención — Ponderación balanceada,0.40509554743766785
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,Embeddings + atención — Ponderación balanceada,518.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,Red multisalida — BCE + Adam,56.0
+IRSUICTHNK,Ideación suicida,PR-AUC,Red multisalida — BCE + Adam,0.28146928548812866
+IRSUICTHNK,Ideación suicida,Recall,Embeddings + atención — Ponderación balanceada,0.38543516397476196
+IRSUICTHNK,Ideación suicida,Precision,Red multisalida — BCE + Adam,0.38461539149284363
+IRSUICTHNK,Ideación suicida,F2,Embeddings + atención — Ponderación balanceada,0.3650739789009094
+IRSUICTHNK,Ideación suicida,Falsos negativos,Embeddings + atención — Ponderación balanceada,346.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,Red multisalida — BCE + Adam,208.0
+IRSUIPLANYR,Planificación suicida,PR-AUC,Red multisalida — BCE + Adam,0.15746614336967468
+IRSUIPLANYR,Planificación suicida,Recall,Red multisalida — BCE + Adam,0.3448275923728943
+IRSUIPLANYR,Planificación suicida,Precision,Embeddings + atención — Ponderación balanceada,0.40909090638160706
+IRSUIPLANYR,Planificación suicida,F2,Red multisalida — BCE + Adam,0.2830188572406769
+IRSUIPLANYR,Planificación suicida,Falsos negativos,Red multisalida — BCE + Adam,114.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,Embeddings + atención — Ponderación balanceada,13.0
+IRSUITRYYR,Intento suicida,PR-AUC,Embeddings + atención — Ponderación balanceada,0.11701639741659164
+IRSUITRYYR,Intento suicida,Recall,Red multisalida — BCE + Adam,0.3928571343421936
+IRSUITRYYR,Intento suicida,Precision,Embeddings + atención — Ponderación balanceada,0.2142857164144516
+IRSUITRYYR,Intento suicida,F2,Red multisalida — BCE + Adam,0.25384610891342163
+IRSUITRYYR,Intento suicida,Falsos negativos,Red multisalida — BCE + Adam,51.0
+IRSUITRYYR,Intento suicida,Falsos positivos,Embeddings + atención — Ponderación balanceada,11.0

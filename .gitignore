@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Entornos y credenciales
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Archivos temporales y copias
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Registros
+logs/*.log
+*.log
+
+# Dataset original
+data/raw
+
+# Datos derivados
+data/interim/**
+data/processed/**
+
+# Modelos entrenados
+# Por defecto no se versionan modelos, checkpoints ni cachés.
+*.keras
+*.h5
+*.joblib
+*.pickle
+*.pkl
+*.onnx
+
+# Excepción: paquete mínimo necesario para ejecutar la solución final.
+models/*
+!models/02_modelado_ml/
+!models/03_modelado_dl/
+
+models/02_modelado_ml/*
+!models/02_modelado_ml/modelos_ml_finales.pkl
+
+models/03_modelado_dl/*
+!models/03_modelado_dl/preprocesamiento_final_dl_v1.joblib
+!models/03_modelado_dl/metadatos_modelo_final_dl_v1.joblib
+!models/03_modelado_dl/modelo_final_focal_ramas_32_v1.keras
+!models/03_modelado_dl/modelo_final_focal_sin_bn_ramas_v1.keras
+
+# Resultados y exportaciones
+# Machine Learning
+results/tables/02_modelado_ml/54_predicciones_modelos_individuales_cv.csv
+results/tables/02_modelado_ml/58_probabilidades_modelos_base_stacking_cv.csv
+results/tables/02_modelado_ml/62_predicciones_comparacion_final_ml_cv.csv
+
+# Deep Learning
+results/tables/03_modelado_dl/predicciones_validacion_dl_v1.csv
+results/tables/03_modelado_dl/183_curvas_umbrales_ensembles_dl.csv
+results/tables/03_modelado_dl/198_predicciones_sensibilidad_variables_dl.csv
+results/tables/03_modelado_dl/205_predicciones_conjuntos_variables_dl.csv
+
+# Evaluación y explicabilidad
+results/tables/04_evaluacion_explicabilidad/15_predicciones_test.csv
+results/tables/04_evaluacion_explicabilidad/19_predicciones_train.csv
+results/tables/04_evaluacion_explicabilidad/54_predicciones_finales_test.csv
+
+# Checkpoints SHAP necesarios para reproducibilidad
+!results/tables/04_evaluacion_explicabilidad/checkpoints_shap/*.joblib
+
+# TensorBoard y perfiles
+**/tensorboard/
+**/tensorboard_logs/
+**/plugins/profile/
+
+# Editores
+.vscode/
+.idea/
+
+# Cachés y archivos auxiliares
+.cache/
+.virtual_documents/
+
+# Archivos originales de referencia no versionados
+references/NSDUH_2024/*.zip
+
+!results/tables/04_evaluacion_explicabilidad/background_shap_productivizacion_v1.joblib
+!results/tables/04_evaluacion_explicabilidad/configuracion_productivizacion_v1.joblib

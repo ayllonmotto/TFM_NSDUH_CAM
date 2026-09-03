@@ -1,0 +1,4 @@
+﻿tipo_variable,variables,mediana_categorias,max_categorias,variables_con_nan,variables_con_categoria_menor_50
+Binaria,404,2.0,3,136,105
+Categórica con pocas categorías,329,7.0,11,32,238
+Categórica con número moderado de categorías,22,19.0,19,0,20

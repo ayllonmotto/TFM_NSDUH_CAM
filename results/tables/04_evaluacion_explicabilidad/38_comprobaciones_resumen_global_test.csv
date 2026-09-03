@@ -1,0 +1,5 @@
+﻿comprobacion,resultado
+El resumen contiene las nueve métricas comunes,True
+El resumen contiene Machine Learning y Deep Learning,True
+"Las métricas globales pertenecen al intervalo [0, 1]",True
+Las diferencias DL − ML son finitas,True

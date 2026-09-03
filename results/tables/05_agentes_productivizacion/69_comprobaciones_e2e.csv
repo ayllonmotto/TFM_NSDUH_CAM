@@ -1,0 +1,16 @@
+﻿comprobacion,resultado
+La API devuelve estado OK,True
+Se devuelven las cuatro variables objetivo,True
+Las probabilidades coinciden con la referencia,True
+Los umbrales coinciden con la referencia,True
+Las clasificaciones coinciden con la referencia,True
+Las familias y modelos coinciden con la referencia,True
+La respuesta contiene exactamente 12 factores,True
+Se mantienen tres factores por indicador,True
+Los indicadores que no superan el umbral conservan sus factores,True
+El informe mantiene los siete campos contractuales,True
+La trazabilidad recorre los cinco nodos en el orden previsto,True
+El registro original no se devuelve en la respuesta,True
+La respuesta no contiene credenciales,True
+La respuesta contiene explicación ampliada para los cuatro indicadores,True
+Las descripciones ampliadas no muestran códigos técnicos,True

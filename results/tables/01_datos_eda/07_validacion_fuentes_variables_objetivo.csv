@@ -1,0 +1,5 @@
+﻿variable_objetivo,descripcion,fuente_directa,indicador,casos_cuestionario_validos,coincidencias,diferencias,pct_coincidencia
+IRAMDEYR,Episodio depresivo mayor,AMDEYR,IIAMDEYR,45659,45659,0,100.0
+IRSUICTHNK,Ideación suicida,SUICTHNK,IISUICTHNK,45906,45906,0,100.0
+IRSUIPLANYR,Planificación suicida,SUIPLANYR,IISUIPLANYR,45949,45949,0,100.0
+IRSUITRYYR,Intento suicida,SUI03 (ítem cuestionario),IISUITRYYR,,,,

@@ -1,0 +1,5 @@
+﻿comprobacion,resultado
+La comparación contiene las cuatro variables objetivo,True
+Los FN coinciden con las métricas finales,True
+Los FP coinciden con las métricas finales,True
+Las diferencias de errores están correctamente calculadas,True

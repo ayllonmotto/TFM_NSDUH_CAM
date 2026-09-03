@@ -1,0 +1,8 @@
+﻿comprobacion,resultado
+El grafo se compila correctamente,True
+La explicación solicitada dirige a SHAP,True
+La documentación sin explicación dirige a RAG,True
+La ausencia de capacidades opcionales dirige a preparación,True
+Tras SHAP puede continuarse hacia RAG,True
+Tras SHAP puede omitirse RAG,True
+El grafo mantiene una única arquitectura,True

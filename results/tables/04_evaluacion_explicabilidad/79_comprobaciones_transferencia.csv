@@ -1,0 +1,10 @@
+﻿comprobacion,resultado
+El esquema de entrada contiene 813 variables originales,True
+Las 59 variables Machine Learning están identificadas,True
+Las 813 variables Deep Learning están identificadas,True
+Las variables objetivo no aparecen entre las entradas,True
+Todas las variables disponen de descripción,True
+La referencia SHAP contiene 20 registros y 813 variables,True
+La configuración conserva la selección final por objetivo,True
+La estructura de salida contiene los campos obligatorios,True
+Todos los archivos transferidos están disponibles,True

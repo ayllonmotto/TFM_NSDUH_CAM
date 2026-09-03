@@ -1,0 +1,5 @@
+﻿target,descripcion,familia,modelo,tipo_modelo,variables_originales
+IRAMDEYR,Episodio depresivo mayor,ML,XGBoost,XGBClassifier,59
+IRSUICTHNK,Ideación suicida,DL,Ensemble — ramas 32 + sin BatchNormalization (50/50),Ensemble Keras,813
+IRSUIPLANYR,Planificación suicida,DL,Ensemble — ramas 32 + sin BatchNormalization (50/50),Ensemble Keras,813
+IRSUITRYYR,Intento suicida,DL,Ensemble — ramas 32 + sin BatchNormalization (50/50),Ensemble Keras,813

@@ -1,0 +1,14 @@
+﻿comprobacion,resultado
+Ambos mecanismos devuelven las cuatro variables objetivo,True
+La tool local conserva exactamente los 10 campos de salida,True
+La tool MCP conserva exactamente los 10 campos de salida,True
+Los 10 campos coinciden para las cuatro variables objetivo,True
+Las probabilidades coinciden entre ambos mecanismos,True
+Los umbrales coinciden entre ambos mecanismos,True
+Las clasificaciones coinciden entre ambos mecanismos,True
+Las familias y modelos coinciden,True
+Las advertencias coinciden entre ambos mecanismos,True
+La tool local dispone de interfaz LangChain,True
+La tool MCP dispone de interfaz LangChain,True
+MCP proporciona descubrimiento dinámico,True
+"La comparación incluye interoperabilidad, mantenibilidad y trazabilidad",True

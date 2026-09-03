@@ -1,0 +1,9 @@
+﻿comprobacion,resultado
+La muestra contiene 100 identificadores distintos,True
+La muestra contiene 40 participantes con algún indicador positivo,True
+La muestra contiene 60 participantes sin indicadores positivos,True
+La comparación contiene 400 decisiones,True
+Cada participante conserva los cuatro objetivos,True
+"Los aciertos individuales pertenecen al intervalo [0, 4]",True
+Las probabilidades ML y DL son finitas,True
+La comparación individual contiene los 100 participantes,True

@@ -1,0 +1,1336 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="dashboard-version" content="dashboard-demo-final">
+<title>TFM NSDUH 2024 · Dashboard local</title>
+<style>
+:root{
+  --steel:#4682B4;
+  --steel-dark:#315f86;
+  --steel-soft:#eaf2f8;
+  --orange:#FF8C00;
+  --orange-soft:#fff3e4;
+  --gold:#FFD700;
+  --green:#2E8B57;
+  --green-soft:#eaf7f0;
+  --red:#C94B43;
+  --red-soft:#fff0ee;
+  --ink:#1f2937;
+  --muted:#667085;
+  --bg:#f4f6f8;
+  --panel:#ffffff;
+  --line:#d8e0e8;
+  --shadow:0 10px 30px rgba(31,41,55,.07);
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink)}
+button,a{font:inherit}
+button{cursor:pointer}
+.hidden{display:none!important}
+.topbar{
+  min-height:68px;background:#fff;border-bottom:4px solid var(--steel);
+  display:flex;align-items:center;justify-content:space-between;gap:18px;
+  padding:10px 20px;position:sticky;top:0;z-index:30
+}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.logo{
+  width:44px;height:44px;border-radius:10px;background:var(--steel);color:#fff;
+  display:grid;place-items:center;font-weight:900;letter-spacing:.4px
+}
+.brand h1{font-size:16px;margin:0;color:#21364b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand p{font-size:11px;color:var(--muted);margin:3px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.statuses{
+  display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap
+}
+.status-cluster{
+  display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-end
+}
+.top-actions{
+  display:flex;align-items:center;gap:7px;padding-left:10px;
+  border-left:1px solid var(--line)
+}
+.top-actions .btn{
+  min-width:92px;justify-content:center;padding:7px 11px;font-size:10px
+}
+.status{
+  display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:6px 9px;
+  font-size:10px;font-weight:800;border:1px solid var(--line);background:#fff;color:#475467
+}
+.status.live{background:var(--green-soft);color:var(--green);border-color:#b9dec9}
+.status.data{background:var(--orange-soft);color:#a25a00;border-color:#f2cd95}
+.dot{width:7px;height:7px;border-radius:50%;background:currentColor}
+.shell{display:grid;grid-template-columns:226px minmax(0,1fr);min-height:calc(100vh - 68px)}
+aside{
+  background:#fff;border-right:1px solid var(--line);padding:14px 11px;
+  position:sticky;top:68px;height:calc(100vh - 68px);overflow:auto
+}
+.group{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:#98a2b3;font-weight:800;padding:10px 10px 5px}
+.nav{
+  width:100%;border:0;background:transparent;border-radius:9px;padding:10px 11px;
+  text-align:left;color:#475467;font-weight:700;margin:2px 0;display:flex;align-items:center;gap:10px
+}
+.nav:hover{background:#f7f9fb}
+.nav.active{background:var(--steel-soft);color:var(--steel-dark)}
+.nav.app-link{border-left:0}
+.nav i{width:18px;text-align:center;font-style:normal}
+main{padding:20px}
+.container{max-width:1540px;margin:0 auto}
+.head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:14px}
+.head h2{font-size:23px;margin:0 0 5px;color:#21364b}
+.head p{margin:0;color:var(--muted);font-size:12px;line-height:1.45}
+.btn{
+  border-radius:9px;padding:9px 12px;font-weight:800;text-decoration:none;display:inline-flex;
+  align-items:center;gap:7px;border:1px solid var(--line);background:#fff;color:#344054
+}
+.btn.primary{background:var(--steel);color:#fff;border-color:var(--steel)}
+.btn.orange{background:var(--orange);color:#fff;border-color:var(--orange)}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px;
+  box-shadow:var(--shadow)
+}
+.card h3{font-size:15px;margin:0 0 5px;color:#253b50}
+.muted{color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin:14px 0}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:11px;padding:13px;box-shadow:0 6px 18px rgba(31,41,55,.04)}
+.kpi b{font-size:19px;display:block;margin-top:5px;color:#263a4e}
+.kpi span{font-size:10px;color:#98a2b3;text-transform:uppercase;letter-spacing:.05em;font-weight:800}
+.notice{
+  border:1px solid #efcf97;background:var(--orange-soft);border-radius:10px;padding:11px 12px;
+  color:#7a4700;font-size:11px;line-height:1.5
+}
+.info{
+  border:1px solid #bcd0e0;background:var(--steel-soft);border-radius:10px;padding:11px 12px;
+  color:#2f5d82;font-size:12px;line-height:1.5
+}
+.btn{font-size:13px;min-height:38px}.nav{font-size:14px}.head p{font-size:14px}.card p.muted{font-size:13px!important;line-height:1.58!important}.demo-meta{font-size:11px}.endpoint span{font-size:13px}.endpoint code{font-size:13px}.trace-step p{font-size:12px}.contract span{font-size:12px}.notebook-figure{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;background:#fff;border:1px solid #edf0f3;border-radius:9px;margin-top:12px;cursor:zoom-in}.evidence-card{min-width:0}.evidence-card h3{font-size:17px}.figure-card{min-width:0}.figure-caption{font-size:12px;color:var(--muted);line-height:1.5;margin-top:7px}.shap-live-table{width:100%;border-collapse:collapse;font-size:12px}.shap-live-table th,.shap-live-table td{text-align:left;padding:8px;border-bottom:1px solid #edf0f3;vertical-align:top}.shap-live-table th{font-size:11px;color:#667085;text-transform:uppercase;letter-spacing:.04em}.shap-value-positive{color:#a25a00;font-weight:900}.shap-value-negative{color:var(--steel-dark);font-weight:900}.trace-fact{background:#f7f9fb;border-radius:9px;padding:10px}.trace-fact strong,.trace-fact span{display:block}.trace-fact strong{font-size:18px;color:#274967}.trace-fact span{font-size:11px;color:#667085;margin-top:3px}
+.app-bottom-bar{display:flex;justify-content:flex-start;padding:12px 0 0}.live-frame-wrap{
+  background:#fff;border:1px solid var(--line);border-radius:13px;overflow:hidden;box-shadow:var(--shadow)
+}
+.frame-toolbar{
+  display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 12px;
+  border-bottom:1px solid var(--line);background:#fafbfd
+}
+.frame-toolbar-left{display:flex;gap:7px;align-items:center;flex-wrap:wrap}
+.frame-title{font-size:12px;font-weight:800;color:#344054}
+.frame-note{font-size:10px;color:#98a2b3}
+iframe{
+  width:100%;height:calc(100vh - 185px);min-height:650px;border:0;background:#fff;display:block
+}
+.arch{display:grid;grid-template-columns:1fr 44px 1fr 44px 1fr;gap:7px;align-items:center}
+.archbox{background:#fff;border:1px solid #bcd0e0;border-radius:11px;padding:14px;text-align:center}
+.archbox strong{font-size:12px;color:#274967}
+.archbox small{display:block;color:#667085;margin-top:5px;line-height:1.4}
+.arrow{text-align:center;color:#7a98b2;font-size:20px}
+.family{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.family-card{border-radius:11px;padding:13px;border:1px solid var(--line)}
+.family-card.ml{border-left:5px solid var(--steel);background:#f7fbfe}
+.family-card.dl{border-left:5px solid var(--orange);background:#fffaf4}
+.family-card strong{font-size:13px}.family-card p{font-size:11px;line-height:1.5;color:#667085;margin:5px 0 0}
+pre{
+  margin:0;background:#101828;color:#e8edf5;border-radius:10px;padding:13px;
+  white-space:pre-wrap;overflow:auto;font:11px/1.5 Consolas,Menlo,monospace
+}
+.endpoint{display:grid;grid-template-columns:185px 1fr;gap:12px;padding:9px 0;border-bottom:1px solid #edf0f3}
+.endpoint:last-child{border-bottom:0}
+.endpoint code{font-size:11px;color:var(--steel-dark);font-weight:800}
+.endpoint span{font-size:11px;color:#667085;line-height:1.45}
+.footer{font-size:10px;color:#98a2b3;text-align:center;margin:18px 0 2px}
+.techline{
+  display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 2px
+}
+.techpill{
+  border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 9px;
+  font-size:10px;font-weight:800;color:#475467
+}
+.techpill.ml{border-color:#bcd0e0;background:var(--steel-soft);color:var(--steel-dark)}
+.techpill.dl{border-color:#f2cd95;background:var(--orange-soft);color:#a25a00}
+.evidence-bars{display:flex;flex-direction:column;gap:6px;margin-top:13px}.evidence-bars span{display:block;min-width:110px;padding:6px 8px;border-radius:5px;background:linear-gradient(90deg,var(--steel),#d9e6ef);color:#18364d;font-size:10px;font-weight:800}.evidence-bars span:nth-child(n+3){background:linear-gradient(90deg,#e59a3b,#f8e5c8)}.metric-visual{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:13px}.metric-visual div{padding:9px;background:#f7f9fb;border-radius:8px}.metric-visual b,.metric-visual span{display:block;font-size:10px}.metric-visual span{color:#667085;margin-top:4px}.pipeline-mini{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:14px;font-size:10px}.pipeline-mini i,.pipeline-mini strong{padding:8px 9px;border-radius:7px;background:var(--steel-soft);font-style:normal}.pipeline-mini strong{background:var(--orange-soft);color:#8c4c00}
+.model-table{width:100%;border-collapse:collapse;font-size:11px}
+.model-table th{
+  text-align:left;padding:10px;border-bottom:1px solid var(--line);
+  color:#667085;font-size:10px;text-transform:uppercase;letter-spacing:.04em
+}
+.model-table td{padding:11px 10px;border-bottom:1px solid #edf0f3;vertical-align:top}
+.model-table tr:last-child td{border-bottom:0}
+.model-tag{
+  display:inline-flex;align-items:center;border-radius:999px;padding:4px 7px;
+  font-size:9px;font-weight:900
+}
+.model-tag.ml{background:var(--steel-soft);color:var(--steel-dark)}
+.model-tag.dl{background:var(--orange-soft);color:#a25a00}
+.model-controls{
+  display:flex;gap:7px;flex-wrap:wrap;margin:0 0 12px
+}
+.model-choice{
+  min-width:150px;flex:1;border:1px solid var(--line);background:#fff;border-radius:11px;
+  padding:11px 12px;text-align:left;cursor:pointer;transition:.16s ease;
+  font:inherit;color:var(--text)
+}
+.model-choice:hover{border-color:#aebbc8;transform:translateY(-1px)}
+.model-choice.active{
+  border-color:var(--steel);box-shadow:0 0 0 2px rgba(72,111,139,.09);
+  background:#fbfdff
+}
+.model-choice .code{display:block;font-size:11px;font-weight:900;color:#274967}
+.model-choice .desc{display:block;font-size:9px;color:#667085;margin-top:3px;line-height:1.35}
+.model-choice .family-mini{
+  display:inline-block;margin-top:7px;border-radius:999px;padding:3px 6px;font-size:8px;font-weight:900
+}
+.model-choice .family-mini.ml{background:var(--steel-soft);color:var(--steel-dark)}
+.model-choice .family-mini.dl{background:var(--orange-soft);color:#a25a00}
+.family-filter{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.family-filter span{font-size:10px;color:#667085;font-weight:700;margin-right:2px}
+.filter-btn{
+  border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 9px;
+  font-size:9px;font-weight:800;color:#667085;cursor:pointer
+}
+.filter-btn.active{background:#344054;color:#fff;border-color:#344054}
+.model-focus{
+  display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1.45fr);gap:14px
+}
+.threshold-scale{position:relative;height:44px;margin-top:16px}
+.threshold-track{
+  position:absolute;left:0;right:0;top:17px;height:8px;background:#edf1f5;border-radius:99px
+}
+.threshold-safe{
+  position:absolute;left:0;top:17px;height:8px;background:#dbe8f1;border-radius:99px 0 0 99px
+}
+.threshold-marker{
+  position:absolute;top:5px;width:2px;height:31px;background:#344054
+}
+.threshold-marker::before{
+  content:"";position:absolute;left:-4px;top:-1px;width:10px;height:10px;border-radius:50%;background:#344054
+}
+.threshold-label{
+  position:absolute;top:0;transform:translateX(-50%);font-size:9px;font-weight:900;color:#344054;
+  white-space:nowrap
+}
+.threshold-axis{
+  position:absolute;left:0;right:0;top:31px;display:flex;justify-content:space-between;
+  font-size:8px;color:#98a2b3
+}
+.demo-evidence{display:grid;gap:9px;margin-top:12px}
+.demo-case{
+  display:grid;grid-template-columns:80px 1fr 82px;gap:10px;align-items:center;
+  padding:10px;border:1px solid #edf0f3;border-radius:10px;background:#fff
+}
+.demo-case strong{font-size:10px}
+.demo-case .value{text-align:right;font-size:10px;font-weight:900}
+.prob-track{
+  position:relative;height:13px;background:#edf1f5;border-radius:99px;overflow:visible
+}
+.prob-fill{height:100%;border-radius:99px;background:var(--steel)}
+.prob-fill.dl{background:var(--orange)}
+.prob-threshold{
+  position:absolute;top:-3px;width:2px;height:19px;background:#344054;z-index:2
+}
+.demo-meta{font-size:8px;color:#98a2b3;margin-top:3px}
+.model-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.model-detail-grid{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px
+}
+.model-detail{
+  border:1px solid #edf0f3;border-radius:9px;padding:10px;background:#fbfcfd
+}
+.model-detail span{display:block;font-size:8px;text-transform:uppercase;letter-spacing:.04em;color:#98a2b3;font-weight:800}
+.model-detail strong{display:block;font-size:10px;color:#344054;margin-top:3px;line-height:1.35}
+.trace-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px
+}
+.trace-step{
+  position:relative;background:#fff;border:1px solid var(--line);border-radius:12px;
+  padding:13px 13px 13px 44px;min-height:86px
+}
+.trace-num{
+  position:absolute;left:12px;top:13px;width:23px;height:23px;border-radius:50%;
+  display:grid;place-items:center;background:var(--steel);color:#fff;
+  font-size:10px;font-weight:900
+}
+.trace-step strong{font-size:11px;color:#274967}
+.trace-step p{margin:5px 0 0;font-size:10px;line-height:1.45;color:#667085}
+.contract{
+  padding:10px 0;border-bottom:1px solid #edf0f3;display:grid;
+  grid-template-columns:180px 1fr;gap:12px
+}
+.contract:last-child{border-bottom:0}
+.contract strong{font-size:11px;color:#344054}
+.contract span{font-size:10px;line-height:1.5;color:#667085}
+@media(max-width:1000px){
+  .shell{grid-template-columns:1fr}
+  aside{position:static;height:auto;display:flex;gap:4px;overflow:auto;border-right:0;border-bottom:1px solid var(--line);padding:8px}
+  .group{display:none}.nav{width:auto;white-space:nowrap}
+  .grid2,.grid3,.arch,.family,.trace-grid,.model-focus{grid-template-columns:1fr}
+  .arrow{transform:rotate(90deg)}
+  .kpis{grid-template-columns:1fr 1fr}
+  iframe{height:72vh}
+}
+@media(max-width:600px){
+  .statuses .data{display:none}.brand p{display:none}.topbar{padding:9px 11px}.top-actions{border-left:0;padding-left:0}
+  main{padding:12px}.kpis{grid-template-columns:1fr}.head{display:block}.contract{grid-template-columns:1fr}.demo-case{grid-template-columns:65px 1fr 72px}.model-detail-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">TFM</div>
+    <div>
+      <h1>Sistema explicable de detección preventiva · NSDUH 2024</h1>
+      <p>Dashboard local integrado sobre el runtime funcional del Notebook 05</p>
+    </div>
+  </div>
+  <div class="statuses">
+    <div class="status-cluster">
+      <span id="liveStatus" class="status data"><span class="dot"></span>Inicializando motor</span>
+      <span class="status data"><span class="dot"></span>Datos reales de simulación</span>
+      <span class="status">127.0.0.1:5000</span>
+    </div>
+  <div class="top-actions">
+      <a class="btn" href="https://github.com/ayllonmotto/TFM_NSDUH_CAM" target="_blank" rel="noopener">Repositorio GitHub</a>
+      <button class="btn" onclick="closeDemo()">Cerrar demo</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+<aside>
+  <div class="group">Demo</div>
+  <button class="nav active" data-page="home" onclick="showPage('home',this)"><i>▦</i>Resumen</button>
+  <button class="nav app-link" data-page="application" onclick="showPage('application',this)"><i>▶</i>Aplicación</button>
+  <button class="nav" data-page="history" onclick="showPage('history',this)"><i>◷</i>Historial</button>
+
+  <div class="group">Modelo</div>
+  <button class="nav" data-page="models" onclick="showPage('models',this)"><i>◇</i>Modelos</button>
+  <button class="nav" data-page="shap" onclick="showPage('shap',this)"><i>✦</i>Explicabilidad SHAP</button>
+  <button class="nav" data-page="evidence" onclick="showPage('evidence',this)"><i>▥</i>Evidencias</button>
+  <button class="nav" data-page="traceability" onclick="showPage('traceability',this)"><i>↯</i>Trazabilidad</button>
+
+  <div class="group">Sistema</div>
+  <button class="nav" data-page="architecture" onclick="showPage('architecture',this)"><i>⌘</i>Arquitectura</button>
+  <button class="nav" data-page="api" onclick="showPage('api',this)"><i>{ }</i>API</button>
+  <button class="nav" data-page="about" onclick="showPage('about',this)"><i>i</i>Acerca de</button>
+<div id="sidebarHealth" class="card" style="margin-top:18px;padding:11px;background:#fff"><strong style="font-size:10px">Estado en directo</strong><div id="sideHealthState" class="muted" style="font-size:10px;margin-top:6px">Consultando /api/v1/health…</div><button class="btn" style="margin-top:8px;width:100%;font-size:10px" onclick="loadHealth(true)">Actualizar estado</button></div>
+<div style="margin-top:auto;padding:14px 10px 4px;color:#98a2b3;font-size:9px">dashboard_demo</div>
+</aside>
+
+<main>
+<div class="container">
+
+<section id="page-home" class="page">
+  <div class="head">
+    <div>
+      <h2>Dashboard local</h2>
+      <p>La demo visual y la aplicación Flask real comparten el mismo servidor y el mismo historial guardado.</p>
+    </div>
+    <button class="btn orange" onclick="openApplication()">Abrir aplicación real</button>
+  </div>
+
+  <div id="runtimeNotice" class="info" style="margin-bottom:12px">
+    <strong>Motor:</strong> inicializando en segundo plano. Puedes revisar el dashboard mientras se prepara la aplicación real.
+  </div>
+
+  <div class="notice">
+    Herramienta académica de apoyo preventivo. No constituye diagnóstico clínico ni sustituye la valoración profesional.
+  </div>
+
+  <div class="techline" aria-label="Ficha técnica del sistema">
+    <span class="techpill">4 indicadores</span>
+    <span class="techpill ml">ML · XGBoost</span>
+    <span class="techpill dl">DL · Ensemble</span>
+    <span class="techpill">SHAP</span>
+    <span class="techpill">RAG</span>
+    <span class="techpill">LangGraph</span>
+    <span class="techpill">Mistral</span>
+    <span class="techpill">Guardrails</span>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><span>Servidor</span><b id="kpiServer">127.0.0.1</b></div>
+    <div class="kpi"><span>Versión predictiva</span><b id="kpiVersion">—</b></div>
+    <div class="kpi"><span>Modelo generativo</span><b id="kpiModel">—</b></div>
+    <div class="kpi"><span>Prompt</span><b id="kpiPrompt">—</b></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Aplicación operativa</h3>
+      <p class="muted" style="font-size:12px;line-height:1.55">
+        La sección <strong>Aplicación</strong> carga la interfaz Flask recuperada por <code>demo_tfm.py</code>.
+        Al generar un informe se ejecuta el flujo real del Notebook 05: validación, bridge hacia TFM_ML,
+        inferencia híbrida, SHAP, RAG, Mistral, reconstrucción, guardrails y guardado de informes.
+      </p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
+        <button class="btn primary" onclick="openApplication()">Generar informe real</button>
+        <button class="btn" onclick="openHistory()">Abrir historial</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Código visual de los modelos</h3>
+      <div class="family">
+        <div class="family-card ml"><strong>Machine Learning</strong><p>Base cromática steelblue. La solución final utiliza XGBoost para IRAMDEYR.</p></div>
+        <div class="family-card dl"><strong>Deep Learning</strong><p>Base cromática darkorange. La solución final utiliza el ensemble DL para las tres salidas restantes.</p></div>
+      </div>
+      <p class="muted" style="font-size:11px;margin-top:11px">Los estados de activación se mantienen diferenciados sin utilizar una estética clínica alarmista.</p>
+    </div>
+    <div class="card"><h3>Autoría</h3><p class="muted" style="font-size:12px;line-height:1.6"><strong>Carlos Ayllón Motto</strong><br>Trabajo Fin de Máster · Big Data, Data Science e Inteligencia Artificial.</p><a class="btn" href="https://github.com/ayllonmotto/TFM_NSDUH_CAM" target="_blank" rel="noopener">Repositorio público</a></div>
+  </div>
+
+  <div class="info" style="margin-top:14px">
+    <strong>Salida final:</strong> tras una evaluación puedes verla directamente en la interfaz real y recuperarla posteriormente desde <strong>Historial</strong>, sin recalcular el informe guardado.
+  </div>
+</section>
+
+<section id="page-evidence" class="page hidden">
+  <div class="head"><div><h2>Evidencias del desarrollo</h2><p>Figuras estáticas exportadas de los notebooks ejecutados y disponibles en el repositorio.</p></div><a class="btn" href="https://github.com/ayllonmotto/TFM_NSDUH_CAM" target="_blank" rel="noopener">Ver código en GitHub</a></div>
+  <div class="grid2">
+    <div class="card evidence-card"><h3>Notebook 01 · EDA</h3><p class="muted">Distribución de las cuatro variables objetivo en la muestra analizada.</p><img class="notebook-figure" src="/dashboard/assets/eda_objetivos.png" alt="Distribución de las variables objetivo" onclick="openFigure(this.src,this.alt)"><p class="figure-caption">La prevalencia reducida de los indicadores suicidas condiciona la lectura de precision y recall.</p></div>
+    <div class="card evidence-card"><h3>Notebook 02 · Modelado ML</h3><p class="muted">Métricas finales de los modelos Machine Learning sobre TEST.</p><img class="notebook-figure" src="/dashboard/assets/ml_comparacion_final.png" alt="Métricas finales de los modelos Machine Learning" onclick="openFigure(this.src,this.alt)"><p class="figure-caption">La selección se interpreta con prioridad en Average Precision, recall, F2 y estabilidad.</p></div>
+    <div class="card evidence-card"><h3>Notebook 03 · Modelado DL</h3><p class="muted">Comparación de arquitecturas individuales y ensembles Deep Learning.</p><img class="notebook-figure" src="/dashboard/assets/dl_comportamiento_conjunto.png" alt="Comparación de arquitecturas y ensembles Deep Learning" onclick="openFigure(this.src,this.alt)"><p class="figure-caption">La configuración final combina ramas 32 y el modelo sin BatchNormalization con ponderación 50/50.</p></div>
+    <div class="card evidence-card"><h3>Notebook 04 · Evaluación</h3><p class="muted">Curvas Precision–Recall finales para las cuatro salidas.</p><img class="notebook-figure" src="/dashboard/assets/evaluacion_precision_recall.png" alt="Curvas Precision Recall finales" onclick="openFigure(this.src,this.alt)"><p class="figure-caption">La figura permite observar el compromiso entre precision y recall en cada indicador.</p></div>
+    <div class="card evidence-card"><h3>Comparación ML · DL</h3><p class="muted">Comparación de las métricas finales de ambas familias sobre TEST.</p><img class="notebook-figure" src="/dashboard/assets/comparacion_metricas.png" alt="Comparación de métricas finales Machine Learning y Deep Learning" onclick="openFigure(this.src,this.alt)"></div>
+    <div class="card evidence-card"><h3>Umbral y recall</h3><p class="muted">Estabilidad del recall al variar el umbral de decisión.</p><img class="notebook-figure" src="/dashboard/assets/estabilidad_umbral.png" alt="Estabilidad del recall frente al umbral" onclick="openFigure(this.src,this.alt)"></div>
+    <div class="card evidence-card"><h3>Matrices de confusión</h3><p class="muted">Errores de clasificación de las cuatro salidas finales.</p><img class="notebook-figure" src="/dashboard/assets/matrices_confusion.png" alt="Matrices de confusión de las salidas finales" onclick="openFigure(this.src,this.alt)"></div>
+    <div class="card evidence-card"><h3>Productivización · API</h3><p class="muted">Captura de la interfaz API incluida en el Notebook 05.</p><img class="notebook-figure" src="/dashboard/assets/interfaz_api.png" alt="Interfaz API del sistema" onclick="openFigure(this.src,this.alt)"></div>
+  </div>
+  <div class="notice" style="margin-top:14px">Las figuras se muestran como imágenes estáticas del proyecto. Al pulsarlas se amplían para facilitar su lectura durante la presentación. No recalculan métricas ni sustituyen las tablas originales.</div>
+</section>
+
+<section id="page-shap" class="page hidden">
+  <div class="head"><div><h2>Explicabilidad SHAP</h2><p>Explora la explicación de una salida y de un informe, sin modificar probabilidades ni clasificación.</p></div><button class="btn" onclick="loadShapSummary(true)">Actualizar</button></div>
+  <div class="notice"><strong>Interpretación:</strong> las figuras siguientes son exportaciones estáticas del Notebook 04. SHAP describe la contribución del modelo; no implica causalidad, diagnóstico ni sustitución de la valoración profesional.</div>
+  <div class="model-controls" style="margin-top:12px"><button class="filter-btn active" onclick="showStaticShap('global',this)">Importancia global</button><button class="filter-btn" onclick="showStaticShap('IRAMDEYR',this)">IRAMDEYR</button><button class="filter-btn" onclick="showStaticShap('IRSUICTHNK',this)">IRSUICTHNK</button><button class="filter-btn" onclick="showStaticShap('IRSUIPLANYR',this)">IRSUIPLANYR</button><button class="filter-btn" onclick="showStaticShap('IRSUITRYYR',this)">IRSUITRYYR</button></div>
+  <div id="staticShapGlobal" class="card static-figure"><h3>Importancia global SHAP de la solución final</h3><p class="muted">Media del valor absoluto de SHAP para las cuatro salidas. Haz clic para ampliar.</p><img class="notebook-figure" src="/dashboard/assets/shap_importancia_global.png" alt="Importancia global SHAP de la solución final" onclick="openFigure(this.src,this.alt)"></div>
+  <div id="staticShapIRAMDEYR" class="card static-figure hidden"><h3>IRAMDEYR · explicación global y local</h3><p class="muted">Beeswarm global y waterfall de un caso verdadero positivo.</p><img class="notebook-figure" src="/dashboard/assets/shap_beeswarm_iramdeyr.png" alt="Beeswarm SHAP de IRAMDEYR" onclick="openFigure(this.src,this.alt)"><img class="notebook-figure" src="/dashboard/assets/shap_waterfall_iramdeyr.png" alt="Waterfall SHAP de IRAMDEYR" onclick="openFigure(this.src,this.alt)"></div>
+  <div id="staticShapIRSUICTHNK" class="card static-figure hidden"><h3>IRSUICTHNK · explicación global y local</h3><p class="muted">Beeswarm global y waterfall de un caso verdadero positivo.</p><img class="notebook-figure" src="/dashboard/assets/shap_beeswarm_irsuicthnk.png" alt="Beeswarm SHAP de IRSUICTHNK" onclick="openFigure(this.src,this.alt)"><img class="notebook-figure" src="/dashboard/assets/shap_waterfall_irsuicthnk.png" alt="Waterfall SHAP de IRSUICTHNK" onclick="openFigure(this.src,this.alt)"></div>
+  <div id="staticShapIRSUIPLANYR" class="card static-figure hidden"><h3>IRSUIPLANYR · explicación global y local</h3><p class="muted">Beeswarm global y waterfall de un caso verdadero positivo.</p><img class="notebook-figure" src="/dashboard/assets/shap_beeswarm_irsuiplanyr.png" alt="Beeswarm SHAP de IRSUIPLANYR" onclick="openFigure(this.src,this.alt)"><img class="notebook-figure" src="/dashboard/assets/shap_waterfall_irsuiplanyr.png" alt="Waterfall SHAP de IRSUIPLANYR" onclick="openFigure(this.src,this.alt)"></div>
+  <div id="staticShapIRSUITRYYR" class="card static-figure hidden"><h3>IRSUITRYYR · explicación global y local</h3><p class="muted">Beeswarm global y waterfall de un caso verdadero positivo.</p><img class="notebook-figure" src="/dashboard/assets/shap_beeswarm_irsuitryyr.png" alt="Beeswarm SHAP de IRSUITRYYR" onclick="openFigure(this.src,this.alt)"><img class="notebook-figure" src="/dashboard/assets/shap_waterfall_irsuitryyr.png" alt="Waterfall SHAP de IRSUITRYYR" onclick="openFigure(this.src,this.alt)"></div>
+  <div class="card" style="margin-top:14px"><div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap"><div><h3>Explicación local del informe</h3><p class="muted">Estos datos se recuperan del JSON real de la demo. No son una gráfica precargada.</p></div><select id="shapReportSelect" class="btn" onchange="loadSelectedShapReport()"><option>Selecciona un informe</option></select></div><div id="shapState" class="info" style="margin-top:12px">Selecciona o actualiza un informe para consultar sus contribuciones SHAP.</div><div id="shapSummary" class="hidden" style="margin-top:12px"></div></div>
+  <div class="grid3" style="margin-top:14px"><div class="card"><h3>Predicción</h3><p class="muted">Probabilidades, umbrales y clasificaciones proceden del motor predictivo.</p></div><div class="card"><h3>Explicación</h3><p class="muted">Se muestran las variables y valores SHAP locales presentes en el informe seleccionado.</p></div><div class="card"><h3>Generación</h3><p class="muted">La capa generativa organiza el contenido, pero no altera la salida predictiva.</p></div></div>
+</section>
+
+<section id="page-history" class="page hidden">
+  <div class="head">
+    <div>
+      <h2>Historial de informes</h2>
+      <p>Resultados reales guardados en <code>results/agent_reports</code>. La consulta no repite ML/DL, SHAP, RAG ni Mistral.</p>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn" onclick="loadHistory(true)">Actualizar</button>
+      <a class="btn" href="/informes" target="_blank">Vista original</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div id="historyState" class="info">Cargando informes…</div>
+    <div id="historyTableWrap" class="hidden" style="overflow:auto">
+      <table style="width:100%;border-collapse:collapse;font-size:12px">
+        <thead>
+          <tr>
+            <th style="text-align:left;padding:10px;border-bottom:1px solid var(--line)">Informe</th>
+            <th style="text-align:left;padding:10px;border-bottom:1px solid var(--line)">Fecha</th>
+            <th style="text-align:left;padding:10px;border-bottom:1px solid var(--line)">Archivo de entrada</th>
+            <th style="text-align:left;padding:10px;border-bottom:1px solid var(--line)">Sobre umbral</th>
+            <th style="text-align:left;padding:10px;border-bottom:1px solid var(--line)"></th>
+          </tr>
+        </thead>
+        <tbody id="historyBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="reportDetail" class="hidden" style="margin-top:14px"></div>
+</section>
+
+<section id="page-application" class="page hidden">
+  <div class="head">
+    <div>
+      <h2>Aplicación · ejecución real local</h2>
+      <p>Esta es la interfaz Flask real del prototipo, integrada dentro del dashboard y conectada a los modelos y agentes cerrados del TFM.</p>
+    </div>
+    <div></div>
+  </div>
+
+  <div class="notice" style="margin-bottom:12px">
+    Acceso de demostración: <strong>CAM</strong>. Los tres CSV de demostración son datos reales de simulación del proyecto. Al pulsar generar informe, el cálculo se realiza en el runtime local; esta página no sustituye las probabilidades con valores precargados.
+  </div>
+
+  <div class="live-frame-wrap">
+    <div class="frame-toolbar">
+      <div class="frame-toolbar-left">
+        <span class="status live"><span class="dot"></span>Runtime local</span>
+        <span class="frame-title">http://127.0.0.1:5000/acceso</span>
+      </div>
+    </div>
+    <iframe id="applicationFrame" data-src="/acceso" title="Aplicación Flask real"></iframe>
+  </div>
+  <div class="app-bottom-bar"><button class="btn" onclick="selectNav('home')">Dashboard demo</button></div>
+</section>
+
+
+<section id="page-models" class="page hidden">
+  <div class="head">
+    <div>
+      <h2>Modelos seleccionados</h2>
+      <p>Explora la solución predictiva final y contrástala con las probabilidades reales guardadas de los casos de demostración. No se reentrena, recalibra ni vuelve a evaluar TEST.</p>
+    </div>
+    <span class="status data"><span class="dot"></span>Configuración cerrada</span>
+  </div>
+
+  <div class="notice" style="margin-bottom:14px">
+    Selecciona una variable objetivo para consultar su familia, modelo, umbral y comportamiento en <strong>demo_01–demo_03</strong>. Las probabilidades del gráfico se leen de los informes reales disponibles en <code>results/agent_reports</code>; no son valores inventados por el dashboard.
+  </div>
+
+  <div class="family-filter">
+    <span>Filtrar:</span>
+    <button class="filter-btn active" data-family="ALL" onclick="filterModels('ALL',this)">Todos</button>
+    <button class="filter-btn" data-family="ML" onclick="filterModels('ML',this)">ML</button>
+    <button class="filter-btn" data-family="DL" onclick="filterModels('DL',this)">DL</button>
+  </div>
+
+  <div class="model-controls" id="modelControls">
+    <button class="model-choice active" data-target="IRAMDEYR" data-family="ML" onclick="selectModel('IRAMDEYR',this)">
+      <span class="code">IRAMDEYR</span>
+      <span class="desc">Episodio depresivo mayor</span>
+      <span class="family-mini ml">ML · XGBoost</span>
+    </button>
+    <button class="model-choice" data-target="IRSUICTHNK" data-family="DL" onclick="selectModel('IRSUICTHNK',this)">
+      <span class="code">IRSUICTHNK</span>
+      <span class="desc">Ideación suicida</span>
+      <span class="family-mini dl">DL · Ensemble</span>
+    </button>
+    <button class="model-choice" data-target="IRSUIPLANYR" data-family="DL" onclick="selectModel('IRSUIPLANYR',this)">
+      <span class="code">IRSUIPLANYR</span>
+      <span class="desc">Planificación suicida</span>
+      <span class="family-mini dl">DL · Ensemble</span>
+    </button>
+    <button class="model-choice" data-target="IRSUITRYYR" data-family="DL" onclick="selectModel('IRSUITRYYR',this)">
+      <span class="code">IRSUITRYYR</span>
+      <span class="desc">Intento suicida</span>
+      <span class="family-mini dl">DL · Ensemble</span>
+    </button>
+  </div>
+
+  <div class="model-focus">
+    <div class="card">
+      <div class="head" style="margin-bottom:8px">
+        <div>
+          <div class="muted" style="font-size:9px;text-transform:uppercase;font-weight:800">Modelo activo</div>
+          <h2 id="modelTitle" style="font-size:18px;margin-top:3px">IRAMDEYR</h2>
+          <p id="modelDescription">Episodio depresivo mayor</p>
+        </div>
+        <span id="modelFamilyBadge" class="model-tag ml">ML</span>
+      </div>
+
+      <div class="model-detail-grid">
+        <div class="model-detail">
+          <span>Modelo final</span>
+          <strong id="modelName">XGBoost</strong>
+        </div>
+        <div class="model-detail">
+          <span>Umbral final</span>
+          <strong id="modelThreshold">0,500</strong>
+        </div>
+        <div class="model-detail">
+          <span>Entorno responsable</span>
+          <strong>TFM_ML</strong>
+        </div>
+        <div class="model-detail">
+          <span>Salida disponible</span>
+          <strong>Probabilidad · clase · SHAP</strong>
+        </div>
+      </div>
+
+      <div class="threshold-scale" aria-label="Escala de umbral">
+        <div class="threshold-track"></div>
+        <div id="thresholdSafe" class="threshold-safe" style="width:50%"></div>
+        <div id="thresholdMarker" class="threshold-marker" style="left:50%"></div>
+        <div id="thresholdLabel" class="threshold-label" style="left:50%">umbral 0,500</div>
+        <div class="threshold-axis"><span>0,0</span><span>probabilidad</span><span>1,0</span></div>
+      </div>
+
+      <div class="info" style="margin-top:10px;font-size:10px">
+        <strong>Lectura:</strong> <span id="modelReading">una probabilidad ≥ 0,500 activa la señal preventiva para esta salida.</span>
+      </div>
+
+      <div class="model-actions">
+        <button class="btn" onclick="selectNav('application')">Ejecutar un caso</button>
+        <button class="btn" onclick="selectNav('history')">Abrir historial</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="head" style="margin-bottom:6px">
+        <div>
+          <h3>Comportamiento en casos demo</h3>
+          <p>Probabilidad frente al umbral del modelo seleccionado.</p>
+        </div>
+        <button class="btn" onclick="loadModelEvidence(selectedModelTarget,true)">Actualizar</button>
+      </div>
+
+      <div id="modelEvidenceState" class="info">
+        Selecciona un modelo para consultar los informes reales disponibles.
+      </div>
+      <div id="modelEvidence" class="demo-evidence hidden"></div>
+
+      <div class="legend" style="margin-top:12px">
+        <span><i class="swatch ml"></i>Modelo ML</span>
+        <span><i class="swatch dl"></i>Modelo DL</span>
+        <span><i class="swatch" style="background:#344054"></i>Umbral de decisión</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px;overflow:auto">
+    <div class="head" style="margin-bottom:6px">
+      <div>
+        <h3>Comparación de la solución híbrida</h3>
+        <p>Vista completa de los cuatro contratos predictivos utilizados por la aplicación.</p>
+      </div>
+    </div>
+    <table class="model-table">
+      <thead>
+        <tr>
+          <th>Variable objetivo</th>
+          <th>Indicador</th>
+          <th>Familia</th>
+          <th>Modelo final</th>
+          <th>Umbral</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="model-table-row" data-family="ML" onclick="selectModelFromTable('IRAMDEYR')" style="cursor:pointer">
+          <td><strong>IRAMDEYR</strong></td><td>Episodio depresivo mayor</td><td><span class="model-tag ml">ML</span></td><td>XGBoost</td><td><strong>0,500</strong></td>
+        </tr>
+        <tr class="model-table-row" data-family="DL" onclick="selectModelFromTable('IRSUICTHNK')" style="cursor:pointer">
+          <td><strong>IRSUICTHNK</strong></td><td>Ideación suicida</td><td><span class="model-tag dl">DL</span></td><td>Ensemble — ramas 32 + sin BatchNormalization (50/50)</td><td><strong>0,509</strong></td>
+        </tr>
+        <tr class="model-table-row" data-family="DL" onclick="selectModelFromTable('IRSUIPLANYR')" style="cursor:pointer">
+          <td><strong>IRSUIPLANYR</strong></td><td>Planificación suicida</td><td><span class="model-tag dl">DL</span></td><td>Ensemble — ramas 32 + sin BatchNormalization (50/50)</td><td><strong>0,536</strong></td>
+        </tr>
+        <tr class="model-table-row" data-family="DL" onclick="selectModelFromTable('IRSUITRYYR')" style="cursor:pointer">
+          <td><strong>IRSUITRYYR</strong></td><td>Intento suicida</td><td><span class="model-tag dl">DL</span></td><td>Ensemble — ramas 32 + sin BatchNormalization (50/50)</td><td><strong>0,502</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card" style="margin-top:14px;overflow:auto">
+    <div class="head" style="margin-bottom:6px"><div><h3>Métricas finales sobre TEST</h3><p>Valores de la selección final documentada en el Notebook 04.</p></div><span class="status data"><span class="dot"></span>Referencia científica</span></div>
+    <table class="model-table"><thead><tr><th>Objetivo</th><th>AP</th><th>ROC-AUC</th><th>Recall</th><th>Precision</th><th>F2</th></tr></thead><tbody>
+      <tr><td><strong>IRAMDEYR</strong></td><td>0,515</td><td>0,896</td><td>0,855</td><td>0,332</td><td>0,650</td></tr>
+      <tr><td><strong>IRSUICTHNK</strong></td><td>0,322</td><td>0,835</td><td>0,708</td><td>0,220</td><td>0,490</td></tr>
+      <tr><td><strong>IRSUIPLANYR</strong></td><td>0,171</td><td>0,857</td><td>0,762</td><td>0,095</td><td>0,317</td></tr>
+      <tr><td><strong>IRSUITRYYR</strong></td><td>0,094</td><td>0,846</td><td>0,771</td><td>0,037</td><td>0,155</td></tr>
+    </tbody></table>
+  </div>
+
+  <div class="grid3" style="margin-top:14px">
+    <div class="card"><h3>Selección cerrada</h3><p class="muted" style="font-size:11px;line-height:1.55">Los controles solo exploran la configuración final. No cambian modelos, umbrales ni hiperparámetros.</p></div>
+    <div class="card"><h3>Datos reales de la demo</h3><p class="muted" style="font-size:11px;line-height:1.55">Las barras se construyen leyendo los informes JSON que ya utiliza el historial del dashboard.</p></div>
+    <div class="card"><h3>Lectura preventiva</h3><p class="muted" style="font-size:11px;line-height:1.55">Superar un umbral activa una señal del sistema; no equivale a diagnóstico clínico ni a decisión asistencial automática.</p></div>
+  </div>
+</section>
+
+<section id="page-traceability" class="page hidden">
+  <div class="head">
+    <div>
+      <h2>Trazabilidad extremo a extremo</h2>
+      <p>Recorrido funcional desde el registro de entrada hasta el informe final, manteniendo separados cálculo predictivo y generación de lenguaje.</p>
+    </div>
+    <span id="traceRuntimeStatus" class="status data"><span class="dot"></span>Inicializando motor</span>
+  </div>
+
+  <div class="trace-grid">
+    <div class="trace-step"><span class="trace-num">1</span><strong>Entrada CSV</strong><p>Registro estructurado de demostración y selección del caso.</p></div>
+    <div class="trace-step"><span class="trace-num">2</span><strong>Validación Pydantic</strong><p>Comprobación contractual antes de ejecutar el flujo.</p></div>
+    <div class="trace-step"><span class="trace-num">3</span><strong>Tool predictiva local</strong><p>Bridge controlado desde TFM_Agentes hacia TFM_ML.</p></div>
+    <div class="trace-step"><span class="trace-num">4</span><strong>ML / DL</strong><p>Cuatro probabilidades, umbrales y clasificaciones deterministas.</p></div>
+    <div class="trace-step"><span class="trace-num">5</span><strong>SHAP</strong><p>Explicación por salida sin modificar la predicción calculada.</p></div>
+    <div class="trace-step"><span class="trace-num">6</span><strong>RAG documental</strong><p>Recuperación de contexto controlado para apoyar la redacción.</p></div>
+    <div class="trace-step"><span class="trace-num">7</span><strong>Mistral + LangGraph</strong><p>Generación estructurada y orquestación de los nodos del flujo.</p></div>
+    <div class="trace-step"><span class="trace-num">8</span><strong>Guardrails</strong><p>Reconstrucción determinista y controles de consistencia y uso.</p></div>
+    <div class="trace-step"><span class="trace-num">9</span><strong>Informe + historial</strong><p>Salida preventiva guardada y recuperable sin recalcular el caso.</p></div>
+  </div>
+
+  <div class="grid2" style="margin-top:14px">
+    <div class="card">
+      <h3>Datos registrados en una ejecución</h3>
+      <div class="grid2" style="margin-top:10px">
+        <div class="trace-fact"><strong>813</strong><span>variables de entrada del contrato API</span></div>
+        <div class="trace-fact"><strong>4</strong><span>predicciones estructuradas</span></div>
+        <div class="trace-fact"><strong>5</strong><span>nodos registrados en la trazabilidad real</span></div>
+        <div class="trace-fact"><strong>13</strong><span>consultas documentales en el caso de referencia</span></div>
+        <div class="trace-fact"><strong>12</strong><span>factores SHAP autorizados para la comunicación generativa</span></div>
+        <div class="trace-fact"><strong>15 × 4</strong><span>variables principales SHAP transferidas por objetivo</span></div>
+        <div class="trace-fact"><strong>17</strong><span>variables compartidas entre indicadores</span></div>
+        <div class="trace-fact"><strong>37.840</strong><span>predicciones TEST conservadas como referencia</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Contratos de trazabilidad</h3>
+      <div class="contract"><strong>TEST</strong><span>No se utiliza para reentrenamiento ni recalibración durante la demo.</span></div>
+      <div class="contract"><strong>Probabilidades</strong><span>Proceden del motor predictivo; el LLM no puede modificarlas.</span></div>
+      <div class="contract"><strong>Umbrales</strong><span>Se cargan como configuración cerrada por variable objetivo.</span></div>
+      <div class="contract"><strong>SHAP</strong><span>Explica la salida calculada; no sustituye ni altera la clasificación.</span></div>
+      <div class="contract"><strong>Generación</strong><span>Organiza y comunica el resultado dentro de límites preventivos y no diagnósticos.</span></div>
+    </div>
+    <div class="card">
+      <h3>Separación de responsabilidades</h3>
+      <div class="contract"><strong>TFM_ML</strong><span>Preprocesamiento, ML/DL, probabilidades, umbrales y explicabilidad predictiva.</span></div>
+      <div class="contract"><strong>TFM_Agentes</strong><span>Validación, tool, LangGraph, RAG, Mistral, guardrails, Flask e historial.</span></div>
+      <div class="contract"><strong>dashboard_demo</strong><span>Presentación, navegación, acceso a la app real, estado del motor e inspección de resultados.</span></div>
+      <div class="contract"><strong>Guardado de informes</strong><span>Informes recuperables desde <code>results/agent_reports</code> sin repetir inferencia ni generación.</span></div>
+    </div>
+  </div>
+
+  <div class="info" style="margin-top:14px">
+    <strong>Lectura de la trazabilidad:</strong> el diagrama resume nueve responsabilidades del sistema. En una ejecución real del caso de referencia se registran cinco nodos operativos: validación, predicción, explicación, recuperación documental y preparación del contexto. La generación final y los controles posteriores completan el flujo de la aplicación.
+  </div>
+</section>
+
+<section id="page-architecture" class="page hidden">
+  <div class="head">
+    <div><h2>Arquitectura</h2><p>La capa visual no altera el contrato científico ni la separación de entornos.</p></div>
+  </div>
+  <div class="card">
+    <div class="arch">
+      <div class="archbox"><strong>Usuario / CSV</strong><small>Entrada estructurada · 813 variables del contrato API</small></div>
+      <div class="arrow">→</div>
+      <div class="archbox"><strong>TFM_Agentes</strong><small>Flask · Pydantic · LangGraph · RAG · Mistral · guardrails</small></div>
+      <div class="arrow">→</div>
+      <div class="archbox"><strong>TFM_ML</strong><small>Preprocesamiento · ML/DL · probabilidades · umbrales · SHAP</small></div>
+    </div>
+    <div class="arrow" style="transform:rotate(90deg);margin:7px">→</div>
+      <div class="archbox"><strong>Informe preventivo guardado</strong><small>4 predicciones · 10 campos de salida · explicación controlada · trazabilidad · historial</small></div>
+  </div>
+  <div class="grid3" style="margin-top:14px">
+    <div class="card"><h3>ML</h3><p class="muted" style="font-size:11px">IRAMDEYR → XGBoost · umbral 0,500.</p></div>
+    <div class="card"><h3>DL</h3><p class="muted" style="font-size:11px">IRSUICTHNK / IRSUIPLANYR / IRSUITRYYR → ensemble final · 0,509 / 0,536 / 0,502.</p></div>
+    <div class="card"><h3>LLM</h3><p class="muted" style="font-size:11px">Comunica y estructura; no modifica probabilidades, umbrales, clasificación ni SHAP.</p></div>
+  </div>
+</section>
+
+<section id="page-api" class="page hidden">
+  <div class="head">
+    <div><h2>API real</h2><p>Endpoints servidos por el mismo runtime Flask recuperado del Notebook 05.</p></div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Endpoints</h3>
+      <div class="endpoint"><code>/api/v1/health</code><span>Estado del servicio y versiones.</span></div>
+      <div class="endpoint"><code>/api/v1/esquema</code><span>Contrato de entrada/salida.</span></div>
+      <div class="endpoint"><code>/api/v1/predict</code><span>Predicción estructurada.</span></div>
+      <div class="endpoint"><code>/api/v1/report</code><span>Flujo completo e informe.</span></div>
+      <div class="endpoint"><code>/api/v1/access</code><span>Acceso de demostración.</span></div>
+      <div class="endpoint"><code>/api/v1/report-file</code><span>Ruta real registrada por la aplicación.</span></div>
+      <div class="endpoint"><code>/informes</code><span>Historial de informes guardados.</span></div>
+      <div class="endpoint"><code>/informe/&lt;id_informe&gt;</code><span>Recuperación de un informe sin recalcular.</span></div>
+      <div class="endpoint"><code>/acceso</code><span>Interfaz de usuario real.</span></div>
+    </div>
+    <div class="card">
+      <h3>/api/v1/health · respuesta actual</h3>
+      <pre id="healthJson">Cargando...</pre>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+        <a class="btn" href="/api/v1/health" target="_blank">Abrir health</a>
+        <a class="btn" href="/api/v1/esquema" target="_blank">Abrir esquema</a>
+      </div>
+    </div>
+  </div>
+  <div class="card figure-card" style="margin-top:14px"><h3>Interfaz API documentada</h3><p class="muted">Captura estática de la interfaz incluida en la documentación del sistema.</p><img class="notebook-figure" src="/dashboard/assets/interfaz_api.png" alt="Interfaz API documentada" onclick="openFigure(this.src,this.alt)"></div>
+</section>
+
+<section id="page-about" class="page hidden">
+  <div class="head"><div><h2>Acerca de</h2><p>Información del sistema y alcance de esta capa de presentación.</p></div></div>
+  <div class="grid2">
+    <div class="card">
+      <h3>Información del sistema</h3>
+      <p class="muted" style="font-size:12px;line-height:1.6">
+        El servidor local, la interfaz Flask, el acceso CAM, las predicciones, los umbrales, las explicaciones SHAP,
+        el RAG, LangGraph, Mistral, los guardrails, el guardado de informes y el historial proceden del runtime recuperado
+        del Notebook 05 mediante <code>demo_tfm.py</code>. Las figuras de esta pantalla son exportaciones estáticas de los notebooks ejecutados.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Qué añade este dashboard</h3>
+      <p class="muted" style="font-size:12px;line-height:1.6">
+        Navegación unificada, presentación profesional, acceso directo a la aplicación real, historial integrado,
+        modelos seleccionados, trazabilidad, estado del servicio y documentación visual. No reentrena ni recalibra nada.
+      </p>
+    </div>
+    <div class="card"><h3>Autoría y acceso</h3><p class="muted" style="font-size:12px;line-height:1.6"><strong>Carlos Ayllón Motto</strong><br>Trabajo Fin de Máster · Big Data, Data Science e Inteligencia Artificial.</p><a class="btn" href="https://github.com/ayllonmotto/TFM_NSDUH_CAM" target="_blank" rel="noopener">Repositorio público</a></div>
+  </div>
+  <div class="footer">Capa de presentación · TFM NSDUH 2024 · Autor: Carlos Ayllón Motto</div>
+</section>
+
+</div>
+</main>
+</div>
+
+<script>
+function showPage(id,btn){
+  document.querySelectorAll(".page").forEach(x=>x.classList.add("hidden"));
+  document.getElementById("page-"+id).classList.remove("hidden");
+  document.querySelectorAll(".nav").forEach(x=>x.classList.remove("active"));
+  if(btn) btn.classList.add("active");
+  if(id==="application") ensureFrame("applicationFrame");
+  if(id==="history") loadHistory();
+  if(id==="models") ensureModelsPage();
+  if(id==="shap") loadShapSummary();
+}
+function ensureFrame(id){
+  const f=document.getElementById(id);
+  if(!f.src || f.src==="about:blank"){
+    f.src=f.dataset.src;
+  }
+  if(id==="applicationFrame" && !f.dataset.exitHook){
+    f.dataset.exitHook="1";
+    f.addEventListener("load", adaptApplicationFrame);
+  }
+}
+function cleanForbiddenWord(doc){
+  try{
+    const walker=doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    while(walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(n=>{
+      n.nodeValue=n.nodeValue
+        .replace(/guardado/gi,"guardados")
+        .replace(/guardado/gi,"guardadas")
+        .replace(/guardado/gi,"guardado")
+        .replace(/guardado/gi,"guardada");
+    });
+  }catch(e){}
+}
+function adaptApplicationFrame(){
+  const f=document.getElementById("applicationFrame");
+  try{
+    const doc=f.contentDocument || f.contentWindow.document;
+    cleanForbiddenWord(doc);
+    const controls=[...doc.querySelectorAll("button,input[type=submit],input[type=button],a")];
+    controls.forEach(el=>{
+      const txt=(el.innerText || el.value || "").trim();
+      if(/salir.*cerrar|cerrar.*salir/i.test(txt)){
+        if(el.tagName==="INPUT") el.value="Volver al dashboard";
+        else el.textContent="Volver al dashboard";
+        if(el.tagName==="BUTTON") el.type="button";
+        el.removeAttribute("href");
+        el.onclick=function(ev){
+          ev.preventDefault();
+          ev.stopPropagation();
+          window.top.location.href="/dashboard/logout";
+          return false;
+        };
+      }
+    });
+  }catch(e){
+    console.debug("No se pudo adaptar el botón de salida del iframe:",e);
+  }
+}
+function selectNav(id){
+  const b=document.querySelector(`.nav[data-page="${id}"]`);
+  showPage(id,b);
+}
+function openApplication(){ selectNav("application"); }
+function openHistory(){ selectNav("history"); }
+function reloadApplication(){
+  const f=document.getElementById("applicationFrame");
+  ensureFrame("applicationFrame");
+  try{ f.contentWindow.location.reload(); }catch(e){ f.src="/acceso"; }
+}
+
+
+const MODEL_CONFIG={
+  IRAMDEYR:{
+    target:"IRAMDEYR",
+    description:"Episodio depresivo mayor",
+    family:"ML",
+    model:"XGBoost",
+    threshold:0.500
+  },
+  IRSUICTHNK:{
+    target:"IRSUICTHNK",
+    description:"Ideación suicida",
+    family:"DL",
+    model:"Ensemble — ramas 32 + sin BatchNormalization (50/50)",
+    threshold:0.509
+  },
+  IRSUIPLANYR:{
+    target:"IRSUIPLANYR",
+    description:"Planificación suicida",
+    family:"DL",
+    model:"Ensemble — ramas 32 + sin BatchNormalization (50/50)",
+    threshold:0.536
+  },
+  IRSUITRYYR:{
+    target:"IRSUITRYYR",
+    description:"Intento suicida",
+    family:"DL",
+    model:"Ensemble — ramas 32 + sin BatchNormalization (50/50)",
+    threshold:0.502
+  }
+};
+
+let selectedModelTarget="IRAMDEYR";
+let modelEvidenceCache={};
+let modelsInitialized=false;
+
+function fmtDecimal(v,digits=3){
+  const n=Number(v);
+  return Number.isFinite(n) ? n.toFixed(digits).replace(".",",") : "—";
+}
+
+function ensureModelsPage(){
+  if(modelsInitialized) return;
+  modelsInitialized=true;
+  const btn=document.querySelector('.model-choice[data-target="IRAMDEYR"]');
+  selectModel("IRAMDEYR",btn);
+}
+
+function selectModel(target,btn){
+  const cfg=MODEL_CONFIG[target];
+  if(!cfg) return;
+
+  selectedModelTarget=target;
+
+  document.querySelectorAll(".model-choice").forEach(x=>x.classList.remove("active"));
+  if(btn) btn.classList.add("active");
+
+  document.getElementById("modelTitle").textContent=cfg.target;
+  document.getElementById("modelDescription").textContent=cfg.description;
+  document.getElementById("modelName").textContent=cfg.model;
+  document.getElementById("modelThreshold").textContent=fmtDecimal(cfg.threshold);
+
+  const badge=document.getElementById("modelFamilyBadge");
+  badge.textContent=cfg.family;
+  badge.className="model-tag "+cfg.family.toLowerCase();
+
+  const pct=Math.max(0,Math.min(100,cfg.threshold*100));
+  document.getElementById("thresholdSafe").style.width=pct+"%";
+  document.getElementById("thresholdMarker").style.left=pct+"%";
+  document.getElementById("thresholdLabel").style.left=pct+"%";
+  document.getElementById("thresholdLabel").textContent="umbral "+fmtDecimal(cfg.threshold);
+  document.getElementById("modelReading").textContent=
+    "una probabilidad ≥ "+fmtDecimal(cfg.threshold)+" activa la señal preventiva para esta salida.";
+
+  loadModelEvidence(target);
+}
+
+function selectModelFromTable(target){
+  const btn=document.querySelector('.model-choice[data-target="'+target+'"]');
+  if(btn && btn.style.display==="none") filterModels("ALL",document.querySelector('.filter-btn[data-family="ALL"]'));
+  selectModel(target,btn);
+  document.getElementById("modelControls").scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+function filterModels(family,btn){
+  document.querySelectorAll(".filter-btn").forEach(x=>x.classList.remove("active"));
+  if(btn) btn.classList.add("active");
+
+  const choices=[...document.querySelectorAll(".model-choice")];
+  const rows=[...document.querySelectorAll(".model-table-row")];
+
+  choices.forEach(x=>{
+    x.style.display=(family==="ALL" || x.dataset.family===family) ? "" : "none";
+  });
+  rows.forEach(x=>{
+    x.style.display=(family==="ALL" || x.dataset.family===family) ? "" : "none";
+  });
+
+  const current=document.querySelector('.model-choice[data-target="'+selectedModelTarget+'"]');
+  if(current && current.style.display==="none"){
+    const first=choices.find(x=>x.style.display!=="none");
+    if(first) selectModel(first.dataset.target,first);
+  }
+}
+
+async function loadModelEvidence(target,force=false){
+  const state=document.getElementById("modelEvidenceState");
+  const wrap=document.getElementById("modelEvidence");
+  if(!state || !wrap) return;
+
+  if(!force && modelEvidenceCache[target]){
+    renderModelEvidence(target,modelEvidenceCache[target]);
+    return;
+  }
+
+  state.className="info";
+  state.textContent="Leyendo informes reales de la demo…";
+  state.classList.remove("hidden");
+  wrap.classList.add("hidden");
+
+  try{
+    const r=await fetch("/dashboard/api/informes",{cache:"no-store"});
+    const data=await r.json();
+    if(!r.ok) throw new Error(data.error || ("HTTP "+r.status));
+
+    let items=(data.informes || []).filter(x=>/^demo_0[123]$/i.test(String(x.id_informe||"")));
+    items.sort((a,b)=>String(a.id_informe).localeCompare(String(b.id_informe)));
+
+    const evidence=[];
+    for(const item of items){
+      const rr=await fetch(
+        "/dashboard/api/informe/"+encodeURIComponent(item.id_informe),
+        {cache:"no-store"}
+      );
+      const report=await rr.json();
+      if(!rr.ok) continue;
+
+      const preds=((report.respuesta||{}).predicciones)||[];
+      const pred=preds.find(p=>String(p.variable_objetivo||"")===target);
+      if(!pred) continue;
+
+      evidence.push({
+        id:item.id_informe,
+        probability:Number(pred.probabilidad),
+        threshold:Number(pred.umbral),
+        classification:Number(pred.clasificacion),
+        family:String(pred.familia||MODEL_CONFIG[target].family),
+        model:String(pred.modelo||MODEL_CONFIG[target].model)
+      });
+    }
+
+    modelEvidenceCache[target]=evidence;
+    renderModelEvidence(target,evidence);
+  }catch(e){
+    state.className="notice";
+    state.textContent="No se pudieron recuperar los casos demo: "+String(e);
+    state.classList.remove("hidden");
+    wrap.classList.add("hidden");
+  }
+}
+
+function renderModelEvidence(target,evidence){
+  if(target!==selectedModelTarget) return;
+
+  const state=document.getElementById("modelEvidenceState");
+  const wrap=document.getElementById("modelEvidence");
+  const cfg=MODEL_CONFIG[target];
+
+  if(!evidence.length){
+    state.className="info";
+    state.textContent="No hay informes demo_01–demo_03 disponibles para esta salida.";
+    state.classList.remove("hidden");
+    wrap.classList.add("hidden");
+    return;
+  }
+
+  wrap.innerHTML=evidence.map(x=>{
+    const p=Math.max(0,Math.min(1,Number(x.probability)||0));
+    const t=Math.max(0,Math.min(1,Number(x.threshold)||cfg.threshold));
+    const above=Number(x.classification)===1;
+    const delta=p-t;
+    return `
+      <div class="demo-case">
+        <div>
+          <strong>${escapeHtml(x.id)}</strong>
+          <div class="demo-meta">${above?"sobre umbral":"bajo umbral"}</div>
+        </div>
+        <div>
+          <div class="prob-track">
+            <div class="prob-fill ${cfg.family==="DL"?"dl":""}" style="width:${(p*100).toFixed(2)}%"></div>
+            <div class="prob-threshold" style="left:${(t*100).toFixed(2)}%" title="Umbral ${fmtDecimal(t)}"></div>
+          </div>
+          <div class="demo-meta">
+            Δ umbral ${delta>=0?"+":""}${fmtDecimal(delta,3)}
+          </div>
+        </div>
+        <div class="value">
+          ${fmtPct(p)}
+          <div style="margin-top:4px">${badgeHtml(above)}</div>
+        </div>
+      </div>`;
+  }).join("");
+
+  state.textContent=evidence.length+" caso(s) real(es) de demostración recuperado(s).";
+  state.className="info";
+  state.classList.remove("hidden");
+  wrap.classList.remove("hidden");
+}
+
+function fmtPct(v){
+  const n=Number(v);
+  return Number.isFinite(n) ? (n*100).toFixed(1).replace(".",",")+" %" : "—";
+}
+function badgeHtml(active){
+  return `<span class="status ${active?"data":"live"}"><span class="dot"></span>${active?"Sobre umbral":"Bajo umbral"}</span>`;
+}
+async function loadHistory(force=false){
+  const state=document.getElementById("historyState");
+  const wrap=document.getElementById("historyTableWrap");
+  if(!state || !wrap) return;
+  if(!force && wrap.dataset.loaded==="1") return;
+
+  state.classList.remove("hidden");
+  state.textContent="Cargando informes…";
+  wrap.classList.add("hidden");
+
+  try{
+    const r=await fetch("/dashboard/api/informes",{cache:"no-store"});
+    const data=await r.json();
+    if(!r.ok) throw new Error(data.error || ("HTTP "+r.status));
+
+    const items=data.informes || [];
+    const body=document.getElementById("historyBody");
+    body.innerHTML=items.map(x=>`
+      <tr>
+        <td style="padding:10px;border-bottom:1px solid var(--line)"><strong>${escapeHtml(x.id_informe)}</strong></td>
+        <td style="padding:10px;border-bottom:1px solid var(--line)">${escapeHtml((x.fecha||"").replace("T"," "))}</td>
+        <td style="padding:10px;border-bottom:1px solid var(--line)">${escapeHtml(x.archivo_origen||"—")}</td>
+        <td style="padding:10px;border-bottom:1px solid var(--line)">${x.sobre_umbral ?? 0}/4</td>
+        <td style="padding:10px;border-bottom:1px solid var(--line)">
+          <button class="btn" onclick='openReport(${JSON.stringify(x.id_informe)})'>Ver resultado</button>
+        </td>
+      </tr>`).join("");
+
+    state.textContent=items.length
+      ? `${items.length} informe(s) disponible(s).`
+      : "Todavía no hay informes guardados.";
+    wrap.classList.remove("hidden");
+    wrap.dataset.loaded="1";
+  }catch(e){
+    state.textContent="No se pudo cargar el historial: "+String(e);
+  }
+}
+function escapeHtml(v){
+  return String(v ?? "").replace(/[&<>"']/g, function(ch){
+    if(ch==="&") return "&amp;";
+    if(ch==="<") return "&lt;";
+    if(ch===">") return "&gt;";
+    if(ch==='"') return "&quot;";
+    return "&#039;";
+  });
+}
+async function openReport(id){
+  const box=document.getElementById("reportDetail");
+  box.classList.remove("hidden");
+  box.innerHTML='<div class="card"><div class="info">Cargando resultado…</div></div>';
+
+  try{
+    const r=await fetch("/dashboard/api/informe/"+encodeURIComponent(id),{cache:"no-store"});
+    const data=await r.json();
+    if(!r.ok) throw new Error(data.error || ("HTTP "+r.status));
+
+    const rr=data.respuesta || {};
+    const preds=rr.predicciones || [];
+    const inf=rr.informe || {};
+    const trace=rr.trazabilidad || [];
+    const shapDetail=rr.detalle_explicabilidad || [];
+    const shapGroups={}; shapDetail.forEach(x=>(shapGroups[x.variable_objetivo] ||= []).push(x));
+    const shapDetailHtml=Object.entries(shapGroups).map(([target,rows])=>`<div class="card" style="margin-top:10px"><h3>${escapeHtml(target)} · ${escapeHtml(rows[0].descripcion_objetivo||"")}</h3><table class="shap-live-table"><thead><tr><th>Variable</th><th>Valor SHAP</th><th>Tipo</th><th>Respuesta</th></tr></thead><tbody>${rows.sort((a,b)=>(a.posicion_factor||99)-(b.posicion_factor||99)).map(x=>{const val=Number(x.valor_shap);return `<tr><td><strong>${escapeHtml(x.variable_origen||"—")}</strong><br><span class="muted">${escapeHtml(x.descripcion||x.descripcion_original||"")}</span></td><td class="${val>=0?"shap-value-positive":"shap-value-negative"}">${Number.isFinite(val)?val.toFixed(4):"—"}</td><td>${escapeHtml(x.tipo_factor||"—")}</td><td>${escapeHtml(x.respuesta_observada||String(x.valor_observado??"—"))}</td></tr>`}).join("")}</tbody></table></div>`).join("");
+
+    box.innerHTML=`
+      <div class="card">
+        <div class="head" style="margin-bottom:10px">
+          <div>
+            <h2 style="font-size:18px">${escapeHtml(data.id_informe || id)}</h2>
+            <p>${escapeHtml((data.fecha||"").replace("T"," "))} · ${escapeHtml(data.archivo_origen||"")}</p>
+          </div>
+          <button class="btn" onclick="document.getElementById('reportDetail').classList.add('hidden')">Cerrar resultado</button>
+        </div>
+        <div class="kpis">
+          ${preds.map(p=>`
+            <div class="kpi">
+              <span>${escapeHtml(p.descripcion || p.variable_objetivo)}</span>
+              <b>${fmtPct(p.probabilidad)}</b>
+              <div style="font-size:10px;color:#667085;margin:6px 0">Umbral ${Number(p.umbral).toFixed(3).replace(".",",")} · ${escapeHtml(p.familia||"")}</div>
+              ${badgeHtml(Number(p.clasificacion)===1)}
+              <div style="font-size:10px;color:#98a2b3;margin-top:7px">${escapeHtml(p.modelo||"")}</div>
+            </div>`).join("")}
+        </div>
+      </div>
+
+      <div class="grid2" style="margin-top:14px">
+        <div class="card">
+          <h3>Informe preventivo</h3>
+          <p class="muted" style="font-size:12px;line-height:1.6"><strong>Resumen.</strong> ${escapeHtml(inf.resumen||"—")}</p>
+          <p class="muted" style="font-size:12px;line-height:1.6"><strong>Interpretación.</strong> ${escapeHtml(inf.interpretacion||"—")}</p>
+          ${(inf.orientacion_preventiva||[]).length?`
+            <h3 style="margin-top:14px">Orientación preventiva</h3>
+            <ul style="font-size:12px;color:#667085;line-height:1.55">
+              ${(inf.orientacion_preventiva||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join("")}
+            </ul>`:""}
+          ${inf.advertencia_uso?`<div class="notice" style="margin-top:12px">${escapeHtml(inf.advertencia_uso)}</div>`:""}
+        </div>
+
+        <div class="card">
+          <h3>Trazabilidad</h3>
+          ${(trace||[]).map(x=>`
+            <div style="padding:9px 0;border-bottom:1px solid #edf0f3">
+              <strong style="font-size:11px">${escapeHtml(String(x.paso||""))} · ${escapeHtml(x.nodo||"")}</strong>
+              <div class="muted" style="font-size:10px;line-height:1.45;margin-top:3px">
+                ${escapeHtml(x.entrada||"")} → ${escapeHtml(x.salida||"")}
+                ${x.tiempo_s!==undefined?` · ${Number(x.tiempo_s).toFixed(3)} s`:""}
+              </div>
+            </div>`).join("") || '<p class="muted" style="font-size:12px">Sin trazabilidad disponible.</p>'}
+        </div>
+      </div>`;
+    if(shapDetailHtml){
+      box.insertAdjacentHTML("beforeend",`<div class="card" style="margin-top:14px"><h3>Explicabilidad SHAP local</h3><p class="muted">Detalle recuperado del informe guardado; los valores muestran asociación del modelo y no causalidad.</p>${shapDetailHtml}</div>`);
+    }
+    box.scrollIntoView({behavior:"smooth",block:"start"});
+  }catch(e){
+    box.innerHTML=`<div class="card"><div class="notice">No se pudo abrir el resultado: ${escapeHtml(String(e))}</div></div>`;
+  }
+}
+async function openLatestReport(){
+  try{
+    const r=await fetch("/dashboard/api/informes",{cache:"no-store"});
+    const data=await r.json();
+    const items=data.informes || [];
+    if(!items.length){
+      alert("Todavía no hay informes guardados.");
+      return;
+    }
+    selectNav("history");
+    await loadHistory(true);
+    await openReport(items[0].id_informe);
+  }catch(e){
+    alert("No se pudo recuperar el último resultado.");
+  }
+}
+
+async function closeDemo(){
+  if(!confirm("¿Cerrar completamente el servidor local de la demo?")) return;
+  try{
+    await fetch("/dashboard/cerrar",{method:"POST"});
+  }catch(e){}
+  document.body.innerHTML='<div style="font-family:Segoe UI,Arial;padding:40px"><h2>Demo cerrada</h2><p>El servidor local se ha detenido. Para volver a utilizarla, ejecuta de nuevo el lanzador.</p></div>';
+}
+let healthLoaded=false;
+
+async function loadHealth(){
+  const status=document.getElementById("liveStatus");
+  try{
+    const r=await fetch("/api/v1/health",{cache:"no-store"});
+    const j=await r.json();
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    status.className="status live";
+    status.innerHTML='<span class="dot"></span>Servicio local activo';
+    document.getElementById("kpiVersion").textContent=j.version_predictiva ?? "Disponible";
+    document.getElementById("kpiModel").textContent=j.modelo_generativo ?? "Disponible";
+    document.getElementById("kpiPrompt").textContent=j.version_prompt ?? "Disponible";
+    document.getElementById("healthJson").textContent=JSON.stringify(j,null,2);
+    const side=document.getElementById("sideHealthState");
+    if(side) side.innerHTML='<span style="color:#157347;font-weight:800">Activo</span><br>predictiva: '+escapeHtml(j.version_predictiva ?? "—")+'<br>generativo: '+escapeHtml(j.modelo_generativo ?? "—")+'<br><span style="color:#98a2b3">/api/v1/health</span>';
+    healthLoaded=true;
+  }catch(e){
+    document.getElementById("healthJson").textContent="Motor listo, pero no se pudo consultar /api/v1/health\\n"+String(e);
+    const side=document.getElementById("sideHealthState");
+    if(side) side.innerHTML='<span style="color:#b42318;font-weight:800">No disponible</span><br><span style="font-size:9px">'+escapeHtml(String(e))+'</span>';
+  }
+}
+
+async function loadShapSummary(force=false){
+  const state=document.getElementById("shapState"), select=document.getElementById("shapReportSelect");
+  if(!state || !select) return;
+  if(force) select.dataset.loaded="";
+  if(select.dataset.loaded==="1") return loadSelectedShapReport();
+  state.className="info"; state.textContent="Consultando informes reales y sus explicaciones SHAP locales…";
+  try{
+    const r=await fetch("/dashboard/api/informes",{cache:"no-store"}); const data=await r.json();
+    if(!r.ok) throw new Error(data.error || ("HTTP "+r.status));
+    const items=(data.informes||[]).filter(x=>x.id_informe);
+    select.innerHTML=items.map((x,i)=>'<option value="'+escapeHtml(x.id_informe)+'"'+(i===0?' selected':'')+'>'+escapeHtml(x.id_informe)+' · '+escapeHtml((x.archivo_origen||'').split('/').pop())+'</option>').join('') || '<option value="">Sin informes disponibles</option>';
+    select.dataset.loaded="1";
+    await loadSelectedShapReport();
+  }catch(e){ state.className="notice"; state.textContent="No se pudieron consultar las explicaciones del runtime: "+String(e); }
+}
+
+async function loadSelectedShapReport(){
+  const select=document.getElementById("shapReportSelect"), state=document.getElementById("shapState"), wrap=document.getElementById("shapSummary");
+  if(!select || !select.value || !state || !wrap) return;
+  state.className="info"; state.textContent="Leyendo detalle SHAP del informe "+select.value+"…"; wrap.classList.add("hidden");
+  try{
+    const r=await fetch("/dashboard/api/informe/"+encodeURIComponent(select.value),{cache:"no-store"}); const data=await r.json();
+    if(!r.ok) throw new Error(data.error || ("HTTP "+r.status));
+    const details=((data.respuesta||{}).detalle_explicabilidad)||[];
+    if(!details.length){ state.textContent="El informe seleccionado no contiene detalle SHAP local."; return; }
+    const groups={}; details.forEach(x=>(groups[x.variable_objetivo] ||= []).push(x));
+    wrap.innerHTML=Object.entries(groups).map(([target,rows])=>'<div class="card" style="margin-bottom:10px"><h3>'+escapeHtml(target)+' · '+escapeHtml(rows[0].descripcion_objetivo||'')+'</h3><table class="shap-live-table"><thead><tr><th>Variable</th><th>Contribución</th><th>Tipo</th><th>Valor observado</th></tr></thead><tbody>'+rows.sort((a,b)=>(a.posicion_factor||99)-(b.posicion_factor||99)).map(x=>{const val=Number(x.valor_shap); const cls=val>=0?'shap-value-positive':'shap-value-negative'; return '<tr><td><strong>'+escapeHtml(x.variable_origen||'—')+'</strong><br><span class="muted">'+escapeHtml(x.descripcion||x.descripcion_original||'')+'</span></td><td class="'+cls+'">'+(Number.isFinite(val)?val.toFixed(4):'—')+'</td><td>'+escapeHtml(x.tipo_factor||'—')+'</td><td>'+escapeHtml(x.respuesta_observada||String(x.valor_observado??'—'))+'</td></tr>';}).join('')+'</tbody></table></div>').join('');
+    state.textContent=details.length+" contribuciones SHAP locales recuperadas del informe real."; wrap.classList.remove("hidden");
+  }catch(e){ state.className="notice"; state.textContent="No se pudo abrir el detalle SHAP: "+String(e); }
+}
+
+function showStaticShap(which,btn){
+  document.querySelectorAll('#page-shap .model-controls .filter-btn').forEach(x=>x.classList.remove('active')); if(btn) btn.classList.add('active');
+  const selected = which === 'global' ? 'Global' : which;
+  ['Global','IRAMDEYR','IRSUICTHNK','IRSUIPLANYR','IRSUITRYYR'].forEach(x=>{const el=document.getElementById('staticShap'+x); if(el) el.classList.toggle('hidden',x!==selected);});
+}
+
+function openFigure(src,alt){
+  const old=document.getElementById('figureLightbox'); if(old) old.remove();
+  const box=document.createElement('div'); box.id='figureLightbox'; box.style.cssText='position:fixed;inset:0;z-index:100;background:rgba(15,23,42,.86);display:flex;align-items:center;justify-content:center;padding:28px;cursor:zoom-out';
+  box.innerHTML='<div style="max-width:96vw;max-height:94vh;position:relative"><button class="btn" style="position:absolute;right:8px;top:8px;z-index:2" onclick="event.stopPropagation();document.getElementById(\'figureLightbox\').remove()">Cerrar</button><img src="'+escapeHtml(src)+'" alt="'+escapeHtml(alt)+'" style="display:block;max-width:96vw;max-height:94vh;object-fit:contain;background:#fff;border-radius:8px"></div>';
+  box.onclick=()=>box.remove(); document.body.appendChild(box);
+}
+
+async function pollRuntimeStatus(){
+  const status=document.getElementById("liveStatus");
+  const notice=document.getElementById("runtimeNotice");
+
+  try{
+    const r=await fetch("/dashboard/api/status",{cache:"no-store"});
+    const j=await r.json();
+
+    if(j.estado==="listo"){
+      status.className="status live";
+      status.innerHTML='<span class="dot"></span>Servicio local activo';
+      const traceStatus=document.getElementById("traceRuntimeStatus");
+      if(traceStatus){
+        traceStatus.className="status live";
+        traceStatus.innerHTML='<span class="dot"></span>Motor listo';
+      }
+      if(notice){
+        notice.innerHTML='<strong>Motor:</strong> listo. La aplicación real ya puede generar informes.';
+      }
+      if(!healthLoaded) await loadHealth();
+      return true;
+    }
+
+    if(j.estado==="error"){
+      status.className="status";
+      status.innerHTML='<span class="dot"></span>Error de inicialización';
+      const traceStatus=document.getElementById("traceRuntimeStatus");
+      if(traceStatus){
+        traceStatus.className="status";
+        traceStatus.innerHTML='<span class="dot"></span>Error de motor';
+      }
+      if(notice){
+        notice.className="notice";
+        notice.innerHTML='<strong>Motor:</strong> '+escapeHtml(j.error || j.detalle || "Error de inicialización.");
+      }
+      document.getElementById("healthJson").textContent=JSON.stringify(j,null,2);
+      return true;
+    }
+
+    status.className="status data";
+    status.innerHTML='<span class="dot"></span>Inicializando motor · '+Number(j.progreso||0)+' %';
+    const traceStatus=document.getElementById("traceRuntimeStatus");
+    if(traceStatus){
+      traceStatus.className="status data";
+      traceStatus.innerHTML='<span class="dot"></span>Inicializando · '+Number(j.progreso||0)+' %';
+    }
+    if(notice){
+      notice.innerHTML='<strong>'+escapeHtml(j.etapa||"Inicializando motor")+'.</strong> '+escapeHtml(j.detalle||"");
+    }
+    document.getElementById("healthJson").textContent=JSON.stringify(j,null,2);
+    return false;
+  }catch(e){
+    status.className="status";
+    status.innerHTML='<span class="dot"></span>Dashboard local activo';
+    return false;
+  }
+}
+
+async function startRuntimePolling(){
+  const terminado=await pollRuntimeStatus();
+  if(!terminado) setTimeout(startRuntimePolling,1000);
+}
+startRuntimePolling();
+</script>
+</body>
+</html>

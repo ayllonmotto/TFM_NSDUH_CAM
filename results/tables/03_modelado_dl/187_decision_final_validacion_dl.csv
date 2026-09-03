@@ -1,0 +1,8 @@
+﻿elemento,valor
+Tipo de solución,Ensemble
+Candidato seleccionado,Ensemble — ramas 32 + sin BatchNormalization (50/50)
+Modelos combinados,2
+Umbral IRAMDEYR,0.435
+Umbral IRSUICTHNK,0.509
+Umbral IRSUIPLANYR,0.536
+Umbral IRSUITRYYR,0.502

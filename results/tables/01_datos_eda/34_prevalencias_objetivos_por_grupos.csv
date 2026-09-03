@@ -1,0 +1,113 @@
+﻿variable_grupo,codigo_normalizado,variable_objetivo,n_registros,prevalencia_ponderada,etiqueta_codigo,orden,descripcion,objetivo_etiqueta
+AGE3,10,IRAMDEYR,5197,5.673,Respondent is between 50 and 64 years old,10,Episodio depresivo mayor,Depresión
+AGE3,10,IRSUICTHNK,5197,3.803,Respondent is between 50 and 64 years old,10,Ideación suicida,Ideación
+AGE3,10,IRSUIPLANYR,5197,1.503,Respondent is between 50 and 64 years old,10,Planificación suicida,Planificación
+AGE3,10,IRSUITRYYR,5197,0.665,Respondent is between 50 and 64 years old,10,Intento suicida,Intento
+AGE3,11,IRAMDEYR,5500,3.083,Respondent is 65 years old or older,11,Episodio depresivo mayor,Depresión
+AGE3,11,IRSUICTHNK,5500,1.96,Respondent is 65 years old or older,11,Ideación suicida,Ideación
+AGE3,11,IRSUIPLANYR,5500,0.677,Respondent is 65 years old or older,11,Planificación suicida,Planificación
+AGE3,11,IRSUITRYYR,5500,0.54,Respondent is 65 years old or older,11,Intento suicida,Intento
+AGE3,4,IRAMDEYR,5024,16.725,Respondent is between 18 and 20 years old,4,Episodio depresivo mayor,Depresión
+AGE3,4,IRSUICTHNK,5024,14.099,Respondent is between 18 and 20 years old,4,Ideación suicida,Ideación
+AGE3,4,IRSUIPLANYR,5024,4.465,Respondent is between 18 and 20 years old,4,Planificación suicida,Planificación
+AGE3,4,IRSUITRYYR,5024,2.358,Respondent is between 18 and 20 years old,4,Intento suicida,Intento
+AGE3,5,IRAMDEYR,5401,16.367,Respondent is between 21 and 23 years old,5,Episodio depresivo mayor,Depresión
+AGE3,5,IRSUICTHNK,5401,13.074,Respondent is between 21 and 23 years old,5,Ideación suicida,Ideación
+AGE3,5,IRSUIPLANYR,5401,4.595,Respondent is between 21 and 23 years old,5,Planificación suicida,Planificación
+AGE3,5,IRSUITRYYR,5401,1.945,Respondent is between 21 and 23 years old,5,Intento suicida,Intento
+AGE3,6,IRAMDEYR,3711,14.838,Respondent is 24 or 25 years old,6,Episodio depresivo mayor,Depresión
+AGE3,6,IRSUICTHNK,3711,10.356,Respondent is 24 or 25 years old,6,Ideación suicida,Ideación
+AGE3,6,IRSUIPLANYR,3711,3.001,Respondent is 24 or 25 years old,6,Planificación suicida,Planificación
+AGE3,6,IRSUITRYYR,3711,1.069,Respondent is 24 or 25 years old,6,Intento suicida,Intento
+AGE3,7,IRAMDEYR,4000,13.843,Respondent is between 26 and 29 years old,7,Episodio depresivo mayor,Depresión
+AGE3,7,IRSUICTHNK,4000,9.464,Respondent is between 26 and 29 years old,7,Ideación suicida,Ideación
+AGE3,7,IRSUIPLANYR,4000,2.898,Respondent is between 26 and 29 years old,7,Planificación suicida,Planificación
+AGE3,7,IRSUITRYYR,4000,1.161,Respondent is between 26 and 29 years old,7,Intento suicida,Intento
+AGE3,8,IRAMDEYR,5621,11.563,Respondent is between 30 and 34 years old,8,Episodio depresivo mayor,Depresión
+AGE3,8,IRSUICTHNK,5621,7.356,Respondent is between 30 and 34 years old,8,Ideación suicida,Ideación
+AGE3,8,IRSUIPLANYR,5621,2.165,Respondent is between 30 and 34 years old,8,Planificación suicida,Planificación
+AGE3,8,IRSUITRYYR,5621,1.136,Respondent is between 30 and 34 years old,8,Intento suicida,Intento
+AGE3,9,IRAMDEYR,12845,8.459,Respondent is between 35 and 49 years old,9,Episodio depresivo mayor,Depresión
+AGE3,9,IRSUICTHNK,12845,4.732,Respondent is between 35 and 49 years old,9,Ideación suicida,Ideación
+AGE3,9,IRSUIPLANYR,12845,1.491,Respondent is between 35 and 49 years old,9,Planificación suicida,Planificación
+AGE3,9,IRSUITRYYR,12845,0.555,Respondent is between 35 and 49 years old,9,Intento suicida,Intento
+IRSEX,1,IRAMDEYR,21237,6.383,Male,1,Episodio depresivo mayor,Depresión
+IRSEX,1,IRSUICTHNK,21237,5.546,Male,1,Ideación suicida,Ideación
+IRSEX,1,IRSUIPLANYR,21237,1.836,Male,1,Planificación suicida,Planificación
+IRSEX,1,IRSUITRYYR,21237,0.856,Male,1,Intento suicida,Intento
+IRSEX,2,IRAMDEYR,26062,9.998,Female,2,Episodio depresivo mayor,Depresión
+IRSEX,2,IRSUICTHNK,26062,5.46,Female,2,Ideación suicida,Ideación
+IRSEX,2,IRSUIPLANYR,26062,1.797,Female,2,Planificación suicida,Planificación
+IRSEX,2,IRSUITRYYR,26062,0.835,Female,2,Intento suicida,Intento
+NEWRACE2,1,IRAMDEYR,27461,9.084,NonHisp White,1,Episodio depresivo mayor,Depresión
+NEWRACE2,1,IRSUICTHNK,27461,5.473,NonHisp White,1,Ideación suicida,Ideación
+NEWRACE2,1,IRSUIPLANYR,27461,1.783,NonHisp White,1,Planificación suicida,Planificación
+NEWRACE2,1,IRSUITRYYR,27461,0.778,NonHisp White,1,Intento suicida,Intento
+NEWRACE2,2,IRAMDEYR,5651,6.268,NonHisp Black/Afr Am,2,Episodio depresivo mayor,Depresión
+NEWRACE2,2,IRSUICTHNK,5651,5.309,NonHisp Black/Afr Am,2,Ideación suicida,Ideación
+NEWRACE2,2,IRSUIPLANYR,5651,2.105,NonHisp Black/Afr Am,2,Planificación suicida,Planificación
+NEWRACE2,2,IRSUITRYYR,5651,1.105,NonHisp Black/Afr Am,2,Intento suicida,Intento
+NEWRACE2,3,IRAMDEYR,697,8.595,NonHisp Native Am/AK Native,3,Episodio depresivo mayor,Depresión
+NEWRACE2,3,IRSUICTHNK,697,7.446,NonHisp Native Am/AK Native,3,Ideación suicida,Ideación
+NEWRACE2,3,IRSUIPLANYR,697,2.636,NonHisp Native Am/AK Native,3,Planificación suicida,Planificación
+NEWRACE2,3,IRSUITRYYR,697,1.776,NonHisp Native Am/AK Native,3,Intento suicida,Intento
+NEWRACE2,4,IRAMDEYR,237,2.534,NonHisp Native HI/Other Pac Isl,4,Episodio depresivo mayor,Depresión
+NEWRACE2,4,IRSUICTHNK,237,2.971,NonHisp Native HI/Other Pac Isl,4,Ideación suicida,Ideación
+NEWRACE2,4,IRSUIPLANYR,237,0.891,NonHisp Native HI/Other Pac Isl,4,Planificación suicida,Planificación
+NEWRACE2,4,IRSUITRYYR,237,0.667,NonHisp Native HI/Other Pac Isl,4,Intento suicida,Intento
+NEWRACE2,5,IRAMDEYR,2273,5.773,NonHisp Asian,5,Episodio depresivo mayor,Depresión
+NEWRACE2,5,IRSUICTHNK,2273,4.509,NonHisp Asian,5,Ideación suicida,Ideación
+NEWRACE2,5,IRSUIPLANYR,2273,1.344,NonHisp Asian,5,Planificación suicida,Planificación
+NEWRACE2,5,IRSUITRYYR,2273,0.211,NonHisp Asian,5,Intento suicida,Intento
+NEWRACE2,6,IRAMDEYR,1921,15.966,NonHisp more than one race,6,Episodio depresivo mayor,Depresión
+NEWRACE2,6,IRSUICTHNK,1921,10.724,NonHisp more than one race,6,Ideación suicida,Ideación
+NEWRACE2,6,IRSUIPLANYR,1921,3.313,NonHisp more than one race,6,Planificación suicida,Planificación
+NEWRACE2,6,IRSUITRYYR,1921,1.893,NonHisp more than one race,6,Intento suicida,Intento
+NEWRACE2,7,IRAMDEYR,9059,6.837,Hispanic,7,Episodio depresivo mayor,Depresión
+NEWRACE2,7,IRSUICTHNK,9059,5.477,Hispanic,7,Ideación suicida,Ideación
+NEWRACE2,7,IRSUIPLANYR,9059,1.728,Hispanic,7,Planificación suicida,Planificación
+NEWRACE2,7,IRSUITRYYR,9059,0.981,Hispanic,7,Intento suicida,Intento
+IREDUHIGHST2,1,IRAMDEYR,320,4.828,Fifth grade or less grade completed,1,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,1,IRSUICTHNK,320,4.797,Fifth grade or less grade completed,1,Ideación suicida,Ideación
+IREDUHIGHST2,1,IRSUIPLANYR,320,0.65,Fifth grade or less grade completed,1,Planificación suicida,Planificación
+IREDUHIGHST2,1,IRSUITRYYR,320,0.784,Fifth grade or less grade completed,1,Intento suicida,Intento
+IREDUHIGHST2,10,IRAMDEYR,4119,8.672,"Associate's degree (for example, AA, AS)",10,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,10,IRSUICTHNK,4119,5.81,"Associate's degree (for example, AA, AS)",10,Ideación suicida,Ideación
+IREDUHIGHST2,10,IRSUIPLANYR,4119,1.667,"Associate's degree (for example, AA, AS)",10,Planificación suicida,Planificación
+IREDUHIGHST2,10,IRSUITRYYR,4119,0.481,"Associate's degree (for example, AA, AS)",10,Intento suicida,Intento
+IREDUHIGHST2,11,IRAMDEYR,15961,7.705,College graduate or higher,11,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,11,IRSUICTHNK,15961,4.221,College graduate or higher,11,Ideación suicida,Ideación
+IREDUHIGHST2,11,IRSUIPLANYR,15961,1.087,College graduate or higher,11,Planificación suicida,Planificación
+IREDUHIGHST2,11,IRSUITRYYR,15961,0.491,College graduate or higher,11,Intento suicida,Intento
+IREDUHIGHST2,2,IRAMDEYR,263,2.652,Sixth grade completed,2,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,2,IRSUICTHNK,263,3.314,Sixth grade completed,2,Ideación suicida,Ideación
+IREDUHIGHST2,2,IRSUIPLANYR,263,0.796,Sixth grade completed,2,Planificación suicida,Planificación
+IREDUHIGHST2,2,IRSUITRYYR,263,0.639,Sixth grade completed,2,Intento suicida,Intento
+IREDUHIGHST2,3,IRAMDEYR,131,2.082,Seventh grade completed,3,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,3,IRSUICTHNK,131,7.629,Seventh grade completed,3,Ideación suicida,Ideación
+IREDUHIGHST2,3,IRSUIPLANYR,131,3.557,Seventh grade completed,3,Planificación suicida,Planificación
+IREDUHIGHST2,3,IRSUITRYYR,131,0.431,Seventh grade completed,3,Intento suicida,Intento
+IREDUHIGHST2,4,IRAMDEYR,327,4.043,Eighth grade completed,4,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,4,IRSUICTHNK,327,6.408,Eighth grade completed,4,Ideación suicida,Ideación
+IREDUHIGHST2,4,IRSUIPLANYR,327,3.909,Eighth grade completed,4,Planificación suicida,Planificación
+IREDUHIGHST2,4,IRSUITRYYR,327,1.955,Eighth grade completed,4,Intento suicida,Intento
+IREDUHIGHST2,5,IRAMDEYR,604,3.715,Ninth grade completed,5,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,5,IRSUICTHNK,604,6.424,Ninth grade completed,5,Ideación suicida,Ideación
+IREDUHIGHST2,5,IRSUIPLANYR,604,3.578,Ninth grade completed,5,Planificación suicida,Planificación
+IREDUHIGHST2,5,IRSUITRYYR,604,1.319,Ninth grade completed,5,Intento suicida,Intento
+IREDUHIGHST2,6,IRAMDEYR,791,4.178,Tenth grade completed,6,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,6,IRSUICTHNK,791,6.063,Tenth grade completed,6,Ideación suicida,Ideación
+IREDUHIGHST2,6,IRSUIPLANYR,791,1.715,Tenth grade completed,6,Planificación suicida,Planificación
+IREDUHIGHST2,6,IRSUITRYYR,791,1.042,Tenth grade completed,6,Intento suicida,Intento
+IREDUHIGHST2,7,IRAMDEYR,2533,8.385,"Eleventh or Twelfth grade completed, no diploma",7,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,7,IRSUICTHNK,2533,6.615,"Eleventh or Twelfth grade completed, no diploma",7,Ideación suicida,Ideación
+IREDUHIGHST2,7,IRSUIPLANYR,2533,2.765,"Eleventh or Twelfth grade completed, no diploma",7,Planificación suicida,Planificación
+IREDUHIGHST2,7,IRSUITRYYR,2533,1.869,"Eleventh or Twelfth grade completed, no diploma",7,Intento suicida,Intento
+IREDUHIGHST2,8,IRAMDEYR,12893,7.098,High school diploma/GED,8,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,8,IRSUICTHNK,12893,5.698,High school diploma/GED,8,Ideación suicida,Ideación
+IREDUHIGHST2,8,IRSUIPLANYR,12893,2.094,High school diploma/GED,8,Planificación suicida,Planificación
+IREDUHIGHST2,8,IRSUITRYYR,12893,1.187,High school diploma/GED,8,Intento suicida,Intento
+IREDUHIGHST2,9,IRAMDEYR,9357,11.7,"Some college credit, but no degree",9,Episodio depresivo mayor,Depresión
+IREDUHIGHST2,9,IRSUICTHNK,9357,7.064,"Some college credit, but no degree",9,Ideación suicida,Ideación
+IREDUHIGHST2,9,IRSUIPLANYR,9357,2.49,"Some college credit, but no degree",9,Planificación suicida,Planificación
+IREDUHIGHST2,9,IRSUITRYYR,9357,0.922,"Some college credit, but no degree",9,Intento suicida,Intento

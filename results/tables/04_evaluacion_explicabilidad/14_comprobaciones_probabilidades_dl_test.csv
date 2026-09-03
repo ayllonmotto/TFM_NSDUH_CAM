@@ -1,0 +1,7 @@
+﻿comprobacion,resultado
+El ensemble genera probabilidades para los 9.460 registros,True
+El ensemble genera probabilidades para los cuatro objetivos,True
+No existen probabilidades ausentes,True
+Todas las probabilidades son finitas,True
+"Todas las probabilidades pertenecen al intervalo [0, 1]",True
+QUESTID2 mantiene el mismo orden que TEST,True

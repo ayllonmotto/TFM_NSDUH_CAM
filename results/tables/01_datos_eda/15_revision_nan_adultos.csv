@@ -1,0 +1,262 @@
+﻿variable,n_nan_adultos,pct_nan_adultos,codigo_nan_doc,etiqueta_nan_doc,interpretacion_nan
+HEALTH2,25,0.053,.,Unknown (Otherwise),Salto legítimo o no aplicable
+NRCH17_2,1699,3.592,.,Missing,No respuesta o ausencia
+POVERTY3,136,0.288,.,Persons Aged 18-22 in a College Dorm (See comment above),Ausencia documental
+DRVINALCO2,523,1.106,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DRVINMARJ2,316,0.668,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DRVINDRG,680,1.438,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DRVINDROTMJ,487,1.03,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DRVINALDRG,984,2.08,.,Unknown (Otherwise),Salto legítimo o no aplicable
+PAROL,641,1.355,.,Unknown Parole/Supervised Rel Status (Otherwise),Salto legítimo o no aplicable
+PROB,638,1.349,.,Unknown Probation Status (Otherwise),Salto legítimo o no aplicable
+NDSSDEPND,130,0.275,.,Unknown (Otherwise),Salto legítimo o no aplicable
+FTNDDEPND,249,0.526,.,Unknown (Otherwise),Salto legítimo o no aplicable
+PMNICDEP,250,0.529,.,Unknown (Otherwise),Salto legítimo o no aplicable
+UADPEOP,100,0.211,.,Unknown (Otherwise),Salto legítimo o no aplicable
+UADCAR,46015,97.285,.,Unknown/No PM Use/Aged 21+ (Otherwise),Salto legítimo o no aplicable
+UADHOME,46015,97.285,.,Unknown/No PM Use/Aged 21+ (Otherwise),Salto legítimo o no aplicable
+UADOTHM,46015,97.285,.,Unknown/No PM Use/Aged 21+ (Otherwise),Salto legítimo o no aplicable
+UADPUBL,46015,97.285,.,Unknown/No PM Use/Aged 21+ (Otherwise),Salto legítimo o no aplicable
+UADBAR,46015,97.285,.,Unknown/No PM Use/Aged 21+ (Otherwise),Salto legítimo o no aplicable
+UADEVNT,46015,97.285,.,Unknown/No PM Use/Aged 21+ (Otherwise),Salto legítimo o no aplicable
+UADSCHL,46015,97.285,.,Unknown/No PM Use/Aged 21+ (Otherwise),Salto legítimo o no aplicable
+UADROTH,46031,97.319,.,Unknown/No PM Use/Aged 21+ (See comment above),No respuesta o ausencia
+UADOTSP2,125,0.264,.,"Unknown (CADROTS2=70,85,94,97,98)",No respuesta o ausencia
+UADPAID,108,0.228,.,Unknown (Otherwise),Salto legítimo o no aplicable
+UADMONY,112,0.237,.,Unknown (Otherwise),Salto legítimo o no aplicable
+UADBWHO,112,0.237,.,Unknown (Otherwise),Salto legítimo o no aplicable
+UADPLACE,115,0.243,.,Unknown (Otherwise),Salto legítimo o no aplicable
+UADBUND,112,0.237,.,Unknown (Otherwise),Salto legítimo o no aplicable
+UADCAG,119,0.252,.,Unknown (Otherwise),Salto legítimo o no aplicable
+UADFWHO,151,0.319,.,Unknown (See comment above),No respuesta o ausencia
+UADFRD,151,0.319,.,Unknown (See comment above),No respuesta o ausencia
+CADRKMARJ2,356,0.753,.,Unknown (Otherwise),Salto legítimo o no aplicable
+CADRKCOCN2,47,0.099,.,Unknown (Otherwise),Salto legítimo o no aplicable
+CADRKHERN2,13,0.027,.,Unknown (Otherwise),Salto legítimo o no aplicable
+CADRKHALL2,135,0.285,.,Unknown (Otherwise),Salto legítimo o no aplicable
+CADRKINHL2,49,0.104,.,Unknown (Otherwise),Salto legítimo o no aplicable
+CADRKMETH2,26,0.055,.,Unknown (Otherwise),Salto legítimo o no aplicable
+FENTANYYR2,91,0.192,.,Missing,No respuesta o ausencia
+FENTNMYR,19,0.04,.,Missing,No respuesta o ausencia
+TRBZOANYYR,136,0.288,.,Missing,No respuesta o ausencia
+TRBZONMYR,137,0.29,.,Missing,No respuesta o ausencia
+SVBZOANYYR,223,0.471,.,Missing,No respuesta o ausencia
+SVBZONMYR,219,0.463,.,Missing,No respuesta o ausencia
+BZOANYYR,48,0.101,.,Missing,No respuesta o ausencia
+BZONMYR,8,0.017,.,Missing,No respuesta o ausencia
+PEYOTEEVER,13,0.027,.,Unknown (Otherwise),Salto legítimo o no aplicable
+MESCEVER,20,0.042,.,Unknown (Otherwise),Salto legítimo o no aplicable
+AMYLNIEVER2,15,0.032,.,Unknown (Otherwise),Salto legítimo o no aplicable
+CLEFLUEVER2,5,0.011,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GASEVER2,2,0.004,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GLUEEVER2,3,0.006,.,Unknown (Otherwise),Salto legítimo o no aplicable
+ETHEREVER2,7,0.015,.,Unknown (Otherwise),Salto legítimo o no aplicable
+SOLVENEVER2,6,0.013,.,Unknown (Otherwise),Salto legítimo o no aplicable
+LGASEVER2,4,0.008,.,Unknown (Otherwise),Salto legítimo o no aplicable
+NITOXIEVER2,11,0.023,.,Unknown (Otherwise),Salto legítimo o no aplicable
+FLTMRKEVER2,7,0.015,.,Unknown (Otherwise),Salto legítimo o no aplicable
+SPAINTEVER2,4,0.008,.,Unknown (Otherwise),Salto legítimo o no aplicable
+AIRDUSEVER2,3,0.006,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHAEREVER2,6,0.013,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXHYDCANY2,79,0.167,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXZOHYANY2,80,0.169,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXOXCOANY2,84,0.178,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXTRAMANY2,95,0.201,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXCODEANY2,82,0.173,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXMORPANY2,94,0.199,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXBUPRANY2,82,0.173,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXOXYMANY2,85,0.18,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXDEMEANY2,93,0.197,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXHYDMANY2,93,0.197,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXMTDNANY2,93,0.197,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHRPNRANY2,473,1.0,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXBZOTANY,24,0.051,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXALPRANY,34,0.072,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXLORAANY,37,0.078,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXCLONANY,37,0.078,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXDIAZANY,39,0.082,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXMRLXANY,46,0.097,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXCYCLANY,46,0.097,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXSOMAANY,46,0.097,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHRTRQANY,49,0.104,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXAMMEANY,17,0.036,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXAMPHANY,21,0.044,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXMTHPANY,23,0.049,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXANORANY,25,0.053,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXPROVANY,25,0.053,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHRSTMANY,32,0.068,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXZOLPANY,21,0.044,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXESZOANY,23,0.049,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXZALEANY,23,0.049,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXBZOSANY,17,0.036,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXTRIAANY,17,0.036,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXTEMAANY,17,0.036,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXFLURANY,17,0.036,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXBARBANY,24,0.051,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHRSEDANY,27,0.057,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXHYDCMIS,12,0.025,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXZOHYMIS,10,0.021,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXOXCOMIS,18,0.038,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXTRAMMIS,22,0.047,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXCODEMIS,19,0.04,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXMORPMIS,13,0.027,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXBUPRMIS,14,0.03,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXOXYMMIS,11,0.023,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXDEMEMIS,12,0.025,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXHYDMMIS,12,0.025,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXMTDNMIS,13,0.027,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHRPNRMIS,61,0.129,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXBZOTMIS,5,0.011,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXALPRMIS,5,0.011,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXLORAMIS,6,0.013,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXCLONMIS,6,0.013,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXDIAZMIS,6,0.013,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXMRLXMIS,11,0.023,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXCYCLMIS,9,0.019,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXSOMAMIS,8,0.017,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHRTRQMIS,20,0.042,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXAMMEMIS,3,0.006,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXAMPHMIS,4,0.008,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXMTHPMIS,2,0.004,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXANORMIS,1,0.002,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXPROVMIS,1,0.002,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHRSTMMIS,12,0.025,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXESZOMIS,1,0.002,.,Unknown (Otherwise),Salto legítimo o no aplicable
+OTHRSEDMIS2,16,0.034,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXBZOSMIS,1,0.002,.,Unknown (Otherwise),Salto legítimo o no aplicable
+RXBARBMIS,2,0.004,.,Unknown (Otherwise),Salto legítimo o no aplicable
+CIG1PACK,43910,92.835,.,"No daily use/not reported (CIGPDAY=5,6)",Ausencia documental
+CIGAVGD,40763,86.182,.,Not Used/Unknown (Otherwise),Salto legítimo o no aplicable
+CIGAVGM,40763,86.182,.,"Not Used/Unknown (CIGAVGD=. or IRCIGFM=91,93)",Ausencia de exposición
+ALCNUMDKPM,24713,52.248,.,Not Used/Unknown (See comment above),Ausencia de exposición
+PNRMAINRSN,231,0.488,.,Unknown (See comment above),No respuesta o ausencia
+TRQMAINRSN,181,0.383,.,Unknown (see comment above),No respuesta o ausencia
+STMMAINRSN,216,0.457,.,Unknown (see comment above),No respuesta o ausencia
+SEDMAINRSN,254,0.537,.,Unknown (see comment above),No respuesta o ausencia
+SRCPNRNM2,45946,97.139,.,No Past Year Misuse/Unknown/Invalid Source,Ausencia de exposición
+SRCTRQNM2,46565,98.448,.,No Past Year Misuse/Unknown/Invalid Source,Ausencia de exposición
+SRCSTMNM2,46468,98.243,.,No Past Year Misuse/Unknown/Invalid Source,Ausencia de exposición
+SRCSEDNM2,47156,99.698,.,No Past Year Misuse/Unknown/Invalid Source,Ausencia de exposición
+SRCFRPNRNM,46898,99.152,.,"No PY Misuse/Not from Fr,Rel/Unknwn/Invalid Source",Ausencia documental
+SRCFRTRQNM,47002,99.372,.,"No PY Misuse/Not from Fr,Rel/Unknwn/Invalid Source",Ausencia documental
+SRCFRSTMNM,46862,99.076,.,"No PY Misuse/Not from Fr,Rel/Unknwn/Invalid Source",Ausencia documental
+SRCFRSEDNM,47244,99.884,.,"No PY Misuse/Not from Fr,Rel/Unknwn/Invalid Source",Ausencia documental
+SRCCLFRPNR,46898,99.152,.,"No PY Misuse/Not from Fr,Rel/Unknwn/Invld (Otherwise)",Salto legítimo o no aplicable
+SRCCLFRTRQ,47002,99.372,.,"No PY Misuse/Not from Fr,Rel/Unknwn/Invld (Otherwise)",Salto legítimo o no aplicable
+SRCCLFRSTM,46862,99.076,.,"No PY Misuse/Not from Fr,Rel/Unknwn/Invld (Otherwise)",Salto legítimo o no aplicable
+SRCCLFRSED,47244,99.884,.,"No PY Misuse/Not from Fr,Rel/Unknwn/Invld (Otherwise)",Salto legítimo o no aplicable
+HERNEDEVER,10,0.021,.,Unknown (Otherwise),Salto legítimo o no aplicable
+COCNEDEVER,44,0.093,.,Unknown (Otherwise),Salto legítimo o no aplicable
+MTHNEDEVER,20,0.042,.,Unknown (Otherwise),Salto legítimo o no aplicable
+HERSMOEVER,11,0.023,.,Unknown (Otherwise),Salto legítimo o no aplicable
+HERSNIEVER,11,0.023,.,Unknown (Otherwise),Salto legítimo o no aplicable
+PYUD5ALC,435,0.92,.,Missing: Past year use known or imputed,No respuesta o ausencia
+PYUD5MRJ,224,0.474,.,Missing: Past year use known or imputed,No respuesta o ausencia
+PYUD5COC,30,0.063,.,Missing: Past year use known or imputed,No respuesta o ausencia
+PYUD5HER,9,0.019,.,Missing: Past year use known or imputed,No respuesta o ausencia
+PYUD5HAL,75,0.159,.,Missing: Past year use known or imputed,No respuesta o ausencia
+PYUD5INH,19,0.04,.,Missing: Past year use known or imputed,No respuesta o ausencia
+PYUD5MTH,15,0.032,.,Missing: Past year use known or imputed,No respuesta o ausencia
+EDUD5PNRMIS,53,0.112,.,Missing: Past year use known or imputed,No respuesta o ausencia
+EDUD5PNRUNM2,235,0.497,.,Missing: Past year use known or imputed,No respuesta o ausencia
+EDUD5TRQMIS,28,0.059,.,Missing: Past year use known or imputed,No respuesta o ausencia
+EDUD5TRQUNM,107,0.226,.,Missing: Past year use known or imputed,No respuesta o ausencia
+EDUD5STMMIS,22,0.047,.,Missing: Past year use known or imputed,No respuesta o ausencia
+EDUD5STMUNM,75,0.159,.,Missing: Past year use known or imputed,No respuesta o ausencia
+EDUD5SEDMIS,8,0.017,.,Missing: Past year use known or imputed,No respuesta o ausencia
+EDUD5SEDUNM,62,0.131,.,Missing: Past year use known or imputed,No respuesta o ausencia
+SUTPHVIDRG,42,0.089,.,Unknown (Otherwise),Salto legítimo o no aplicable
+SUTPHVIALC,42,0.089,.,Unknown (Otherwise),Salto legítimo o no aplicable
+SUTSKTHPY2,2723,5.757,.,Unknown/received sub use treatment (Otherwise),Salto legítimo o no aplicable
+SUNTCOST2,46839,99.027,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTINSCV2,46867,99.087,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTENCV2,46875,99.104,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTWHER2,46837,99.023,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTNOFND2,46855,99.061,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTNOOPN2,46868,99.089,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTPROBS2,46845,99.04,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTTIME2,46844,99.038,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTPRIV2,46844,99.038,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTPTHNK2,46835,99.019,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTCONSQ2,46843,99.036,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTSTART2,46843,99.036,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTQUIT2,46843,99.036,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTHNDL2,46842,99.034,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTFFLKE2,46840,99.03,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTFORCE2,46845,99.04,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTNOHLP2,46854,99.059,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+SUNTCARE2,46847,99.044,.,Unknwn/Rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+GRSKCIGPKD,555,1.173,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKMRJMON,671,1.419,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKMRJWK,694,1.467,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKCOCMON,816,1.725,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKCOCWK,796,1.683,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKHERTRY,817,1.727,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKHERWK,778,1.645,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKLSDTRY,1026,2.169,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKLSDWK,1055,2.23,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKBNGDLY,598,1.264,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GRSKBNGWK,614,1.298,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DIFOBTMRJ,1022,2.161,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DIFOBTCOC,1533,3.241,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DIFOBTCRK,1580,3.34,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DIFOBTHER,1596,3.374,.,Unknown (Otherwise),Salto legítimo o no aplicable
+DIFOBTLSD,1672,3.535,.,Unknown (Otherwise),Salto legítimo o no aplicable
+APPDRGMON2,378,0.799,.,Unknown (Otherwise),Salto legítimo o no aplicable
+AGADSCED,1641,3.469,.,Aged 12-17 or missing,Salto legítimo o no aplicable
+KSSLR6MONED,1478,3.125,.,Aged 12-17 or missing,Salto legítimo o no aplicable
+KSSLR6YRED,31991,67.636,.,"Aged 12-17, missing, or DSTWORST in (2,85,94,97,98)",Salto legítimo o no aplicable
+WHODASSCED,1360,2.875,.,Aged 12-17 or missing,Salto legítimo o no aplicable
+WHODASDAED,1360,2.875,.,Aged 12-17 or missing,Salto legítimo o no aplicable
+KSSLR6YR,31486,66.568,.,Aged 12-17 or IRDSTWORST=2,Salto legítimo o no aplicable
+ASDSHOM2,42283,89.395,.,Aged 12-17/Unkn/Legit Skip (Otherwise),Salto legítimo o no aplicable
+ASDSWRK2,42289,89.408,.,Aged 12-17/Unkn/Legit Skip (Otherwise),Salto legítimo o no aplicable
+ASDSREL2,42275,89.378,.,Aged 12-17/Unkn/Legit Skip (Otherwise),Salto legítimo o no aplicable
+ASDSSOC2,42273,89.374,.,Aged 12-17/Unkn/Legit Skip (Otherwise),Salto legítimo o no aplicable
+AMDEIMP,1682,3.556,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+ATXMDEYR,38007,80.355,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+ARXMDEYR,38007,80.355,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+AMDETXRX,38006,80.353,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+ADOCMDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+AOMDMDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+APSY1MDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+APSY2MDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+ASOCMDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+ACOUNMDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+AOMHMDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+ANURSMDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+ARELMDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+AHBCHMDE,38017,80.376,.,Aged 12-17/Unknown/Legitimate Skip (Otherwise),Salto legítimo o no aplicable
+AHLTMDE,38017,80.376,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+AALTMDE,38017,80.376,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+MHTNSEEKPY2,13217,27.944,.,Unknown/received MH treatment (Otherwise),Salto legítimo o no aplicable
+MHTSKTHPY2,13227,27.965,.,Unknown/received MH treatment (Otherwise),Salto legítimo o no aplicable
+MHNTCOST2,44831,94.782,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTINSCV2,44991,95.12,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTENFCV2,45093,95.336,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTWHER2,44826,94.772,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTNOFND2,44914,94.958,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTNOOPN2,44963,95.061,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTPROBS2,44855,94.833,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTTIME2,44850,94.822,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTPRIV2,44846,94.814,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTPTHNK2,44828,94.776,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTCONSQ2,44845,94.812,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTSTART2,44874,94.873,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTHNDL2,44837,94.795,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTFFLKE2,44854,94.831,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTFORCE2,44844,94.81,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTMEDS2,44854,94.831,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTNOHLP2,44882,94.89,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+MHNTCARE2,44855,94.833,.,Unknwn/rcvd trt/no sought&no thght shld get trt (Otherwise),Salto legítimo o no aplicable
+PREGST,382,0.808,.,Unknown (Otherwise),Salto legítimo o no aplicable
+BMI2,2250,4.757,.,Unknown (See comment above),No respuesta o ausencia
+TELEAPTYR2,1027,2.171,.,Not Applicable/Unknown (Otherwise),Salto legítimo o no aplicable
+CASUPROB2,1585,3.351,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+RCVYSUBPRB,1597,3.376,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+CAMHPROB2,1562,3.302,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+RCVYMHPRB,1677,3.546,.,Aged 12-17/Unknown (Otherwise),Salto legítimo o no aplicable
+IMFNEDFLAG,26,0.055,.,Unknown (Otherwise),Salto legítimo o no aplicable
+ANYNEDFLAG,275,0.581,.,Unknown (Otherwise),Salto legítimo o no aplicable
+ANYNEDYR,267,0.564,.,Unknown (Otherwise),Salto legítimo o no aplicable
+GQTYPE2,47065,99.505,,Not a Group Quarter,Categoría válida vacía

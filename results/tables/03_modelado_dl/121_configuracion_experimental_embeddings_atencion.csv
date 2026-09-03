@@ -1,0 +1,2 @@
+﻿estrategia_pesos,descripcion,modelos_previstos,batch_size,learning_rate,epocas_maximas,monitor_early_stopping,paciencia,backup_entrenamiento,dimension_embedding,atenciones_paralelas,dimension_clave,unidades_feed_forward,dropout_atencion
+balanceada,Ponderación balanceada,4,256,0.0005,100,val_loss,10,True,8,2,4,16,0.1

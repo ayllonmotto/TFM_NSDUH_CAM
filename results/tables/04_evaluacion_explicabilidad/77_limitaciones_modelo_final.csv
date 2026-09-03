@@ -1,0 +1,11 @@
+﻿limitacion,detalle
+Uso preventivo y no diagnóstico,La salida apoya priorización preventiva y requiere interpretación humana.
+Probabilidades no equivalentes a riesgo clínico,La calibración descriptiva impide interpretar la probabilidad como riesgo clínico directo.
+Desbalanceo de las variables objetivo,Planificación e intento presentan una prevalencia reducida y una Precision limitada.
+Falsas alertas en los indicadores menos frecuentes,"La prioridad de Recall incrementa los falsos positivos, especialmente en intento suicida."
+Explicabilidad no causal,Las contribuciones SHAP describen asociaciones aprendidas por el modelo y no causalidad.
+Muestra global SHAP equilibrada,La muestra 50/50 utilizada para SHAP no reproduce la prevalencia natural de TEST.
+Reconstrucción SHAP de Machine Learning,Trece de 100 explicaciones superan la tolerancia técnica de reconstrucción establecida.
+Variables relacionadas y recodificadas,Algunas variables originales y recodificadas representan contenidos estrechamente relacionados.
+Códigos especiales y universos de pregunta,Los códigos de salto o respuesta deben conservar exactamente el tratamiento definido en el proyecto.
+Validación independiente pendiente,La solución híbrida requiere validación posterior sobre datos independientes o nuevas ediciones.

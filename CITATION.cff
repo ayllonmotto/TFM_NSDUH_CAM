@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+
+message: >-
+  If you use this software or its results in academic work,
+  please cite this repository.
+
+title: >-
+  Sistema explicable de detección preventiva de indicadores de riesgo
+  en salud mental adulta mediante aprendizaje automático multisalida
+  y agentes de inteligencia artificial generativa a partir del dataset
+  NSDUH 2024 / Explainable system for preventive detection of risk
+  indicators in adult mental health using multi-output machine learning
+  and generative AI agents based on the NSDUH 2024 dataset
+
+type: software
+
+authors:
+  - family-names: "Ayllón Motto"
+    given-names: "Carlos"
+
+version: "1.0.0"
+
+repository-code: "https://github.com/ayllonmotto/TFM_NSDUH_CAM"
+
+license: MIT
+
+abstract: >-
+  This project presents an explainable academic prototype for the preventive
+  detection of four indicators related to adult mental health using the
+  National Survey on Drug Use and Health (NSDUH) 2024. The final system
+  combines a hybrid Machine Learning and Deep Learning predictive solution,
+  SHAP-based explainability, and a generative AI agent layer integrating
+  structured validation, retrieval-augmented generation (RAG), LangGraph,
+  Mistral, and guardrails. The repository includes the five main project
+  notebooks, experimental results, final inference files, reproducibility
+  documentation, productization components, and a local demonstration
+  dashboard. The system is intended exclusively for academic and preventive
+  research purposes and does not constitute a clinical diagnostic tool.
+
+keywords:
+  - machine learning
+  - deep learning
+  - multi-output classification
+  - explainable artificial intelligence
+  - XAI
+  - SHAP
+  - generative artificial intelligence
+  - generative AI
+  - RAG
+  - LangGraph
+  - Mistral
+  - mental health
+  - preventive detection
+  - NSDUH
+  - reproducible research

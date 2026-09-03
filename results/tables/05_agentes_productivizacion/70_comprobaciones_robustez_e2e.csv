@@ -1,0 +1,7 @@
+﻿comprobacion,resultado
+La ausencia de registro devuelve HTTP 400,True
+El registro incompleto devuelve HTTP 400,True
+Las dos respuestas proporcionan un mensaje controlado,True
+Los errores no exponen credenciales,True
+El servicio permanece operativo después de los errores,True
+Todas las comprobaciones funcionales extremo a extremo permanecen superadas,True

@@ -1,0 +1,45 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,Average Precision,Focal + Adam — Sin BatchNormalization en ramas específicas,0.4989569688968795
+IRAMDEYR,Episodio depresivo mayor,ROC-AUC,Focal + Adam — Arquitectura actual,0.8916041750178396
+IRAMDEYR,Episodio depresivo mayor,Recall,Focal + Adam — Ramas específicas de 32 neuronas,0.9126794258373205
+IRAMDEYR,Episodio depresivo mayor,Precision,Focal + Adam — Sin BatchNormalization en ramas específicas,0.35748031496062993
+IRAMDEYR,Episodio depresivo mayor,F1,Focal + Adam — Sin BatchNormalization en ramas específicas,0.4968989419919737
+IRAMDEYR,Episodio depresivo mayor,F2,Focal + Adam — Arquitectura actual,0.6522138526547859
+IRAMDEYR,Episodio depresivo mayor,Balanced Accuracy,Focal + Adam — Dropout menor,0.8225795102730087
+IRAMDEYR,Episodio depresivo mayor,Especificidad,Focal + Adam — Sin BatchNormalization en ramas específicas,0.8181818181818182
+IRAMDEYR,Episodio depresivo mayor,Accuracy,Focal + Adam — Sin BatchNormalization en ramas específicas,0.8177854122621564
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,Focal + Adam — Ramas específicas de 32 neuronas,73.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,Focal + Adam — Sin BatchNormalization en ramas específicas,1224.0
+IRSUICTHNK,Ideación suicida,Average Precision,Focal + Adam — Arquitectura actual,0.2939410711232845
+IRSUICTHNK,Ideación suicida,ROC-AUC,Focal + Adam — Arquitectura actual,0.8203219471501579
+IRSUICTHNK,Ideación suicida,Recall,Focal + Adam — Sin BatchNormalization en ramas específicas,0.8419182948490231
+IRSUICTHNK,Ideación suicida,Precision,Focal + Adam — Arquitectura actual,0.20089064819396338
+IRSUICTHNK,Ideación suicida,F1,Focal + Adam — Arquitectura actual,0.3142414860681115
+IRSUICTHNK,Ideación suicida,F2,Focal + Adam — Arquitectura actual,0.475076058974959
+IRSUICTHNK,Ideación suicida,Balanced Accuracy,Focal + Adam — Arquitectura actual,0.7452935799473352
+IRSUICTHNK,Ideación suicida,Especificidad,Focal + Adam — Arquitectura actual,0.7694503925767309
+IRSUICTHNK,Ideación suicida,Accuracy,Focal + Adam — Arquitectura actual,0.7658562367864693
+IRSUICTHNK,Ideación suicida,Falsos negativos,Focal + Adam — Sin BatchNormalization en ramas específicas,89.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,Focal + Adam — Arquitectura actual,1615.0
+IRSUIPLANYR,Planificación suicida,Average Precision,Focal + Adam — Ramas específicas de 32 neuronas,0.1695055187347622
+IRSUIPLANYR,Planificación suicida,ROC-AUC,Focal + Adam — Sin BatchNormalization en ramas específicas,0.8623954184660442
+IRSUIPLANYR,Planificación suicida,Recall,Focal + Adam — Sin BatchNormalization en ramas específicas,0.9195402298850575
+IRSUIPLANYR,Planificación suicida,Precision,Focal + Adam — Arquitectura actual,0.07378258730939498
+IRSUIPLANYR,Planificación suicida,F1,Focal + Adam — Arquitectura actual,0.13593112822836428
+IRSUIPLANYR,Planificación suicida,F2,Focal + Adam — Arquitectura actual,0.2748259435690729
+IRSUIPLANYR,Planificación suicida,Balanced Accuracy,Focal + Adam — Arquitectura actual,0.8037015100780689
+IRSUIPLANYR,Planificación suicida,Especificidad,Focal + Adam — Arquitectura actual,0.7453340546388963
+IRSUIPLANYR,Planificación suicida,Accuracy,Focal + Adam — Arquitectura actual,0.7480179704016914
+IRSUIPLANYR,Planificación suicida,Falsos negativos,Focal + Adam — Sin BatchNormalization en ramas específicas,14.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,Focal + Adam — Arquitectura actual,1883.0
+IRSUITRYYR,Intento suicida,Average Precision,Focal + Adam — Sin BatchNormalization en ramas específicas,0.1110082310912212
+IRSUITRYYR,Intento suicida,ROC-AUC,Focal + Adam — Sin BatchNormalization en ramas específicas,0.8777694001170752
+IRSUITRYYR,Intento suicida,Recall,Focal + Adam — Sin BatchNormalization en ramas específicas,0.9166666666666666
+IRSUITRYYR,Intento suicida,Precision,Focal + Adam — Ramas específicas de 32 neuronas,0.040654997176736304
+IRSUITRYYR,Intento suicida,F1,Focal + Adam — Ramas específicas de 32 neuronas,0.07762803234501348
+IRSUITRYYR,Intento suicida,F2,Focal + Adam — Ramas específicas de 32 neuronas,0.170859041290935
+IRSUITRYYR,Intento suicida,Balanced Accuracy,Focal + Adam — Capas compartidas 128 → 64,0.8206204983329515
+IRSUITRYYR,Intento suicida,Especificidad,Focal + Adam — Dropout menor,0.7914216996258685
+IRSUITRYYR,Intento suicida,Accuracy,Focal + Adam — Dropout menor,0.7910940803382663
+IRSUITRYYR,Intento suicida,Falsos negativos,Focal + Adam — Sin BatchNormalization en ramas específicas,7.0
+IRSUITRYYR,Intento suicida,Falsos positivos,Focal + Adam — Dropout menor,1561.0

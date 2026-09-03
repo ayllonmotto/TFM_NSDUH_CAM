@@ -1,0 +1,17 @@
+﻿patron,train,test,presente_train,presente_test
+0-0-0-0,32158,8100,True,True
+1-0-0-0,2771,666,True,True
+0-1-0-0,1041,238,True,True
+1-1-0-0,850,208,True,True
+1-1-1-0,343,88,True,True
+0-1-1-0,202,45,True,True
+1-1-1-1,177,33,True,True
+0-1-1-1,154,47,True,True
+0-0-1-0,37,7,True,True
+1-1-0-1,32,6,True,True
+0-0-0-1,18,8,True,True
+0-1-0-1,19,6,True,True
+1-0-1-0,17,3,True,True
+0-0-1-1,11,3,True,True
+1-0-0-1,7,1,True,True
+1-0-1-1,2,1,True,True

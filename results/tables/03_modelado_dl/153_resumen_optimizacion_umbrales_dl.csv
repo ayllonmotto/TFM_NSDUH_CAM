@@ -1,0 +1,3 @@
+﻿clave_modelo,candidato,recall_medio,recall_minimo,precision_media,f2_medio,balanced_accuracy_media,especificidad_media,falsos_negativos_total,falsos_positivos_total
+multisalida_bce_tareas,Red multisalida — BCE + pesos por tarea,0.8031923905503108,0.738898756660746,0.15737755772395154,0.3920714726736269,0.788238307856724,0.7732842251631373,342,6473
+multisalida_focal_adam,Red multisalida — Focal + Adam,0.842261812310416,0.7779751332149201,0.16021069550368486,0.3937676815166066,0.7998866551196687,0.7575114979289214,282,6952

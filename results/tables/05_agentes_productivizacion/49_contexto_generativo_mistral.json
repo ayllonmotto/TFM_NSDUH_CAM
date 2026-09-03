@@ -1,0 +1,679 @@
+{
+  "predicciones": [
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion": "Episodio depresivo mayor",
+      "decision": "supera el umbral validado",
+      "familia": "ML",
+      "modelo": "XGBoost"
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion": "Ideación suicida",
+      "decision": "supera el umbral validado",
+      "familia": "DL",
+      "modelo": "Ensemble — ramas 32 + sin BatchNormalization (50/50)"
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion": "Planificación suicida",
+      "decision": "no supera el umbral validado",
+      "familia": "DL",
+      "modelo": "Ensemble — ramas 32 + sin BatchNormalization (50/50)"
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion": "Intento suicida",
+      "decision": "supera el umbral validado",
+      "familia": "DL",
+      "modelo": "Ensemble — ramas 32 + sin BatchNormalization (50/50)"
+    }
+  ],
+  "explicaciones": [
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion": "Episodio depresivo mayor",
+      "decision": "supera el umbral validado",
+      "factores": [
+        {
+          "variable_objetivo": "IRAMDEYR",
+          "descripcion_objetivo": "Episodio depresivo mayor",
+          "variable_origen": "CAMHPROB2",
+          "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 1,
+          "valor_observado": 1.0
+        },
+        {
+          "variable_objetivo": "IRAMDEYR",
+          "descripcion_objetivo": "Episodio depresivo mayor",
+          "variable_origen": "RCVYMHPRB",
+          "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+          "tipo_factor": "Factor protector para la predicción",
+          "posicion_factor": 2,
+          "valor_observado": 1.0
+        },
+        {
+          "variable_objetivo": "IRAMDEYR",
+          "descripcion_objetivo": "Episodio depresivo mayor",
+          "variable_origen": "LVLDIFMEM2",
+          "descripcion_original": "LEVEL OF DIFFICULTY REMEMBERING OR CONCENTRATING",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 3,
+          "valor_observado": 2.0
+        }
+      ]
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion": "Ideación suicida",
+      "decision": "supera el umbral validado",
+      "factores": [
+        {
+          "variable_objetivo": "IRSUICTHNK",
+          "descripcion_objetivo": "Ideación suicida",
+          "variable_origen": "CAMHPROB",
+          "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 1,
+          "valor_observado": 1.0
+        },
+        {
+          "variable_objetivo": "IRSUICTHNK",
+          "descripcion_objetivo": "Ideación suicida",
+          "variable_origen": "CAMHPROB2",
+          "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 2,
+          "valor_observado": 1.0
+        },
+        {
+          "variable_objetivo": "IRSUICTHNK",
+          "descripcion_objetivo": "Ideación suicida",
+          "variable_origen": "LVLDIFCARE2",
+          "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 3,
+          "valor_observado": 2.0
+        }
+      ]
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion": "Planificación suicida",
+      "decision": "no supera el umbral validado",
+      "factores": [
+        {
+          "variable_objetivo": "IRSUIPLANYR",
+          "descripcion_objetivo": "Planificación suicida",
+          "variable_origen": "CAMHPROB",
+          "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 1,
+          "valor_observado": 1.0
+        },
+        {
+          "variable_objetivo": "IRSUIPLANYR",
+          "descripcion_objetivo": "Planificación suicida",
+          "variable_origen": "COPDAGE",
+          "descripcion_original": "AGE COPD 1ST DIAGNOSED",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 2,
+          "valor_observado": 44.0
+        },
+        {
+          "variable_objetivo": "IRSUIPLANYR",
+          "descripcion_objetivo": "Planificación suicida",
+          "variable_origen": "LVLDIFCARE2",
+          "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 3,
+          "valor_observado": 2.0
+        }
+      ]
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion": "Intento suicida",
+      "decision": "supera el umbral validado",
+      "factores": [
+        {
+          "variable_objetivo": "IRSUITRYYR",
+          "descripcion_objetivo": "Intento suicida",
+          "variable_origen": "CAMHPROB",
+          "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 1,
+          "valor_observado": 1.0
+        },
+        {
+          "variable_objetivo": "IRSUITRYYR",
+          "descripcion_objetivo": "Intento suicida",
+          "variable_origen": "CAMHPROB2",
+          "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 2,
+          "valor_observado": 1.0
+        },
+        {
+          "variable_objetivo": "IRSUITRYYR",
+          "descripcion_objetivo": "Intento suicida",
+          "variable_origen": "LVLDIFCARE2",
+          "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+          "tipo_factor": "Factor de riesgo para la predicción",
+          "posicion_factor": 3,
+          "valor_observado": 2.0
+        }
+      ]
+    }
+  ],
+  "factores_permitidos": [
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "LVLDIFMEM2",
+      "descripcion_original": "LEVEL OF DIFFICULTY REMEMBERING OR CONCENTRATING",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "COPDAGE",
+      "descripcion_original": "AGE COPD 1ST DIAGNOSED",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 44.0
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0
+    }
+  ],
+  "factores_ampliados": [
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": 0.3529535600915551
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "LVLDIFMEM2",
+      "descripcion_original": "LEVEL OF DIFFICULTY REMEMBERING OR CONCENTRATING",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 2.0,
+      "valor_shap": 0.05849696584045888
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0,
+      "valor_shap": 0.057277161814272365
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": -0.06264771968126293
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "NMERTMT2",
+      "descripcion_original": "# OF TIMES BEEN TREATED IN EMER ROOM PAST 12 MOS",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 0.0,
+      "valor_shap": -0.012164369970560057
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": 0.045312363654375076
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0,
+      "valor_shap": 0.033839601464569546
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0,
+      "valor_shap": 0.027406862936913967
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": -0.01129623912274838
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "MRJYDAYS",
+      "descripcion_original": "RC-# OF DAYS USED MARIJUANA IN PAST YEAR",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 5.0,
+      "valor_shap": -0.007429107092320919
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": 0.04534895401448011
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "COPDAGE",
+      "descripcion_original": "AGE COPD 1ST DIAGNOSED",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 44.0,
+      "valor_shap": 0.040078266762668596
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0,
+      "valor_shap": 0.033409181423485285
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "EDUSCKCOM",
+      "descripcion_original": "RC - HOW MANY DAYS MISSED SCHOOL FROM SICK (COMBINED)",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 99.0,
+      "valor_shap": -0.015758944035144384
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0,
+      "valor_shap": -0.012629089131951321
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": 0.04141272879205643
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0,
+      "valor_shap": 0.02894108314067126
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0,
+      "valor_shap": 0.028488614968955522
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": -0.009477374330163019
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "SEXRACE",
+      "descripcion_original": "RC-COMBINED SEX BY RACE INDICATOR",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 2.0,
+      "valor_shap": -0.007710677385330211
+    }
+  ],
+  "variables_traducir": [
+    {
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE"
+    },
+    {
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE"
+    },
+    {
+      "variable_origen": "LVLDIFMEM2",
+      "descripcion_original": "LEVEL OF DIFFICULTY REMEMBERING OR CONCENTRATING"
+    },
+    {
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH"
+    },
+    {
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE"
+    },
+    {
+      "variable_origen": "COPDAGE",
+      "descripcion_original": "AGE COPD 1ST DIAGNOSED"
+    },
+    {
+      "variable_origen": "NMERTMT2",
+      "descripcion_original": "# OF TIMES BEEN TREATED IN EMER ROOM PAST 12 MOS"
+    },
+    {
+      "variable_origen": "MRJYDAYS",
+      "descripcion_original": "RC-# OF DAYS USED MARIJUANA IN PAST YEAR"
+    },
+    {
+      "variable_origen": "EDUSCKCOM",
+      "descripcion_original": "RC - HOW MANY DAYS MISSED SCHOOL FROM SICK (COMBINED)"
+    },
+    {
+      "variable_origen": "SEXRACE",
+      "descripcion_original": "RC-COMBINED SEX BY RACE INDICATOR"
+    }
+  ],
+  "documentacion": [
+    {
+      "consulta": "¿Cómo define NSDUH la variable IRAMDEYR?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_objetivo",
+      "variable": "IRAMDEYR",
+      "pagina": 507,
+      "registro": null,
+      "fragmento": "Variable NSDUH: IRAMDEYR. Descripción: Episodio depresivo mayor. Extracto oficial del codebook NSDUH 2024: IAMDELT Len : 1 ADULT: LIFETIME MAJOR DEPRESSIVE EPISODE (MDE) - IMP IND Freq Pct 1 = Questionnaire data ........................................................................................................ 45747 78.02 3 = Statistically imputed data .............................................................................................. 1552 2.65 9 = LEGITIMATE SKIP..................................................................................................... 11334 19.33 (AMDEYR) IRAMDEYR Len : 1 ADULT: PAST YEAR MAJOR DEPRESSIVE EPISODE (MDE) - IMP REV Freq Pct . = Aged 12-17 .................................................................................................................... 11334 19.33 0 = No .........................................................."
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable IRSUICTHNK?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_objetivo",
+      "variable": "IRSUICTHNK",
+      "pagina": 478,
+      "registro": null,
+      "fragmento": "Variable NSDUH: IRSUICTHNK. Descripción: Ideación suicida. Extracto oficial del codebook NSDUH 2024: ORK Len : 1 DIFFICULTY DOING DAILY WORK ONE MO IN PST 12 MOS - IMP IND Freq Pct 1 = Questionnaire data ........................................................................................................ 35706 60.90 3 = Statistically imputed data .............................................................................................. 1135 1.94 9 = LEGITIMATE SKIP..................................................................................................... 21792 37.17 (SUICTHNK) IRSUICTHNK Len : 1 ADULT SERIOUSLY THOUGHT ABOUT KILLING SELF PST YR - IMP REV Freq Pct . = Aged 12-17 .................................................................................................................... 11334 19.33 0 = No ............................................................"
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable IRSUIPLANYR?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_objetivo",
+      "variable": "IRSUIPLANYR",
+      "pagina": 479,
+      "registro": null,
+      "fragmento": "Variable NSDUH: IRSUIPLANYR. Descripción: Planificación suicida. Extracto oficial del codebook NSDUH 2024: IMPUTED ADULT MENTAL HEALTH Codebook Creation Date: 10/3/2025 ................................................... 477 (SUIPLANYR) IRSUIPLANYR Len : 1 ADULT MADE PLANS TO KILL SELF IN PST YR - IMP REV Freq Pct . = Aged 12-17 .................................................................................................................... 11334 19.33 0 = No ................................................................................................................................. 46129 78.67 1 = Yes ................................................................................................................................ 1170 2.00 (SUIPLANYR) IISUIPLANYR Len : 1 ADULT MADE PLANS TO KILL SELF IN PST YR - IMP IND Freq Pct 1 = Questionnaire data .............................."
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable IRSUITRYYR?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_objetivo",
+      "variable": "IRSUITRYYR",
+      "pagina": 479,
+      "registro": null,
+      "fragmento": "Variable NSDUH: IRSUITRYYR. Descripción: Intento suicida. Extracto oficial del codebook NSDUH 2024: (SUIPLANYR) IISUIPLANYR Len : 1 ADULT MADE PLANS TO KILL SELF IN PST YR - IMP IND Freq Pct 1 = Questionnaire data ........................................................................................................ 45949 78.37 3 = Statistically imputed data .............................................................................................. 1350 2.30 9 = LEGITIMATE SKIP..................................................................................................... 11334 19.33 IRSUITRYYR Len : 1 ADULT ATTEMPTED TO KILL SELF IN PST YR - IMP REV Freq Pct . = Aged 12-17 .................................................................................................................... 11334 19.33 0 = No ........................................................................"
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable CAMHPROB2?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_relevante",
+      "variable": "CAMHPROB2",
+      "pagina": 573,
+      "registro": null,
+      "fragmento": "Variable NSDUH: CAMHPROB2. Descripción: RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE. Extracto oficial del codebook NSDUH 2024: ......... 5645 9.63 (CASUPROB2, CASURCVR) RCVYSUBPRB Len : 1 RC-PERCEIVED RECOVERY FROM DRUG OR ALCOHOL USE PROBLEM Freq Pct . = Aged 12-17/Unknown (Otherwise) ................................................................................ 12931 22.05 0 = No/No Problem (CASURCVR=2 OR CASUPROB2=0) .............................................. 41650 71.04 1 = Yes (CASURCVR=1) ................................................................................................... 4052 6.91 (CAMHPROB) CAMHPROB2 Len : 1 RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE Freq Pct . = Aged 12-17/Unknown (Otherwise) ................................................................................ 12896 21.99 0 = No (CAMHPROB=2) ......................................................"
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable RCVYMHPRB?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_relevante",
+      "variable": "RCVYMHPRB",
+      "pagina": 573,
+      "registro": null,
+      "fragmento": "Variable NSDUH: RCVYMHPRB. Descripción: RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE. Extracto oficial del codebook NSDUH 2024: .91 (CAMHPROB) CAMHPROB2 Len : 1 RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE Freq Pct . = Aged 12-17/Unknown (Otherwise) ................................................................................ 12896 21.99 0 = No (CAMHPROB=2) ................................................................................................... 31105 53.05 1 = Yes (CAMHPROB=1) .................................................................................................. 14632 24.96 (CAMHPROB2, CAMHRCVR) RCVYMHPRB Len : 1 RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE Freq Pct . = Aged 12-17/Unknown (Otherwise) ................................................................................ 13011 22.19 0 = No/No Issue (CAMHRCVR=2 OR CAMHPROB2=0) ........................"
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable LVLDIFMEM2?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_relevante",
+      "variable": "LVLDIFMEM2",
+      "pagina": 13,
+      "registro": null,
+      "fragmento": "Variable NSDUH: LVLDIFMEM2. Descripción: LEVEL OF DIFFICULTY REMEMBERING OR CONCENTRATING. Extracto oficial del codebook NSDUH 2024: ..................................... 67 0.11 94 = DON'T KNOW ........................................................................................................... 134 0.23 97 = REFUSED .................................................................................................................. 180 0.31 98 = BLANK (NO ANSWER) ........................................................................................... 1340 2.29 Do you have difficulty remembering or concentrating? (MEM) LVLDIFMEM2 Len : 2 LEVEL OF DIFFICULTY REMEMBERING OR CONCENTRATING Freq Pct 1 = No Difficulty................................................................................................................. 35896 61.22 2 = Some difficulty ..........................."
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable CAMHPROB?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_relevante",
+      "variable": "CAMHPROB",
+      "pagina": 573,
+      "registro": null,
+      "fragmento": "Variable NSDUH: CAMHPROB. Descripción: THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH. Extracto oficial del codebook NSDUH 2024: ................... 5645 9.63 (CASUPROB2, CASURCVR) RCVYSUBPRB Len : 1 RC-PERCEIVED RECOVERY FROM DRUG OR ALCOHOL USE PROBLEM Freq Pct . = Aged 12-17/Unknown (Otherwise) ................................................................................ 12931 22.05 0 = No/No Problem (CASURCVR=2 OR CASUPROB2=0) .............................................. 41650 71.04 1 = Yes (CASURCVR=1) ................................................................................................... 4052 6.91 (CAMHPROB) CAMHPROB2 Len : 1 RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE Freq Pct . = Aged 12-17/Unknown (Otherwise) ................................................................................ 12896 21.99 0 = No (CAMHPROB=2) ..........................................."
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable LVLDIFCARE2?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_relevante",
+      "variable": "LVLDIFCARE2",
+      "pagina": 13,
+      "registro": null,
+      "fragmento": "Variable NSDUH: LVLDIFCARE2. Descripción: LEVEL OF DIFFICULTY WITH SELF-CARE. Extracto oficial del codebook NSDUH 2024: ............ 67 0.11 94 = DON'T KNOW ........................................................................................................... 136 0.23 97 = REFUSED .................................................................................................................. 181 0.31 98 = BLANK (NO ANSWER) ........................................................................................... 1341 2.29 Do you have difficulty with self-care, such as washing all over or dressing? (CARE) LVLDIFCARE2 Len : 2 LEVEL OF DIFFICULTY WITH SELF-CARE Freq Pct 1 = No Difficulty................................................................................................................. 51614 88.03 2 = Some difficulty ....................................................."
+    },
+    {
+      "consulta": "¿Cómo define NSDUH la variable COPDAGE?",
+      "fuente": "NSDUH 2024 Codebook",
+      "tipo": "variable_relevante",
+      "variable": "COPDAGE",
+      "pagina": 578,
+      "registro": null,
+      "fragmento": "Variable NSDUH: COPDAGE. Descripción: AGE COPD 1ST DIAGNOSED. Extracto oficial del codebook NSDUH 2024: ................................... 218 COCYRBFR ........................... 399 COCYRTOT ........................... 105 COLDMEDS........................... 264 COLDREC .............................. 264 COLDYR1 .............................. 265 COLDYR2 .............................. 266 COLDYR3 .............................. 267 COLDYR4 .............................. 267 COLDYR5 .............................. 267 COMBATPY .......................... 10 CONDLREC ........................... 268 COPDAGE .............................. 560 COPDEVER2 ......................... 555 COUTYP4 .............................. 5 CR30EST ................................ 111 CRAKREC .............................. 109 CRBSTWAY .......................... 110 CRDAYPMO .......................... 110 CRDA"
+    },
+    {
+      "consulta": "¿Los valores SHAP permiten afirmar causalidad?",
+      "fuente": "Notebook 04",
+      "tipo": "limitacion",
+      "variable": null,
+      "pagina": null,
+      "registro": 5,
+      "fragmento": "Limitación del modelo: Explicabilidad no causal. Las contribuciones SHAP describen asociaciones aprendidas por el modelo y no causalidad."
+    },
+    {
+      "consulta": "¿Puede utilizarse el sistema con finalidad diagnóstica?",
+      "fuente": "Notebook 04",
+      "tipo": "limitacion",
+      "variable": null,
+      "pagina": null,
+      "registro": 1,
+      "fragmento": "Limitación del modelo: Uso preventivo y no diagnóstico. La salida apoya priorización preventiva y requiere interpretación humana."
+    },
+    {
+      "consulta": "¿La probabilidad estimada equivale a riesgo clínico?",
+      "fuente": "Notebook 04",
+      "tipo": "limitacion",
+      "variable": null,
+      "pagina": null,
+      "registro": 2,
+      "fragmento": "Limitación del modelo: Probabilidades no equivalentes a riesgo clínico. La calibración descriptiva impide interpretar la probabilidad como riesgo clínico directo."
+    }
+  ],
+  "advertencias": [
+    "La salida apoya priorización preventiva y requiere interpretación humana.",
+    "La calibración descriptiva impide interpretar la probabilidad como riesgo clínico directo.",
+    "Planificación e intento presentan una prevalencia reducida y una Precision limitada.",
+    "La prioridad de Recall incrementa los falsos positivos, especialmente en intento suicida.",
+    "Las contribuciones SHAP describen asociaciones aprendidas por el modelo y no causalidad.",
+    "La muestra 50/50 utilizada para SHAP no reproduce la prevalencia natural de TEST.",
+    "Trece de 100 explicaciones superan la tolerancia técnica de reconstrucción establecida.",
+    "Algunas variables originales y recodificadas representan contenidos estrechamente relacionados.",
+    "Los códigos de salto o respuesta deben conservar exactamente el tratamiento definido en el proyecto.",
+    "La solución híbrida requiere validación posterior sobre datos independientes o nuevas ediciones."
+  ],
+  "descripciones_objetivos": [
+    "Episodio depresivo mayor",
+    "Ideación suicida",
+    "Planificación suicida",
+    "Intento suicida"
+  ],
+  "orientaciones_permitidas": [
+    "Considerar una revisión profesional del conjunto de indicadores cuando el contexto lo justifique.",
+    "Favorecer el acceso a recursos de apoyo y seguimiento preventivo.",
+    "Mantener la interpretación de los resultados como apoyo complementario y no como diagnóstico.",
+    "Priorizar una valoración profesional si los indicadores coinciden con señales de especial preocupación.",
+    "Contrastar esta información con el contexto individual y con otras fuentes pertinentes antes de adoptar decisiones."
+  ],
+  "limitaciones_obligatorias": [
+    "El sistema tiene finalidad preventiva y no diagnóstica.",
+    "Las probabilidades estimadas no equivalen a riesgo clínico individual.",
+    "Las contribuciones SHAP describen la dirección de la contribución del modelo y no establecen causalidad."
+  ],
+  "advertencia_obligatoria": "Este informe es un prototipo académico de apoyo preventivo. No realiza diagnósticos ni sustituye la valoración de profesionales cualificados.",
+  "nota_factores": "La clasificación como factor de riesgo o factor protector se refiere únicamente a la dirección de la contribución SHAP sobre la predicción del modelo y no implica una relación causal ni una valoración clínica.",
+  "fuentes_permitidas": [
+    "NSDUH 2024 Codebook",
+    "Notebook 04"
+  ]
+}

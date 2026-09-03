@@ -1,0 +1,7 @@
+﻿elemento,valor
+Consultas evaluadas,9.0
+Consultas correctas,9.0
+Recuperación correcta top-3 (%),100.0
+Variables objetivo evaluadas,4.0
+Variables SHAP relevantes evaluadas,2.0
+Limitaciones evaluadas,3.0

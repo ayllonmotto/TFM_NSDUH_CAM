@@ -1,0 +1,5 @@
+﻿conjunto,rama,registros,variables,formato,densidad_pct
+Entrenamiento interno,Numérica,30271,59,ndarray float32,97.15776524939403
+Entrenamiento interno,Categórica,30271,2991,CSR float32,15.384964314502096
+Validación,Numérica,7568,59,ndarray float32,97.17767943526714
+Validación,Categórica,7568,2991,CSR float32,15.38026252824718

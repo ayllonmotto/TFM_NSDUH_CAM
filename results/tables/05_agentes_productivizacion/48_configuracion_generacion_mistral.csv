@@ -1,0 +1,11 @@
+﻿elemento,valor
+Modelo generativo,mistral-small-latest
+Versión del prompt,v5
+Predicciones disponibles,4
+Explicaciones SHAP,4
+Factores SHAP permitidos,12
+Documentos recuperados,13
+Fuentes permitidas,2
+Frases de orientación disponibles,5
+Registro original incluido,False
+Tiempo de preparación del contexto (s),196.831

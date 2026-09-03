@@ -1,0 +1,5 @@
+﻿variable_objetivo,descripcion,n_presentes,n_positivos,pct_no_ponderado,pct_ponderado,diferencia_pp
+IRAMDEYR,Episodio depresivo mayor,47299,5205,11.004,8.237,-2.767
+IRSUICTHNK,Ideación suicida,47299,3489,7.376,5.502,-1.874
+IRSUIPLANYR,Planificación suicida,47299,1170,2.474,1.816,-0.657
+IRSUITRYYR,Intento suicida,47299,525,1.11,0.845,-0.264

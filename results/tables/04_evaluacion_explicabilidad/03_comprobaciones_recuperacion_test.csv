@@ -1,0 +1,10 @@
+﻿comprobacion,resultado
+TEST contiene exactamente 9.460 registros,True
+QUESTID2 es único en TEST,True
+Los identificadores recuperados coinciden con la asignación TEST,True
+TEST conserva el orden de la asignación,True
+Las cuatro variables objetivo están disponibles,True
+Las cuatro variables objetivo están completas,True
+Las cuatro variables objetivo son binarias,True
+Todas las variables originales ML están disponibles,True
+Todas las variables originales DL están disponibles,True

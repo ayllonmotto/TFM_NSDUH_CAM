@@ -1,0 +1,9 @@
+﻿comprobacion,resultado
+Se evalúan las cuatro variables objetivo,True
+Se evalúan al menos dos variables relevantes seleccionadas por SHAP,True
+Se evalúan tres limitaciones metodológicas,True
+Cada consulta recupera tres documentos,True
+Todos los documentos esperados aparecen en el top-3,True
+Las consultas con variables priorizan coincidencia exacta,True
+Las consultas conceptuales utilizan recuperación semántica,True
+Las predicciones permanecen inalteradas durante la recuperación,True

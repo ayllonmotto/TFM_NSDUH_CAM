@@ -1,0 +1,11 @@
+﻿bloque,comprobaciones,superadas,estado
+0. Preparación,12,12,OK
+1. Transferencia,18,18,OK
+2. Contratos,10,10,OK
+3. Bridge predictivo,14,14,OK
+4. Tools y MCP,5,5,OK
+5. RAG,8,8,OK
+6. LangGraph,8,8,OK
+7. Generación y guardrails,22,22,OK
+8. Productivización,39,39,OK
+9. Evaluación extremo a extremo,21,21,OK

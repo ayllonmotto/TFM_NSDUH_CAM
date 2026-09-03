@@ -1,0 +1,8 @@
+﻿elemento,valor
+Código HTTP de la ejecución completa,200
+Predicciones validadas,4
+Factores explicativos,12
+Comprobaciones funcionales superadas,15
+Comprobaciones de robustez superadas,6
+Tiempo total extremo a extremo (s),206.21
+Resultado global,VALIDADO

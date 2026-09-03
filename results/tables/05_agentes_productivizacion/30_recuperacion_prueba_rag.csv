@@ -1,0 +1,4 @@
+﻿posicion,fuente,tipo,variable,pagina,similitud,fragmento
+1,Notebook 04,limitacion,,,0.663582095112261,Limitación del modelo: Explicabilidad no causal. Las contribuciones SHAP describen asociaciones aprendidas por el modelo y no causalidad.
+2,Notebook 04,limitacion,,,0.514736270269073,Limitación del modelo: Muestra global SHAP equilibrada. La muestra 50/50 utilizada para SHAP no reproduce la prevalencia natural de TEST.
+3,Notebook 04,limitacion,,,0.3966613345072701,Limitación del modelo: Probabilidades no equivalentes a riesgo clínico. La calibración descriptiva impide interpretar la probabilidad como riesgo clínico directo.

@@ -1,0 +1,7 @@
+﻿clave_ensemble,ensemble,modelos,pesos,n_modelos
+ensemble_focal_50,Ensemble — ramas 32 + sin BatchNormalization (50/50),Red multisalida — Focal + Adam — Ramas específicas de 32 neuronas + Red multisalida — Focal + Adam — Sin BatchNormalization en ramas específicas,0.50 / 0.50,2
+ensemble_bce_50,Ensemble — ramas 32 + BCE por tarea (50/50),Red multisalida — Focal + Adam — Ramas específicas de 32 neuronas + Red multisalida — BCE + pesos por tarea,0.50 / 0.50,2
+ensemble_atencion_50,Ensemble — ramas 32 + atención (50/50),Red multisalida — Focal + Adam — Ramas específicas de 32 neuronas + Embeddings + atención — Ponderación balanceada,0.50 / 0.50,2
+ensemble_diverso_50,Ensemble — ramas 32 + BCE por tarea + atención (50/25/25),Red multisalida — Focal + Adam — Ramas específicas de 32 neuronas + Red multisalida — BCE + pesos por tarea + Embeddings + atención — Ponderación balanceada,0.50 / 0.25 / 0.25,3
+ensemble_focal_70,Ensemble — ramas 32 + sin BatchNormalization (70/30),Red multisalida — Focal + Adam — Ramas específicas de 32 neuronas + Red multisalida — Focal + Adam — Sin BatchNormalization en ramas específicas,0.70 / 0.30,2
+ensemble_diverso_70,Ensemble — ramas 32 + BCE por tarea + atención (70/15/15),Red multisalida — Focal + Adam — Ramas específicas de 32 neuronas + Red multisalida — BCE + pesos por tarea + Embeddings + atención — Ponderación balanceada,0.70 / 0.15 / 0.15,3

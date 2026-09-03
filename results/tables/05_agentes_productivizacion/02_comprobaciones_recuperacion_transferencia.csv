@@ -1,0 +1,19 @@
+﻿comprobacion,resultado
+La selección contiene exactamente las cuatro variables objetivo,True
+Las familias seleccionadas coinciden con la configuración,True
+Los modelos seleccionados coinciden con la configuración,True
+Los umbrales seleccionados coinciden con la configuración,True
+El esquema contiene las 59 variables Machine Learning,True
+El esquema contiene las 813 variables Deep Learning,True
+Las variables objetivo no aparecen entre las entradas,True
+El esquema de salida contiene los ocho campos obligatorios,True
+Las predicciones contienen 9.460 registros por variable objetivo,True
+No existen duplicados por identificador y variable objetivo,True
+Las predicciones utilizan las familias seleccionadas,True
+Las predicciones utilizan los modelos seleccionados,True
+Las predicciones utilizan los umbrales definitivos,True
+Cada variable objetivo dispone de 15 variables SHAP principales,True
+Las 10 limitaciones transferidas contienen descripción,True
+Las comprobaciones de transferencia del Notebook 04 son correctas,True
+Las comprobaciones de cierre del Notebook 04 son correctas,True
+Los 16 archivos declarados continúan disponibles,True

@@ -1,0 +1,5 @@
+﻿comprobacion,resultado
+TRAIN contiene exactamente 37.839 registros,True
+Las cuatro variables objetivo están completas en TRAIN,True
+Las cuatro variables objetivo son binarias en TRAIN,True
+La comparación contiene las cuatro variables objetivo,True

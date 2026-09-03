@@ -1,0 +1,14 @@
+﻿elemento,valor
+Nombre del modelo,MLP de referencia
+Tipo de arquitectura,Sequential
+Variables de entrada,3050
+Capas ocultas,4
+Neuronas por capa oculta,64
+Activación oculta,ReLU
+Unidades de salida,1
+Activación de salida,Sigmoid
+Función de pérdida,Binary Crossentropy
+Optimizador,Adam
+Parámetros totales,207809
+Regularización,No aplicada
+Ponderación de clases,No aplicada

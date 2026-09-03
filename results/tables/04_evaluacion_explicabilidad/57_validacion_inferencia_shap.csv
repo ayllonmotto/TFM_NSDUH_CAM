@@ -1,0 +1,5 @@
+﻿target,descripcion,familia,diferencia_maxima
+IRAMDEYR,Episodio depresivo mayor,ML,0.0
+IRSUICTHNK,Ideación suicida,DL,0.0
+IRSUIPLANYR,Planificación suicida,DL,0.0
+IRSUITRYYR,Intento suicida,DL,0.0

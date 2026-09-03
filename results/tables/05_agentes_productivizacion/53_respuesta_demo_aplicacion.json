@@ -1,0 +1,663 @@
+{
+  "estado": "OK",
+  "fecha_ejecucion": "2026-08-31T21:13:09",
+  "version_predictiva": "v1",
+  "modelo_generativo": "mistral-small-latest",
+  "version_prompt": "v5",
+  "predicciones": [
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion": "Episodio depresivo mayor",
+      "probabilidad": 0.8269689679145813,
+      "umbral": 0.5,
+      "clasificacion": 1,
+      "familia": "ML",
+      "modelo": "XGBoost",
+      "variables_principales": null,
+      "diferencia_reconstruccion": null,
+      "advertencias": [
+        "La salida apoya priorización preventiva y requiere interpretación humana.",
+        "La calibración descriptiva impide interpretar la probabilidad como riesgo clínico directo.",
+        "Planificación e intento presentan una prevalencia reducida y una Precision limitada.",
+        "La prioridad de Recall incrementa los falsos positivos, especialmente en intento suicida.",
+        "Las contribuciones SHAP describen asociaciones aprendidas por el modelo y no causalidad.",
+        "La muestra 50/50 utilizada para SHAP no reproduce la prevalencia natural de TEST.",
+        "Trece de 100 explicaciones superan la tolerancia técnica de reconstrucción establecida.",
+        "Algunas variables originales y recodificadas representan contenidos estrechamente relacionados.",
+        "Los códigos de salto o respuesta deben conservar exactamente el tratamiento definido en el proyecto.",
+        "La solución híbrida requiere validación posterior sobre datos independientes o nuevas ediciones."
+      ]
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion": "Ideación suicida",
+      "probabilidad": 0.5657280087471008,
+      "umbral": 0.509,
+      "clasificacion": 1,
+      "familia": "DL",
+      "modelo": "Ensemble — ramas 32 + sin BatchNormalization (50/50)",
+      "variables_principales": null,
+      "diferencia_reconstruccion": null,
+      "advertencias": [
+        "La salida apoya priorización preventiva y requiere interpretación humana.",
+        "La calibración descriptiva impide interpretar la probabilidad como riesgo clínico directo.",
+        "Planificación e intento presentan una prevalencia reducida y una Precision limitada.",
+        "La prioridad de Recall incrementa los falsos positivos, especialmente en intento suicida.",
+        "Las contribuciones SHAP describen asociaciones aprendidas por el modelo y no causalidad.",
+        "La muestra 50/50 utilizada para SHAP no reproduce la prevalencia natural de TEST.",
+        "Trece de 100 explicaciones superan la tolerancia técnica de reconstrucción establecida.",
+        "Algunas variables originales y recodificadas representan contenidos estrechamente relacionados.",
+        "Los códigos de salto o respuesta deben conservar exactamente el tratamiento definido en el proyecto.",
+        "La solución híbrida requiere validación posterior sobre datos independientes o nuevas ediciones."
+      ]
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion": "Planificación suicida",
+      "probabilidad": 0.5257236659526825,
+      "umbral": 0.536,
+      "clasificacion": 0,
+      "familia": "DL",
+      "modelo": "Ensemble — ramas 32 + sin BatchNormalization (50/50)",
+      "variables_principales": null,
+      "diferencia_reconstruccion": null,
+      "advertencias": [
+        "La salida apoya priorización preventiva y requiere interpretación humana.",
+        "La calibración descriptiva impide interpretar la probabilidad como riesgo clínico directo.",
+        "Planificación e intento presentan una prevalencia reducida y una Precision limitada.",
+        "La prioridad de Recall incrementa los falsos positivos, especialmente en intento suicida.",
+        "Las contribuciones SHAP describen asociaciones aprendidas por el modelo y no causalidad.",
+        "La muestra 50/50 utilizada para SHAP no reproduce la prevalencia natural de TEST.",
+        "Trece de 100 explicaciones superan la tolerancia técnica de reconstrucción establecida.",
+        "Algunas variables originales y recodificadas representan contenidos estrechamente relacionados.",
+        "Los códigos de salto o respuesta deben conservar exactamente el tratamiento definido en el proyecto.",
+        "La solución híbrida requiere validación posterior sobre datos independientes o nuevas ediciones."
+      ]
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion": "Intento suicida",
+      "probabilidad": 0.5241041928529739,
+      "umbral": 0.502,
+      "clasificacion": 1,
+      "familia": "DL",
+      "modelo": "Ensemble — ramas 32 + sin BatchNormalization (50/50)",
+      "variables_principales": null,
+      "diferencia_reconstruccion": null,
+      "advertencias": [
+        "La salida apoya priorización preventiva y requiere interpretación humana.",
+        "La calibración descriptiva impide interpretar la probabilidad como riesgo clínico directo.",
+        "Planificación e intento presentan una prevalencia reducida y una Precision limitada.",
+        "La prioridad de Recall incrementa los falsos positivos, especialmente en intento suicida.",
+        "Las contribuciones SHAP describen asociaciones aprendidas por el modelo y no causalidad.",
+        "La muestra 50/50 utilizada para SHAP no reproduce la prevalencia natural de TEST.",
+        "Trece de 100 explicaciones superan la tolerancia técnica de reconstrucción establecida.",
+        "Algunas variables originales y recodificadas representan contenidos estrechamente relacionados.",
+        "Los códigos de salto o respuesta deben conservar exactamente el tratamiento definido en el proyecto.",
+        "La solución híbrida requiere validación posterior sobre datos independientes o nuevas ediciones."
+      ]
+    }
+  ],
+  "factores": [
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB2",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+      "posicion_factor": 1
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "tipo_factor": "Factor protector para la predicción",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion": "Percepción de recuperación de un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable combinando la respuesta sobre haber tenido un problema de salud mental con la respuesta sobre recuperación; no corresponde a una pregunta independiente.",
+      "posicion_factor": 2
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "LVLDIFMEM2",
+      "descripcion": "Nivel de dificultad para recordar o concentrarse",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null,
+      "posicion_factor": 3
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null,
+      "posicion_factor": 1
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB2",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+      "posicion_factor": 2
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null,
+      "posicion_factor": 3
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null,
+      "posicion_factor": 1
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "COPDAGE",
+      "descripcion": "Edad en la que se diagnosticó por primera vez la EPOC",
+      "respuesta_observada": "44 años",
+      "nota_variable": null,
+      "posicion_factor": 2
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null,
+      "posicion_factor": 3
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null,
+      "posicion_factor": 1
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB2",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+      "posicion_factor": 2
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null,
+      "posicion_factor": 3
+    }
+  ],
+  "detalle_explicabilidad": [
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": 0.3529535600915551,
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "LVLDIFMEM2",
+      "descripcion_original": "LEVEL OF DIFFICULTY REMEMBERING OR CONCENTRATING",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 2.0,
+      "valor_shap": 0.05849696584045888,
+      "descripcion": "Nivel de dificultad para recordar o concentrarse",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0,
+      "valor_shap": 0.057277161814272365,
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": -0.06264771968126293,
+      "descripcion": "Percepción de recuperación de un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable combinando la respuesta sobre haber tenido un problema de salud mental con la respuesta sobre recuperación; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "variable_origen": "NMERTMT2",
+      "descripcion_original": "# OF TIMES BEEN TREATED IN EMER ROOM PAST 12 MOS",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 0.0,
+      "valor_shap": -0.012164369970560057,
+      "descripcion": "Número de veces que ha sido atendido en sala de emergencias en los últimos 12 meses",
+      "respuesta_observada": "0 veces",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": 0.045312363654375076,
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0,
+      "valor_shap": 0.033839601464569546,
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0,
+      "valor_shap": 0.027406862936913967,
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": -0.01129623912274838,
+      "descripcion": "Percepción de recuperación de un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable combinando la respuesta sobre haber tenido un problema de salud mental con la respuesta sobre recuperación; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "variable_origen": "MRJYDAYS",
+      "descripcion_original": "RC-# OF DAYS USED MARIJUANA IN PAST YEAR",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 5.0,
+      "valor_shap": -0.007429107092320919,
+      "descripcion": "Número de días que consumió marihuana en el último año",
+      "respuesta_observada": "300–365 días",
+      "nota_variable": "NSDUH obtiene esta variable recodificando una respuesta original según las reglas de su documentación oficial; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": 0.04534895401448011,
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "COPDAGE",
+      "descripcion_original": "AGE COPD 1ST DIAGNOSED",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 44.0,
+      "valor_shap": 0.040078266762668596,
+      "descripcion": "Edad en la que se diagnosticó por primera vez la EPOC",
+      "respuesta_observada": "44 años",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0,
+      "valor_shap": 0.033409181423485285,
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "EDUSCKCOM",
+      "descripcion_original": "RC - HOW MANY DAYS MISSED SCHOOL FROM SICK (COMBINED)",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 99.0,
+      "valor_shap": -0.015758944035144384,
+      "descripcion": "Número de días que faltó a la escuela por enfermedad (combinado)",
+      "respuesta_observada": "No aplicable según el flujo del cuestionario",
+      "nota_variable": "NSDUH obtiene esta variable combinando las respuestas relativas a las ausencias escolares según las reglas establecidas en el codebook; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0,
+      "valor_shap": -0.012629089131951321,
+      "descripcion": "Percepción de recuperación de un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable combinando la respuesta sobre haber tenido un problema de salud mental con la respuesta sobre recuperación; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "CAMHPROB",
+      "descripcion_original": "THINK EVER HAD PROBLEM WITH OWN MENTAL HEALTH",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": 0.04141272879205643,
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "CAMHPROB2",
+      "descripcion_original": "RC-PERCEIVED EVER HAD A MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 1.0,
+      "valor_shap": 0.02894108314067126,
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion_original": "LEVEL OF DIFFICULTY WITH SELF-CARE",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "posicion_factor": 3,
+      "valor_observado": 2.0,
+      "valor_shap": 0.028488614968955522,
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion_original": "RC-PERCEIVED RECOVERY FROM MENTAL HEALTH ISSUE",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 1,
+      "valor_observado": 1.0,
+      "valor_shap": -0.009477374330163019,
+      "descripcion": "Percepción de recuperación de un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable combinando la respuesta sobre haber tenido un problema de salud mental con la respuesta sobre recuperación; no corresponde a una pregunta independiente."
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "variable_origen": "SEXRACE",
+      "descripcion_original": "RC-COMBINED SEX BY RACE INDICATOR",
+      "tipo_factor": "Factor protector para la predicción",
+      "posicion_factor": 2,
+      "valor_observado": 2.0,
+      "valor_shap": -0.007710677385330211,
+      "descripcion": "Indicador combinado de sexo por raza",
+      "respuesta_observada": "Female, White, Not Hisp",
+      "nota_variable": "NSDUH combina la información de sexo y raza/etnia en una única categoría derivada."
+    }
+  ],
+  "informe": {
+    "resumen": "En esta evaluación, tres de los cuatro indicadores evaluados superan sus umbrales validados: episodio depresivo mayor, ideación suicida e intento suicida. El indicador de planificación suicida no supera su umbral validado.",
+    "interpretacion": "Se evaluaron cuatro indicadores: episodio depresivo mayor, ideación suicida, planificación suicida e intento suicida. El indicador de episodio depresivo mayor supera su umbral validado. El indicador de ideación suicida supera su umbral validado. El indicador de planificación suicida no supera su umbral validado. El indicador de intento suicida supera su umbral validado. Este resultado señala la conveniencia de una revisión preventiva adicional.",
+    "factores_relevantes": [
+      {
+        "variable_objetivo": "IRAMDEYR",
+        "descripcion_objetivo": "Episodio depresivo mayor",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "CAMHPROB2",
+        "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+        "respuesta_observada": "Sí",
+        "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+        "posicion_factor": 1
+      },
+      {
+        "variable_objetivo": "IRAMDEYR",
+        "descripcion_objetivo": "Episodio depresivo mayor",
+        "tipo_factor": "Factor protector para la predicción",
+        "variable_origen": "RCVYMHPRB",
+        "descripcion": "Percepción de recuperación de un problema de salud mental",
+        "respuesta_observada": "Sí",
+        "nota_variable": "NSDUH obtiene esta variable combinando la respuesta sobre haber tenido un problema de salud mental con la respuesta sobre recuperación; no corresponde a una pregunta independiente.",
+        "posicion_factor": 2
+      },
+      {
+        "variable_objetivo": "IRAMDEYR",
+        "descripcion_objetivo": "Episodio depresivo mayor",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "LVLDIFMEM2",
+        "descripcion": "Nivel de dificultad para recordar o concentrarse",
+        "respuesta_observada": "Alguna dificultad",
+        "nota_variable": null,
+        "posicion_factor": 3
+      },
+      {
+        "variable_objetivo": "IRSUICTHNK",
+        "descripcion_objetivo": "Ideación suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "CAMHPROB",
+        "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+        "respuesta_observada": "Sí",
+        "nota_variable": null,
+        "posicion_factor": 1
+      },
+      {
+        "variable_objetivo": "IRSUICTHNK",
+        "descripcion_objetivo": "Ideación suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "CAMHPROB2",
+        "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+        "respuesta_observada": "Sí",
+        "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+        "posicion_factor": 2
+      },
+      {
+        "variable_objetivo": "IRSUICTHNK",
+        "descripcion_objetivo": "Ideación suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "LVLDIFCARE2",
+        "descripcion": "Nivel de dificultad con el autocuidado",
+        "respuesta_observada": "Alguna dificultad",
+        "nota_variable": null,
+        "posicion_factor": 3
+      },
+      {
+        "variable_objetivo": "IRSUIPLANYR",
+        "descripcion_objetivo": "Planificación suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "CAMHPROB",
+        "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+        "respuesta_observada": "Sí",
+        "nota_variable": null,
+        "posicion_factor": 1
+      },
+      {
+        "variable_objetivo": "IRSUIPLANYR",
+        "descripcion_objetivo": "Planificación suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "COPDAGE",
+        "descripcion": "Edad en la que se diagnosticó por primera vez la EPOC",
+        "respuesta_observada": "44 años",
+        "nota_variable": null,
+        "posicion_factor": 2
+      },
+      {
+        "variable_objetivo": "IRSUIPLANYR",
+        "descripcion_objetivo": "Planificación suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "LVLDIFCARE2",
+        "descripcion": "Nivel de dificultad con el autocuidado",
+        "respuesta_observada": "Alguna dificultad",
+        "nota_variable": null,
+        "posicion_factor": 3
+      },
+      {
+        "variable_objetivo": "IRSUITRYYR",
+        "descripcion_objetivo": "Intento suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "CAMHPROB",
+        "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+        "respuesta_observada": "Sí",
+        "nota_variable": null,
+        "posicion_factor": 1
+      },
+      {
+        "variable_objetivo": "IRSUITRYYR",
+        "descripcion_objetivo": "Intento suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "CAMHPROB2",
+        "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+        "respuesta_observada": "Sí",
+        "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+        "posicion_factor": 2
+      },
+      {
+        "variable_objetivo": "IRSUITRYYR",
+        "descripcion_objetivo": "Intento suicida",
+        "tipo_factor": "Factor de riesgo para la predicción",
+        "variable_origen": "LVLDIFCARE2",
+        "descripcion": "Nivel de dificultad con el autocuidado",
+        "respuesta_observada": "Alguna dificultad",
+        "nota_variable": null,
+        "posicion_factor": 3
+      }
+    ],
+    "orientacion_preventiva": [
+      "Considerar una revisión profesional del conjunto de indicadores cuando el contexto lo justifique.",
+      "Favorecer el acceso a recursos de apoyo y seguimiento preventivo.",
+      "Mantener la interpretación de los resultados como apoyo complementario y no como diagnóstico."
+    ],
+    "limitaciones": [
+      "El sistema tiene finalidad preventiva y no diagnóstica.",
+      "Las probabilidades estimadas no equivalen a riesgo clínico individual.",
+      "Las contribuciones SHAP describen la dirección de la contribución del modelo y no establecen causalidad."
+    ],
+    "fuentes": [
+      "NSDUH 2024 Codebook",
+      "Notebook 04"
+    ],
+    "advertencia_uso": "Este informe es un prototipo académico de apoyo preventivo. No realiza diagnósticos ni sustituye la valoración de profesionales cualificados."
+  },
+  "trazabilidad": [
+    {
+      "paso": 1,
+      "nodo": "validar_entrada",
+      "entrada": "Registro recibido con 813 variables",
+      "salida": "Entrada válida con 813 variables",
+      "tiempo_s": 0.001
+    },
+    {
+      "paso": 2,
+      "nodo": "predecir_indicadores",
+      "entrada": "Entrada validada con 813 variables",
+      "salida": "4 predicciones estructuradas obtenidas",
+      "tiempo_s": 9.084
+    },
+    {
+      "paso": 3,
+      "nodo": "explicar_resultados",
+      "entrada": "4 variables objetivo solicitadas",
+      "salida": "4 explicaciones y 6 variables principales",
+      "tiempo_s": 187.436
+    },
+    {
+      "paso": 4,
+      "nodo": "recuperar_documentacion",
+      "entrada": "13 consultas documentales",
+      "salida": "13 documentos principales recuperados",
+      "tiempo_s": 0.301
+    },
+    {
+      "paso": 5,
+      "nodo": "preparar_contexto",
+      "entrada": "4 predicciones, 4 explicaciones y 13 documentos",
+      "salida": "Contexto estructurado preparado para la capa generativa",
+      "tiempo_s": 0.0
+    }
+  ]
+}

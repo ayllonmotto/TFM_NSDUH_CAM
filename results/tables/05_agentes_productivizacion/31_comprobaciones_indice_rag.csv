@@ -1,0 +1,6 @@
+﻿comprobacion,resultado
+El embedding tiene 384 dimensiones,True
+El índice contiene el corpus documental preparado,True
+El retriever devuelve tres documentos,True
+Todos los resultados conservan metadatos de fuente,True
+La consulta sobre causalidad recupera una limitación relacionada,True

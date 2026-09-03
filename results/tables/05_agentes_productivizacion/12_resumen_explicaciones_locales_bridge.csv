@@ -1,0 +1,3 @@
+﻿target,descripcion,familia,modelo,probabilidad,valor_base,reconstruccion,diferencia_reconstruccion,n_variables,n_evaluaciones_shap,tiempo_s,diferencia_probabilidad,reconstruccion_dentro_tolerancia
+IRAMDEYR,Episodio depresivo mayor,ML,XGBoost,0.8269689679145813,0.32561748623847964,0.8269689679145813,0.0,15,1627,8.157825299998876,0.0,True
+IRSUICTHNK,Ideación suicida,DL,Ensemble — ramas 32 + sin BatchNormalization (50/50),0.5657280087471008,0.4224770452827215,0.5657280087471008,0.0,15,1627,51.73663586300063,0.0,True

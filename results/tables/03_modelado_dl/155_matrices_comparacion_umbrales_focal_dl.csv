@@ -1,0 +1,9 @@
+﻿target,descripcion,criterio,tn,fp,fn,tp
+IRAMDEYR,Episodio depresivo mayor,referencia,5343,1389,126,710
+IRAMDEYR,Episodio depresivo mayor,propuesto,5343,1389,126,710
+IRSUICTHNK,Ideación suicida,referencia,5390,1615,157,406
+IRSUICTHNK,Ideación suicida,propuesto,5139,1866,125,438
+IRSUIPLANYR,Planificación suicida,referencia,5511,1883,24,150
+IRSUIPLANYR,Planificación suicida,propuesto,5391,2003,18,156
+IRSUITRYYR,Intento suicida,referencia,5734,1750,13,71
+IRSUITRYYR,Intento suicida,propuesto,5790,1694,13,71

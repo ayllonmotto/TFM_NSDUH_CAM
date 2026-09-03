@@ -1,0 +1,3 @@
+﻿conjunto,registros,variables,valores_no_nulos,densidad_pct,memoria_csr_mb
+Entrenamiento interno,30271,3050,15664860,16.966798824390168,119.62887573242188
+Validación,7568,3050,3915369,16.96257321595675,29.900768280029297

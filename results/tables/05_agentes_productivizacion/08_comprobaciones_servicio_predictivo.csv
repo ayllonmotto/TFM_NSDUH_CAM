@@ -1,0 +1,14 @@
+﻿comprobacion,resultado
+El archivo del servicio predictivo está disponible,True
+La ejecución mediante TFM_ML finaliza correctamente,True
+El servicio devuelve estado OK,True
+El servicio se ejecuta dentro de TFM_ML,True
+La configuración corresponde a la versión v1,True
+Se recuperan las cuatro variables objetivo,True
+Se recuperan los cuatro modelos Machine Learning,True
+Se recuperan los dos modelos Deep Learning,True
+La entrada general contiene 813 variables,True
+Machine Learning conserva 59 variables originales,True
+Machine Learning conserva 67 variables de entrada,True
+La referencia SHAP conserva 20 registros y 813 variables,True
+Todas las comprobaciones internas del servicio son correctas,True

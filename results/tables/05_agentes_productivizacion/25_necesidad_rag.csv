@@ -1,0 +1,6 @@
+﻿informacion,origen,rag_necesario
+"Probabilidad, umbral y clasificación",Servicio predictivo,False
+Explicación SHAP local,Servicio predictivo,False
+Definición y codificación de variables,RAG,True
+Limitaciones del sistema,RAG,True
+Procedencia documental,RAG,True

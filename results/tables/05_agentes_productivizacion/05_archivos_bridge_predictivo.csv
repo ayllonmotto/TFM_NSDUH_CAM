@@ -1,0 +1,11 @@
+﻿elemento,ruta,disponible
+Configuración de productivización,results/tables/04_evaluacion_explicabilidad/configuracion_productivizacion_v1.joblib,True
+Referencia SHAP,results/tables/04_evaluacion_explicabilidad/background_shap_productivizacion_v1.joblib,True
+Modelos finales Machine Learning,models/02_modelado_ml/modelos_ml_finales.pkl,True
+Preprocesamiento Deep Learning,models/03_modelado_dl/preprocesamiento_final_dl_v1.joblib,True
+Metadatos Deep Learning,models/03_modelado_dl/metadatos_modelo_final_dl_v1.joblib,True
+Rangos de variables numéricas,results/tables/01_datos_eda/30_resumen_numericas_validas.csv,True
+Roles y etiquetas,results/tables/01_datos_eda/28_roles_base_premodelado.csv,True
+Modelo Deep Learning — multisalida_focal_ramas_32,models/03_modelado_dl/modelo_final_focal_ramas_32_v1.keras,True
+Modelo Deep Learning — multisalida_focal_sin_bn_ramas,models/03_modelado_dl/modelo_final_focal_sin_bn_ramas_v1.keras,True
+Base premodelado,data/interim/NSDUH_2024_adultos_premodelado.parquet,True

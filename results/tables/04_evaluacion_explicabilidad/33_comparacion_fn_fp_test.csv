@@ -1,0 +1,5 @@
+﻿target,descripcion,fn_ml,fn_dl,diferencia_fn_dl_ml,fp_ml,fp_dl,diferencia_fp_dl_ml
+IRAMDEYR,Episodio depresivo mayor,146,287,141,1728,1019,-709
+IRSUICTHNK,Ideación suicida,180,196,16,2089,1683,-406
+IRSUIPLANYR,Planificación suicida,67,54,-13,2035,1651,-384
+IRSUITRYYR,Intento suicida,33,24,-9,1762,2108,346

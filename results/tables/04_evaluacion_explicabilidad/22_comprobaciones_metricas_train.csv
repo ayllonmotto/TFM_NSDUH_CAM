@@ -1,0 +1,7 @@
+﻿comprobacion,resultado
+Se obtiene una evaluación por familia y variable objetivo,True
+Cada objetivo dispone de resultados ML y DL,True
+"Las métricas principales pertenecen al intervalo [0, 1]",True
+Los elementos de cada matriz suman los registros,True
+No existen métricas ausentes,True
+No existen métricas no finitas,True

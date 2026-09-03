@@ -1,0 +1,12 @@
+﻿comprobacion,resultado
+Registros coinciden con resumen,True
+Variables coinciden con resumen,True
+Una fila de roles por variable,True
+Variables sin duplicados en roles,True
+Variables de base y roles coinciden,True
+Distribución de roles coincide con resumen,True
+SHA-256 de la base coincide,True
+Identificador del resumen es QUESTID2,True
+QUESTID2 presente,True
+QUESTID2 sin valores físicamente ausentes,True
+QUESTID2 identifica registros únicos,True

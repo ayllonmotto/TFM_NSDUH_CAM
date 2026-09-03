@@ -1,0 +1,20 @@
+﻿comprobacion,resultado
+Cuatro modelos finales disponibles,True
+Un modelo disponible para cada variable objetivo,True
+Todos los pipelines están ajustados,True
+Todos los modelos permiten obtener probabilidades,True
+Se conservan las 59 variables originales,True
+Se conservan las 8 variables numéricas,True
+Se conservan las 51 variables categóricas originales,True
+Se conservan las 8 variables de estado,True
+Se conservan las 59 entradas con tratamiento categórico,True
+Se conservan las 67 variables de entrada,True
+Las variables almacenadas coinciden,True
+Las columnas de entrada coinciden,True
+El archivo puede recuperarse,True
+La selección final de modelos se conserva,True
+Los modelos Stacking conservan el C seleccionado,True
+"Los umbrales permanecen en 0,5",True
+Las versiones de las búsquedas se conservan,True
+La metainformación de ejecución se conserva,True
+Las probabilidades se conservan tras la recuperación,True

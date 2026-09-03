@@ -1,0 +1,5 @@
+﻿caso,solicitar_explicacion,objetivos_explicacion,solicitar_documentacion,ruta_tras_prediccion,ruta_tras_explicacion
+SHAP + RAG,True,['IRAMDEYR'],True,explicar,documentar
+Solo RAG,False,[],True,documentar,No procede
+Solo SHAP,True,['IRAMDEYR'],False,explicar,preparar
+Solo predicción,False,[],False,preparar,No procede

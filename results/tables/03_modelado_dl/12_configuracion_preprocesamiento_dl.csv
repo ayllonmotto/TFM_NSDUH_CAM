@@ -1,0 +1,3 @@
+﻿grupo,variables,tratamiento
+Variables numéricas,59,IterativeImputer + RobustScaler
+Variables categóricas y de estado,813,OneHotEncoder

@@ -1,0 +1,6 @@
+﻿comprobacion,resultado
+La comparación contiene TRAIN y TEST,True
+Cada familia y objetivo dispone de ambas particiones,True
+La tabla de diferencias contiene ocho evaluaciones,True
+La tabla contiene todas las métricas comunes,True
+Todas las diferencias son finitas,True

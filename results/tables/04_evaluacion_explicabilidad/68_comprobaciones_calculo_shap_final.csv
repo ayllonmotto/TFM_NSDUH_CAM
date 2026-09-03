@@ -1,0 +1,8 @@
+﻿comprobacion,resultado
+Se calculan explicaciones para las cuatro variables objetivo,True
+Cada objetivo utiliza la familia seleccionada,True
+Cada explicación contiene 100 registros,True
+Las dimensiones de los valores SHAP son correctas,True
+Las importancias SHAP son finitas y no negativas,True
+Las diferencias de reconstrucción son finitas,True
+Los cuatro cálculos disponen de checkpoint,True

@@ -1,0 +1,47 @@
+﻿comprobacion,resultado
+QUESTID2 es único en la base premodelado,True
+QUESTID2 es único en la asignación del split,True
+La asignación contiene únicamente TRAIN y TEST,True
+La asignación contiene 37.839 registros TRAIN,True
+La asignación contiene 9.460 registros TEST,True
+TRAIN y TEST no presentan solapamiento,True
+Los identificadores del split coinciden con la base,True
+Machine Learning contiene cuatro modelos,True
+Los modelos ML corresponden a los cuatro objetivos,True
+Machine Learning contiene 59 variables originales,True
+Machine Learning contiene 8 variables numéricas,True
+Machine Learning contiene 51 variables categóricas originales,True
+Machine Learning contiene 8 variables de estado,True
+Machine Learning contiene 59 variables categóricas y de estado,True
+Machine Learning contiene 67 variables de entrada,True
+Las variables de entrada ML no presentan duplicados,True
+Las columnas ML mantienen el contenido y orden esperados,True
+Las variables originales ML coinciden con numéricas y categóricas,True
+Los pipelines ML mantienen las columnas de entrada esperadas,True
+"Los cuatro umbrales ML son 0,5",True
+Machine Learning y Deep Learning utilizan los mismos objetivos,True
+Las variables originales ML forman parte del conjunto de variables DL,True
+No existen objetivos entre las variables de entrada ML,True
+Deep Learning contiene dos modelos en el ensemble final,True
+Los pesos de los modelos del ensemble DL suman 1,True
+"Los dos pesos de los modelos del ensemble DL son 0,50",True
+Deep Learning contiene 59 variables numéricas,True
+Deep Learning contiene 754 variables categóricas originales,True
+Deep Learning contiene 59 variables de estado,True
+Deep Learning contiene 813 variables originales,True
+Deep Learning contiene 872 variables de entrada,True
+Deep Learning contiene 813 variables categóricas y estados,True
+Los índices de inicio DL coinciden con las variables categóricas,True
+El vocabulario categórico DL contiene 4.625 posiciones,True
+Metadatos y preprocesamiento DL coinciden en variables numéricas,True
+Metadatos y preprocesamiento DL coinciden en variables categóricas,True
+Metadatos y preprocesamiento DL coinciden en vocabulario,True
+Los umbrales DL coinciden con los fijados en VALIDATION,True
+No existen objetivos entre las variables de entrada DL,True
+Todas las variables originales ML existen en la base,True
+Todas las variables originales DL existen en la base,True
+Los cuatro objetivos existen en la base,True
+Existen rangos documentales para todas las numéricas ML/DL,True
+Los modelos ML permiten generar probabilidades,True
+Los preprocesadores DL permiten aplicar transformaciones,True
+Los dos modelos DL conservan dos entradas y cuatro salidas,True

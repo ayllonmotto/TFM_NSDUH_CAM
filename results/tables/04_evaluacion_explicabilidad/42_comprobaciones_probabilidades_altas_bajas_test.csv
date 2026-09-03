@@ -1,0 +1,5 @@
+﻿comprobacion,resultado
+Se obtienen ocho evaluaciones,True
+Existen registros con probabilidades altas y bajas,True
+Los porcentajes son finitos,True
+"Los porcentajes pertenecen al intervalo [0, 100]",True

@@ -1,0 +1,12 @@
+﻿archivo,nombre_fichero,existe,tamano_mb
+Modelo Keras — multisalida_focal_ramas_32,modelo_final_focal_ramas_32_v1.keras,True,0.8324251174926758
+Modelo Keras — multisalida_focal_sin_bn_ramas,modelo_final_focal_sin_bn_ramas_v1.keras,True,0.7858104705810547
+Preprocesamiento definitivo,preprocesamiento_final_dl_v1.joblib,True,8.477531433105469
+Metadatos del modelo,metadatos_modelo_final_dl_v1.joblib,True,0.011694908142089844
+Historial — multisalida_focal_ramas_32,191_historial_final_focal_ramas_32_dl.csv,True,0.010555267333984375
+Historial — multisalida_focal_sin_bn_ramas,192_historial_final_focal_sin_bn_ramas_dl.csv,True,0.011226654052734375
+Umbrales finales VALIDATION,184_umbrales_propuestos_ensembles_dl.csv,True,0.008030891418457031
+Resumen comparación VALIDATION,186_resumen_comparacion_final_candidatos_dl.csv,True,0.0018739700317382812
+Decisión final VALIDATION,187_decision_final_validacion_dl.csv,True,0.00022792816162109375
+Referencia TRAIN/TEST,NSDUH_2024_asignacion_train_test.csv,True,0.6676168441772461
+Comprobación de recuperación,193_comprobaciones_recuperacion_ensemble_final_dl.csv,True,0.0003795623779296875

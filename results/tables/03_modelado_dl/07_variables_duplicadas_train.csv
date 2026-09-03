@@ -1,0 +1,3 @@
+﻿grupo,variable,nombre,modulo,tipo_entrada
+1,IRWRKSTAT,Situación laboral,IMPUTED EMPLOYMENT,Categórica
+1,IRWRKSTAT18,Situación laboral (18+),IMPUTED EMPLOYMENT,Categórica

@@ -1,0 +1,5 @@
+﻿estrategia_pesos,batch_size,learning_rate,target,descripcion,estado,epocas,mejor_epoca,checkpoint,historial
+sin_ponderar,256,0.001,IRAMDEYR,Episodio depresivo mayor,RECUPERADO,76,66,checkpoint_mlp_referencia_iramdeyr_v1.keras,20_historial_mlp_referencia_iramdeyr_v1.csv
+sin_ponderar,256,0.001,IRSUICTHNK,Ideación suicida,RECUPERADO,66,56,checkpoint_mlp_referencia_irsuicthnk_v1.keras,20_historial_mlp_referencia_irsuicthnk_v1.csv
+sin_ponderar,256,0.001,IRSUIPLANYR,Planificación suicida,RECUPERADO,43,33,checkpoint_mlp_referencia_irsuiplanyr_v1.keras,20_historial_mlp_referencia_irsuiplanyr_v1.csv
+sin_ponderar,256,0.001,IRSUITRYYR,Intento suicida,RECUPERADO,44,34,checkpoint_mlp_referencia_irsuitryyr_v1.keras,20_historial_mlp_referencia_irsuitryyr_v1.csv

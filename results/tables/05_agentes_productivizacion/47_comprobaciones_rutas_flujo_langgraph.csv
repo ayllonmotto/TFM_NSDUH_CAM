@@ -1,0 +1,9 @@
+﻿comprobacion,resultado
+SHAP y RAG dirigen primero a la explicación,True
+La ruta con solo RAG dirige directamente a documentación,True
+La ruta con solo SHAP omite RAG después de explicar,True
+La ruta con solo predicción continúa directamente a preparación,True
+Una entrada incompleta se detiene antes de inferencia,True
+El contexto final contiene los campos necesarios,True
+La trazabilidad conserva los cinco nodos de la ejecución completa,True
+La capa generativa todavía no forma parte del estado,True

@@ -1,0 +1,11 @@
+﻿fase,clave,modelo,representacion,tecnicas,finalidad
+1. Redes densas,referencia,MLP de referencia,One-Hot CSR,"Dense, ReLU y Adam",Establecer una referencia común
+1. Redes densas,regularizada,MLP regularizada,One-Hot CSR,"Dropout, L2, BatchNormalization y ponderación de clases",Reducir sobreajuste y mejorar generalización
+1. Redes densas,residual,MLP residual,One-Hot CSR,"Bloques Dense, Add y normalización",Facilitar el entrenamiento de una red profunda
+1. Redes densas,dos_ramas,MLP de dos ramas,Numéricas y categóricas separadas,API funcional y Concatenate,Especializar el aprendizaje por tipo de variable
+2. Embeddings,embeddings_mlp,Embeddings + MLP,Embeddings por variable,"Embedding, Flatten y Dense",Aprender representaciones categóricas compactas
+3. Redes recurrentes,embeddings_lstm,Embeddings + LSTM,Secuencia de embeddings,Embedding y LSTM,Modelar relaciones entre variables ordenadas
+3. Redes recurrentes,embeddings_gru,Embeddings + GRU,Secuencia de embeddings,Embedding y GRU,Comparar una alternativa recurrente más compacta
+4. Atención,embeddings_atencion,Embeddings + atención,Conjunto de embeddings,"MultiHeadAttention, Add y LayerNormalization",Ponderar globalmente la relevancia de las variables categóricas
+5. Aprendizaje conjunto,multisalida,Red multisalida,Mejor representación previa,Capas compartidas y cuatro salidas sigmoidales,Compartir información entre variables objetivo
+6. Combinación,ensemble,Ensemble DL,Probabilidades de validación,Promedio de probabilidades,Mejorar estabilidad y fiabilidad predictiva

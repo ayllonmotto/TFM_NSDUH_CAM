@@ -1,0 +1,23 @@
+﻿elemento,valor
+Nombre del modelo,MLP residual
+Tipo de arquitectura,API funcional
+Variables de entrada,3050
+Dimensión de la proyección,64
+Bloques residuales,2
+Capas Dense ocultas,5
+Neuronas por capa,64
+Conexiones Add,2
+Capas BatchNormalization,5
+Capas Dropout,3
+Tasa de Dropout,0.15
+Regularización L2,1e-05
+Learning rate,0.0005
+Activación oculta,ReLU
+Unidades de salida,1
+Activación de salida,Sigmoid
+Función de pérdida,Binary Crossentropy
+Optimizador,Adam
+Parámetros totales,212929
+Parámetros entrenables,212289
+Parámetros no entrenables,640
+Ponderación de clases,Se compara durante el entrenamiento

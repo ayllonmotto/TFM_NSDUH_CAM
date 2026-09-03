@@ -1,0 +1,8 @@
+﻿comprobacion,resultado
+La documentación oficial NSDUH está disponible,True
+Las cuatro variables objetivo forman parte del corpus,True
+Todas las variables seleccionadas se localizan en el codebook,True
+Se incorporan las 10 limitaciones cerradas,True
+Existe un único documento documental por variable seleccionada,True
+Todos los documentos conservan fuente y tipo,True
+Las predicciones individuales de TEST quedan excluidas,True

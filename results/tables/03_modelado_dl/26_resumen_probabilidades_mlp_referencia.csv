@@ -1,0 +1,9 @@
+﻿estrategia_pesos,target,descripcion,clase_real,registros,media,mediana,primer_cuartil,tercer_cuartil
+sin_ponderar,IRAMDEYR,Episodio depresivo mayor,Negativo,6732,0.10822619,0.13314295,0.0034604096,0.14472862
+sin_ponderar,IRAMDEYR,Episodio depresivo mayor,Positivo,836,0.21843953,0.14472862,0.14472862,0.22961044
+sin_ponderar,IRSUICTHNK,Ideación suicida,Negativo,7005,0.068670265,0.06515592,0.0060199485,0.10027252
+sin_ponderar,IRSUICTHNK,Ideación suicida,Positivo,563,0.1181636,0.10027252,0.053638704,0.10027252
+sin_ponderar,IRSUIPLANYR,Planificación suicida,Negativo,7394,0.025863616,0.0041455035,0.00081982056,0.02414098
+sin_ponderar,IRSUIPLANYR,Planificación suicida,Positivo,174,0.049242273,0.01797666,0.0018665985,0.05734955
+sin_ponderar,IRSUITRYYR,Intento suicida,Negativo,7484,0.011999153,0.0017290469,0.00035538297,0.008816837
+sin_ponderar,IRSUITRYYR,Intento suicida,Positivo,84,0.0399205,0.010271635,0.0013951131,0.032589655

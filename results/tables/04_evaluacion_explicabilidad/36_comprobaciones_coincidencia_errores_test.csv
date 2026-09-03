@@ -1,0 +1,7 @@
+﻿comprobacion,resultado
+La comparación emparejada contiene los 37.840 registros esperados,True
+Cada objetivo contiene los 9.460 identificadores de TEST,True
+Los FN de Machine Learning se reconstruyen correctamente,True
+Los FN de Deep Learning se reconstruyen correctamente,True
+Los FP de Machine Learning se reconstruyen correctamente,True
+Los FP de Deep Learning se reconstruyen correctamente,True

@@ -1,0 +1,24 @@
+﻿comprobacion,resultado
+Se generan tres archivos CSV diferentes,True
+Los tres registros son distintos del registro de referencia,True
+Los tres registros presentan perfiles de clasificación diferentes,True
+Cada CSV contiene exactamente un registro,True
+Cada CSV contiene las 813 variables esperadas,True
+Los tres CSV recuperados superan la validación de entrada,True
+Una solicitud sin credencial devuelve HTTP 401,True
+Una credencial incorrecta devuelve HTTP 401,True
+La credencial autorizada permite el acceso,True
+El endpoint protegido de informe está disponible,True
+La carga sin autorización se rechaza antes del modelado,True
+La pantalla de identificación responde correctamente,True
+La pantalla de identificación solicita una credencial protegida,True
+La pantalla identifica CAM como credencial de demostración,True
+"Tras identificarse se muestran generación, historial y cierre",True
+Los tres CSV generan un informe correctamente,True
+Los tres informes de demostración quedan almacenados,True
+Los informes almacenados no contienen el registro original,True
+El historial visible contiene los tres informes,True
+Un informe puede recuperarse desde el historial,True
+El informe recuperado contiene los cuatro indicadores,True
+El informe recuperado contiene 12 factores principales,True
+El informe recuperado contiene explicación ampliada,True

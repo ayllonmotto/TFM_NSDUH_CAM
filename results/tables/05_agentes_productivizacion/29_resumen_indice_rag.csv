@@ -1,0 +1,8 @@
+﻿elemento,valor
+Modelo de embeddings,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Dispositivo,cpu
+Dimensión,384
+Documentos indexados,42
+Documentos recuperados,3
+Tiempo de carga del modelo (s),8.285
+Tiempo de indexación (s),0.987

@@ -1,0 +1,10 @@
+﻿comprobacion,resultado
+El registro de referencia contiene las 813 variables,True
+La entrada supera el contrato Pydantic,True
+El servicio devuelve las cuatro variables objetivo,True
+Las cuatro salidas superan el contrato predictivo,True
+Las probabilidades coinciden con el Notebook 04 dentro de la tolerancia,True
+Los umbrales coinciden con los valores definitivos,True
+Las cuatro clasificaciones coinciden,True
+Las familias coinciden con la selección definitiva,True
+Los modelos coinciden con la selección definitiva,True

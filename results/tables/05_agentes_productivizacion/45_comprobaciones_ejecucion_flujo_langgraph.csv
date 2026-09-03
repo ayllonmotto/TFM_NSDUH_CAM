@@ -1,0 +1,13 @@
+﻿comprobacion,resultado
+El flujo recibe las 813 variables originales,True
+El flujo devuelve las cuatro predicciones,True
+Las probabilidades coinciden con la tool local,True
+Se obtiene la explicación SHAP solicitada,True
+La reconstrucción SHAP permanece dentro de tolerancia,True
+Se seleccionan tres variables SHAP para contexto documental,True
+El contexto contiene las cuatro variables objetivo,True
+El contexto contiene las tres limitaciones esperadas,True
+Cada consulta aporta un documento principal,True
+Los cinco nodos se recorren en el orden previsto,True
+La vista previa contiene los cuatro objetivos,True
+La vista previa incorpora la explicación SHAP,True

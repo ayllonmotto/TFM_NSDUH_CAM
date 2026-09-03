@@ -1,0 +1,52 @@
+RESUMEN
+En esta evaluación, tres de los cuatro indicadores evaluados superan sus umbrales validados: episodio depresivo mayor, ideación suicida e intento suicida. El indicador de planificación suicida no supera su umbral validado.
+
+INTERPRETACIÓN
+Se evaluaron cuatro indicadores: episodio depresivo mayor, ideación suicida, planificación suicida e intento suicida. El indicador de episodio depresivo mayor supera su umbral validado. El indicador de ideación suicida supera su umbral validado. El indicador de planificación suicida no supera su umbral validado. El indicador de intento suicida supera su umbral validado. Este resultado señala la conveniencia de una revisión preventiva adicional.
+
+FACTORES RELEVANTES POR INDICADOR
+
+Episodio depresivo mayor
+Factores de riesgo para la predicción:
+- Percepción de haber tenido alguna vez un problema de salud mental
+- Nivel de dificultad para recordar o concentrarse
+Factores protectores para la predicción:
+- Percepción de recuperación de un problema de salud mental
+
+Ideación suicida
+Factores de riesgo para la predicción:
+- Percepción de haber tenido alguna vez un problema de salud mental
+- Percepción de haber tenido alguna vez un problema de salud mental
+- Nivel de dificultad con el autocuidado
+
+Planificación suicida
+Factores de riesgo para la predicción:
+- Percepción de haber tenido alguna vez un problema de salud mental
+- Edad en la que se diagnosticó por primera vez la EPOC
+- Nivel de dificultad con el autocuidado
+
+Intento suicida
+Factores de riesgo para la predicción:
+- Percepción de haber tenido alguna vez un problema de salud mental
+- Percepción de haber tenido alguna vez un problema de salud mental
+- Nivel de dificultad con el autocuidado
+
+NOTA SOBRE LOS FACTORES
+La clasificación como factor de riesgo o factor protector se refiere únicamente a la dirección de la contribución SHAP sobre la predicción del modelo y no implica una relación causal ni una valoración clínica.
+
+ORIENTACIÓN PREVENTIVA
+- Considerar una revisión profesional del conjunto de indicadores cuando el contexto lo justifique.
+- Favorecer el acceso a recursos de apoyo y seguimiento preventivo.
+- Mantener la interpretación de los resultados como apoyo complementario y no como diagnóstico.
+
+LIMITACIONES
+- El sistema tiene finalidad preventiva y no diagnóstica.
+- Las probabilidades estimadas no equivalen a riesgo clínico individual.
+- Las contribuciones SHAP describen la dirección de la contribución del modelo y no establecen causalidad.
+
+FUENTES
+- NSDUH 2024 Codebook
+- Notebook 04
+
+ADVERTENCIA DE USO
+Este informe es un prototipo académico de apoyo preventivo. No realiza diagnósticos ni sustituye la valoración de profesionales cualificados.

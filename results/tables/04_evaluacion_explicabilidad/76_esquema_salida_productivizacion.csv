@@ -1,0 +1,11 @@
+﻿campo,descripcion,obligatorio
+variable_objetivo,Código de la variable objetivo,True
+descripcion,Descripción legible del indicador,True
+probabilidad,Probabilidad estimada por el modelo,True
+umbral,Umbral definitivo,True
+clasificacion,Clasificación binaria obtenida con el umbral,True
+familia,Familia predictiva seleccionada,True
+modelo,Modelo utilizado para la variable objetivo,True
+variables_principales,Contribuciones SHAP principales cuando se solicite explicación,False
+diferencia_reconstruccion,Diferencia técnica de reconstrucción cuando se calcule SHAP,False
+advertencias,Limitaciones necesarias para interpretar la salida,True

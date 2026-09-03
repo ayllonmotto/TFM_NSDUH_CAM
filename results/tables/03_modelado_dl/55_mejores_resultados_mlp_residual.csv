@@ -1,0 +1,25 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,PR-AUC,MLP residual — Ponderación balanceada,0.19130247831344604
+IRAMDEYR,Episodio depresivo mayor,Recall,MLP residual — Ponderación balanceada,0.5215311050415039
+IRAMDEYR,Episodio depresivo mayor,Precision,MLP residual — Ponderación balanceada,0.18327027559280396
+IRAMDEYR,Episodio depresivo mayor,F2,MLP residual — Ponderación balanceada,0.38091903924942017
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,MLP residual — Ponderación balanceada,400.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,MLP regularizada — Sin ponderación,0.0
+IRSUICTHNK,Ideación suicida,PR-AUC,MLP residual — Sin ponderación,0.12144364416599274
+IRSUICTHNK,Ideación suicida,Recall,MLP residual — Ponderación balanceada,0.40319716930389404
+IRSUICTHNK,Ideación suicida,Precision,MLP regularizada — Ponderación balanceada,0.11911852657794952
+IRSUICTHNK,Ideación suicida,F2,MLP residual — Ponderación balanceada,0.26934024691581726
+IRSUICTHNK,Ideación suicida,Falsos negativos,MLP residual — Ponderación balanceada,336.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,MLP regularizada — Sin ponderación,0.0
+IRSUIPLANYR,Planificación suicida,PR-AUC,MLP residual — Sin ponderación,0.050976987928152084
+IRSUIPLANYR,Planificación suicida,Recall,MLP regularizada — Ponderación balanceada,0.43103447556495667
+IRSUIPLANYR,Planificación suicida,Precision,MLP regularizada — Ponderación balanceada,0.04810776188969612
+IRSUIPLANYR,Planificación suicida,F2,MLP regularizada — Ponderación balanceada,0.1662970930337906
+IRSUIPLANYR,Planificación suicida,Falsos negativos,MLP regularizada — Ponderación balanceada,99.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,MLP regularizada — Sin ponderación,0.0
+IRSUITRYYR,Intento suicida,PR-AUC,MLP regularizada — Sin ponderación,0.03373722732067108
+IRSUITRYYR,Intento suicida,Recall,MLP regularizada — Ponderación balanceada,0.3928571343421936
+IRSUITRYYR,Intento suicida,Precision,MLP regularizada — Ponderación balanceada,0.029729729518294334
+IRSUITRYYR,Intento suicida,F2,MLP regularizada — Ponderación balanceada,0.11410786956548691
+IRSUITRYYR,Intento suicida,Falsos negativos,MLP regularizada — Ponderación balanceada,51.0
+IRSUITRYYR,Intento suicida,Falsos positivos,MLP regularizada — Sin ponderación,0.0

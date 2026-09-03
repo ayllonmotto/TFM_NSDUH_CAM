@@ -1,0 +1,13 @@
+﻿elemento,valor
+Nombre del modelo,Embeddings + MLP
+Tipo de arquitectura,API funcional con dos entradas
+Variables categóricas,813
+Vocabulario total,4617
+Dimensión del embedding,8
+Variables numéricas,59
+Unidades rama categórica,64
+Unidades rama numérica,32
+Unidades de unión,64 → 32
+Regularización L2,1e-05
+Learning rate,0.0005
+Parámetros totales,464073

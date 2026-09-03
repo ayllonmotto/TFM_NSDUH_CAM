@@ -1,0 +1,3 @@
+﻿clave_modelo,clave_configuracion,peso,epocas,neuronas_compartidas_1,neuronas_compartidas_2,neuronas_rama_especifica,bn_ramas_especificas,parametros
+multisalida_focal_ramas_32,focal_ramas_32,0.5,13,64,32,32,True,53700
+multisalida_focal_sin_bn_ramas,focal_sin_bn_ramas,0.5,14,64,32,16,False,51140

@@ -1,0 +1,3 @@
+﻿estrategia_pesos,descripcion,modelos_previstos,batch_size,learning_rate,epocas_maximas,monitor_early_stopping,paciencia,backup_entrenamiento
+sin_ponderar,Sin ponderación,4,256,0.0005,100,val_loss,10,True
+balanceada,Ponderación balanceada,4,256,0.0005,100,val_loss,10,True

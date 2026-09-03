@@ -1,0 +1,25 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,PR-AUC,"Referencia — lr 0,001",0.22343610227108002
+IRAMDEYR,Episodio depresivo mayor,Recall,Regularizada balanceada,0.2954545319080353
+IRAMDEYR,Episodio depresivo mayor,Precision,"Referencia — lr 0,001",0.3083004057407379
+IRAMDEYR,Episodio depresivo mayor,F2,Regularizada balanceada,0.2614309787750244
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,Regularizada balanceada,589.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,Regularizada sin ponderar,0.0
+IRSUICTHNK,Ideación suicida,PR-AUC,"Referencia — lr 0,001",0.13129232823848724
+IRSUICTHNK,Ideación suicida,Recall,Regularizada balanceada,0.35523977875709534
+IRSUICTHNK,Ideación suicida,Precision,"Referencia — lr 0,001",0.25974026322364807
+IRSUICTHNK,Ideación suicida,F2,Regularizada balanceada,0.25438815355300903
+IRSUICTHNK,Ideación suicida,Falsos negativos,Regularizada balanceada,363.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,Regularizada sin ponderar,0.0
+IRSUIPLANYR,Planificación suicida,PR-AUC,Regularizada sin ponderar,0.05040285736322403
+IRSUIPLANYR,Planificación suicida,Recall,Regularizada balanceada,0.43103447556495667
+IRSUIPLANYR,Planificación suicida,Precision,Regularizada balanceada,0.04810776188969612
+IRSUIPLANYR,Planificación suicida,F2,Regularizada balanceada,0.1662970930337906
+IRSUIPLANYR,Planificación suicida,Falsos negativos,Regularizada balanceada,99.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,Regularizada sin ponderar,0.0
+IRSUITRYYR,Intento suicida,PR-AUC,Regularizada sin ponderar,0.03373722732067108
+IRSUITRYYR,Intento suicida,Recall,Regularizada balanceada,0.3928571343421936
+IRSUITRYYR,Intento suicida,Precision,"Referencia — lr 0,001",0.10526315867900848
+IRSUITRYYR,Intento suicida,F2,Regularizada balanceada,0.11410786956548691
+IRSUITRYYR,Intento suicida,Falsos negativos,Regularizada balanceada,51.0
+IRSUITRYYR,Intento suicida,Falsos positivos,Regularizada sin ponderar,0.0

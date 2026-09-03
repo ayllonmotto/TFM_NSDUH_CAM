@@ -1,0 +1,12 @@
+﻿comprobacion,resultado
+La tabla corresponde exclusivamente a TEST,True
+La tabla contiene 75.680 predicciones,True
+Existen dos familias y cuatro variables objetivo,True
+Cada familia y objetivo contiene 9.460 registros,True
+"No existen duplicados por identificador, familia y objetivo",True
+Las clases reales coinciden con TEST,True
+Las probabilidades son finitas,True
+"Las probabilidades pertenecen al intervalo [0, 1]",True
+Las clasificaciones coinciden con los umbrales fijados,True
+Los umbrales ML coinciden con los valores guardados,True
+Los umbrales DL coinciden con los valores guardados,True

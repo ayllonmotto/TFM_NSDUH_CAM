@@ -1,0 +1,41 @@
+﻿estrategia_pesos,target,descripcion,clase_real,registros,media,mediana,primer_cuartil,tercer_cuartil
+bce_adam,IRAMDEYR,Episodio depresivo mayor,Negativo,6732,0.045217205,0.018836025,0.012781674,0.041033946
+bce_adam,IRAMDEYR,Episodio depresivo mayor,Positivo,836,0.20971337,0.11345136,0.06323556,0.30372593
+bce_adam,IRSUICTHNK,Ideación suicida,Negativo,7005,0.13028136,0.09315653,0.063597046,0.1358562
+bce_adam,IRSUICTHNK,Ideación suicida,Positivo,563,0.31846538,0.23349066,0.13104114,0.474378
+bce_adam,IRSUIPLANYR,Planificación suicida,Negativo,7394,0.12920024,0.07570112,0.041901156,0.14602494
+bce_adam,IRSUIPLANYR,Planificación suicida,Positivo,174,0.39926213,0.36461148,0.17814831,0.5704915
+bce_adam,IRSUITRYYR,Intento suicida,Negativo,7484,0.19172913,0.15595673,0.11609841,0.2123288
+bce_adam,IRSUITRYYR,Intento suicida,Positivo,84,0.46860722,0.39992845,0.28575164,0.64278877
+bce_adam_ema,IRAMDEYR,Episodio depresivo mayor,Negativo,6732,0.045217205,0.018836025,0.012781674,0.041033946
+bce_adam_ema,IRAMDEYR,Episodio depresivo mayor,Positivo,836,0.20971337,0.11345136,0.06323556,0.30372593
+bce_adam_ema,IRSUICTHNK,Ideación suicida,Negativo,7005,0.13028136,0.09315653,0.063597046,0.1358562
+bce_adam_ema,IRSUICTHNK,Ideación suicida,Positivo,563,0.31846538,0.23349066,0.13104114,0.474378
+bce_adam_ema,IRSUIPLANYR,Planificación suicida,Negativo,7394,0.12920024,0.07570112,0.041901156,0.14602494
+bce_adam_ema,IRSUIPLANYR,Planificación suicida,Positivo,174,0.39926213,0.36461148,0.17814831,0.5704915
+bce_adam_ema,IRSUITRYYR,Intento suicida,Negativo,7484,0.19172913,0.15595673,0.11609841,0.2123288
+bce_adam_ema,IRSUITRYYR,Intento suicida,Positivo,84,0.46860722,0.39992845,0.28575164,0.64278877
+bce_adamw,IRAMDEYR,Episodio depresivo mayor,Negativo,6732,0.103247076,0.039970987,0.02032803,0.103155315
+bce_adamw,IRAMDEYR,Episodio depresivo mayor,Positivo,836,0.4344406,0.3886338,0.18184455,0.7028754
+bce_adamw,IRSUICTHNK,Ideación suicida,Negativo,7005,0.07564095,0.022635465,0.011348835,0.0637157
+bce_adamw,IRSUICTHNK,Ideación suicida,Positivo,563,0.28782186,0.18415923,0.055216707,0.52403915
+bce_adamw,IRSUIPLANYR,Planificación suicida,Negativo,7394,0.04202224,0.009164122,0.0051556006,0.019270452
+bce_adamw,IRSUIPLANYR,Planificación suicida,Positivo,174,0.24389923,0.091757104,0.025020577,0.45073676
+bce_adamw,IRSUITRYYR,Intento suicida,Negativo,7484,0.022969818,0.0072535425,0.004880024,0.011891594
+bce_adamw,IRSUITRYYR,Intento suicida,Positivo,84,0.19934489,0.055140674,0.015610717,0.3226449
+bce_tareas,IRAMDEYR,Episodio depresivo mayor,Negativo,6732,0.2575675,0.14847401,0.07691604,0.3807092
+bce_tareas,IRAMDEYR,Episodio depresivo mayor,Positivo,836,0.63878345,0.72925276,0.5224316,0.80940604
+bce_tareas,IRSUICTHNK,Ideación suicida,Negativo,7005,0.25294068,0.15296562,0.0823756,0.37835607
+bce_tareas,IRSUICTHNK,Ideación suicida,Positivo,563,0.5473063,0.6143269,0.35631654,0.75436544
+bce_tareas,IRSUIPLANYR,Planificación suicida,Negativo,7394,0.20506997,0.1017676,0.051984794,0.25550866
+bce_tareas,IRSUIPLANYR,Planificación suicida,Positivo,174,0.5860665,0.66614443,0.3291913,0.8098109
+bce_tareas,IRSUITRYYR,Intento suicida,Negativo,7484,0.18161774,0.11351758,0.08021506,0.19527298
+bce_tareas,IRSUITRYYR,Intento suicida,Positivo,84,0.57279056,0.6070066,0.3286655,0.82167494
+focal_adam,IRAMDEYR,Episodio depresivo mayor,Negativo,6732,0.35697603,0.3051082,0.24265459,0.4692274
+focal_adam,IRAMDEYR,Episodio depresivo mayor,Positivo,836,0.60642314,0.62338483,0.5530495,0.6874213
+focal_adam,IRSUICTHNK,Ideación suicida,Negativo,7005,0.40598994,0.36937746,0.31785235,0.4866224
+focal_adam,IRSUICTHNK,Ideación suicida,Positivo,563,0.55869776,0.5776661,0.48772386,0.64194036
+focal_adam,IRSUIPLANYR,Planificación suicida,Negativo,7394,0.3982007,0.402735,0.2870711,0.5019507
+focal_adam,IRSUIPLANYR,Planificación suicida,Positivo,174,0.5864654,0.5967864,0.54577106,0.64008015
+focal_adam,IRSUITRYYR,Intento suicida,Negativo,7484,0.409286,0.38336378,0.31725645,0.48780525
+focal_adam,IRSUITRYYR,Intento suicida,Positivo,84,0.59928775,0.61691666,0.55163026,0.6633382

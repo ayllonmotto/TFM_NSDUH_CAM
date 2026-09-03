@@ -1,0 +1,9 @@
+﻿elemento,valor
+Mecanismo principal,Tool local
+Mecanismo alternativo validado,MCP
+Coincidencia predictiva,Completa
+Escenario actual,Una aplicación interna controlada
+Mantenimiento de la capacidad,Ambos mecanismos son mantenidos por el proyecto
+Integración posterior,LangGraph mediante tool local
+Motivo principal,Menor complejidad y trazabilidad más directa
+Evolución prevista,MCP si aparecen varios clientes o consumidores externos

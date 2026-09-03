@@ -1,0 +1,18 @@
+﻿elemento,valor
+Nombre del modelo,Red multisalida
+Tipo de arquitectura,API funcional con atención compartida y cuatro salidas
+Representación categórica,Embeddings + atención
+Variables categóricas,813
+Vocabulario total,4617
+Dimensión del embedding,8
+Atenciones paralelas,2
+Dimensión por atención paralela,4
+Unidades feed-forward,16
+Variables numéricas,59
+Unidades rama categórica,64
+Unidades compartidas,64 → 32
+Unidades rama específica,16
+Salidas,4
+Regularización L2,1e-05
+Learning rate,0.0005
+Parámetros totales,51268

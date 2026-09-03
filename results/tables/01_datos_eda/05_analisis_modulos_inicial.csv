@@ -1,0 +1,80 @@
+﻿modulo,variables,predictores,pct_nan_medio,pct_nan_mediana,pct_nan_max,vars_sin_nan,vars_nan_90,mediana_valores_unicos,tipo_modulo,revision_objetivos
+ADULT DEPRESSION,84,84,4.379,0.0,89.408,77,0,6.0,Original u otro,True
+IMPUTED ADULT MENTAL HEALTH,72,66,0.0,0.0,0.0,72,0,3.0,Imputado,True
+ADULT MENTAL HEALTH,43,43,1.86,0.0,67.636,38,0,9.0,Original u otro,True
+RECODED ADULT MENTAL HEALTH,28,28,2.377,0.0,66.568,27,0,2.5,Recodificado,True
+RECODED ADULT DEPRESSION,15,15,80.372,80.376,80.376,0,0,2.0,Recodificado,True
+IMPUTED ADULT DEPRESSION,6,4,0.0,0.0,0.0,6,0,2.0,Imputado,True
+SUBSTANCE USE DISORDER,333,333,0.009,0.0,0.92,318,0,8.0,Original u otro,False
+RECODED DRUG USE,327,327,4.628,0.0,99.884,224,13,2.0,Recodificado,False
+RECENCY OF DRUG USE,117,117,0.0,0.0,0.0,117,0,4.0,Original u otro,False
+AGE/DATE OF FIRST DRUG USE,88,88,0.0,0.0,0.0,88,0,4.0,Original u otro,False
+HEALTH,64,64,0.0,0.0,0.0,64,0,7.0,Original u otro,False
+IMPUTED SUBSTANCE USE DISORDER,60,60,0.0,0.0,0.0,60,0,3.0,Imputado,False
+RECODED ALCOHOL AND DRUG TREATMENT,50,50,35.776,0.0,99.104,29,18,2.0,Recodificado,False
+PRIOR SUBSTANCE USE,49,49,0.0,0.0,0.0,49,0,19.0,Original u otro,False
+HALLUCINOGENS,45,45,0.0,0.0,0.0,45,0,10.0,Original u otro,False
+PAST MONTH FREQUENCY OF USE,41,41,0.0,0.0,0.0,41,0,5.0,Original u otro,False
+IMPUTED ALCOHOL AND DRUG TREATMENT,38,38,0.0,0.0,0.0,38,0,2.5,Imputado,False
+NICOTINE,37,37,0.0,0.0,0.0,37,0,11.0,Original u otro,False
+SPECIAL DRUGS,37,37,0.0,0.0,0.0,37,0,8.0,Original u otro,False
+RECODED SUBSTANCE USE DISORDER,36,36,0.0,0.0,0.0,36,0,3.5,Recodificado,False
+MARIJUANA,35,35,0.0,0.0,0.0,35,0,10.0,Original u otro,False
+CONSUMPTION OF ALCOHOL,34,34,0.0,0.0,0.0,34,0,9.0,Original u otro,False
+ALCOHOL AND DRUG TREATMENT,33,33,0.0,0.0,0.0,33,0,7.0,Original u otro,False
+PAIN RELIEVERS,33,33,0.001,0.0,0.04,32,0,9.0,Original u otro,False
+IMPUTED MENTAL HEALTH SERVICES UTILIZATION,32,32,0.0,0.0,0.0,32,0,2.0,Imputado,False
+RECODED MENTAL HEALTH SERVICES UTILIZATION,31,31,56.899,94.782,95.336,11,18,2.0,Recodificado,False
+STIMULANTS,30,30,0.0,0.0,0.0,30,0,7.5,Original u otro,False
+RECODED EMERGING ISSUES,29,29,0.509,0.0,3.546,22,0,2.0,Recodificado,False
+SEDATIVES,28,28,0.017,0.0,0.463,27,0,8.0,Original u otro,False
+TRANQUILIZERS,28,28,0.01,0.0,0.29,27,0,8.0,Original u otro,False
+INHALANTS,27,27,0.0,0.0,0.0,27,0,7.0,Original u otro,False
+SPECIAL TOPICS,27,27,0.0,0.0,0.0,27,0,8.0,Original u otro,False
+RECODED CONSUMPTION OF ALCOHOL,24,24,32.591,0.274,97.319,0,8,2.0,Recodificado,False
+NICOTINE DEPENDENCE,23,23,0.058,0.0,0.529,20,0,10.0,Original u otro,False
+MARKET INFORMATION FOR MARIJUANA,22,22,0.0,0.0,0.0,22,0,9.0,Original u otro,False
+PAST YEAR FREQUENCY OF USE,21,21,0.0,0.0,0.0,21,0,5.0,Original u otro,False
+RISK/AVAILABILITY,21,21,0.0,0.0,0.0,21,0,8.0,Original u otro,False
+DEMOGRAPHICS,20,20,0.0,0.0,0.0,20,0,7.0,Original u otro,False
+MENTAL HEALTH SERVICES UTILIZATION,20,20,0.0,0.0,0.0,20,0,6.0,Original u otro,False
+HEALTH INSURANCE,18,18,0.0,0.0,0.0,18,0,6.0,Original u otro,False
+ALCOHOL,17,17,0.0,0.0,0.0,17,0,14.0,Original u otro,False
+RECODED RISK/AVAILABILITY,17,17,2.015,1.725,3.535,0,0,2.0,Recodificado,False
+EMPLOYMENT,16,16,0.0,0.0,0.0,16,0,9.5,Original u otro,False
+IMPUTED INCOME,16,16,0.0,0.0,0.0,16,0,2.0,Imputado,False
+COCAINE,14,14,0.0,0.0,0.0,14,0,14.0,Original u otro,False
+CRACK,14,14,0.0,0.0,0.0,14,0,11.5,Original u otro,False
+EDUCATION,14,14,0.0,0.0,0.0,14,0,8.0,Original u otro,False
+EMERGING ISSUES,14,14,0.0,0.0,0.0,14,0,6.0,Original u otro,False
+HEROIN,14,14,0.0,0.0,0.0,14,0,12.0,Original u otro,False
+METHAMPHETAMINE,14,14,0.0,0.0,0.0,14,0,12.5,Original u otro,False
+RECODED DEMOGRAPHICS,13,13,0.004,0.0,0.053,12,0,4.0,Recodificado,False
+RECODED SPECIAL DRUGS,13,13,0.016,0.0,0.093,8,0,2.0,Recodificado,False
+BLUNTS,12,12,0.0,0.0,0.0,12,0,8.0,Original u otro,False
+IMPUTED EMERGING ISSUES,10,10,0.0,0.0,0.0,10,0,3.5,Imputado,False
+IMPUTED HEALTH INSURANCE,10,10,0.0,0.0,0.0,10,0,2.0,Imputado,False
+RECODED SPECIAL TOPICS,7,7,1.289,1.349,2.08,0,0,2.0,Recodificado,False
+SOCIAL ENVIRONMENT,7,7,0.0,0.0,0.0,7,0,9.0,Original u otro,False
+IMPUTED EMPLOYMENT,6,6,0.0,0.0,0.0,6,0,3.0,Imputado,False
+IMPUTED HOUSEHOLD COMPOSITION (ROSTER),6,6,0.0,0.0,0.0,6,0,2.5,Imputado,False
+RECODED HEALTH INSURANCE,6,6,0.0,0.0,0.0,6,0,2.0,Recodificado,False
+IMPUTED DEMOGRAPHICS,5,5,0.0,0.0,0.0,5,0,2.0,Imputado,False
+IMPUTED SPECIAL DRUGS,4,4,0.0,0.0,0.0,4,0,3.5,Imputado,False
+PAIN RELIEVERS SCREENER,4,4,0.048,0.0,0.192,3,0,7.0,Original u otro,False
+RECODED HEALTH,3,3,2.579,2.171,4.757,0,0,3.0,Recodificado,False
+RECODED INCOME,3,3,0.096,0.0,0.288,2,0,3.0,Recodificado,False
+SAMPLE WEIGHTING AND ESTIMATION VARS,3,0,0.0,0.0,0.0,3,0,50.0,Original u otro,False
+SEDATIVES SCREENER,3,3,0.157,0.0,0.471,2,0,6.0,Original u otro,False
+TRANQUILIZERS SCREENER,3,3,0.096,0.0,0.288,2,0,6.0,Original u otro,False
+COUNTY,2,2,0.0,0.0,0.0,2,0,3.0,Original u otro,False
+HOUSEHOLD COMPOSITION (ROSTER),2,2,1.796,1.796,3.592,1,0,3.5,Original u otro,False
+IMPUTED NICOTINE DEPENDENCE,2,2,0.0,0.0,0.0,2,0,2.5,Imputado,False
+INCOME,2,2,0.0,0.0,0.0,2,0,6.0,Original u otro,False
+INTERVIEW INFORMATION,2,2,49.752,49.752,99.505,1,1,2.0,Original u otro,False
+PROXY INFORMATION,2,2,0.0,0.0,0.0,2,0,5.5,Original u otro,False
+RECODED EDUCATION,2,2,0.0,0.0,0.0,2,0,4.0,Recodificado,False
+STIMULANTS SCREENER,2,2,0.0,0.0,0.0,2,0,6.0,Original u otro,False
+BLOCK,1,1,0.0,0.0,0.0,1,0,2.0,Original u otro,False
+IDENTIFICATION,1,0,0.0,0.0,0.0,1,0,47299.0,Original u otro,False
+SEGMENT,1,1,0.0,0.0,0.0,1,0,2.0,Original u otro,False

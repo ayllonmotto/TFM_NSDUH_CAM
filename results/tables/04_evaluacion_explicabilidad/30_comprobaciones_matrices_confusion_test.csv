@@ -1,0 +1,4 @@
+﻿comprobacion,resultado
+Se generan ocho matrices de confusión,True
+Cada matriz contiene 9.460 registros,True
+Las matrices coinciden con las métricas calculadas previamente,True

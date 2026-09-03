@@ -1,0 +1,9 @@
+﻿target,descripcion,familia,QUESTID2,tipo_caso,y_true,y_score,umbral,y_pred
+IRAMDEYR,Episodio depresivo mayor,ML,17725597,Verdadero positivo,1.0,0.9074370861053467,0.5,1
+IRAMDEYR,Episodio depresivo mayor,ML,12756203,Falso negativo,1.0,0.22837264835834503,0.5,0
+IRSUICTHNK,Ideación suicida,DL,10444362,Verdadero positivo,1.0,0.684757262468338,0.509,1
+IRSUICTHNK,Ideación suicida,DL,42121976,Falso negativo,1.0,0.32861387729644775,0.509,0
+IRSUIPLANYR,Planificación suicida,DL,18920506,Verdadero positivo,1.0,0.6338270902633667,0.536,1
+IRSUIPLANYR,Planificación suicida,DL,30593609,Falso negativo,1.0,0.2825755700469017,0.536,0
+IRSUITRYYR,Intento suicida,DL,10855434,Verdadero positivo,1.0,0.5310287624597549,0.502,1
+IRSUITRYYR,Intento suicida,DL,21111916,Falso negativo,1.0,0.4114982783794403,0.502,0

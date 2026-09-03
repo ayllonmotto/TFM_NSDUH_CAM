@@ -1,0 +1,5 @@
+﻿target,descripcion,probabilidad_local,probabilidad_mcp,diferencia_probabilidad,umbral_local,umbral_mcp,clasificacion_local,clasificacion_mcp,campos_coincidentes,resultado
+IRAMDEYR,Episodio depresivo mayor,0.8269689679145813,0.8269689679145813,0.0,0.5,0.5,1,1,True,True
+IRSUICTHNK,Ideación suicida,0.5657280087471008,0.5657280087471008,0.0,0.509,0.509,1,1,True,True
+IRSUIPLANYR,Planificación suicida,0.5257236659526825,0.5257236659526825,0.0,0.536,0.536,0,0,True,True
+IRSUITRYYR,Intento suicida,0.5241041928529739,0.5241041928529739,0.0,0.502,0.502,1,1,True,True

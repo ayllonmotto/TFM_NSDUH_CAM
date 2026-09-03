@@ -1,0 +1,12 @@
+﻿elemento,valor
+Arquitectura individual,Red multisalida con embeddings y atención
+Configuración,Focal + Adam — Ramas específicas de 32 neuronas
+Función de pérdida,Binary Focal Crossentropy
+Optimizador,Adam
+Learning rate,0.0005
+Batch size,256
+Mejor época,13
+Umbral IRAMDEYR,0.5
+Umbral IRSUICTHNK,0.5
+Umbral IRSUIPLANYR,0.5
+Umbral IRSUITRYYR,0.498

@@ -1,0 +1,10 @@
+﻿comprobacion,resultado
+La respuesta integrada devuelve estado OK,True
+Se conservan las cuatro predicciones,True
+Se conservan los cuatro indicadores,True
+Se presentan tres factores por indicador,True
+La aplicación contiene 12 factores explicativos,True
+El informe mantiene los siete campos contractuales,True
+El informe integrado ha superado todos los guardrails,True
+El registro original de 813 variables no forma parte de la respuesta,True
+La respuesta contiene la explicación ampliada de los cuatro indicadores,True

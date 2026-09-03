@@ -1,0 +1,141 @@
+{
+  "resumen": "En esta evaluación, tres de los cuatro indicadores evaluados superan sus umbrales validados: episodio depresivo mayor, ideación suicida e intento suicida. El indicador de planificación suicida no supera su umbral validado.",
+  "interpretacion": "Se evaluaron cuatro indicadores: episodio depresivo mayor, ideación suicida, planificación suicida e intento suicida. El indicador de episodio depresivo mayor supera su umbral validado. El indicador de ideación suicida supera su umbral validado. El indicador de planificación suicida no supera su umbral validado. El indicador de intento suicida supera su umbral validado. Este resultado señala la conveniencia de una revisión preventiva adicional.",
+  "factores_relevantes": [
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB2",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+      "posicion_factor": 1
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "tipo_factor": "Factor protector para la predicción",
+      "variable_origen": "RCVYMHPRB",
+      "descripcion": "Percepción de recuperación de un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable combinando la respuesta sobre haber tenido un problema de salud mental con la respuesta sobre recuperación; no corresponde a una pregunta independiente.",
+      "posicion_factor": 2
+    },
+    {
+      "variable_objetivo": "IRAMDEYR",
+      "descripcion_objetivo": "Episodio depresivo mayor",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "LVLDIFMEM2",
+      "descripcion": "Nivel de dificultad para recordar o concentrarse",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null,
+      "posicion_factor": 3
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null,
+      "posicion_factor": 1
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB2",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+      "posicion_factor": 2
+    },
+    {
+      "variable_objetivo": "IRSUICTHNK",
+      "descripcion_objetivo": "Ideación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null,
+      "posicion_factor": 3
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null,
+      "posicion_factor": 1
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "COPDAGE",
+      "descripcion": "Edad en la que se diagnosticó por primera vez la EPOC",
+      "respuesta_observada": "44 años",
+      "nota_variable": null,
+      "posicion_factor": 2
+    },
+    {
+      "variable_objetivo": "IRSUIPLANYR",
+      "descripcion_objetivo": "Planificación suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null,
+      "posicion_factor": 3
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": null,
+      "posicion_factor": 1
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "CAMHPROB2",
+      "descripcion": "Percepción de haber tenido alguna vez un problema de salud mental",
+      "respuesta_observada": "Sí",
+      "nota_variable": "NSDUH obtiene esta variable recodificando en Sí/No la respuesta original sobre si la persona considera haber tenido alguna vez un problema de salud mental; no corresponde a una pregunta independiente.",
+      "posicion_factor": 2
+    },
+    {
+      "variable_objetivo": "IRSUITRYYR",
+      "descripcion_objetivo": "Intento suicida",
+      "tipo_factor": "Factor de riesgo para la predicción",
+      "variable_origen": "LVLDIFCARE2",
+      "descripcion": "Nivel de dificultad con el autocuidado",
+      "respuesta_observada": "Alguna dificultad",
+      "nota_variable": null,
+      "posicion_factor": 3
+    }
+  ],
+  "orientacion_preventiva": [
+    "Considerar una revisión profesional del conjunto de indicadores cuando el contexto lo justifique.",
+    "Favorecer el acceso a recursos de apoyo y seguimiento preventivo.",
+    "Mantener la interpretación de los resultados como apoyo complementario y no como diagnóstico."
+  ],
+  "limitaciones": [
+    "El sistema tiene finalidad preventiva y no diagnóstica.",
+    "Las probabilidades estimadas no equivalen a riesgo clínico individual.",
+    "Las contribuciones SHAP describen la dirección de la contribución del modelo y no establecen causalidad."
+  ],
+  "fuentes": [
+    "NSDUH 2024 Codebook",
+    "Notebook 04"
+  ],
+  "advertencia_uso": "Este informe es un prototipo académico de apoyo preventivo. No realiza diagnósticos ni sustituye la valoración de profesionales cualificados."
+}

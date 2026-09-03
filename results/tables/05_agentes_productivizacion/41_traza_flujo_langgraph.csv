@@ -1,0 +1,6 @@
+﻿paso,nodo,entrada,salida,tiempo_s
+1,validar_entrada,Registro recibido con 813 variables,Entrada válida con 813 variables,0.001
+2,predecir_indicadores,Entrada validada con 813 variables,4 predicciones estructuradas obtenidas,9.13
+3,explicar_resultados,1 variables objetivo solicitadas,1 explicaciones y 3 variables principales,14.409
+4,recuperar_documentacion,10 consultas documentales,10 documentos principales recuperados,0.197
+5,preparar_contexto,"4 predicciones, 1 explicaciones y 10 documentos",Contexto estructurado preparado para la capa generativa,0.0

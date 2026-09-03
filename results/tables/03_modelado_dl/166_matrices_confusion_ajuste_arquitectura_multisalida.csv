@@ -1,0 +1,21 @@
+﻿estrategia_pesos,target,descripcion,tn,fp,fn,tp
+focal_drop_menor,IRAMDEYR,Episodio depresivo mayor,5076,1656,91,745
+focal_drop_menor,IRSUICTHNK,Ideación suicida,5268,1737,151,412
+focal_drop_menor,IRSUIPLANYR,Planificación suicida,5508,1886,32,142
+focal_drop_menor,IRSUITRYYR,Intento suicida,5923,1561,20,64
+focal_drop_mayor,IRAMDEYR,Episodio depresivo mayor,5046,1686,97,739
+focal_drop_mayor,IRSUICTHNK,Ideación suicida,5052,1953,139,424
+focal_drop_mayor,IRSUIPLANYR,Planificación suicida,5496,1898,33,141
+focal_drop_mayor,IRSUITRYYR,Intento suicida,5568,1916,14,70
+focal_capas_compartidas,IRAMDEYR,Episodio depresivo mayor,5285,1447,125,711
+focal_capas_compartidas,IRSUICTHNK,Ideación suicida,5293,1712,154,409
+focal_capas_compartidas,IRSUIPLANYR,Planificación suicida,5208,2186,21,153
+focal_capas_compartidas,IRSUITRYYR,Intento suicida,5690,1794,10,74
+focal_ramas_32,IRAMDEYR,Episodio depresivo mayor,4879,1853,73,763
+focal_ramas_32,IRSUICTHNK,Ideación suicida,4820,2185,115,448
+focal_ramas_32,IRSUIPLANYR,Planificación suicida,5256,2138,22,152
+focal_ramas_32,IRSUITRYYR,Intento suicida,5785,1699,12,72
+focal_sin_bn_ramas,IRAMDEYR,Episodio depresivo mayor,5508,1224,155,681
+focal_sin_bn_ramas,IRSUICTHNK,Ideación suicida,4537,2468,89,474
+focal_sin_bn_ramas,IRSUIPLANYR,Planificación suicida,4868,2526,14,160
+focal_sin_bn_ramas,IRSUITRYYR,Intento suicida,4925,2559,7,77

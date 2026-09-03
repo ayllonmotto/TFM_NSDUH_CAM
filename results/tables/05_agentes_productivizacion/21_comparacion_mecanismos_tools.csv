@@ -1,0 +1,14 @@
+﻿criterio,tool_local,mcp,lectura
+Resultado predictivo,Equivalente,Equivalente,Empate
+Tiempo observado,7.833 s,8.514 s,Información descriptiva
+Descubrimiento,Directo,Dinámico,Ventaja MCP
+Ejecución,Síncrona,Asíncrona,Depende del escenario
+Servidor y sesión,No necesarios,"Cliente, servidor y sesión",Ventaja tool local
+Transporte,Llamada interna,stdio,Ventaja tool local en simplicidad
+Esquema de argumentos,Tool LangChain / contrato local,Schema descubierto mediante MCP,Ventaja MCP
+Interoperabilidad,Limitada al proyecto,Protocolo estándar,Ventaja MCP
+Reutilización por varios clientes,Menor,Alta,Ventaja MCP
+Mantenimiento de la capacidad,Proyecto propio,Servidor MCP del propio proyecto,Sin ventaja externa en este TFM
+Trazabilidad,Directa,"Buena, con una capa adicional",Ventaja tool local
+Integración con LangGraph,Directa,Mediante adaptador LangChain,Ambas válidas
+Adecuación al caso actual,Alta,Alta si existen varios clientes,Ventaja tool local

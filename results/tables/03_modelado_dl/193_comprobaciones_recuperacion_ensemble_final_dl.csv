@@ -1,0 +1,9 @@
+﻿comprobacion,resultado
+El preprocesamiento final puede recuperarse,True
+Las variables numéricas se reproducen,True
+Los tokens categóricos se reproducen,True
+Los dos modelos finales pueden recuperarse,True
+Los dos modelos conservan las cuatro salidas,True
+Las predicciones de cada modelo se reproducen,True
+Las probabilidades del ensemble se reproducen,True
+Los pesos del ensemble suman 1,True

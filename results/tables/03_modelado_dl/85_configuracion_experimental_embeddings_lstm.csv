@@ -1,0 +1,2 @@
+﻿estrategia_pesos,descripcion,modelos_previstos,batch_size,learning_rate,epocas_maximas,monitor_early_stopping,paciencia,backup_entrenamiento,dimension_embedding,unidades_lstm,recurrent_dropout
+balanceada,Ponderación balanceada,4,256,0.0005,100,val_loss,10,True,8,64,0.0

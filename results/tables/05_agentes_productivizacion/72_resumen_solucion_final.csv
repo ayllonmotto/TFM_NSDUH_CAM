@@ -1,0 +1,10 @@
+﻿elemento,valor
+Variables objetivo,4
+Variables originales de entrada,813
+Predicciones validadas extremo a extremo,4
+Factores explicativos extremo a extremo,12
+Endpoints Flask,10
+Modelo generativo,mistral-small-latest
+Versión del prompt,v5
+Evaluación extremo a extremo,VALIDADO
+Acceso autorizado,VALIDADO

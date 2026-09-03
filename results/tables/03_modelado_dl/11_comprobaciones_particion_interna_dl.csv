@@ -1,0 +1,7 @@
+﻿comprobacion,resultado
+La partición interna conserva todos los registros de TRAIN,True
+No existe solapamiento entre entrenamiento y validación,True
+Los identificadores coinciden con TRAIN,True
+Los conjuntos de entrada y objetivos mantienen el mismo índice,True
+Todos los objetivos tienen positivos en entrenamiento,True
+Todos los objetivos tienen positivos en validación,True

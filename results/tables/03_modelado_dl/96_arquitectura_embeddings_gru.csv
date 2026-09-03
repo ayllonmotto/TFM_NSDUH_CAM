@@ -1,0 +1,14 @@
+﻿elemento,valor
+Nombre del modelo,Embeddings + GRU
+Tipo de arquitectura,API funcional con rama GRU y rama numérica
+Longitud de la secuencia,813
+Vocabulario total,4617
+Dimensión del embedding,8
+Unidades GRU,64
+Recurrent dropout,0.0
+Selección cuDNN,Automática
+Variables numéricas,59
+Unidades de unión,64 → 32
+Regularización L2,1e-05
+Learning rate,0.0005
+Parámetros totales,61769

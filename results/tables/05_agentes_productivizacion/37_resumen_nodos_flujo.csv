@@ -1,0 +1,6 @@
+﻿nodo,capacidad,finalidad
+validar_entrada,Validación Pydantic,Validar las 813 variables antes de inferencia
+predecir_indicadores,Tool predictiva local,Obtener las cuatro predicciones cerradas
+explicar_resultados,SHAP mediante bridge,Explicar únicamente las variables objetivo solicitadas
+recuperar_documentacion,Tool RAG,Recuperar documentación controlada cuando proceda
+preparar_contexto,Consolidación determinista,Preparar la información para la siguiente etapa

@@ -1,0 +1,17 @@
+﻿elemento,ruta,uso
+Configuración de productivización,results/tables/04_evaluacion_explicabilidad/configuracion_productivizacion_v1.joblib,"Selección, umbrales y variables definitivas"
+Referencia SHAP,results/tables/04_evaluacion_explicabilidad/background_shap_productivizacion_v1.joblib,Conjunto TRAIN para explicaciones locales
+Modelos finales Machine Learning,models/02_modelado_ml/modelos_ml_finales.pkl,XGBoost seleccionado para episodio depresivo mayor
+Preprocesamiento Deep Learning,models/03_modelado_dl/preprocesamiento_final_dl_v1.joblib,Procesamiento definitivo de las entradas Deep Learning
+Metadatos Deep Learning,models/03_modelado_dl/metadatos_modelo_final_dl_v1.joblib,"Modelos, pesos, umbrales y configuración Deep Learning"
+Rangos de variables numéricas,results/tables/01_datos_eda/30_resumen_numericas_validas.csv,Tratamiento reproducible de valores y códigos especiales
+Roles y etiquetas,results/tables/01_datos_eda/28_roles_base_premodelado.csv,Descripción y módulo de las variables originales
+Selección final por objetivo,results/tables/04_evaluacion_explicabilidad/53_seleccion_final_por_objetivo.csv,Resumen de la solución predictiva definitiva
+Predicciones finales de TEST,results/tables/04_evaluacion_explicabilidad/54_predicciones_finales_test.csv,Trazabilidad y comprobación del resultado final
+Variables principales SHAP,results/tables/04_evaluacion_explicabilidad/69_top_importancia_global_shap.csv,Contexto global de explicabilidad
+Coincidencias de variables SHAP,results/tables/04_evaluacion_explicabilidad/73_coincidencias_variables_shap.csv,Contexto común entre indicadores
+Esquema de entrada,results/tables/04_evaluacion_explicabilidad/75_esquema_entrada_productivizacion.csv,Validación estructural de nuevos registros
+Esquema de salida,results/tables/04_evaluacion_explicabilidad/76_esquema_salida_productivizacion.csv,Formato esperado de la respuesta predictiva
+Limitaciones,results/tables/04_evaluacion_explicabilidad/77_limitaciones_modelo_final.csv,Advertencias obligatorias para interpretación
+Modelo Deep Learning — multisalida_focal_ramas_32,models/03_modelado_dl/modelo_final_focal_ramas_32_v1.keras,Modelo del ensemble Deep Learning definitivo
+Modelo Deep Learning — multisalida_focal_sin_bn_ramas,models/03_modelado_dl/modelo_final_focal_sin_bn_ramas_v1.keras,Modelo del ensemble Deep Learning definitivo

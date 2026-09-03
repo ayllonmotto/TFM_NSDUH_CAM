@@ -1,0 +1,5 @@
+﻿target,descripcion,menor_fn,mayor_average_precision,mayor_f2,mayor_balanced_accuracy,menor_fp,menor_brier
+IRAMDEYR,Episodio depresivo mayor,ML,ML,ML,ML,DL,DL
+IRSUICTHNK,Ideación suicida,ML,DL,DL,DL,DL,ML
+IRSUIPLANYR,Planificación suicida,DL,DL,DL,DL,DL,ML
+IRSUITRYYR,Intento suicida,DL,ML,ML,DL,ML,ML

@@ -1,0 +1,3 @@
+﻿clave,modelo,configuraciones,modelos_reutilizados,modelos_nuevos
+embeddings_mlp,Embeddings + MLP,3,4,8
+embeddings_gru,Embeddings + GRU,3,4,8

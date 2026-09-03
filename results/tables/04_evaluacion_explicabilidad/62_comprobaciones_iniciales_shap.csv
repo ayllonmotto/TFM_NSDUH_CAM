@@ -1,0 +1,7 @@
+﻿comprobacion,resultado
+Se comprueba el modelo seleccionado para cada variable objetivo,True
+Se obtienen resultados para las cuatro variables objetivo,True
+Los valores SHAP presentan las dimensiones esperadas,True
+Todos los valores SHAP son finitos,True
+Los tiempos de cálculo son positivos y finitos,True
+La diferencia de reconstrucción es inferior a 0.0075,True

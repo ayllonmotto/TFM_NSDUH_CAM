@@ -1,0 +1,45 @@
+﻿target,descripcion,metrica,candidato,valor
+IRAMDEYR,Episodio depresivo mayor,Average Precision,Embeddings + atención — Ponderación balanceada,0.4990145510100789
+IRAMDEYR,Episodio depresivo mayor,ROC-AUC,Embeddings + atención — Ponderación balanceada,0.8926263052705495
+IRAMDEYR,Episodio depresivo mayor,Recall,Red multisalida — Focal + Adam,0.8492822966507177
+IRAMDEYR,Episodio depresivo mayor,Precision,Red multisalida — BCE + Adam,0.656441717791411
+IRAMDEYR,Episodio depresivo mayor,F1,MLP de dos ramas — Ponderación balanceada,0.5074483421432003
+IRAMDEYR,Episodio depresivo mayor,F2,Red multisalida — Focal + Adam,0.6522138526547859
+IRAMDEYR,Episodio depresivo mayor,Balanced Accuracy,Red multisalida — Focal + Adam,0.8214771554554836
+IRAMDEYR,Episodio depresivo mayor,Especificidad,Red multisalida — BCE + Adam,0.9916815210932858
+IRAMDEYR,Episodio depresivo mayor,Accuracy,Embeddings + atención — Ponderación balanceada,0.8968023255813954
+IRAMDEYR,Episodio depresivo mayor,Falsos negativos,Red multisalida — Focal + Adam,126.0
+IRAMDEYR,Episodio depresivo mayor,Falsos positivos,Red multisalida — BCE + Adam,56.0
+IRSUICTHNK,Ideación suicida,Average Precision,Red multisalida — Focal + Adam,0.2939410711232845
+IRSUICTHNK,Ideación suicida,ROC-AUC,Red multisalida — Focal + Adam,0.8203219471501579
+IRSUICTHNK,Ideación suicida,Recall,Red multisalida — Focal + Adam,0.7211367673179396
+IRSUICTHNK,Ideación suicida,Precision,Red multisalida — BCE + Adam,0.38461538461538464
+IRSUICTHNK,Ideación suicida,F1,Embeddings + atención — Ponderación balanceada,0.338269680436477
+IRSUICTHNK,Ideación suicida,F2,Red multisalida — Focal + Adam,0.475076058974959
+IRSUICTHNK,Ideación suicida,Balanced Accuracy,Red multisalida — Focal + Adam,0.7452935799473352
+IRSUICTHNK,Ideación suicida,Especificidad,Embeddings + LSTM — Ponderación balanceada,0.9905781584582442
+IRSUICTHNK,Ideación suicida,Accuracy,Embeddings + LSTM — Ponderación balanceada,0.9182082452431289
+IRSUICTHNK,Ideación suicida,Falsos negativos,Red multisalida — Focal + Adam,157.0
+IRSUICTHNK,Ideación suicida,Falsos positivos,Embeddings + LSTM — Ponderación balanceada,66.0
+IRSUIPLANYR,Planificación suicida,Average Precision,Red multisalida — BCE + Adam,0.16108347079194785
+IRSUIPLANYR,Planificación suicida,ROC-AUC,Red multisalida — Focal + Adam,0.8604953845771192
+IRSUIPLANYR,Planificación suicida,Recall,Red multisalida — Focal + Adam,0.8620689655172413
+IRSUIPLANYR,Planificación suicida,Precision,Embeddings + atención — Ponderación balanceada,0.4090909090909091
+IRSUIPLANYR,Planificación suicida,F1,Red multisalida — BCE + Adam,0.22304832713754646
+IRSUIPLANYR,Planificación suicida,F2,Red multisalida — BCE + pesos por tarea,0.31370390753990096
+IRSUIPLANYR,Planificación suicida,Balanced Accuracy,Red multisalida — Focal + Adam,0.8037015100780689
+IRSUIPLANYR,Planificación suicida,Especificidad,Embeddings + atención — Ponderación balanceada,0.998241817690019
+IRSUIPLANYR,Planificación suicida,Accuracy,Embeddings + atención — Ponderación balanceada,0.9764799154334038
+IRSUIPLANYR,Planificación suicida,Falsos negativos,Red multisalida — Focal + Adam,24.0
+IRSUIPLANYR,Planificación suicida,Falsos positivos,Embeddings + atención — Ponderación balanceada,13.0
+IRSUITRYYR,Intento suicida,Average Precision,Embeddings + atención — Ponderación balanceada,0.12106712370345729
+IRSUITRYYR,Intento suicida,ROC-AUC,Red multisalida — BCE + pesos por tarea,0.8743223639001299
+IRSUITRYYR,Intento suicida,Recall,Red multisalida — Focal + Adam,0.8452380952380952
+IRSUITRYYR,Intento suicida,Precision,Embeddings + GRU — Ponderación balanceada,1.0
+IRSUITRYYR,Intento suicida,F1,Red multisalida — BCE + Adam,0.1658291457286432
+IRSUITRYYR,Intento suicida,F2,Red multisalida — BCE + pesos por tarea,0.2609603340292276
+IRSUITRYYR,Intento suicida,Balanced Accuracy,Red multisalida — Focal + Adam,0.8057029599653864
+IRSUITRYYR,Intento suicida,Especificidad,Embeddings + GRU — Ponderación balanceada,1.0
+IRSUITRYYR,Intento suicida,Accuracy,Embeddings + GRU — Ponderación balanceada,0.9890327695560254
+IRSUITRYYR,Intento suicida,Falsos negativos,Red multisalida — Focal + Adam,13.0
+IRSUITRYYR,Intento suicida,Falsos positivos,Embeddings + GRU — Ponderación balanceada,0.0

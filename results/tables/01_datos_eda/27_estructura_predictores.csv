@@ -1,0 +1,815 @@
+﻿variable,modulo,tipo_version,tipo_variable,n_unicos,n_nan,pct_nan,pct_dominante,n_ausencia_documental,tipos_ausencia,pct_ausencia_documental
+ACTD2001,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.18,12,No respuesta o ausencia,0.025
+ACTD7590,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.18,10,No respuesta o ausencia,0.021
+ACTD9001,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.18,13,No respuesta o ausencia,0.027
+ACTDEVER,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,6,0,0.0,94.972,3,No respuesta o ausencia,0.006
+ACTDPRIV,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.18,11,No respuesta o ausencia,0.023
+ACTDVIET,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.18,13,No respuesta o ausencia,0.027
+AGE3,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,8,0,0.0,27.157,0,Sin ausencia documental observada,0.0
+AIRDUSEVER2,RECODED DRUG USE,Recodificada,Binaria,2,3,0.006,98.617,0,Sin ausencia documental observada,0.0
+ALCAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,101,0,0.0,50.728,461,No respuesta o ausencia,0.975
+ALCFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,82.801,0,Sin ausencia documental observada,0.0
+ALCMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,49.115,0,Sin ausencia documental observada,0.0
+ALCMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,62.365,800,No respuesta o ausencia,1.691
+ALCMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,50.885,0,Sin ausencia documental observada,0.0
+ALCNUMDKPM,RECODED DRUG USE,Recodificada,Numérica con rango documentado,199,24713,52.248,52.248,0,Sin ausencia documental observada,0.0
+ALCYDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,32.256,0,Sin ausencia documental observada,0.0
+ALCYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,62.365,627,No respuesta o ausencia,1.326
+ALCYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,67.744,0,Sin ausencia documental observada,0.0
+ALCYRBFR,PRIOR SUBSTANCE USE,Original u otra,Categórica con pocas categorías,7,0,0.0,61.416,811,No respuesta o ausencia,1.715
+AMYLNIEVER2,RECODED DRUG USE,Recodificada,Binaria,2,15,0.032,96.706,0,Sin ausencia documental observada,0.0
+ANYHLTI2,RECODED HEALTH INSURANCE,Recodificada,Categórica con pocas categorías,5,0,0.0,85.194,2051,No respuesta o ausencia,4.336
+ANYNDLREC,RECODED SPECIAL DRUGS,Recodificada,Categórica con pocas categorías,7,0,0.0,97.218,271,No respuesta o ausencia,0.573
+ANYNEDFLAG,RECODED EMERGING ISSUES,Recodificada,Binaria,2,275,0.581,97.169,0,Sin ausencia documental observada,0.0
+ANYNEDYR,RECODED EMERGING ISSUES,Recodificada,Binaria,2,267,0.564,98.958,0,Sin ausencia documental observada,0.0
+APPDRGMON,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,6,0,0.0,94.877,377,No respuesta o ausencia,0.797
+APPDRGMON2,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,378,0.799,94.877,0,Sin ausencia documental observada,0.0
+ASTHMAAGE,HEALTH,Original u otra,Numérica con rango documentado,85,0,0.0,85.621,1481,No respuesta o ausencia,3.131
+ASTHMAEVR2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,85.621,1325,No respuesta o ausencia,2.801
+ASTHMANOW,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,85.621,1364,No respuesta o ausencia,2.884
+BKARSON,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.076,813,No respuesta o ausencia,1.719
+BKBURGL,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,8,0,0.0,96.076,814,No respuesta o ausencia,1.721
+BKDRUG,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,8,0,0.0,96.076,813,No respuesta o ausencia,1.719
+BKDRUNK,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,8,0,0.0,96.076,813,No respuesta o ausencia,1.719
+BKDRVINF,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,8,0,0.0,96.076,813,No respuesta o ausencia,1.719
+BKFRAUD,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,9,0,0.0,96.076,815,No respuesta o ausencia,1.723
+BKLARCNY,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,9,0,0.0,96.076,815,No respuesta o ausencia,1.723
+BKMVTHFT,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,8,0,0.0,96.076,814,No respuesta o ausencia,1.721
+BKOTH,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,9,0,0.0,96.076,879,No respuesta o ausencia,1.858
+BKROB,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.076,814,No respuesta o ausencia,1.721
+BKSEXNR,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.076,813,No respuesta o ausencia,1.719
+BKSMASLT,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,9,0,0.0,96.076,815,No respuesta o ausencia,1.723
+BKSRVIOL,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,9,0,0.0,96.076,815,No respuesta o ausencia,1.723
+BMI2,RECODED HEALTH,Recodificada,Numérica con rango documentado,3067,2250,4.757,4.757,2250,No respuesta o ausencia,4.757
+BNGDRKMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,76.183,0,Sin ausencia documental observada,0.0
+BNGDRMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,76.183,0,Sin ausencia documental observada,0.0
+BOOKED,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,7,0,0.0,85.281,659,No respuesta o ausencia,1.393
+BZOANYYR,RECODED DRUG USE,Recodificada,Binaria,2,48,0.101,91.522,48,No respuesta o ausencia,0.101
+BZONMYR,RECODED DRUG USE,Recodificada,Binaria,2,8,0.017,98.564,8,No respuesta o ausencia,0.017
+CABLADDER,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CABLOLEULYM,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CABREAST,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1338,No respuesta o ausencia,2.829
+CACERVIX,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,94.721,1333,No respuesta o ausencia,2.818
+CACOLNRECT,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CADRKCOCN2,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,47,0.099,99.738,0,Sin ausencia documental observada,0.0
+CADRKHALL2,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,135,0.285,99.617,0,Sin ausencia documental observada,0.0
+CADRKHERN2,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,13,0.027,99.958,0,Sin ausencia documental observada,0.0
+CADRKINHL2,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,49,0.104,99.852,0,Sin ausencia documental observada,0.0
+CADRKMARJ2,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,356,0.753,92.357,0,Sin ausencia documental observada,0.0
+CADRKMETH2,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,26,0.055,99.784,0,Sin ausencia documental observada,0.0
+CAESOPSTOM,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CAGALLIVPAN,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CAIDCHIP,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,74.128,1945,No respuesta o ausencia,4.112
+CAKIDNEY,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1338,No respuesta o ausencia,2.829
+CALARYLUNG,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1338,No respuesta o ausencia,2.829
+CAMELANOM,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CAMHPROB,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,6,0,0.0,65.762,1558,No respuesta o ausencia,3.294
+CAMHPROB2,RECODED EMERGING ISSUES,Recodificada,Binaria,2,1562,3.302,65.762,0,Sin ausencia documental observada,0.0
+CAMHRCVR,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,7,0,0.0,65.762,1673,No respuesta o ausencia,3.537
+CAMOUTTHRO,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CANCEREVR2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,92.977,1326,No respuesta o ausencia,2.803
+CANCERYR,HEALTH,Original u otra,Categórica con pocas categorías,9,0,0.0,92.977,1338,No respuesta o ausencia,2.829
+CAOTHER2,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CAOVARY,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,94.721,1333,No respuesta o ausencia,2.818
+CAPROSTEST,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,95.452,1332,No respuesta o ausencia,2.816
+CASKINDK,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CASKINOTH,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CASUPROB,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,6,0,0.0,84.714,1581,No respuesta o ausencia,3.343
+CASUPROB2,RECODED EMERGING ISSUES,Recodificada,Binaria,2,1585,3.351,84.714,0,Sin ausencia documental observada,0.0
+CASURCVR,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,7,0,0.0,84.714,1593,No respuesta o ausencia,3.368
+CATAG2,RECODED DEMOGRAPHICS,Recodificada,Binaria,2,0,0.0,70.114,0,Sin ausencia documental observada,0.0
+CATAG3,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,4,0,0.0,29.886,0,Sin ausencia documental observada,0.0
+CATAG6,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,5,0,0.0,29.886,0,Sin ausencia documental observada,0.0
+CATAG7,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,4,0,0.0,49.773,0,Sin ausencia documental observada,0.0
+CATAGE,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,3,0,0.0,49.773,0,Sin ausencia documental observada,0.0
+CATHYROID,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,92.977,1339,No respuesta o ausencia,2.831
+CAUTERUS,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,94.721,1333,No respuesta o ausencia,2.818
+CBDHMPFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,63.244,0,Sin ausencia documental observada,0.0
+CBDHMPMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,89.097,0,Sin ausencia documental observada,0.0
+CBDHMPYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,80.336,0,Sin ausencia documental observada,0.0
+CDCGMO,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,88.941,0,Sin ausencia documental observada,0.0
+CDNOCGMO,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,84.968,0,Sin ausencia documental observada,0.0
+CDUFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,73.909,0,Sin ausencia documental observada,0.0
+CELLNOTCL,INCOME,Original u otra,Categórica con pocas categorías,6,0,0.0,82.133,1903,No respuesta o ausencia,4.023
+CELLWRKNG,INCOME,Original u otra,Categórica con pocas categorías,6,0,0.0,93.429,1918,No respuesta o ausencia,4.055
+CGRAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,85,0,0.0,69.498,510,No respuesta o ausencia,1.078
+CGRFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,69.509,0,Sin ausencia documental observada,0.0
+CGRMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,95.975,0,Sin ausencia documental observada,0.0
+CGRMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,95.975,0,Sin ausencia documental observada,0.0
+CGRYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,92.095,0,Sin ausencia documental observada,0.0
+CHAMPUS,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,5,0,0.0,92.241,1764,No respuesta o ausencia,3.729
+CHMNDLREC,RECODED SPECIAL DRUGS,Recodificada,Categórica con pocas categorías,8,0,0.0,97.772,97,No respuesta o ausencia,0.205
+CIG1PACK,RECODED DRUG USE,Recodificada,Binaria,2,43910,92.835,92.835,43910,Ausencia documental,92.835
+CIGAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,91,0,0.0,48.794,497,No respuesta o ausencia,1.051
+CIGARMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,69.498,1302,No respuesta o ausencia,2.753
+CIGARYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,69.498,1225,No respuesta o ausencia,2.59
+CIGAVGD,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,7,40763,86.182,86.182,0,Sin ausencia documental observada,0.0
+CIGAVGM,RECODED DRUG USE,Recodificada,Numérica con rango documentado,142,40763,86.182,86.182,0,Sin ausencia documental observada,0.0
+CIGAVOID,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,118,No respuesta o ausencia,0.249
+CIGCRAGP,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,109,No respuesta o ausencia,0.23
+CIGCRAVE,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,107,No respuesta o ausencia,0.226
+CIGDLLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,84,0,0.0,48.794,246,No respuesta o ausencia,0.52
+CIGDLMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,48.794,428,No respuesta o ausencia,0.905
+CIGDLYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,48.794,406,No respuesta o ausencia,0.858
+CIGFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,51.206,0,Sin ausencia documental observada,0.0
+CIGFNLKE,NICOTINE DEPENDENCE,Original u otra,Categórica con número moderado de categorías,11,0,0.0,48.794,119,No respuesta o ausencia,0.252
+CIGFNSMK,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,7,0,0.0,48.794,105,No respuesta o ausencia,0.222
+CIGINCRS,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,128,No respuesta o ausencia,0.271
+CIGINCTL,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,115,No respuesta o ausencia,0.243
+CIGINFLU,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,130,No respuesta o ausencia,0.275
+CIGIRTBL,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,117,No respuesta o ausencia,0.247
+CIGLOTMR,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,148,No respuesta o ausencia,0.313
+CIGMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,86.139,0,Sin ausencia documental observada,0.0
+CIGMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,48.794,1068,No respuesta o ausencia,2.258
+CIGMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,86.139,0,Sin ausencia documental observada,0.0
+CIGNMCHG,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,126,No respuesta o ausencia,0.266
+CIGNOINF,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,138,No respuesta o ausencia,0.292
+CIGPDAY,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,92.824,0,Sin ausencia documental observada,0.0
+CIGPLANE,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,125,No respuesta o ausencia,0.264
+CIGREGDY,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,118,No respuesta o ausencia,0.249
+CIGREGNM,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,128,No respuesta o ausencia,0.271
+CIGREGWK,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,130,No respuesta o ausencia,0.275
+CIGRNOUT,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,117,No respuesta o ausencia,0.247
+CIGSATIS,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,135,No respuesta o ausencia,0.285
+CIGSVLHR,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,10,0,0.0,48.794,131,No respuesta o ausencia,0.277
+CIGWAKE,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,9,0,0.0,48.794,260,No respuesta o ausencia,0.55
+CIGYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,48.794,966,No respuesta o ausencia,2.042
+CIGYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,81.473,0,Sin ausencia documental observada,0.0
+CIGYRBFR,PRIOR SUBSTANCE USE,Original u otra,Categórica con pocas categorías,8,0,0.0,48.794,414,No respuesta o ausencia,0.875
+CIRROSAGE,HEALTH,Original u otra,Numérica con rango documentado,59,0,0.0,96.928,1328,No respuesta o ausencia,2.808
+CIRROSEVR2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,96.928,1326,No respuesta o ausencia,2.803
+CLEFLUEVER2,RECODED DRUG USE,Recodificada,Binaria,2,5,0.011,99.332,0,Sin ausencia documental observada,0.0
+CNSANYYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,89.353,0,Sin ausencia documental observada,0.0
+CNSNMMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.281,0,Sin ausencia documental observada,0.0
+CNSNMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,95.892,0,Sin ausencia documental observada,0.0
+COCAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,71,0,0.0,85.86,251,No respuesta o ausencia,0.531
+COCFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,85.883,0,Sin ausencia documental observada,0.0
+COCMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.275,0,Sin ausencia documental observada,0.0
+COCMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,85.86,669,No respuesta o ausencia,1.414
+COCMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.275,0,Sin ausencia documental observada,0.0
+COCNEDEVER,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,44,0.093,98.941,0,Sin ausencia documental observada,0.0
+COCYDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,97.968,0,Sin ausencia documental observada,0.0
+COCYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,85.86,631,No respuesta o ausencia,1.334
+COCYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.968,0,Sin ausencia documental observada,0.0
+COCYRBFR,PRIOR SUBSTANCE USE,Original u otra,Categórica con pocas categorías,7,0,0.0,85.86,174,No respuesta o ausencia,0.368
+COMBATPY,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,96.18,15,No respuesta o ausencia,0.032
+COPDAGE,HEALTH,Original u otra,Numérica con rango documentado,90,0,0.0,94.759,1358,No respuesta o ausencia,2.871
+COPDEVER2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,94.759,1326,No respuesta o ausencia,2.803
+CRKAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,64,0,0.0,96.567,97,No respuesta o ausencia,0.205
+CRKFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,96.602,0,Sin ausencia documental observada,0.0
+CRKMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.869,0,Sin ausencia documental observada,0.0
+CRKMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,96.567,239,No respuesta o ausencia,0.505
+CRKMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.869,0,Sin ausencia documental observada,0.0
+CRKYDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,99.683,0,Sin ausencia documental observada,0.0
+CRKYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,96.567,237,No respuesta o ausencia,0.501
+CRKYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.683,0,Sin ausencia documental observada,0.0
+DAMTFXFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.104,0,Sin ausencia documental observada,0.0
+DAMTFXMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.951,0,Sin ausencia documental observada,0.0
+DAMTFXYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.757,0,Sin ausencia documental observada,0.0
+DCIGMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,92.824,0,Sin ausencia documental observada,0.0
+DIABETEAG,HEALTH,Original u otra,Numérica con rango documentado,90,0,0.0,89.268,1399,No respuesta o ausencia,2.958
+DIABETEVR2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,89.268,1319,No respuesta o ausencia,2.789
+DIFGETCOC,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,9,0,0.0,34.299,1532,No respuesta o ausencia,3.239
+DIFGETCRK,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,9,0,0.0,40.606,1579,No respuesta o ausencia,3.338
+DIFGETHER,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,9,0,0.0,43.333,1595,No respuesta o ausencia,3.372
+DIFGETLSD,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,9,0,0.0,36.092,1671,No respuesta o ausencia,3.533
+DIFGETMRJ,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,9,0,0.0,46.248,1021,No respuesta o ausencia,2.159
+DIFOBTCOC,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,1533,3.241,76.568,0,Sin ausencia documental observada,0.0
+DIFOBTCRK,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,1580,3.34,82.139,0,Sin ausencia documental observada,0.0
+DIFOBTHER,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,1596,3.374,83.619,0,Sin ausencia documental observada,0.0
+DIFOBTLSD,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,1672,3.535,82.397,0,Sin ausencia documental observada,0.0
+DIFOBTMRJ,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,1022,2.161,71.215,0,Sin ausencia documental observada,0.0
+DRVINAGE,RECODED DEMOGRAPHICS,Recodificada,Binaria,2,0,0.0,70.114,0,Sin ausencia documental observada,0.0
+DRVINALCO,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,7,0,0.0,60.893,523,No respuesta o ausencia,1.106
+DRVINALCO2,RECODED SPECIAL TOPICS,Recodificada,Binaria,2,523,1.106,93.089,0,Sin ausencia documental observada,0.0
+DRVINALDRG,RECODED SPECIAL TOPICS,Recodificada,Binaria,2,984,2.08,88.108,0,Sin ausencia documental observada,0.0
+DRVINALON,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,6,0,0.0,65.221,311,No respuesta o ausencia,0.658
+DRVINCOCN,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,8,0,0.0,85.856,94,No respuesta o ausencia,0.199
+DRVINDETAG,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,3,0,0.0,70.114,0,Sin ausencia documental observada,0.0
+DRVINDRG,RECODED SPECIAL TOPICS,Recodificada,Binaria,2,680,1.438,92.63,0,Sin ausencia documental observada,0.0
+DRVINDROTMJ,RECODED SPECIAL TOPICS,Recodificada,Binaria,2,487,1.03,97.981,0,Sin ausencia documental observada,0.0
+DRVINHALL,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,8,0,0.0,79.991,274,No respuesta o ausencia,0.579
+DRVINHERN,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,8,0,0.0,97.476,38,No respuesta o ausencia,0.08
+DRVININHL,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,6,0,0.0,88.742,127,No respuesta o ausencia,0.269
+DRVINMARJ,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,7,0,0.0,47.289,316,No respuesta o ausencia,0.668
+DRVINMARJ2,RECODED SPECIAL TOPICS,Recodificada,Binaria,2,316,0.668,93.827,0,Sin ausencia documental observada,0.0
+DRVINMETH,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,7,0,0.0,94.433,74,No respuesta o ausencia,0.156
+ECSTMOAGL,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,58,0,0.0,90.475,276,No respuesta o ausencia,0.584
+ECSTMOFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,90.516,0,Sin ausencia documental observada,0.0
+ECSTMOMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,90.475,541,No respuesta o ausencia,1.144
+ECSTMOMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.759,0,Sin ausencia documental observada,0.0
+ECSTMOYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,90.475,526,No respuesta o ausencia,1.112
+ECSTMOYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.025,0,Sin ausencia documental observada,0.0
+EDFAM18,HOUSEHOLD COMPOSITION (ROSTER),Original u otra,Categórica con pocas categorías,3,0,0.0,74.976,1557,No respuesta o ausencia,3.292
+EDUFULPAR,EDUCATION,Original u otra,Categórica con pocas categorías,7,0,0.0,80.598,2401,No respuesta o ausencia,5.076
+EDUHIGHCAT,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,4,0,0.0,33.745,0,Sin ausencia documental observada,0.0
+EDUSCHGRD2,EDUCATION,Original u otra,Categórica con número moderado de categorías,13,0,0.0,80.598,2665,No respuesta o ausencia,5.634
+EDUSCHLGO,EDUCATION,Original u otra,Categórica con pocas categorías,7,0,0.0,80.598,1884,No respuesta o ausencia,3.983
+EDUSCKCOM,EDUCATION,Original u otra,Numérica con rango documentado,30,0,0.0,84.966,2429,No respuesta o ausencia,5.135
+EDUSCKEST,EDUCATION,Original u otra,Categórica con pocas categorías,10,0,0.0,94.784,2429,No respuesta o ausencia,5.135
+EDUSCKMON,EDUCATION,Original u otra,Numérica con rango documentado,31,0,0.0,84.966,2463,No respuesta o ausencia,5.207
+EDUSKPCOM,EDUCATION,Original u otra,Numérica con rango documentado,25,0,0.0,86.008,2431,No respuesta o ausencia,5.14
+EDUSKPEST,EDUCATION,Original u otra,Categórica con pocas categorías,9,0,0.0,94.799,2431,No respuesta o ausencia,5.14
+EDUSKPMON,EDUCATION,Original u otra,Numérica con rango documentado,25,0,0.0,86.008,2456,No respuesta o ausencia,5.192
+ENRLCOLLFT2,RECODED EDUCATION,Recodificada,Categórica con pocas categorías,3,0,0.0,82.695,0,Sin ausencia documental observada,0.0
+ENRLCOLLST2,RECODED EDUCATION,Recodificada,Categórica con pocas categorías,5,0,0.0,82.695,0,Sin ausencia documental observada,0.0
+ETHEREVER2,RECODED DRUG USE,Recodificada,Binaria,2,7,0.015,99.571,0,Sin ausencia documental observada,0.0
+FLTMRKEVER2,RECODED DRUG USE,Recodificada,Binaria,2,7,0.015,96.406,0,Sin ausencia documental observada,0.0
+FLVVAPEVR,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,6,0,0.0,88.256,1510,No respuesta o ausencia,3.192
+FLVVAPFLAG,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,91.182,0,Sin ausencia documental observada,0.0
+FLVVAPMON,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,97.926,0,Sin ausencia documental observada,0.0
+FLVVAPREC,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,7,0,0.0,88.256,1510,No respuesta o ausencia,3.192
+FLVVAPYR,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,96.516,0,Sin ausencia documental observada,0.0
+FPIMFANYYR2,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,98.77,0,Sin ausencia documental observada,0.0
+FPIMFNMYR,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.584,0,Sin ausencia documental observada,0.0
+FTNDDEPND,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,3,249,0.526,86.139,0,Sin ausencia documental observada,0.0
+FUALC18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,57.075,0,Sin ausencia documental observada,0.0
+FUALC21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,64.91,0,Sin ausencia documental observada,0.0
+FUCD218,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,87.97,0,Sin ausencia documental observada,0.0
+FUCD221,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,79.205,0,Sin ausencia documental observada,0.0
+FUCGR18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,91.987,0,Sin ausencia documental observada,0.0
+FUCGR21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,81.879,0,Sin ausencia documental observada,0.0
+FUCIG18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,67.843,0,Sin ausencia documental observada,0.0
+FUCIG21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,55.02,0,Sin ausencia documental observada,0.0
+FUCOC18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.015,0,Sin ausencia documental observada,0.0
+FUCOC21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,92.727,0,Sin ausencia documental observada,0.0
+FUCRK18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.376,0,Sin ausencia documental observada,0.0
+FUCRK21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.636,0,Sin ausencia documental observada,0.0
+FUECSTMO18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.116,0,Sin ausencia documental observada,0.0
+FUECSTMO21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,95.207,0,Sin ausencia documental observada,0.0
+FUHALLUC18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,93.712,0,Sin ausencia documental observada,0.0
+FUHALLUC21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,87.408,0,Sin ausencia documental observada,0.0
+FUHER18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.562,0,Sin ausencia documental observada,0.0
+FUHER21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.011,0,Sin ausencia documental observada,0.0
+FUINHAL182,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,93.64,0,Sin ausencia documental observada,0.0
+FUINHAL212,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,91.347,0,Sin ausencia documental observada,0.0
+FULSD18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,96.036,0,Sin ausencia documental observada,0.0
+FULSD21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,92.55,0,Sin ausencia documental observada,0.0
+FUMETHAM18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.605,0,Sin ausencia documental observada,0.0
+FUMETHAM21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.285,0,Sin ausencia documental observada,0.0
+FUMJ18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,72.173,0,Sin ausencia documental observada,0.0
+FUMJ21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,58.693,0,Sin ausencia documental observada,0.0
+FUNICVAP18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,91.059,0,Sin ausencia documental observada,0.0
+FUNICVAP21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,83.94,0,Sin ausencia documental observada,0.0
+FUPCP18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.345,0,Sin ausencia documental observada,0.0
+FUPCP21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.848,0,Sin ausencia documental observada,0.0
+FUPNRNM18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.987,0,Sin ausencia documental observada,0.0
+FUPNRNM21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.915,0,Sin ausencia documental observada,0.0
+FUSEDNM21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.996,0,Sin ausencia documental observada,0.0
+FUSMKLSS18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,93.575,0,Sin ausencia documental observada,0.0
+FUSMKLSS21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,89.653,0,Sin ausencia documental observada,0.0
+FUSTMNM18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.992,0,Sin ausencia documental observada,0.0
+FUSTMNM21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.93,0,Sin ausencia documental observada,0.0
+FUTRQNM18,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.998,0,Sin ausencia documental observada,0.0
+FUTRQNM21,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.968,0,Sin ausencia documental observada,0.0
+GASEVER2,RECODED DRUG USE,Recodificada,Binaria,2,2,0.004,98.742,0,Sin ausencia documental observada,0.0
+GHBFLAG,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,0,0.0,99.436,0,Sin ausencia documental observada,0.0
+GHBMON,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,0,0.0,99.951,0,Sin ausencia documental observada,0.0
+GHBYR,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,0,0.0,99.915,0,Sin ausencia documental observada,0.0
+GLUEEVER2,RECODED DRUG USE,Recodificada,Binaria,2,3,0.006,98.731,0,Sin ausencia documental observada,0.0
+GOVTPROG,RECODED INCOME,Recodificada,Binaria,2,0,0.0,77.987,0,Sin ausencia documental observada,0.0
+GRPHLTIN,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,48.229,2015,No respuesta o ausencia,4.26
+GRSKBNGDLY,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,598,1.264,68.602,0,Sin ausencia documental observada,0.0
+GRSKBNGWK,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,614,1.298,53.931,0,Sin ausencia documental observada,0.0
+GRSKCIGPKD,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,555,1.173,65.412,0,Sin ausencia documental observada,0.0
+GRSKCOCMON,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,816,1.725,63.185,0,Sin ausencia documental observada,0.0
+GRSKCOCWK,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,796,1.683,81.439,0,Sin ausencia documental observada,0.0
+GRSKHERTRY,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,817,1.727,79.655,0,Sin ausencia documental observada,0.0
+GRSKHERWK,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,778,1.645,90.655,0,Sin ausencia documental observada,0.0
+GRSKLSDTRY,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,1026,2.169,49.984,0,Sin ausencia documental observada,0.0
+GRSKLSDWK,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,1055,2.23,67.158,0,Sin ausencia documental observada,0.0
+GRSKMRJMON,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,671,1.419,81.613,0,Sin ausencia documental observada,0.0
+GRSKMRJWK,RECODED RISK/AVAILABILITY,Recodificada,Binaria,2,694,1.467,77.928,0,Sin ausencia documental observada,0.0
+HALLAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,73,0,0.0,79.991,457,No respuesta o ausencia,0.966
+HALLMOLST,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,79.991,1043,No respuesta o ausencia,2.205
+HALLNDAYPM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,98.643,0,Sin ausencia documental observada,0.0
+HALLNDAYYR,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,94.955,0,Sin ausencia documental observada,0.0
+HALLUCFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,80.179,0,Sin ausencia documental observada,0.0
+HALLUCMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.643,0,Sin ausencia documental observada,0.0
+HALLUCYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,94.955,0,Sin ausencia documental observada,0.0
+HALLYRLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,79.991,967,No respuesta o ausencia,2.044
+HEALTH,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,36.32,25,No respuesta o ausencia,0.053
+HEALTH2,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,4,25,0.053,36.32,0,Sin ausencia documental observada,0.0
+HEPBCAGE,HEALTH,Original u otra,Numérica con rango documentado,72,0,0.0,96.201,1337,No respuesta o ausencia,2.827
+HEPBCEVER2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,96.201,1325,No respuesta o ausencia,2.801
+HERAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,56,0,0.0,97.488,64,No respuesta o ausencia,0.135
+HERFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.499,0,Sin ausencia documental observada,0.0
+HERMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.846,0,Sin ausencia documental observada,0.0
+HERMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,97.488,178,No respuesta o ausencia,0.376
+HERMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.846,0,Sin ausencia documental observada,0.0
+HERNEDEVER,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,10,0.021,98.717,0,Sin ausencia documental observada,0.0
+HERRXOPYR,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,4,0,0.0,96.953,0,Sin ausencia documental observada,0.0
+HERSMOEVER,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,11,0.023,98.677,0,Sin ausencia documental observada,0.0
+HERSNIEVER,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,11,0.023,98.188,0,Sin ausencia documental observada,0.0
+HERYDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,99.721,0,Sin ausencia documental observada,0.0
+HERYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,97.488,177,No respuesta o ausencia,0.374
+HERYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.721,0,Sin ausencia documental observada,0.0
+HIGHBPAGE,HEALTH,Original u otra,Numérica con rango documentado,93,0,0.0,86.532,1436,No respuesta o ausencia,3.036
+HIGHBPEVR2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,83.414,1326,No respuesta o ausencia,2.803
+HIGHBPMED,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,83.414,1333,No respuesta o ausencia,2.818
+HIVAIDSAG,HEALTH,Original u otra,Numérica con rango documentado,40,0,0.0,96.926,1331,No respuesta o ausencia,2.814
+HIVAIDSEV2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,96.926,1326,No respuesta o ausencia,2.803
+HLCALL99,RECODED HEALTH INSURANCE,Recodificada,Binaria,2,0,0.0,99.962,47281,No respuesta o ausencia,99.962
+HLCLAST,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,9,0,0.0,85.194,2154,No respuesta o ausencia,4.554
+HLCNOTMO,HEALTH INSURANCE,Original u otra,Numérica con rango documentado,16,0,0.0,90.15,2161,No respuesta o ausencia,4.569
+HLCNOTYR,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,7,0,0.0,79.68,2131,No respuesta o ausencia,4.505
+HLLOSRSN,HEALTH INSURANCE,Original u otra,Categórica con número moderado de categorías,17,0,0.0,87.526,2202,No respuesta o ausencia,4.655
+HLNVCOST,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,93.211,2118,No respuesta o ausencia,4.478
+HLNVNEED,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,93.211,2118,No respuesta o ausencia,4.478
+HLNVOFFR,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,93.211,2118,No respuesta o ausencia,4.478
+HLNVREF,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,93.211,2118,No respuesta o ausencia,4.478
+HLNVSOR,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,93.211,2118,No respuesta o ausencia,4.478
+HLTINALC,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,39.261,8278,No respuesta o ausencia,17.501
+HLTINDRG,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,39.261,8213,No respuesta o ausencia,17.364
+HLTINMNT,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,42.381,4910,No respuesta o ausencia,10.381
+HLTINNOS,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,6,0,0.0,83.581,1665,No respuesta o ausencia,3.52
+HPALCAMT2,HEALTH,Original u otra,Categórica con pocas categorías,8,0,0.0,26.373,1148,No respuesta o ausencia,2.427
+HPALCCUT2,HEALTH,Original u otra,Categórica con pocas categorías,8,0,0.0,50.614,1148,No respuesta o ausencia,2.427
+HPALCFRQ2,HEALTH,Original u otra,Categórica con pocas categorías,9,0,0.0,26.286,1145,No respuesta o ausencia,2.421
+HPALCNOT2,HEALTH,Original u otra,Categórica con pocas categorías,8,0,0.0,32.485,1148,No respuesta o ausencia,2.427
+HPALCPRB2,HEALTH,Original u otra,Categórica con pocas categorías,8,0,0.0,45.978,1148,No respuesta o ausencia,2.427
+HPALCTX2,HEALTH,Original u otra,Categórica con pocas categorías,8,0,0.0,51.255,1148,No respuesta o ausencia,2.427
+HPDRGTALK,HEALTH,Original u otra,Categórica con pocas categorías,9,0,0.0,44.517,630,No respuesta o ausencia,1.332
+HPQTTOB,HEALTH,Original u otra,Categórica con pocas categorías,9,0,0.0,42.398,459,No respuesta o ausencia,0.97
+HPUSEALC,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,52.908,1311,No respuesta o ausencia,2.772
+HPUSEDRG,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,45.449,1349,No respuesta o ausencia,2.852
+HPUSETOB,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,52.961,1316,No respuesta o ausencia,2.782
+HRTCONDAG,HEALTH,Original u otra,Numérica con rango documentado,96,0,0.0,89.613,1390,No respuesta o ausencia,2.939
+HRTCONDEV2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,89.613,1322,No respuesta o ausencia,2.795
+HRTCONDYR,HEALTH,Original u otra,Categórica con pocas categorías,8,0,0.0,89.613,1340,No respuesta o ausencia,2.833
+HTANSWER,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,93.021,1383,No respuesta o ausencia,2.924
+HTINCHE2,HEALTH,Original u otra,Numérica con rango documentado,25,0,0.0,8.385,1689,No respuesta o ausencia,3.571
+HVYDRKMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,93.886,0,Sin ausencia documental observada,0.0
+IINPCOLDREC,IMPUTED SPECIAL DRUGS,Imputada,Categórica con pocas categorías,3,0,0.0,99.165,0,Sin ausencia documental observada,0.0
+ILIMFOTHFG,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,61.067,0,Sin ausencia documental observada,0.0
+ILIMFOTHMN,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,75.835,0,Sin ausencia documental observada,0.0
+ILIMFOTHYR,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,63.553,0,Sin ausencia documental observada,0.0
+ILLALCFLG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,85.272,0,Sin ausencia documental observada,0.0
+ILLALCMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,57.251,0,Sin ausencia documental observada,0.0
+ILLANDALC,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,73.393,0,Sin ausencia documental observada,0.0
+ILLEMFLAG2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,68.701,0,Sin ausencia documental observada,0.0
+ILLEMMON2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,96.042,0,Sin ausencia documental observada,0.0
+ILLEMYR2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,89.203,0,Sin ausencia documental observada,0.0
+ILLFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,56.64,0,Sin ausencia documental observada,0.0
+ILLMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,79.027,0,Sin ausencia documental observada,0.0
+ILLORALC,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,72.369,0,Sin ausencia documental observada,0.0
+ILLYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,68.767,0,Sin ausencia documental observada,0.0
+ILTOBALCFG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,86.881,0,Sin ausencia documental observada,0.0
+ILTOBALCMN,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,61.644,0,Sin ausencia documental observada,0.0
+ILTOBALCYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,75.179,0,Sin ausencia documental observada,0.0
+ILTOBVAPALC,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,63.688,0,Sin ausencia documental observada,0.0
+IMFEVER,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,6,0,0.0,96.059,1480,No respuesta o ausencia,3.129
+IMFFLAG,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.148,0,Sin ausencia documental observada,0.0
+IMFMON,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.808,0,Sin ausencia documental observada,0.0
+IMFNDLEVER,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,6,0,0.0,96.059,1482,No respuesta o ausencia,3.133
+IMFNEDFLAG,RECODED EMERGING ISSUES,Recodificada,Binaria,2,26,0.055,99.622,0,Sin ausencia documental observada,0.0
+IMFYR,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.672,0,Sin ausencia documental observada,0.0
+INCOME,RECODED INCOME,Recodificada,Categórica con pocas categorías,4,0,0.0,42.95,0,Sin ausencia documental observada,0.0
+INHALFLAG2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,88.867,0,Sin ausencia documental observada,0.0
+INHALMON2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.533,0,Sin ausencia documental observada,0.0
+INHALYR2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.786,0,Sin ausencia documental observada,0.0
+INHLAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,74,0,0.0,88.742,423,No respuesta o ausencia,0.894
+INHLMOLST,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,88.742,839,No respuesta o ausencia,1.774
+INHLYRLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,88.742,819,No respuesta o ausencia,1.732
+INHNDAYPM2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.533,0,Sin ausencia documental observada,0.0
+INHNDAYYR2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,98.786,0,Sin ausencia documental observada,0.0
+INHOSPYR,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,90.668,978,No respuesta o ausencia,2.068
+IRCHMPUS,IMPUTED HEALTH INSURANCE,Imputada,Binaria,2,0,0.0,95.822,0,Sin ausencia documental observada,0.0
+IREDUHIGHST2,IMPUTED DEMOGRAPHICS,Imputada,Categórica con número moderado de categorías,11,0,0.0,33.745,0,Sin ausencia documental observada,0.0
+IRFAMIN3,IMPUTED INCOME,Imputada,Categórica con pocas categorías,7,0,0.0,42.95,0,Sin ausencia documental observada,0.0
+IRFAMPMT,IMPUTED INCOME,Imputada,Binaria,2,0,0.0,98.33,0,Sin ausencia documental observada,0.0
+IRFAMSOC,IMPUTED INCOME,Imputada,Binaria,2,0,0.0,80.148,0,Sin ausencia documental observada,0.0
+IRFAMSSI,IMPUTED INCOME,Imputada,Binaria,2,0,0.0,92.816,0,Sin ausencia documental observada,0.0
+IRFAMSVC,IMPUTED INCOME,Imputada,Binaria,2,0,0.0,97.125,0,Sin ausencia documental observada,0.0
+IRFLVVAPREC,IMPUTED EMERGING ISSUES,Imputada,Categórica con pocas categorías,4,0,0.0,91.182,0,Sin ausencia documental observada,0.0
+IRFSTAMP,IMPUTED INCOME,Imputada,Binaria,2,0,0.0,82.093,0,Sin ausencia documental observada,0.0
+IRGHBREC,IMPUTED SPECIAL DRUGS,Imputada,Categórica con pocas categorías,4,0,0.0,99.436,0,Sin ausencia documental observada,0.0
+IRHH65_2,IMPUTED HOUSEHOLD COMPOSITION (ROSTER),Imputada,Categórica con pocas categorías,3,0,0.0,80.234,0,Sin ausencia documental observada,0.0
+IRHHSIZ2,IMPUTED HOUSEHOLD COMPOSITION (ROSTER),Imputada,Categórica con pocas categorías,6,0,0.0,29.324,0,Sin ausencia documental observada,0.0
+IRIMFREC,IMPUTED EMERGING ISSUES,Imputada,Categórica con pocas categorías,4,0,0.0,99.148,0,Sin ausencia documental observada,0.0
+IRINSUR4,RECODED HEALTH INSURANCE,Recodificada,Binaria,2,0,0.0,88.869,0,Sin ausencia documental observada,0.0
+IRKI17_2,IMPUTED HOUSEHOLD COMPOSITION (ROSTER),Imputada,Categórica con pocas categorías,4,0,0.0,61.572,0,Sin ausencia documental observada,0.0
+IRKRATREC,IMPUTED EMERGING ISSUES,Imputada,Categórica con pocas categorías,4,0,0.0,97.562,0,Sin ausencia documental observada,0.0
+IRMARIT,IMPUTED DEMOGRAPHICS,Imputada,Categórica con pocas categorías,4,0,0.0,47.32,0,Sin ausencia documental observada,0.0
+IRMCDCHP,IMPUTED HEALTH INSURANCE,Imputada,Binaria,2,0,0.0,77.348,0,Sin ausencia documental observada,0.0
+IRMEDICR,IMPUTED HEALTH INSURANCE,Imputada,Binaria,2,0,0.0,85.78,0,Sin ausencia documental observada,0.0
+IRNPCOLDREC,IMPUTED SPECIAL DRUGS,Imputada,Categórica con pocas categorías,4,0,0.0,95.698,0,Sin ausencia documental observada,0.0
+IROTHHLT,IMPUTED HEALTH INSURANCE,Imputada,Categórica con pocas categorías,3,0,0.0,86.266,0,Sin ausencia documental observada,0.0
+IRPINC3,IMPUTED INCOME,Imputada,Categórica con pocas categorías,7,0,0.0,23.383,0,Sin ausencia documental observada,0.0
+IRPMNICDEP,IMPUTED NICOTINE DEPENDENCE,Imputada,Binaria,2,0,0.0,92.059,0,Sin ausencia documental observada,0.0
+IRPRVHLT,IMPUTED HEALTH INSURANCE,Imputada,Binaria,2,0,0.0,58.999,0,Sin ausencia documental observada,0.0
+IRPYSEV5ALC,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,87.909,0,Sin ausencia documental observada,0.0
+IRPYSEV5COC,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.408,0,Sin ausencia documental observada,0.0
+IRPYSEV5HAL,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.763,0,Sin ausencia documental observada,0.0
+IRPYSEV5HER,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.751,0,Sin ausencia documental observada,0.0
+IRPYSEV5INH,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.854,0,Sin ausencia documental observada,0.0
+IRPYSEV5MRJ,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,89.905,0,Sin ausencia documental observada,0.0
+IRPYSEV5MTH,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.218,0,Sin ausencia documental observada,0.0
+IRPYUD5ALC,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,87.909,0,Sin ausencia documental observada,0.0
+IRPYUD5COC,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.408,0,Sin ausencia documental observada,0.0
+IRPYUD5HAL,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.763,0,Sin ausencia documental observada,0.0
+IRPYUD5HER,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.751,0,Sin ausencia documental observada,0.0
+IRPYUD5INH,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.854,0,Sin ausencia documental observada,0.0
+IRPYUD5MRJ,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,89.905,0,Sin ausencia documental observada,0.0
+IRPYUD5MTH,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.218,0,Sin ausencia documental observada,0.0
+IRSEVPNRMIS,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.209,0,Sin ausencia documental observada,0.0
+IRSEVPNRUNM2,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.133,0,Sin ausencia documental observada,0.0
+IRSEVSEDMIS,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.899,0,Sin ausencia documental observada,0.0
+IRSEVSEDUNM,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.763,0,Sin ausencia documental observada,0.0
+IRSEVSTMMIS,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.624,0,Sin ausencia documental observada,0.0
+IRSEVSTMUNM,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.431,0,Sin ausencia documental observada,0.0
+IRSEVTRQMIS,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.668,0,Sin ausencia documental observada,0.0
+IRSEVTRQUNM,IMPUTED SUBSTANCE USE DISORDER,Imputada,Categórica con pocas categorías,4,0,0.0,99.63,0,Sin ausencia documental observada,0.0
+IRSEX,IMPUTED DEMOGRAPHICS,Imputada,Binaria,2,0,0.0,55.101,0,Sin ausencia documental observada,0.0
+IRSYNMRJREC,IMPUTED EMERGING ISSUES,Imputada,Categórica con pocas categorías,4,0,0.0,96.871,0,Sin ausencia documental observada,0.0
+IRSYNSTMREC,IMPUTED EMERGING ISSUES,Imputada,Categórica con pocas categorías,4,0,0.0,99.655,0,Sin ausencia documental observada,0.0
+IRUD5PNRMIS,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.209,0,Sin ausencia documental observada,0.0
+IRUD5PNRUNM2,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.133,0,Sin ausencia documental observada,0.0
+IRUD5SEDMIS,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.899,0,Sin ausencia documental observada,0.0
+IRUD5SEDUNM,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.763,0,Sin ausencia documental observada,0.0
+IRUD5STMMIS,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.624,0,Sin ausencia documental observada,0.0
+IRUD5STMUNM,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.431,0,Sin ausencia documental observada,0.0
+IRUD5TRQMIS,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.668,0,Sin ausencia documental observada,0.0
+IRUD5TRQUNM,IMPUTED SUBSTANCE USE DISORDER,Imputada,Binaria,2,0,0.0,99.63,0,Sin ausencia documental observada,0.0
+IRWELMOS,IMPUTED INCOME,Imputada,Numérica con rango documentado,13,0,0.0,95.972,0,Sin ausencia documental observada,0.0
+IRWRKSTAT,IMPUTED EMPLOYMENT,Imputada,Categórica con pocas categorías,4,0,0.0,48.418,0,Sin ausencia documental observada,0.0
+IRWRKSTAT18,IMPUTED EMPLOYMENT,Imputada,Categórica con pocas categorías,4,0,0.0,48.418,0,Sin ausencia documental observada,0.0
+KETMINFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.469,0,Sin ausencia documental observada,0.0
+KETMINMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.86,0,Sin ausencia documental observada,0.0
+KETMINYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.476,0,Sin ausencia documental observada,0.0
+KIDNYDSAG,HEALTH,Original u otra,Numérica con rango documentado,91,0,0.0,95.416,1343,No respuesta o ausencia,2.839
+KIDNYDSEV2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,95.416,1326,No respuesta o ausencia,2.803
+KRATEVER,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,6,0,0.0,94.429,1531,No respuesta o ausencia,3.237
+KRATOMFLAG,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,97.562,0,Sin ausencia documental observada,0.0
+KRATOMMON,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.588,0,Sin ausencia documental observada,0.0
+KRATOMYR,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.199,0,Sin ausencia documental observada,0.0
+KRATREC,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,7,0,0.0,94.429,1531,No respuesta o ausencia,3.237
+LGASEVER2,RECODED DRUG USE,Recodificada,Binaria,2,4,0.008,99.63,0,Sin ausencia documental observada,0.0
+LSDAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,63,0,0.0,89.061,330,No respuesta o ausencia,0.698
+LSDFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,89.093,0,Sin ausencia documental observada,0.0
+LSDMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,89.061,586,No respuesta o ausencia,1.239
+LSDMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.858,0,Sin ausencia documental observada,0.0
+LSDYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,89.061,564,No respuesta o ausencia,1.192
+LSDYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.207,0,Sin ausencia documental observada,0.0
+LVLDIFCARE2,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,88.932,1536,No respuesta o ausencia,3.247
+LVLDIFCOMM2,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,86.41,1538,No respuesta o ausencia,3.252
+LVLDIFHEAR2,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,83.503,1586,No respuesta o ausencia,3.353
+LVLDIFMEM2,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,64.653,1537,No respuesta o ausencia,3.25
+LVLDIFSEE2,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,71.469,1551,No respuesta o ausencia,3.279
+LVLDIFWALK2,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,83.146,1533,No respuesta o ausencia,3.241
+MEDICARE,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,5,0,0.0,82.433,1826,No respuesta o ausencia,3.861
+MESCEVER,RECODED DRUG USE,Recodificada,Binaria,2,20,0.042,98.186,0,Sin ausencia documental observada,0.0
+METHAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,67,0,0.0,94.444,149,No respuesta o ausencia,0.315
+METHAMFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,94.509,0,Sin ausencia documental observada,0.0
+METHAMMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.336,0,Sin ausencia documental observada,0.0
+METHAMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.882,0,Sin ausencia documental observada,0.0
+METHMOLST,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,94.444,322,No respuesta o ausencia,0.681
+METHNDAYPM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.336,0,Sin ausencia documental observada,0.0
+METHNDAYYR,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,98.882,0,Sin ausencia documental observada,0.0
+METHYRLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,94.444,312,No respuesta o ausencia,0.66
+MILSTAT,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,7,0,0.0,94.972,7,No respuesta o ausencia,0.015
+MILTCHLDR,EDUCATION,Original u otra,Categórica con pocas categorías,7,0,0.0,88.416,2548,No respuesta o ausencia,5.387
+MILTFAMLY,EDUCATION,Original u otra,Categórica con pocas categorías,6,0,0.0,88.416,1868,No respuesta o ausencia,3.949
+MILTPARNT,EDUCATION,Original u otra,Categórica con pocas categorías,7,0,0.0,88.416,2521,No respuesta o ausencia,5.33
+MILTSIBLN,EDUCATION,Original u otra,Categórica con pocas categorías,7,0,0.0,88.416,2560,No respuesta o ausencia,5.412
+MILTSPPAR,EDUCATION,Original u otra,Categórica con pocas categorías,7,0,0.0,88.416,2556,No respuesta o ausencia,5.404
+MJCMOTHMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.133,0,Sin ausencia documental observada,0.0
+MJCMOTHYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,96.152,0,Sin ausencia documental observada,0.0
+MJDABMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,96.702,0,Sin ausencia documental observada,0.0
+MJDABYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,94.734,0,Sin ausencia documental observada,0.0
+MJEATMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,92.264,0,Sin ausencia documental observada,0.0
+MJEATYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,85.564,0,Sin ausencia documental observada,0.0
+MJMTHMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.288,0,Sin ausencia documental observada,0.0
+MJMTHYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.516,0,Sin ausencia documental observada,0.0
+MJONLYFLAG2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,74.659,0,Sin ausencia documental observada,0.0
+MJONLYMON2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,82.985,0,Sin ausencia documental observada,0.0
+MJONLYYR2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,79.564,0,Sin ausencia documental observada,0.0
+MJOTHYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.808,0,Sin ausencia documental observada,0.0
+MJPLLMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.7,0,Sin ausencia documental observada,0.0
+MJPLLYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.321,0,Sin ausencia documental observada,0.0
+MJSKNMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.918,0,Sin ausencia documental observada,0.0
+MJSKNYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.715,0,Sin ausencia documental observada,0.0
+MJSMKMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,85.167,0,Sin ausencia documental observada,0.0
+MJSMKYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,78.551,0,Sin ausencia documental observada,0.0
+MJVAPFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,73.934,0,Sin ausencia documental observada,0.0
+MJVAPMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,91.926,0,Sin ausencia documental observada,0.0
+MJVAPYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,87.697,0,Sin ausencia documental observada,0.0
+MOVSINPYR2,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,8,0,0.0,72.999,1812,No respuesta o ausencia,3.831
+MRJAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,91,0,0.0,47.289,594,No respuesta o ausencia,1.256
+MRJFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,52.68,0,Sin ausencia documental observada,0.0
+MRJMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,80.537,0,Sin ausencia documental observada,0.0
+MRJMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,47.289,1164,No respuesta o ausencia,2.461
+MRJMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,80.537,0,Sin ausencia documental observada,0.0
+MRJMONVAP2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,3,0,0.0,80.537,0,Sin ausencia documental observada,0.0
+MRJYDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,0,0.0,71.921,0,Sin ausencia documental observada,0.0
+MRJYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,47.289,954,No respuesta o ausencia,2.017
+MRJYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,71.921,0,Sin ausencia documental observada,0.0
+MRJYRBFR,PRIOR SUBSTANCE USE,Original u otra,Categórica con pocas categorías,7,0,0.0,47.289,503,No respuesta o ausencia,1.063
+MTHNEDEVER,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,20,0.042,98.683,0,Sin ausencia documental observada,0.0
+MXMJPNLT,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,10,0,0.0,27.235,7427,No respuesta o ausencia,15.702
+NDSSDEPND,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,3,130,0.275,86.139,0,Sin ausencia documental observada,0.0
+NEWRACE2,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,7,0,0.0,58.058,0,Sin ausencia documental observada,0.0
+NICVAPFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,65.64,0,Sin ausencia documental observada,0.0
+NICVAPMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,85.687,0,Sin ausencia documental observada,0.0
+NICVAPYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,80.355,0,Sin ausencia documental observada,0.0
+NICVPMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,85.687,0,Sin ausencia documental observada,0.0
+NITOXIEVER2,RECODED DRUG USE,Recodificada,Binaria,2,11,0.023,94.717,0,Sin ausencia documental observada,0.0
+NMERTMT2,HEALTH,Original u otra,Numérica con rango documentado,31,0,0.0,74.517,1413,No respuesta o ausencia,2.987
+NMNGTHS2,HEALTH,Original u otra,Numérica con rango documentado,36,0,0.0,90.668,1017,No respuesta o ausencia,2.15
+NMVSOEST,HEALTH,Original u otra,Categórica con número moderado de categorías,13,0,0.0,96.6,1101,No respuesta o ausencia,2.328
+NMVSOPT2,HEALTH,Original u otra,Numérica con rango documentado,24,0,0.0,23.662,1598,No respuesta o ausencia,3.379
+NOBOOKY2,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,9,0,0.0,85.281,844,No respuesta o ausencia,1.784
+NOMARR2,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,5,0,0.0,47.269,90,No respuesta o ausencia,0.19
+NONABOVEV2,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,63.409,1327,No respuesta o ausencia,2.806
+NOOPPRANYYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.898,0,Sin ausencia documental observada,0.0
+NOOPPRNMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.863,0,Sin ausencia documental observada,0.0
+NPCOLDFLAG,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,0,0.0,95.698,0,Sin ausencia documental observada,0.0
+NPCOLDMON,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,0,0.0,99.702,0,Sin ausencia documental observada,0.0
+NPCOLDYR,RECODED SPECIAL DRUGS,Recodificada,Binaria,2,0,0.0,99.101,0,Sin ausencia documental observada,0.0
+NRCH17_2,HOUSEHOLD COMPOSITION (ROSTER),Original u otra,Numérica con rango documentado,4,1699,3.592,68.45,1699,No respuesta o ausencia,3.592
+OPIANYYR2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,79.987,0,Sin ausencia documental observada,0.0
+OPIIMFNMMN2,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.057,0,Sin ausencia documental observada,0.0
+OPIIMFNMYR2,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,96.863,0,Sin ausencia documental observada,0.0
+OPINMMON2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.133,0,Sin ausencia documental observada,0.0
+OPINMYR2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,96.953,0,Sin ausencia documental observada,0.0
+OTHAEREVER2,RECODED DRUG USE,Recodificada,Binaria,2,6,0.013,99.342,0,Sin ausencia documental observada,0.0
+OTHINS,RECODED HEALTH INSURANCE,Recodificada,Binaria,2,0,0.0,80.236,0,Sin ausencia documental observada,0.0
+OTHRPNRANY2,RECODED DRUG USE,Recodificada,Binaria,2,473,1.0,95.285,0,Sin ausencia documental observada,0.0
+OTHRPNRMIS,RECODED DRUG USE,Recodificada,Binaria,2,61,0.129,99.674,0,Sin ausencia documental observada,0.0
+OTHRSEDANY,RECODED DRUG USE,Recodificada,Binaria,2,27,0.057,97.905,0,Sin ausencia documental observada,0.0
+OTHRSEDMIS2,RECODED DRUG USE,Recodificada,Binaria,2,16,0.034,99.899,0,Sin ausencia documental observada,0.0
+OTHRSTMANY,RECODED DRUG USE,Recodificada,Binaria,2,32,0.068,99.066,0,Sin ausencia documental observada,0.0
+OTHRSTMMIS,RECODED DRUG USE,Recodificada,Binaria,2,12,0.025,99.962,0,Sin ausencia documental observada,0.0
+OTHRTRQANY,RECODED DRUG USE,Recodificada,Binaria,2,49,0.104,98.404,0,Sin ausencia documental observada,0.0
+OTHRTRQMIS,RECODED DRUG USE,Recodificada,Binaria,2,20,0.042,99.918,0,Sin ausencia documental observada,0.0
+OXYCNANYYR2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.345,0,Sin ausencia documental observada,0.0
+OXYCNNMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.615,0,Sin ausencia documental observada,0.0
+PAROL,RECODED SPECIAL TOPICS,Recodificada,Binaria,2,641,1.355,97.918,0,Sin ausencia documental observada,0.0
+PAROLREL,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,6,0,0.0,97.918,634,No respuesta o ausencia,1.34
+PCPAGLST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,51,0,0.0,98.26,82,No respuesta o ausencia,0.173
+PCPFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.296,0,Sin ausencia documental observada,0.0
+PCPMLU,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,18,0,0.0,98.26,162,No respuesta o ausencia,0.343
+PCPMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.983,0,Sin ausencia documental observada,0.0
+PCPYLU,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,98.26,161,No respuesta o ausencia,0.34
+PCPYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.932,0,Sin ausencia documental observada,0.0
+PEYOTEEVER,RECODED DRUG USE,Recodificada,Binaria,2,13,0.027,98.577,0,Sin ausencia documental observada,0.0
+PIPFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,91.583,0,Sin ausencia documental observada,0.0
+PIPMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.23,0,Sin ausencia documental observada,0.0
+PMNICDEP,NICOTINE DEPENDENCE,Original u otra,Categórica con pocas categorías,3,250,0.529,86.139,0,Sin ausencia documental observada,0.0
+PNRANYFLAG2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,51.494,0,Sin ausencia documental observada,0.0
+PNRANYYR2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,77.942,0,Sin ausencia documental observada,0.0
+PNRMAINRSN,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,10,231,0.488,96.594,231,No respuesta o ausencia,0.488
+PNRNDAYPM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.186,0,Sin ausencia documental observada,0.0
+PNRNMFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,91.129,0,Sin ausencia documental observada,0.0
+PNRNMMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.186,0,Sin ausencia documental observada,0.0
+PNRNMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,96.941,0,Sin ausencia documental observada,0.0
+POVERTY3,RECODED INCOME,Recodificada,Categórica con pocas categorías,3,136,0.288,60.684,136,Ausencia documental,0.288
+PREGAGE2,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,3,0,0.0,39.466,0,Sin ausencia documental observada,0.0
+PREGST,RECODED HEALTH,Recodificada,Categórica con pocas categorías,3,382,0.808,57.249,0,Sin ausencia documental observada,0.0
+PREGSTAT,HEALTH,Original u otra,Categórica con pocas categorías,7,0,0.0,57.249,372,No respuesta o ausencia,0.786
+PROB,RECODED SPECIAL TOPICS,Recodificada,Binaria,2,638,1.349,97.137,0,Sin ausencia documental observada,0.0
+PROBATON,SPECIAL TOPICS,Original u otra,Categórica con pocas categorías,6,0,0.0,97.137,633,No respuesta o ausencia,1.338
+PRVHLTIN,HEALTH INSURANCE,Original u otra,Categórica con pocas categorías,5,0,0.0,56.591,1962,No respuesta o ausencia,4.148
+PSILCYFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,85.909,0,Sin ausencia documental observada,0.0
+PSILCYMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.15,0,Sin ausencia documental observada,0.0
+PSILCYYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,96.148,0,Sin ausencia documental observada,0.0
+PSYANYFLAG2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,57.775,0,Sin ausencia documental observada,0.0
+PSYANYYR2,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,66.982,0,Sin ausencia documental observada,0.0
+PSYCHFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,87.613,0,Sin ausencia documental observada,0.0
+PSYCHMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.406,0,Sin ausencia documental observada,0.0
+PSYCHYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,94.59,0,Sin ausencia documental observada,0.0
+RCVYMHPRB,RECODED EMERGING ISSUES,Recodificada,Binaria,2,1677,3.546,76.556,0,Sin ausencia documental observada,0.0
+RCVYSUBPRB,RECODED EMERGING ISSUES,Recodificada,Binaria,2,1597,3.376,88.057,0,Sin ausencia documental observada,0.0
+RKFQDBLT,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,9,0,0.0,81.759,376,No respuesta o ausencia,0.795
+RKFQPBLT,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,86.431,378,No respuesta o ausencia,0.799
+RSKBNGDLY,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,68.602,597,No respuesta o ausencia,1.262
+RSKBNGWK,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,44.771,613,No respuesta o ausencia,1.296
+RSKCIGPKD,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,65.412,554,No respuesta o ausencia,1.171
+RSKCOCMON,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,63.185,815,No respuesta o ausencia,1.723
+RSKCOCWK,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,81.439,795,No respuesta o ausencia,1.681
+RSKHERTRY,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,79.655,816,No respuesta o ausencia,1.725
+RSKHERWK,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,90.655,777,No respuesta o ausencia,1.643
+RSKLSDTRY,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,49.984,1025,No respuesta o ausencia,2.167
+RSKLSDWK,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,67.158,1054,No respuesta o ausencia,2.228
+RSKMRJMON,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,34.476,670,No respuesta o ausencia,1.417
+RSKMRJWK,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,32.075,693,No respuesta o ausencia,1.465
+RSKYFQDGR,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,50.221,550,No respuesta o ausencia,1.163
+RSKYFQTES,RISK/AVAILABILITY,Original u otra,Categórica con pocas categorías,8,0,0.0,51.98,470,No respuesta o ausencia,0.994
+RXALPRANY,RECODED DRUG USE,Recodificada,Binaria,2,34,0.072,95.545,0,Sin ausencia documental observada,0.0
+RXALPRMIS,RECODED DRUG USE,Recodificada,Binaria,2,5,0.011,99.0,0,Sin ausencia documental observada,0.0
+RXAMMEANY,RECODED DRUG USE,Recodificada,Binaria,2,17,0.036,92.746,0,Sin ausencia documental observada,0.0
+RXAMMEMIS,RECODED DRUG USE,Recodificada,Binaria,2,3,0.006,98.287,0,Sin ausencia documental observada,0.0
+RXAMPHANY,RECODED DRUG USE,Recodificada,Binaria,2,21,0.044,93.657,0,Sin ausencia documental observada,0.0
+RXAMPHMIS,RECODED DRUG USE,Recodificada,Binaria,2,4,0.008,98.395,0,Sin ausencia documental observada,0.0
+RXANORANY,RECODED DRUG USE,Recodificada,Binaria,2,25,0.053,98.841,0,Sin ausencia documental observada,0.0
+RXANORMIS,RECODED DRUG USE,Recodificada,Binaria,2,1,0.002,99.92,0,Sin ausencia documental observada,0.0
+RXBARBANY,RECODED DRUG USE,Recodificada,Binaria,2,24,0.051,99.763,0,Sin ausencia documental observada,0.0
+RXBARBMIS,RECODED DRUG USE,Recodificada,Binaria,2,2,0.004,99.985,0,Sin ausencia documental observada,0.0
+RXBUPRANY2,RECODED DRUG USE,Recodificada,Binaria,2,82,0.173,98.431,0,Sin ausencia documental observada,0.0
+RXBUPRMIS,RECODED DRUG USE,Recodificada,Binaria,2,14,0.03,99.657,0,Sin ausencia documental observada,0.0
+RXBZOSANY,RECODED DRUG USE,Recodificada,Binaria,2,17,0.036,99.448,0,Sin ausencia documental observada,0.0
+RXBZOSMIS,RECODED DRUG USE,Recodificada,Binaria,2,1,0.002,99.962,0,Sin ausencia documental observada,0.0
+RXBZOTANY,RECODED DRUG USE,Recodificada,Binaria,2,24,0.051,91.822,0,Sin ausencia documental observada,0.0
+RXBZOTMIS,RECODED DRUG USE,Recodificada,Binaria,2,5,0.011,98.592,0,Sin ausencia documental observada,0.0
+RXCLONANY,RECODED DRUG USE,Recodificada,Binaria,2,37,0.078,97.808,0,Sin ausencia documental observada,0.0
+RXCLONMIS,RECODED DRUG USE,Recodificada,Binaria,2,6,0.013,99.603,0,Sin ausencia documental observada,0.0
+RXCODEANY2,RECODED DRUG USE,Recodificada,Binaria,2,82,0.173,94.032,0,Sin ausencia documental observada,0.0
+RXCODEMIS,RECODED DRUG USE,Recodificada,Binaria,2,19,0.04,99.23,0,Sin ausencia documental observada,0.0
+RXCYCLANY,RECODED DRUG USE,Recodificada,Binaria,2,46,0.097,97.249,0,Sin ausencia documental observada,0.0
+RXCYCLMIS,RECODED DRUG USE,Recodificada,Binaria,2,9,0.019,99.748,0,Sin ausencia documental observada,0.0
+RXDEMEANY2,RECODED DRUG USE,Recodificada,Binaria,2,93,0.197,99.609,0,Sin ausencia documental observada,0.0
+RXDEMEMIS,RECODED DRUG USE,Recodificada,Binaria,2,12,0.025,99.96,0,Sin ausencia documental observada,0.0
+RXDIAZANY,RECODED DRUG USE,Recodificada,Binaria,2,39,0.082,98.298,0,Sin ausencia documental observada,0.0
+RXDIAZMIS,RECODED DRUG USE,Recodificada,Binaria,2,6,0.013,99.742,0,Sin ausencia documental observada,0.0
+RXESZOANY,RECODED DRUG USE,Recodificada,Binaria,2,23,0.049,99.567,0,Sin ausencia documental observada,0.0
+RXESZOMIS,RECODED DRUG USE,Recodificada,Binaria,2,1,0.002,99.966,0,Sin ausencia documental observada,0.0
+RXFLURANY,RECODED DRUG USE,Recodificada,Binaria,2,17,0.036,99.939,0,Sin ausencia documental observada,0.0
+RXHYDCANY2,RECODED DRUG USE,Recodificada,Binaria,2,79,0.167,89.19,0,Sin ausencia documental observada,0.0
+RXHYDCMIS,RECODED DRUG USE,Recodificada,Binaria,2,12,0.025,98.634,0,Sin ausencia documental observada,0.0
+RXHYDMANY2,RECODED DRUG USE,Recodificada,Binaria,2,93,0.197,99.205,0,Sin ausencia documental observada,0.0
+RXHYDMMIS,RECODED DRUG USE,Recodificada,Binaria,2,12,0.025,99.911,0,Sin ausencia documental observada,0.0
+RXLORAANY,RECODED DRUG USE,Recodificada,Binaria,2,37,0.078,97.486,0,Sin ausencia documental observada,0.0
+RXLORAMIS,RECODED DRUG USE,Recodificada,Binaria,2,6,0.013,99.734,0,Sin ausencia documental observada,0.0
+RXMORPANY2,RECODED DRUG USE,Recodificada,Binaria,2,94,0.199,97.922,0,Sin ausencia documental observada,0.0
+RXMORPMIS,RECODED DRUG USE,Recodificada,Binaria,2,13,0.027,99.81,0,Sin ausencia documental observada,0.0
+RXMRLXANY,RECODED DRUG USE,Recodificada,Binaria,2,46,0.097,97.087,0,Sin ausencia documental observada,0.0
+RXMRLXMIS,RECODED DRUG USE,Recodificada,Binaria,2,11,0.023,99.719,0,Sin ausencia documental observada,0.0
+RXMTDNANY2,RECODED DRUG USE,Recodificada,Binaria,2,93,0.197,99.288,0,Sin ausencia documental observada,0.0
+RXMTDNMIS,RECODED DRUG USE,Recodificada,Binaria,2,13,0.027,99.892,0,Sin ausencia documental observada,0.0
+RXMTHPANY,RECODED DRUG USE,Recodificada,Binaria,2,23,0.049,98.063,0,Sin ausencia documental observada,0.0
+RXMTHPMIS,RECODED DRUG USE,Recodificada,Binaria,2,2,0.004,99.729,0,Sin ausencia documental observada,0.0
+RXOPPRNMMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.245,0,Sin ausencia documental observada,0.0
+RXOXCOANY2,RECODED DRUG USE,Recodificada,Binaria,2,84,0.178,92.712,0,Sin ausencia documental observada,0.0
+RXOXCOMIS,RECODED DRUG USE,Recodificada,Binaria,2,18,0.038,98.975,0,Sin ausencia documental observada,0.0
+RXOXYMANY2,RECODED DRUG USE,Recodificada,Binaria,2,85,0.18,99.457,0,Sin ausencia documental observada,0.0
+RXOXYMMIS,RECODED DRUG USE,Recodificada,Binaria,2,11,0.023,99.92,0,Sin ausencia documental observada,0.0
+RXPROVANY,RECODED DRUG USE,Recodificada,Binaria,2,25,0.053,99.786,0,Sin ausencia documental observada,0.0
+RXPROVMIS,RECODED DRUG USE,Recodificada,Binaria,2,1,0.002,99.973,0,Sin ausencia documental observada,0.0
+RXSOMAANY,RECODED DRUG USE,Recodificada,Binaria,2,46,0.097,99.712,0,Sin ausencia documental observada,0.0
+RXSOMAMIS,RECODED DRUG USE,Recodificada,Binaria,2,8,0.017,99.96,0,Sin ausencia documental observada,0.0
+RXTEMAANY,RECODED DRUG USE,Recodificada,Binaria,2,17,0.036,99.71,0,Sin ausencia documental observada,0.0
+RXTRAMANY2,RECODED DRUG USE,Recodificada,Binaria,2,95,0.201,95.218,0,Sin ausencia documental observada,0.0
+RXTRAMMIS,RECODED DRUG USE,Recodificada,Binaria,2,22,0.047,99.537,0,Sin ausencia documental observada,0.0
+RXTRIAANY,RECODED DRUG USE,Recodificada,Binaria,2,17,0.036,99.704,0,Sin ausencia documental observada,0.0
+RXZALEANY,RECODED DRUG USE,Recodificada,Binaria,2,23,0.049,99.856,0,Sin ausencia documental observada,0.0
+RXZOHYANY2,RECODED DRUG USE,Recodificada,Binaria,2,80,0.169,99.666,0,Sin ausencia documental observada,0.0
+RXZOHYMIS,RECODED DRUG USE,Recodificada,Binaria,2,10,0.021,99.964,0,Sin ausencia documental observada,0.0
+RXZOLPANY,RECODED DRUG USE,Recodificada,Binaria,2,21,0.044,98.201,0,Sin ausencia documental observada,0.0
+RXZOLPMIS,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.814,0,Sin ausencia documental observada,0.0
+SALVIAFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.638,0,Sin ausencia documental observada,0.0
+SALVIAMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.983,0,Sin ausencia documental observada,0.0
+SALVIAYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.964,0,Sin ausencia documental observada,0.0
+SEDANYFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,89.704,0,Sin ausencia documental observada,0.0
+SEDANYYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,95.759,0,Sin ausencia documental observada,0.0
+SEDMAINRSN,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,7,254,0.537,99.159,254,No respuesta o ausencia,0.537
+SEDNDAYPM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.894,0,Sin ausencia documental observada,0.0
+SEDNMFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.932,0,Sin ausencia documental observada,0.0
+SEDNMMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.894,0,Sin ausencia documental observada,0.0
+SEDNMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.683,0,Sin ausencia documental observada,0.0
+SERVICE,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,5,0,0.0,94.972,4,No respuesta o ausencia,0.008
+SEVYROPPRANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,98.421,0,Sin ausencia documental observada,0.0
+SEVYRPNRANY2,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,98.342,0,Sin ausencia documental observada,0.0
+SEVYRSEDANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.662,0,Sin ausencia documental observada,0.0
+SEVYRSTMANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.055,0,Sin ausencia documental observada,0.0
+SEVYRTRQANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.298,0,Sin ausencia documental observada,0.0
+SEXAGE,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,3,0,0.0,70.114,0,Sin ausencia documental observada,0.0
+SEXRACE,RECODED DEMOGRAPHICS,Recodificada,Categórica con pocas categorías,7,0,0.0,31.912,0,Sin ausencia documental observada,0.0
+SMKAGLAST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,79,0,0.0,85.998,229,No respuesta o ausencia,0.484
+SMKLSMDAYS,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,97.036,0,Sin ausencia documental observada,0.0
+SMKLSSFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,86.029,0,Sin ausencia documental observada,0.0
+SMKLSSMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,97.036,0,Sin ausencia documental observada,0.0
+SMKLSSYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,95.799,0,Sin ausencia documental observada,0.0
+SMKMOLAST,PRIOR SUBSTANCE USE,Original u otra,Categórica con número moderado de categorías,19,0,0.0,85.998,557,No respuesta o ausencia,1.178
+SMKYRLAST,PRIOR SUBSTANCE USE,Original u otra,Numérica con rango documentado,10,0,0.0,85.998,530,No respuesta o ausencia,1.121
+SNAFLMJTRY,SOCIAL ENVIRONMENT,Original u otra,Categórica con pocas categorías,9,0,0.0,42.804,1400,No respuesta o ausencia,2.96
+SNRLDCSN,SOCIAL ENVIRONMENT,Original u otra,Categórica con pocas categorías,8,0,0.0,31.094,1596,No respuesta o ausencia,3.374
+SNRLFRND,SOCIAL ENVIRONMENT,Original u otra,Categórica con pocas categorías,8,0,0.0,37.388,1608,No respuesta o ausencia,3.4
+SNRLGIMP,SOCIAL ENVIRONMENT,Original u otra,Categórica con pocas categorías,8,0,0.0,30.407,1627,No respuesta o ausencia,3.44
+SNYATTAK,SOCIAL ENVIRONMENT,Original u otra,Categórica con pocas categorías,9,0,0.0,96.613,1066,No respuesta o ausencia,2.254
+SNYSELL,SOCIAL ENVIRONMENT,Original u otra,Categórica con pocas categorías,9,0,0.0,95.994,1069,No respuesta o ausencia,2.26
+SNYSTOLE,SOCIAL ENVIRONMENT,Original u otra,Categórica con pocas categorías,9,0,0.0,96.336,1064,No respuesta o ausencia,2.25
+SOLVENEVER2,RECODED DRUG USE,Recodificada,Binaria,2,6,0.013,99.404,0,Sin ausencia documental observada,0.0
+SPAINTEVER2,RECODED DRUG USE,Recodificada,Binaria,2,4,0.008,99.159,0,Sin ausencia documental observada,0.0
+SPEAKENGL,DEMOGRAPHICS,Original u otra,Categórica con pocas categorías,8,0,0.0,86.16,1490,No respuesta o ausencia,3.15
+SRCCLFRPNR,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,3,46898,99.152,99.152,0,Sin ausencia documental observada,0.0
+SRCCLFRSED,RECODED DRUG USE,Recodificada,Binaria,2,47244,99.884,99.884,0,Sin ausencia documental observada,0.0
+SRCCLFRSTM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,3,46862,99.076,99.076,0,Sin ausencia documental observada,0.0
+SRCCLFRTRQ,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,3,47002,99.372,99.372,0,Sin ausencia documental observada,0.0
+SRCFRPNRNM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,8,46898,99.152,99.152,46898,Ausencia documental,99.152
+SRCFRSEDNM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,3,47244,99.884,99.884,47244,Ausencia documental,99.884
+SRCFRSTMNM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,6,46862,99.076,99.076,46862,Ausencia documental,99.076
+SRCFRTRQNM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,8,47002,99.372,99.372,47002,Ausencia documental,99.372
+SRCPNRNM2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,8,45946,97.139,97.139,0,Sin ausencia documental observada,0.0
+SRCSEDNM2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,8,47156,99.698,99.698,0,Sin ausencia documental observada,0.0
+SRCSTMNM2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,8,46468,98.243,98.243,0,Sin ausencia documental observada,0.0
+SRCTRQNM2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,8,46565,98.448,98.448,0,Sin ausencia documental observada,0.0
+STMANYFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,85.3,0,Sin ausencia documental observada,0.0
+STMANYYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,91.262,0,Sin ausencia documental observada,0.0
+STMMAINRSN,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,10,216,0.457,97.767,216,No respuesta o ausencia,0.457
+STMNDAYPM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.48,0,Sin ausencia documental observada,0.0
+STMNMFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,95.051,0,Sin ausencia documental observada,0.0
+STMNMMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.48,0,Sin ausencia documental observada,0.0
+STMNMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.197,0,Sin ausencia documental observada,0.0
+SVYRCNSANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,97.894,0,Sin ausencia documental observada,0.0
+SVYRCNSMIS,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,98.425,0,Sin ausencia documental observada,0.0
+SVYRCNSUNM,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.469,0,Sin ausencia documental observada,0.0
+SVYRDUDANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,87.154,0,Sin ausencia documental observada,0.0
+SVYROPIANY2,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,98.292,0,Sin ausencia documental observada,0.0
+SVYROPIMIS,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.078,0,Sin ausencia documental observada,0.0
+SVYROPIUNM,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.214,0,Sin ausencia documental observada,0.0
+SVYRPSYANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,97.078,0,Sin ausencia documental observada,0.0
+SVYRSUDANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,78.976,0,Sin ausencia documental observada,0.0
+SVYRTQSDANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.072,0,Sin ausencia documental observada,0.0
+SVYRTQSDMIS,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.607,0,Sin ausencia documental observada,0.0
+SVYRTQSDUNM,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,99.465,0,Sin ausencia documental observada,0.0
+SYNMRJEVR,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,6,0,0.0,93.812,1500,No respuesta o ausencia,3.171
+SYNMRJFLAG,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,96.871,0,Sin ausencia documental observada,0.0
+SYNMRJMON,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.86,0,Sin ausencia documental observada,0.0
+SYNMRJREC,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,7,0,0.0,93.812,1500,No respuesta o ausencia,3.171
+SYNMRJYR,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.66,0,Sin ausencia documental observada,0.0
+SYNSTMEVR,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,6,0,0.0,96.556,1469,No respuesta o ausencia,3.106
+SYNSTMFLAG,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.655,0,Sin ausencia documental observada,0.0
+SYNSTMMON,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.958,0,Sin ausencia documental observada,0.0
+SYNSTMREC,EMERGING ISSUES,Original u otra,Categórica con pocas categorías,7,0,0.0,96.556,1469,No respuesta o ausencia,3.106
+SYNSTMYR,RECODED EMERGING ISSUES,Recodificada,Binaria,2,0,0.0,99.918,0,Sin ausencia documental observada,0.0
+TELEAPTYR,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,72.634,1017,No respuesta o ausencia,2.15
+TELEAPTYR2,RECODED HEALTH,Recodificada,Binaria,2,1027,2.171,72.634,0,Sin ausencia documental observada,0.0
+TOBALCFLG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,85.298,0,Sin ausencia documental observada,0.0
+TOBALCMN,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,57.754,0,Sin ausencia documental observada,0.0
+TOBALCYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,72.511,0,Sin ausencia documental observada,0.0
+TOBCIGONL,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,4,0,0.0,82.027,0,Sin ausencia documental observada,0.0
+TOBCIGVAP2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,4,0,0.0,93.907,0,Sin ausencia documental observada,0.0
+TOBFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,57.58,0,Sin ausencia documental observada,0.0
+TOBMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,82.027,0,Sin ausencia documental observada,0.0
+TOBVAPONL2,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,4,0,0.0,73.807,0,Sin ausencia documental observada,0.0
+TOBVNICFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,63.431,0,Sin ausencia documental observada,0.0
+TOBVNICMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,73.807,0,Sin ausencia documental observada,0.0
+TOBVNICYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,67.5,0,Sin ausencia documental observada,0.0
+TOBYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,75.887,0,Sin ausencia documental observada,0.0
+TQSDANYFLG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,76.951,0,Sin ausencia documental observada,0.0
+TQSDANYYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,86.672,0,Sin ausencia documental observada,0.0
+TQSDNMFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,95.165,0,Sin ausencia documental observada,0.0
+TQSDNMMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.44,0,Sin ausencia documental observada,0.0
+TQSDNMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.152,0,Sin ausencia documental observada,0.0
+TRQANYFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,80.921,0,Sin ausencia documental observada,0.0
+TRQANYYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,89.038,0,Sin ausencia documental observada,0.0
+TRQMAINRSN,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,9,181,0.383,98.051,181,No respuesta o ausencia,0.383
+TRQNDAYPM,RECODED DRUG USE,Recodificada,Categórica con pocas categorías,5,0,0.0,99.522,0,Sin ausencia documental observada,0.0
+TRQNMFLAG,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,95.962,0,Sin ausencia documental observada,0.0
+TRQNMMON,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,99.522,0,Sin ausencia documental observada,0.0
+TRQNMYR,RECODED DRUG USE,Recodificada,Binaria,2,0,0.0,98.374,0,Sin ausencia documental observada,0.0
+UADBAR,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,46015,97.285,97.285,0,Sin ausencia documental observada,0.0
+UADBUND,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,3,112,0.237,99.721,0,Sin ausencia documental observada,0.0
+UADBWHO,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,3,112,0.237,99.321,0,Sin ausencia documental observada,0.0
+UADCAG,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,5,119,0.252,99.266,0,Sin ausencia documental observada,0.0
+UADCAR,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,46015,97.285,97.285,0,Sin ausencia documental observada,0.0
+UADEVNT,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,46015,97.285,97.285,0,Sin ausencia documental observada,0.0
+UADFRD,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,3,151,0.319,98.002,151,No respuesta o ausencia,0.319
+UADFWHO,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,8,151,0.319,98.002,151,No respuesta o ausencia,0.319
+UADHOME,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,46015,97.285,97.285,0,Sin ausencia documental observada,0.0
+UADMONY,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,3,112,0.237,98.824,0,Sin ausencia documental observada,0.0
+UADOTHM,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,46015,97.285,97.285,0,Sin ausencia documental observada,0.0
+UADOTSP2,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,6,125,0.264,99.651,125,No respuesta o ausencia,0.264
+UADPAID,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,3,108,0.228,97.055,0,Sin ausencia documental observada,0.0
+UADPEOP,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,4,100,0.211,97.055,0,Sin ausencia documental observada,0.0
+UADPLACE,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Categórica con pocas categorías,4,115,0.243,99.364,0,Sin ausencia documental observada,0.0
+UADPUBL,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,46015,97.285,97.285,0,Sin ausencia documental observada,0.0
+UADROTH,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,46031,97.319,97.319,46031,No respuesta o ausencia,97.319
+UADSCHL,RECODED CONSUMPTION OF ALCOHOL,Recodificada,Binaria,2,46015,97.285,97.285,0,Sin ausencia documental observada,0.0
+UD5ALNILANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,91.822,0,Sin ausencia documental observada,0.0
+UD5CNSANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,97.894,0,Sin ausencia documental observada,0.0
+UD5CNSGRP,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,3,0,0.0,97.894,0,Sin ausencia documental observada,0.0
+UD5HROPANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,4,0,0.0,98.292,0,Sin ausencia documental observada,0.0
+UD5IEMANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,95.924,0,Sin ausencia documental observada,0.0
+UD5ILAALANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,96.087,0,Sin ausencia documental observada,0.0
+UD5ILALANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,78.976,0,Sin ausencia documental observada,0.0
+UD5ILLANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,87.154,0,Sin ausencia documental observada,0.0
+UD5ILNALANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,91.067,0,Sin ausencia documental observada,0.0
+UD5OPIANY2,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,98.292,0,Sin ausencia documental observada,0.0
+UD5OPIGRP,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,3,0,0.0,98.292,0,Sin ausencia documental observada,0.0
+UD5PSYANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,97.078,0,Sin ausencia documental observada,0.0
+UD5TRQSDANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,99.072,0,Sin ausencia documental observada,0.0
+UD5TRQSDGRP,RECODED SUBSTANCE USE DISORDER,Recodificada,Categórica con pocas categorías,3,0,0.0,99.072,0,Sin ausencia documental observada,0.0
+UDYR5OPPRANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,98.421,0,Sin ausencia documental observada,0.0
+UDYR5PNRANY2,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,98.342,0,Sin ausencia documental observada,0.0
+UDYR5SEDANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,99.662,0,Sin ausencia documental observada,0.0
+UDYR5STMANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,99.055,0,Sin ausencia documental observada,0.0
+UDYR5TRQANY,RECODED SUBSTANCE USE DISORDER,Recodificada,Binaria,2,0,0.0,99.298,0,Sin ausencia documental observada,0.0
+WRK35WKUS,EMPLOYMENT,Original u otra,Categórica con pocas categorías,7,0,0.0,46.728,1952,No respuesta o ausencia,4.127
+WRKDHRSWK2,EMPLOYMENT,Original u otra,Numérica con rango documentado,66,0,0.0,40.147,1988,No respuesta o ausencia,4.203
+WRKDPSTWK,EMPLOYMENT,Original u otra,Categórica con pocas categorías,7,0,0.0,55.995,1788,No respuesta o ausencia,3.78
+WRKDPSTYR,EMPLOYMENT,Original u otra,Categórica con pocas categorías,7,0,0.0,61.462,1808,No respuesta o ausencia,3.822
+WRKEFFORT,EMPLOYMENT,Original u otra,Categórica con pocas categorías,6,0,0.0,88.725,2104,No respuesta o ausencia,4.448
+WRKHADJOB,EMPLOYMENT,Original u otra,Categórica con pocas categorías,8,0,0.0,55.995,1858,No respuesta o ausencia,3.928
+WRKLASTYR2,EMPLOYMENT,Original u otra,Numérica con rango documentado,46,0,0.0,61.462,2551,No respuesta o ausencia,5.393
+WRKNJBPYR,EMPLOYMENT,Original u otra,Categórica con pocas categorías,7,0,0.0,52.113,1974,No respuesta o ausencia,4.173
+WRKNJBWKS,EMPLOYMENT,Original u otra,Numérica con rango documentado,57,0,0.0,86.674,2125,No respuesta o ausencia,4.493
+WRKNUMJOB2,EMPLOYMENT,Original u otra,Categórica con pocas categorías,9,0,0.0,49.783,2201,No respuesta o ausencia,4.653
+WRKRSNJOB,EMPLOYMENT,Original u otra,Categórica con número moderado de categorías,13,0,0.0,61.462,2057,No respuesta o ausencia,4.349
+WRKRSNNOT,EMPLOYMENT,Original u otra,Categórica con número moderado de categorías,11,0,0.0,90.577,1914,No respuesta o ausencia,4.047
+WRKSELFEM,EMPLOYMENT,Original u otra,Categórica con pocas categorías,8,0,0.0,59.365,1916,No respuesta o ausencia,4.051
+WRKSICKMO,EMPLOYMENT,Original u otra,Numérica con rango documentado,36,0,0.0,43.542,2178,No respuesta o ausencia,4.605
+WRKSKIPMO,EMPLOYMENT,Original u otra,Numérica con rango documentado,34,0,0.0,52.041,2192,No respuesta o ausencia,4.634
+WRKSTATWK2,EMPLOYMENT,Original u otra,Categórica con pocas categorías,10,0,0.0,43.527,1871,No respuesta o ausencia,3.956
+WTANSWER,HEALTH,Original u otra,Categórica con pocas categorías,6,0,0.0,93.541,1476,No respuesta o ausencia,3.121
+WTPOUND2,HEALTH,Original u otra,Numérica con rango documentado,225,0,0.0,3.951,1712,No respuesta o ausencia,3.62

@@ -1,0 +1,5 @@
+﻿estrategia_pesos,target,descripcion,tn,fp,fn,tp
+balanceada,IRAMDEYR,Episodio depresivo mayor,5949,783,289,547
+balanceada,IRSUICTHNK,Ideación suicida,6402,603,335,228
+balanceada,IRSUIPLANYR,Planificación suicida,7231,163,148,26
+balanceada,IRSUITRYYR,Intento suicida,7390,94,73,11

@@ -1,0 +1,6 @@
+﻿clave_configuracion,descripcion,batch_size,learning_rate,perdida,optimizador,weight_decay,use_ema,pesos_tareas,estado,epocas,mejor_epoca,checkpoint,historial
+bce_adam,BCE + Adam,256,0.0005,bce,adam,0.0,False,iguales,RECUPERADO,20,10,checkpoint_multisalida_atencion_bce_adam_v1.keras,135_historial_multisalida_atencion_bce_adam_v1.csv
+bce_adamw,BCE + AdamW,256,0.0005,bce,adamw,0.0001,False,iguales,RECUPERADO,30,20,checkpoint_multisalida_atencion_bce_adamw_v1.keras,135_historial_multisalida_atencion_bce_adamw_v1.csv
+bce_tareas,BCE + pesos por tarea,256,0.0005,bce,adam,0.0,False,raros,RECUPERADO,18,8,checkpoint_multisalida_atencion_bce_tareas_v1.keras,135_historial_multisalida_atencion_bce_tareas_v1.csv
+focal_adam,Focal + Adam,256,0.0005,focal,adam,0.0,False,iguales,RECUPERADO,29,19,checkpoint_multisalida_atencion_focal_adam_v1.keras,135_historial_multisalida_atencion_focal_adam_v1.csv
+bce_adam_ema,BCE + Adam + EMA,256,0.0005,bce,adam,0.0,True,iguales,RECUPERADO,20,10,checkpoint_multisalida_atencion_bce_adam_ema_v1.keras,135_historial_multisalida_atencion_bce_adam_ema_v1.csv

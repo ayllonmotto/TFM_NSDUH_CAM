@@ -1,0 +1,5 @@
+﻿comprobacion,resultado
+La tabla contiene las 16 combinaciones esperadas,True
+Cada familia y objetivo conserva los 9.460 registros,True
+Las probabilidades medias y medianas son finitas,True
+"Las probabilidades medias y medianas pertenecen a [0, 1]",True

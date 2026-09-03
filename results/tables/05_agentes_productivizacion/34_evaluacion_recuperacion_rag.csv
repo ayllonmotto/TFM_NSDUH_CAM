@@ -1,0 +1,10 @@
+﻿consulta,tipo_esperado,variable_esperada,registro_esperado,posicion_recuperacion,fuente_primer_resultado,metodo_primer_resultado,registro_primer_resultado,similitud_primer_resultado,documentos_recuperados,resultado
+¿Cómo define NSDUH la variable IRAMDEYR?,variable_objetivo,IRAMDEYR,,1,NSDUH 2024 Codebook,Coincidencia exacta,,,3,True
+¿Cómo define NSDUH la variable IRSUICTHNK?,variable_objetivo,IRSUICTHNK,,1,NSDUH 2024 Codebook,Coincidencia exacta,,,3,True
+¿Cómo define NSDUH la variable IRSUIPLANYR?,variable_objetivo,IRSUIPLANYR,,1,NSDUH 2024 Codebook,Coincidencia exacta,,,3,True
+¿Cómo define NSDUH la variable IRSUITRYYR?,variable_objetivo,IRSUITRYYR,,1,NSDUH 2024 Codebook,Coincidencia exacta,,,3,True
+¿Cómo define NSDUH la variable CAMHPROB2?,variable_relevante,CAMHPROB2,,1,NSDUH 2024 Codebook,Coincidencia exacta,,,3,True
+¿Cómo define NSDUH la variable LVLDIFMEM2?,variable_relevante,LVLDIFMEM2,,1,NSDUH 2024 Codebook,Coincidencia exacta,,,3,True
+¿Los valores SHAP permiten afirmar causalidad?,limitacion,,5.0,1,Notebook 04,Semántica,5.0,0.663582095112261,3,True
+¿Puede utilizarse el sistema con finalidad diagnóstica?,limitacion,,1.0,1,Notebook 04,Semántica,1.0,0.39992211353689566,3,True
+¿La probabilidad estimada equivale a riesgo clínico?,limitacion,,2.0,1,Notebook 04,Semántica,2.0,0.7222278041491086,3,True

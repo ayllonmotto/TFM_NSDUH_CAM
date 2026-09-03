@@ -1,0 +1,2 @@
+﻿estrategia_pesos,descripcion,modelos_previstos,batch_size,learning_rate,epocas_maximas,monitor_early_stopping,paciencia,backup_entrenamiento,variables_numericas,variables_categoricas
+balanceada,Ponderación balanceada,4,256,0.0005,100,val_loss,10,True,59,2991

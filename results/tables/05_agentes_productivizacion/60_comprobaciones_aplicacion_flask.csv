@@ -1,0 +1,17 @@
+﻿comprobacion,resultado
+La página principal responde correctamente,True
+El endpoint health devuelve estado OK,True
+El esquema declara 813 variables de entrada,True
+La entrada incompleta devuelve HTTP 400,True
+Los endpoints predict y report están disponibles,True
+La interfaz contiene los cuatro indicadores,True
+La interfaz contiene los 12 factores traducidos,True
+Se muestran estados comprensibles de clasificación,True
+El historial requiere una sesión autorizada,True
+Las credenciales no aparecen en las respuestas,True
+La pantalla de acceso responde correctamente,True
+La pantalla de historial responde correctamente,True
+La pantalla de acceso contiene el estado de procesamiento,True
+Los endpoints de historial están disponibles,True
+La interfaz utiliza la identidad visual elegida,True
+La interfaz incorpora la explicación ampliada,True

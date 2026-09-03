@@ -1,0 +1,5 @@
+﻿target,descripcion,familia,registros_explicados,variables_originales,n_evaluaciones_shap,tiempo_total_s,tiempo_registro_s,diferencia_reconstruccion,forma_valores
+IRAMDEYR,Episodio depresivo mayor,ML,2,59,119,1.1501855319984315,0.5750133045003167,0.006613969802856445,2 × 59
+IRSUICTHNK,Ideación suicida,DL,2,813,1627,8.305996819999564,4.152844201498738,2.1263957023620605e-05,2 × 813
+IRSUIPLANYR,Planificación suicida,DL,2,813,1627,8.462511335997988,4.231073341998126,8.284300565719604e-05,2 × 813
+IRSUITRYYR,Intento suicida,DL,2,813,1627,8.803257831998053,4.401361023999925,0.0002237185835838318,2 × 813

@@ -1,0 +1,16 @@
+﻿comprobacion,resultado
+El informe mantiene los siete campos contractuales,True
+Las cuatro variables objetivo aparecen en la interpretación,True
+Se generan exactamente tres factores por variable objetivo,True
+Los factores proceden exclusivamente de SHAP,True
+El tipo de factor coincide con la dirección SHAP,True
+Las descripciones visibles se presentan traducidas,True
+Las fuentes coinciden con las fuentes documentales permitidas,True
+La orientación utiliza únicamente el banco de frases,True
+Las limitaciones obligatorias se mantienen exactamente,True
+La advertencia de uso coincide con el banco de frases,True
+No se formulan relaciones causales,True
+No se formulan afirmaciones diagnósticas,True
+La narración no introduce cifras predictivas,True
+La orientación no contiene indicaciones farmacológicas,True
+Los indicadores que no superan el umbral también conservan sus factores,True
