@@ -370,7 +370,9 @@ La versión preparada para la primera publicación estable es:
 
     v1.0.0
 
-El DOI se incorporará cuando se complete el depósito y registro de la release en Zenodo.
+La versión `v1.0.0` está archivada en Zenodo con el **DOI específico de versión** [`10.5281/zenodo.22277709`](https://doi.org/10.5281/zenodo.22277709). El **Concept DOI** [`10.5281/zenodo.22277708`](https://doi.org/10.5281/zenodo.22277708) identifica el conjunto de versiones del proyecto.
+
+**Nota de publicación.** La rama `main` se actualizó después de la asignación del DOI exclusivamente para incorporar los identificadores de Zenodo a `README.md` y `CITATION.cff`. Esta actualización es únicamente documental y no modifica la release `v1.0.0` ni el registro de dicha versión archivado en Zenodo.
 
 ---
 

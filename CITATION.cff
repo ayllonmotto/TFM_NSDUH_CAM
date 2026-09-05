@@ -20,6 +20,9 @@ authors:
 
 version: "1.0.0"
 
+doi: "10.5281/zenodo.22277709"
+date-released: 2026-09-03
+
 repository-code: "https://github.com/ayllonmotto/TFM_NSDUH_CAM"
 
 license: MIT
