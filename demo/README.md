@@ -5,6 +5,7 @@
 **Versión:** 1.0.0
 
 
+
 Interfaz local de demostración del sistema desarrollado en el Trabajo Fin de Máster:
 
 Sistema explicable de detección preventiva de indicadores de riesgo en salud mental adulta mediante aprendizaje automático multisalida y agentes de inteligencia artificial generativa a partir del dataset NSDUH 2024.
@@ -18,7 +19,8 @@ No reentrena modelos, no recalibra umbrales y no vuelve a utilizar el conjunto T
 ### Desde WSL
 
 &#x20;   cd \~/BD/TFM\_NSDUH/demo
-    bash iniciar\_dashboard\_demo.sh
+bash iniciar\_dashboard\_demo.sh
+
 
 
 ### Desde Windows mediante WSL
@@ -28,22 +30,24 @@ Ejecutar:
 &#x20;   INICIAR\_DASHBOARD\_DEMO.cmd
 
 
+
 El dashboard se sirve localmente en:
 
 &#x20;   http://127.0.0.1:5000/dashboard
 
 
-La aplicación real se inicializa en segundo plano mediante el entorno `TFM\_Agentes`.
+
+La aplicación real se inicializa en segundo plano mediante el entorno `TFM\\\_Agentes`.
 
 ## 2\. Componentes
 
-* `dashboard\_demo.py`: capa de presentación y navegación.
-* `dashboard\_demo.html`: interfaz visual del dashboard.
-* `dashboard\_assets/`: figuras estáticas exportadas de los notebooks y captura de la API.
-* `demo\_tfm.py`: runtime base de la aplicación Flask real.
-* `iniciar\_dashboard\_demo.sh`: lanzador principal desde WSL.
-* `INICIAR\_DASHBOARD\_DEMO.cmd`: lanzador desde Windows mediante WSL.
-* `iniciar\_demo.sh`: acceso directo opcional a la aplicación base.
+* `dashboard\\\_demo.py`: capa de presentación y navegación.
+* `dashboard\\\_demo.html`: interfaz visual del dashboard.
+* `dashboard\\\_assets/`: figuras estáticas exportadas de los notebooks y captura de la API.
+* `demo\\\_tfm.py`: runtime base de la aplicación Flask real.
+* `iniciar\\\_dashboard\\\_demo.sh`: lanzador principal desde WSL.
+* `INICIAR\\\_DASHBOARD\\\_DEMO.cmd`: lanzador desde Windows mediante WSL.
+* `iniciar\\\_demo.sh`: acceso directo opcional a la aplicación base.
 
 ## 3\. Menú
 
@@ -83,7 +87,7 @@ La vista permite:
 * filtrar por familia ML o DL;
 * consultar el modelo final asociado;
 * visualizar el umbral de clasificación;
-* comparar las probabilidades disponibles de `demo\_01`, `demo\_02` y `demo\_03` frente a ese umbral.
+* comparar las probabilidades disponibles de `demo\\\_01`, `demo\\\_02` y `demo\\\_03` frente a ese umbral.
 
 La interacción es exclusivamente exploratoria.
 
@@ -94,24 +98,25 @@ No modifica los modelos, los hiperparámetros, los umbrales ni los resultados ci
 El dashboard representa el recorrido funcional del sistema:
 
 &#x20;   Entrada CSV
-        ↓
-    Validación Pydantic
-        ↓
-    Tool predictiva local
-        ↓
-    TFM\_ML
-        ↓
-    ML / DL
-        ↓
-    SHAP
-        ↓
-    RAG
-        ↓
-    Mistral + LangGraph
-        ↓
-    Guardrails
-        ↓
-    Informe e historial
+↓
+Validación Pydantic
+↓
+Tool predictiva local
+↓
+TFM\_ML
+↓
+ML / DL
+↓
+SHAP
+↓
+RAG
+↓
+Mistral + LangGraph
+↓
+Guardrails
+↓
+Informe e historial
+
 
 
 La inferencia predictiva y la explicación matemática permanecen separadas de la capa generativa.
@@ -120,7 +125,7 @@ La vista ampliada recoge datos del contrato y de las ejecuciones registradas, in
 
 ## 6\. Explicabilidad SHAP y evidencias
 
-`Explicabilidad SHAP` presenta las figuras estáticas exportadas del Notebook 04: importancia global, beeswarm por objetivo y waterfall de casos individuales. También permite consultar el detalle local `detalle\_explicabilidad` del informe JSON seleccionado.
+`Explicabilidad SHAP` presenta las figuras estáticas exportadas del Notebook 04: importancia global, beeswarm por objetivo y waterfall de casos individuales. También permite consultar el detalle local `detalle\\\_explicabilidad` del informe JSON seleccionado.
 
 `Evidencias` reúne figuras estáticas de EDA, ML, DL, comparación de familias, curvas Precision–Recall, estabilidad del recall frente al umbral, matrices de confusión e interfaz API. Las imágenes no se recalculan desde el dashboard.
 
@@ -162,6 +167,7 @@ Credencial académica de demostración:
 &#x20;   CAM
 
 
+
 Desde la aplicación pueden utilizarse los casos de demostración y generarse informes mediante el flujo real del sistema.
 
 ## 9\. Historial
@@ -170,9 +176,9 @@ La sección `Historial` recupera los informes guardados en el directorio definid
 
 Los casos canónicos de demostración son:
 
-* `demo\_01`
-* `demo\_02`
-* `demo\_03`
+* `demo\\\_01`
+* `demo\\\_02`
+* `demo\\\_03`
 
 ## 10\. API
 
@@ -211,4 +217,4 @@ También puede utilizarse `Ctrl+C` desde la terminal desde la que se inició el 
 * Trazabilidad ampliada con datos registrados del contrato API, SHAP, documentación y predicciones de referencia.
 * Sección `Acerca de` con autoría y repositorio público.
 
-El dashboard esa una capa de presentación. No modifica notebooks, modelos, umbrales, explicaciones SHAP ni resultados científicos.
+El dashboard es una capa de presentación. No modifica notebooks, modelos, umbrales, explicaciones SHAP ni resultados científicos.
